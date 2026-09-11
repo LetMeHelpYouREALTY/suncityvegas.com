@@ -58,7 +58,7 @@ export default function SchemaMarkup() {
       name: siteConfig.siteName,
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/images/logo/logo.svg`,
+        url: `${baseUrl}/images/logo/logo.jpg`,
       },
     },
   };

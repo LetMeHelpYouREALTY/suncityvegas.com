@@ -37,7 +37,7 @@ export const siteConfig = {
   brokerage: {
     name: "Berkshire Hathaway HomeServices Nevada Properties",
     shortName: "BHHS Nevada Properties",
-    logo: "/images/bhhs-logo.png"
+    logo: "/images/logo/logo.jpg"
   },
   
   // Business Hours (matching GBP)
