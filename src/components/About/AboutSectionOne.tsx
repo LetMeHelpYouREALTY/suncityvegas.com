@@ -8,7 +8,7 @@ const checkIcon = (
 );
 
 const AboutSectionOne = () => {
-  const List = ({ text }) => (
+  const List = ({ text }: { text: string }) => (
     <p className="text-body-color mb-5 flex items-center text-lg font-medium">
       <span className="bg-primary/10 text-primary mr-4 flex h-[30px] w-[30px] items-center justify-center rounded-md">
         {checkIcon}
@@ -24,26 +24,23 @@ const AboutSectionOne = () => {
           <div className="-mx-4 flex flex-wrap items-center">
             <div className="w-full px-4 lg:w-1/2">
               <SectionTitle
-                title="Crafted for Startup, SaaS and Business Sites."
-                paragraph="The main ‘thrust’ is to focus on educating attendees on how to best protect highly vulnerable business applications with interactive panel discussions and roundtables."
+                title="Crafted for Sun City Summerlin Living"
+                paragraph="Dr. Jan Duffy helps 55+ buyers and sellers navigate Del Webb villages, golf-course premiums, HOA rules, and Red Rock view lots inside Las Vegas ZIP 89134."
                 mb="44px"
               />
 
-              <div
-                className="mb-12 max-w-[570px] lg:mb-0"
-                data-wow-delay=".15s"
-              >
+              <div className="mb-12 max-w-[570px] lg:mb-0" data-wow-delay=".15s">
                 <div className="mx-[-12px] flex flex-wrap">
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Premium quality" />
-                    <List text="Tailwind CSS" />
-                    <List text="Use for lifetime" />
+                    <List text="55+ community specialist" />
+                    <List text="Golf-course lot guidance" />
+                    <List text="HOA & age verification help" />
                   </div>
 
                   <div className="w-full px-3 sm:w-1/2 lg:w-full xl:w-1/2">
-                    <List text="Next.js" />
-                    <List text="Rich documentation" />
-                    <List text="Developer friendly" />
+                    <List text="Single-story home focus" />
+                    <List text="California relocation support" />
+                    <List text="Local Summerlin market intel" />
                   </div>
                 </div>
               </div>
@@ -52,16 +49,16 @@ const AboutSectionOne = () => {
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
                 <Image
-                  src="/images/about/about-image.svg"
-                  alt="about-image"
+                  src="/images/about/about-image.jpg"
+                  alt="Sun City Summerlin courtyard home with desert landscaping in Las Vegas"
                   fill
-                  className="mx-auto max-w-full drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto max-w-full rounded-lg object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
                 <Image
-                  src="/images/about/about-image-dark.svg"
-                  alt="about-image"
+                  src="/images/about/about-image.jpg"
+                  alt="Sun City Summerlin courtyard home with desert landscaping in Las Vegas"
                   fill
-                  className="mx-auto hidden max-w-full drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
+                  className="mx-auto hidden max-w-full rounded-lg object-cover drop-shadow-three dark:block dark:drop-shadow-none lg:mr-0"
                 />
               </div>
             </div>

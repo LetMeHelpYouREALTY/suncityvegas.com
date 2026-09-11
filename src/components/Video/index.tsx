@@ -13,8 +13,8 @@ export default function Video() {
       <section className="relative z-10 py-16 md:py-20 lg:py-28">
         <div className="container">
           <SectionTitle
-            title="We are ready to help"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            title="Tour Sun City Summerlin With Dr. Jan Duffy"
+            paragraph="See golf-course living, recreation campuses, and single-story homes inside Las Vegas’ premier 55+ Del Webb community—then schedule a private tour."
             center
             mb="80px"
           />
@@ -25,8 +25,8 @@ export default function Video() {
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
                 <div className="relative aspect-77/40 items-center justify-center">
                   <Image
-                    src="/images/video/image.png"
-                    alt="video image"
+                    src="/images/video/image.jpg"
+                    alt="Resort-style pool and Red Rock views at Sun City Summerlin in Las Vegas"
                     className="object-cover"
                     fill
                   />

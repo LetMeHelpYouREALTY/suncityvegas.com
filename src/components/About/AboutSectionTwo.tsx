@@ -11,16 +11,16 @@ const AboutSectionTwo = () => {
               data-wow-delay=".15s"
             >
               <Image
-                src="/images/about/about-image-2.svg"
-                alt="about image"
+                src="/images/about/about-image-2.jpg"
+                alt="Spacious golf-course home exterior in Sun City Summerlin, Las Vegas"
                 fill
-                className="drop-shadow-three dark:hidden dark:drop-shadow-none"
+                className="rounded-lg object-cover drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
               <Image
-                src="/images/about/about-image-2-dark.svg"
-                alt="about image"
+                src="/images/about/about-image-2.jpg"
+                alt="Spacious golf-course home exterior in Sun City Summerlin, Las Vegas"
                 fill
-                className="hidden drop-shadow-three dark:block dark:drop-shadow-none"
+                className="hidden rounded-lg object-cover drop-shadow-three dark:block dark:drop-shadow-none"
               />
             </div>
           </div>
@@ -28,29 +28,30 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Village-level market knowledge
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  From Highland Falls fairways to Palm Valley palms, Dr. Duffy
+                  maps lot premiums, view corridors, and resale patterns before
+                  you write an offer.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Concierge buyer & seller support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                  CMAs, staging guidance, HOA document review, and closing
+                  coordination tailored to 55+ moves inside the gates.
                 </p>
               </div>
               <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Next.js
+                  Lifestyle-first home matching
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
-                  consectetur adipiscing elit setim.
+                  Golf, pickleball, clubs, and lock-and-leave travel shape the
+                  shortlist—so the floor plan fits the life you want next.
                 </p>
               </div>
             </div>
