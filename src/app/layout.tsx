@@ -6,6 +6,7 @@ import CalendlyButton from "@components/CalendlyButton";
 import SchemaMarkup from "@components/SchemaMarkup";
 import { siteConfig } from "@/lib/site-config";
 import { services } from "@/lib/services";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -370,6 +371,7 @@ export default function RootLayout({
           Skip to main content
         </a>
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
