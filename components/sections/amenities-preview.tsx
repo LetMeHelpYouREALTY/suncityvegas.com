@@ -10,12 +10,7 @@ interface AmenityColumnProps {
   delay?: number;
 }
 
-function AmenityColumn({
-  icon,
-  title,
-  items,
-  delay = 0,
-}: AmenityColumnProps) {
+function AmenityColumn({ icon, title, items, delay = 0 }: AmenityColumnProps) {
   return (
     <ScrollAnimation delay={delay}>
       <div className="bg-white p-6 md:p-8 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
@@ -26,12 +21,10 @@ function AmenityColumn({
           {title}
         </h3>
         <ul className="space-y-3 md:space-y-4 flex-grow">
-          {items.map((item, index) => (
-            <li key={index} className="flex items-start gap-3">
+          {items.map((item) => (
+            <li key={item} className="flex items-start gap-3">
               <span className="text-success mt-1 flex-shrink-0">✓</span>
-              <span className="text-sm md:text-base lg:text-lg text-text-dark">
-                {item}
-              </span>
+              <span className="text-sm md:text-base lg:text-lg text-text-dark">{item}</span>
             </li>
           ))}
         </ul>
@@ -46,27 +39,27 @@ export default function AmenitiesPreviewSection() {
       icon: <Activity className="w-8 h-8 text-success" />,
       title: "Stay Active",
       items: [
-        "Fitness center with modern equipment",
-        "Heated lap pool for morning swims",
-        "Lighted pickleball and bocce courts",
+        "Four championship golf courses with Red Rock views",
+        "Fitness centers and heated pools at three rec hubs",
+        "Pickleball, tennis, and bocce under desert skies",
       ],
     },
     {
       icon: <Users className="w-8 h-8 text-success" />,
       title: "Stay Connected",
       items: [
-        "Clubhouse for clubs and classes",
-        "Outdoor firepit for evening gatherings",
-        "Event lawn for community celebrations",
+        "80+ clubs for hobbies, travel, and volunteering",
+        "Clubhouse events and community calendars year-round",
+        "Neighbors who chose 55+ living on purpose",
       ],
     },
     {
       icon: <Sparkles className="w-8 h-8 text-success" />,
       title: "Stay Relaxed",
       items: [
-        "Resort-style pool and spa",
-        "Scenic walking trails with mountain views",
-        "Billiards room for laid-back afternoons",
+        "Resort-style pools and spas minutes from home",
+        "Walking trails with mountain backdrops",
+        "Lock-and-leave living with guard-gated security",
       ],
     },
   ];
@@ -78,14 +71,14 @@ export default function AmenitiesPreviewSection() {
           Your Private Resort, Minutes From Home
         </h2>
         <p className="text-center text-base md:text-lg text-text-dark mb-8 md:mb-12 max-w-2xl mx-auto px-4">
-          Every amenity is designed to help you live your best life, right here
-          in your community.
+          Sun City Summerlin amenities are the lifestyle product. Dr. Duffy helps you buy the home
+          that puts the courses, clubs, and rec centers you will actually use within a short drive.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-8 md:mb-12">
           {amenities.map((amenity, index) => (
             <AmenityColumn
-              key={index}
+              key={amenity.title}
               icon={amenity.icon}
               title={amenity.title}
               items={amenity.items}
@@ -95,7 +88,12 @@ export default function AmenitiesPreviewSection() {
         </div>
 
         <div className="text-center">
-          <Button asChild variant="outline" size="lg" className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6">
+          <Button
+            asChild
+            variant="outline"
+            size="lg"
+            className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6"
+          >
             <Link href="/amenities">Explore All Amenities</Link>
           </Button>
         </div>

@@ -3,18 +3,16 @@ import Image from "next/image";
 import { Button } from "./ui/button";
 import ScheduleTour from "./ScheduleTour";
 
-// Placeholder blur data URL (1x1 transparent PNG)
 const blurDataURL =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
 export default function Hero() {
   return (
     <section className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center bg-[#2D2A26] text-white overflow-hidden">
-      {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <Image
-          src="/images/amenities/resort-pool.jpeg"
-          alt="Sun City Summerlin golf course with Red Rock Canyon mountain views"
+          src="/images/hero/hero-bg.jpg"
+          alt="Sun City Summerlin golf fairway with Red Rock Canyon mountain views in Las Vegas"
           fill
           priority
           className="object-cover"
@@ -22,12 +20,14 @@ export default function Hero() {
           blurDataURL={blurDataURL}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/55" />
       </div>
 
-      {/* Content */}
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#D4AF37] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            Dr. Jan Duffy · Sun City Summerlin Specialist
+          </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
             Sun City Summerlin Homes for Sale
           </h1>
@@ -35,12 +35,12 @@ export default function Hero() {
             Las Vegas&apos; Premier 55+ Community
           </p>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gray-100 leading-relaxed px-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
-            Discover resort-style living with 4 championship golf courses, 3 recreation centers, 
-            80+ clubs, and breathtaking Red Rock Canyon views. Your active lifestyle awaits.
+            Hyper-local buyer and seller representation inside the gates—golf-course lots,
+            Red Rock views, HOA navigation, and 55+ move planning from ZIP 89134.
           </p>
           <div className="mb-6 md:mb-8">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
-              Homes from $300K-$800K+ | 7,779 Homes | Guard-Gated
+              Homes from $300K–$800K+ · 7,779 Residences · Guard-Gated
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center px-4">
@@ -61,9 +61,11 @@ export default function Hero() {
             </Button>
           </div>
           <div className="mt-8 text-sm text-gray-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
-            <a href="tel:7027180043" className="hover:text-[#D4AF37] transition-colors">
+            <a href="tel:+17027180043" className="hover:text-[#D4AF37] transition-colors">
               Call Dr. Jan Duffy: (702) 718-0043
             </a>
+            <span className="mx-2">·</span>
+            <span>9406 Del Webb Boulevard, Las Vegas, NV 89134</span>
           </div>
         </div>
       </div>

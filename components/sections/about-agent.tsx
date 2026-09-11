@@ -12,12 +12,11 @@ export default function AboutAgentSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
-            {/* Image */}
             <ScrollAnimation>
               <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
                 <Image
                   src="/images/about/dr-jan-duffy.jpg"
-                  alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin"
+                  alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas"
                   fill
                   className="object-cover rounded-lg shadow-three"
                   placeholder="blur"
@@ -34,22 +33,36 @@ export default function AboutAgentSection() {
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4">
                   <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
-                    Dr. Jan Duffy is an independent REALTOR® with Berkshire Hathaway 
-                    HomeServices who specializes exclusively in Sun City Summerlin.
+                    Dr. Jan Duffy is an independent REALTOR® with Berkshire Hathaway HomeServices
+                    Nevada Properties who specializes in Sun City Summerlin and nearby 55+
+                    inventory across Summerlin and Centennial Hills.
                   </p>
                   <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
-                    She knows which neighborhoods have the best Red Rock views. Which 
-                    homes offer the best value. And which resale opportunities are 
-                    worth considering.
+                    She knows which villages deliver Red Rock views, which lots carry golf
+                    premiums, and how HOA age verification and reserves affect your offer. From
+                    CMAs to closing coordination, the work stays hyper-local.
                   </p>
                   <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed font-semibold">
-                    When you work with her, you get honest guidance—not a sales
+                    When you work with her, you get honest guidance—not a generic Las Vegas sales
                     pitch.
                   </p>
                 </div>
-                <div className="mt-6 md:mt-8">
-                  <Button asChild variant="default" size="lg" className="w-full sm:w-auto bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white">
+                <div className="mt-6 md:mt-8 flex flex-col sm:flex-row gap-3">
+                  <Button
+                    asChild
+                    variant="default"
+                    size="lg"
+                    className="w-full sm:w-auto bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white min-h-[48px]"
+                  >
                     <Link href="/about">Meet Dr. Jan Duffy</Link>
+                  </Button>
+                  <Button
+                    asChild
+                    variant="outline"
+                    size="lg"
+                    className="w-full sm:w-auto border-[#8B5E3C] text-[#8B5E3C] min-h-[48px]"
+                  >
+                    <Link href="/services">View Realtor Services</Link>
                   </Button>
                 </div>
               </div>

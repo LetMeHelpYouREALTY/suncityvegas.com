@@ -14,8 +14,8 @@ export default function SolutionSection() {
             <ScrollAnimation>
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
                 <Image
-                  src="/images/hero/community-sign.jpg"
-                  alt="Sun City Summerlin community entrance"
+                  src="/images/hero/community-entrance.jpg"
+                  alt="Sun City Summerlin community entrance landscaping near Red Rock Canyon, Las Vegas"
                   fill
                   className="object-cover"
                   placeholder="blur"
@@ -31,14 +31,25 @@ export default function SolutionSection() {
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4 md:space-y-6">
                   <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed px-2">
-                    Sun City Summerlin is Las Vegas&apos; premier 55+ community with 7,779 homes, 4 championship golf courses, and 3 recreation centers—built for people who want to live, not just exist.
+                    Sun City Summerlin is Las Vegas&apos; premier 55+ community: 7,779 homes, four
+                    championship golf courses, and three recreation centers—built for people who
+                    want to live, not just exist.
                   </p>
                   <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed px-2">
-                    Over 125,000 sq ft of <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">world-class amenities</Link> are ready and waiting. Guard-gated with 24/7 security. Red Rock Canyon views from your backyard. 80+ clubs to join. Neighbors your age who actually want to meet you. Explore the <Link href="/lifestyle" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">active adult lifestyle</Link> today. And Nevada has no state income tax—so more of your money stays yours.
+                    Dr. Jan Duffy maps villages, lot premiums, and{" "}
+                    <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">
+                      amenity access
+                    </Link>{" "}
+                    before you write an offer. Guard-gated security, Red Rock views, and 80+ clubs
+                    define daily life. Explore the{" "}
+                    <Link href="/lifestyle" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">
+                      active adult lifestyle
+                    </Link>
+                    —and keep more of your retirement income in Nevada with no state income tax.
                   </p>
                   <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed font-semibold px-2">
-                    This isn&apos;t a place to slow down. It&apos;s a place to finally do
-                    everything you&apos;ve been putting off.
+                    This isn&apos;t a place to slow down. It&apos;s a place to finally do everything
+                    you&apos;ve been putting off—with a realtor who works this community every week.
                   </p>
                 </div>
               </div>

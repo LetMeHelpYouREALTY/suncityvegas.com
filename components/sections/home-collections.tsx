@@ -27,7 +27,7 @@ function CollectionCard({
         <div className="relative h-48 md:h-56 rounded-lg mb-4 md:mb-6 overflow-hidden bg-[#FDF8F3]">
           <Image
             src={imagePath}
-            alt={`${title} home exterior`}
+            alt={`${title} exterior in Sun City Summerlin, Las Vegas`}
             fill
             className="object-cover"
             placeholder="blur"
@@ -53,24 +53,24 @@ export default function HomeCollectionsSection() {
   const collections = [
     {
       title: "Cozy Homes",
-      specs: "1,000-1,400 sq ft | $275K-$375K",
+      specs: "1,000–1,400 sq ft | $275K–$375K",
       description:
-        "Perfect for easy maintenance and efficient living. These charming homes offer comfortable spaces without excess.",
-      imagePath: "/images/floor-plans/haven.avif",
+        "Low-maintenance Del Webb plans for lock-and-leave living—ideal when you want Sun City Summerlin amenities without unused rooms.",
+      imagePath: "/images/homes/cozy.jpg",
     },
     {
       title: "Mid-Size Homes",
-      specs: "1,400-2,000 sq ft | $375K-$525K",
+      specs: "1,400–2,000 sq ft | $375K–$525K",
       description:
-        "The most popular size in Sun City Summerlin. Room for guests, a home office, and comfortable daily living.",
-      imagePath: "/images/floor-plans/classic-getaway.jpg",
+        "The most requested size inside Sun City Summerlin: guest space, a den, and a single-story layout near golf and rec centers.",
+      imagePath: "/images/homes/mid-size.jpg",
     },
     {
       title: "Spacious Homes",
-      specs: "2,000-3,500+ sq ft | $525K-$1.2M+",
+      specs: "2,000–3,500+ sq ft | $525K–$1.2M+",
       description:
-        "Generous living spaces ideal for entertaining. Many feature premium lots, pools, and golf course views.",
-      imagePath: "/images/floor-plans/retreat-haven.jpg",
+        "Premium lots with golf-course or Red Rock views—positioned for entertaining with targeted 55+ luxury marketing.",
+      imagePath: "/images/homes/spacious.jpg",
     },
   ];
 
@@ -81,13 +81,15 @@ export default function HomeCollectionsSection() {
           Find Your Perfect Home Size
         </h2>
         <p className="text-center text-base md:text-lg text-[#2D2A26] mb-8 md:mb-12 max-w-2xl mx-auto px-4">
-          With 7,779 homes built 1989-2002, Sun City Summerlin offers incredible variety. All single-story with 2-4 bedrooms and attached garages.
+          With 7,779 homes built 1989–2002, Sun City Summerlin offers rare variety. Nearly all
+          are single-story with attached garages—Dr. Duffy matches plan, village, and lot to your
+          next chapter.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8 mb-8 md:mb-12">
           {collections.map((collection, index) => (
             <CollectionCard
-              key={index}
+              key={collection.title}
               title={collection.title}
               specs={collection.specs}
               description={collection.description}
@@ -98,7 +100,12 @@ export default function HomeCollectionsSection() {
         </div>
 
         <div className="text-center">
-          <Button asChild variant="default" size="lg" className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90">
+          <Button
+            asChild
+            variant="default"
+            size="lg"
+            className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90"
+          >
             <Link href="/homes-for-sale">View Available Homes</Link>
           </Button>
         </div>

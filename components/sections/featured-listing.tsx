@@ -25,7 +25,7 @@ const featuredListing = {
     "Premium finishes",
     "Single-story living",
   ],
-  image: "/images/hero/hero-bg.jpg", // Replace with actual listing image
+  image: "/images/homes/spacious.jpg",
 };
 
 export default function FeaturedListingSection() {
