@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -104,6 +105,21 @@ export default async function HomesForSalePage() {
                   (702) 718-0043
                 </a>
               </div>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-8">
+          <div className="container mx-auto px-4">
+            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
+              <Image
+                src="/images/explore/homes-for-sale.jpg"
+                alt="Current Sun City Summerlin homes for sale with golf-course and Red Rock views in Las Vegas 89134"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                priority
+              />
             </div>
           </div>
         </section>

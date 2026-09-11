@@ -9,7 +9,7 @@ import { Phone, ArrowRight, Check, Home, DollarSign, FileText, Shield, Users, Tr
 import ScrollAnimation from "@components/scroll-animation";
 
 export const metadata: Metadata = {
-  title: "First-Time Homebuyer Guide: Sun City Summerlin 55+ Community",
+  title: "First-Time Buyer Guide for Sun City Summerlin: Sun City Summerlin 55+ Community",
   description:
     "Complete guide for first-time homebuyers considering Sun City Summerlin. Learn about the buying process, financing, inspections, and what to expect in a 55+ active adult community.",
   alternates: {
@@ -58,13 +58,13 @@ export default function FirstTimeBuyersPage() {
                   <Home className="w-16 h-16 text-[#D4AF37]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  First-Time Homebuyer Guide
+                  First-Time Buyer Guide for Sun City Summerlin
                 </h1>
                 <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Your Complete Guide to Buying Your First Home in Sun City Summerlin
+                  Buy your first 55+ home in ZIP 89134 with local realtor guidance
                 </p>
                 <p className="text-base md:text-lg text-gray-200">
-                  Buying your first home in a 55+ community is an exciting milestone. This guide walks you through every step of the process, from getting pre-approved to closing day.
+                  From HOA age verification and golf-course vs interior lots to lender intros and closing day—Dr. Jan Duffy walks first-time Sun City Summerlin buyers through every step.
                 </p>
               </ScrollAnimation>
             </div>

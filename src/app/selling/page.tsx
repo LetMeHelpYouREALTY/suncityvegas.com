@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -132,6 +133,21 @@ export default function SellingPage() {
                   </Button>
                 </div>
               </ScrollAnimation>
+            </div>
+          </div>
+        </section>
+
+        <section className="pb-4 md:pb-8 bg-white">
+          <div className="container mx-auto px-4">
+            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
+              <Image
+                src="/images/homes/spacious.jpg"
+                alt="Luxury single-story Sun City Summerlin home prepared for sale with Red Rock mountain views"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                priority
+              />
             </div>
           </div>
         </section>

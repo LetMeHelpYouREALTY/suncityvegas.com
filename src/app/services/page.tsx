@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
@@ -89,7 +90,7 @@ export default function ServicesIndexPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <p className="text-sm uppercase tracking-wide text-[#D4AF37] mb-3">
-                SEO · GEO · AEO
+                Hyper-Local 55+ Realtor
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
                 Real Estate Services | Sun City Summerlin 55+ | Las Vegas
@@ -106,6 +107,24 @@ export default function ServicesIndexPage() {
                 </a>
               </p>
             </div>
+          </div>
+        </section>
+
+        <section className="bg-[#FDF8F3] py-8 md:py-10">
+          <div className="container mx-auto px-4">
+            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
+              <Image
+                src="/images/explore/contact.jpg"
+                alt="Dr. Jan Duffy Sun City Summerlin realtor services office consultation in Las Vegas 89134"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                priority
+              />
+            </div>
+            <p className="mt-4 text-center text-[#2D2A26] max-w-3xl mx-auto text-base md:text-lg">
+              Buyer agency, seller representation, HOA review, VA guidance, and 55+ relocation—hyper-local help inside Sun City Summerlin gates.
+            </p>
           </div>
         </section>
 

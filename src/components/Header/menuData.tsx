@@ -50,14 +50,14 @@ const menuData: Menu[] = [
       },
       {
         id: 44,
-        title: "Blog Sidebar Page",
-        path: "/blog-sidebar",
+        title: "Sun City Summerlin Blog",
+        path: "/blog",
         newTab: false,
       },
       {
         id: 45,
-        title: "Blog Details Page",
-        path: "/blog-details",
+        title: "Community Guides",
+        path: "/blog",
         newTab: false,
       },
       {

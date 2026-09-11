@@ -9,7 +9,7 @@ import { TrendingUp, Truck, Home, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 export const metadata: Metadata = {
-  title: "Real Estate Market Insights | Las Vegas Housing Market Trends 2026",
+  title: "Sun City Summerlin Market Insights | Las Vegas Housing Market Trends 2026",
   description:
     "Stay informed with the latest real estate market insights, mortgage rate updates, home price trends, and expert forecasts for Las Vegas and Sun City Summerlin.",
   alternates: {
@@ -92,13 +92,13 @@ export default async function MarketInsightsPage() {
                   <TrendingUp className="w-16 h-16 text-[#D4AF37]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Real Estate Market Insights
+                  Sun City Summerlin Market Insights
                 </h1>
                 <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Stay Informed with Latest Market Trends & Expert Forecasts
+                  89134 pricing, days on market, and Las Vegas 55+ trends
                 </p>
                 <p className="text-base md:text-lg text-gray-200">
-                  Get the latest insights on mortgage rates, home prices, market trends, and expert forecasts to help you make informed decisions about buying or selling in Sun City Summerlin.
+                  Mortgage rates, home prices, and forecasts translated for Sun City Summerlin buyers and sellers—so your next offer or listing price matches local comps, not national averages.
                 </p>
               </ScrollAnimation>
             </div>

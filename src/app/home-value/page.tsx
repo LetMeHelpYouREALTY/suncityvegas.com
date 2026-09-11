@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -7,7 +8,7 @@ import { Home, TrendingUp, Calculator } from "lucide-react";
 import { Button } from "@components/ui/button";
 
 export const metadata: Metadata = {
-  title: "Free Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
+  title: "Sun City Summerlin Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
   description:
     "Get a free, instant home value estimate for your property. Dr. Jan Duffy provides accurate home valuations for Sun City Summerlin and Las Vegas area homes.",
   alternates: {
@@ -76,11 +77,25 @@ export default function HomeValuePage() {
                 <TrendingUp className="w-10 h-10 text-white" />
               </div>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Free Home Value Estimate
+                Sun City Summerlin Home Value Estimate
               </h1>
               <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Get an instant, accurate estimate of your home&apos;s current market value. Perfect for planning your next move to Sun City Summerlin.
+                Get a hyper-local CMA-backed estimate for your 89134 home—golf-course lots, single-story plans, and Del Webb comps from Dr. Jan Duffy.
               </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="bg-white py-8">
+          <div className="container mx-auto px-4">
+            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
+              <Image
+                src="/images/homes/mid-size.jpg"
+                alt="Sun City Summerlin mid-size home used for local CMA and home value estimates in 89134"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+              />
             </div>
           </div>
         </section>

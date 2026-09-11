@@ -58,22 +58,22 @@ const amenities = [
       {
         name: "Highland Falls Golf Course",
         description: "18-hole championship course designed by Billy Casper & Greg Nash",
-        image: "/images/amenities/resort-pool.jpeg",
+        image: "/images/amenities/highland-falls-mountain-view.jpg",
       },
       {
         name: "Palm Valley Golf Course",
         description: "18-hole championship course with stunning mountain views",
-        image: "/images/amenities/resort-pool.jpeg",
+        image: "/images/amenities/palm-valley-fairway.jpg",
       },
       {
         name: "Eagle Crest Golf Course",
         description: "18-hole executive course perfect for a quick round",
-        image: "/images/amenities/resort-pool.jpeg",
+        image: "/images/amenities/eagle-crest-executive.jpg",
       },
       {
         name: "Stonebridge Golf Course",
         description: "27-hole championship course at Sun City",
-        image: "/images/amenities/resort-pool.jpeg",
+        image: "/images/amenities/golf-hero.jpg",
       },
     ],
   },
@@ -84,19 +84,19 @@ const amenities = [
       {
         name: "Mountain Shadows",
         description: "45,000 sq ft with fitness center, indoor pool, racquetball, arts & crafts",
-        image: "/images/amenities/clubhouse.jpeg",
+        image: "/images/amenities/mountain-shadows-hero.jpg",
         link: "/amenities/mountain-shadows",
       },
       {
         name: "Desert Vista",
         description: "48,000 sq ft with fitness center, pool & spa, tennis, pickleball, ballroom",
-        image: "/images/amenities/clubhouse.jpeg",
+        image: "/images/amenities/desert-vista-hero.jpg",
         link: "/amenities/desert-vista",
       },
       {
         name: "Pinnacle",
         description: "34,000 sq ft with fitness center, pool, tennis, bocce ball, card rooms",
-        image: "/images/amenities/clubhouse.jpeg",
+        image: "/images/amenities/pinnacle-hero.jpg",
         link: "/amenities/pinnacle",
       },
     ],
@@ -108,7 +108,7 @@ const amenities = [
       {
         name: "Swimming Pools",
         description: "Multiple indoor and outdoor pools and spas across rec centers",
-        image: "/images/amenities/resort-pool.jpeg",
+        image: "/images/amenities/sun-shadows-olympic-pool.jpg",
       },
       {
         name: "Tennis & Pickleball",
@@ -118,7 +118,7 @@ const amenities = [
       {
         name: "Fitness Centers",
         description: "State-of-the-art equipment at all three recreation centers",
-        image: "/images/amenities/clubhouse.jpeg",
+        image: "/images/amenities/pinnacle-fitness.jpg",
       },
       {
         name: "Walking Trails",
@@ -269,7 +269,7 @@ export default function AmenitiesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                World-Class Amenities | Sun City Summerlin
+                Sun City Summerlin Amenities | Golf, Rec Centers & Clubs
               </h1>
               <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
                 Sun City Summerlin offers unmatched amenities: 4 championship golf courses, 
