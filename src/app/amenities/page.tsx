@@ -280,6 +280,24 @@ export default function AmenitiesPage() {
           </div>
         </section>
 
+        <section className="bg-[#FDF8F3] py-8 md:py-10">
+          <div className="container mx-auto px-4">
+            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
+              <Image
+                src="/images/amenities/golf-hero.jpg"
+                alt="Sun City Summerlin championship golf fairway with Red Rock Canyon views in Las Vegas 89134"
+                fill
+                className="object-cover"
+                sizes="(max-width: 1024px) 100vw, 1024px"
+                priority
+              />
+            </div>
+            <p className="mt-4 text-center text-[#2D2A26] max-w-3xl mx-auto text-base md:text-lg">
+              Four courses, three rec centers, and 80+ clubs—Dr. Jan Duffy helps you buy the home that puts the amenities you will use within a short drive.
+            </p>
+          </div>
+        </section>
+
         {/* Quick Stats */}
         <section className="py-8 bg-[#FDF8F3]">
           <div className="container mx-auto px-4">
