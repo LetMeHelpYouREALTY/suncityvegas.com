@@ -5,8 +5,8 @@ const brandsData: Brand[] = [
     id: 1,
     name: "Berkshire Hathaway HomeServices",
     href: "https://www.bhhsnv.com/",
-    image: "/images/bhhs-logo.png",
-    imageLight: "/images/bhhs-logo.png",
+    image: "/images/logo/logo.jpg",
+    imageLight: "/images/logo/logo.jpg",
   },
   {
     id: 2,
