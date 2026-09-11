@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, Check, Truck, FileText, Home, MapPin, TrendingUp, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Moving to Sun City Summerlin: Complete Relocation Guide (2026)",
   description:
@@ -35,8 +36,6 @@ export const metadata: Metadata = {
   },
 };
 
-const blurDataURL =
-  "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
 export default function MovingGuidePage() {
   return (
@@ -50,50 +49,15 @@ export default function MovingGuidePage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <div className="flex justify-center mb-6">
-                  <Truck className="w-16 h-16 text-[#C9A962]" />
-                </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Moving to Sun City Summerlin: Complete Guide
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Your Step-by-Step Relocation Checklist
-                </p>
-                <p className="text-base md:text-lg text-gray-200">
-                  Everything you need to know about moving to Sun City Summerlin, from timeline to utilities setup to getting settled in your new community.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Moving to Sun City Summerlin: Complete Guide"
+          subtitle="Your Step-by-Step Relocation Checklist. Everything you need to know about moving to Sun City Summerlin, from timeline to settling in."
+          imageSrc={pageHeroImages["resources/moving-guide"].src}
+          imageAlt={pageHeroImages["resources/moving-guide"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Moving Guide" />
 
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                <Image
-                  src="/images/resources/moving-guide-hero.jpg"
-                  alt="Moving to Sun City Summerlin relocation guide"
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Introduction */}
         <section className="py-12 md:py-16 bg-white">

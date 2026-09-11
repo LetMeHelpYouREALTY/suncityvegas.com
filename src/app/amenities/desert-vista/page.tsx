@@ -4,11 +4,13 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Desert Vista Community Center | Sun City Summerlin's Largest Facility",
   description:
@@ -72,18 +74,13 @@ export default function DesertVistaPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#1C1917] to-[#57534E] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Desert Vista Community Center
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Sun City Summerlin's Largest Recreation Facility
-                </p>
-                <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base">
+        <PageHero
+          title="Desert Vista Community Center"
+          subtitle="Sun City Summerlin's Largest Recreation Facility"
+          imageSrc={pageHeroImages["amenities/desert-vista"].src}
+          imageAlt={pageHeroImages["amenities/desert-vista"].alt}
+        >
+          <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base">
                   <div className="flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full">
                     <MapPin className="w-4 h-4" />
                     <span>48,000 sq ft</span>
@@ -97,33 +94,9 @@ export default function DesertVistaPage() {
                     <span>Grand Ballroom</span>
                   </div>
                 </div>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Desert Vista" />
-
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                <Image
-                  src="/images/amenities/desert-vista-hero.jpg"
-                  alt="Desert Vista Community Center exterior"
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Overview Section */}
         <section className="py-12 md:py-16 bg-white">

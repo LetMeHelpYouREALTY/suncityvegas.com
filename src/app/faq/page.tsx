@@ -3,8 +3,10 @@ import Image from 'next/image';
 import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
+import PageHero from "@components/PageHero";
 import FAQAccordion from '@components/FAQAccordion';
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { getAllQuestions } from '@/lib/faqData';
 import Link from 'next/link';
 
@@ -96,26 +98,12 @@ export default function FAQPage() {
           __html: JSON.stringify(faqSchema).replace(/</g, "\\u003c"),
         }}
         />
-        {/* Hero Section */}
-        <section className="relative bg-[#F7F6F4] py-16 md:py-24 overflow-hidden">
-          <div className="absolute inset-0 opacity-10">
-            <Image
-              src="/images/amenities/resort-pool.jpeg"
-              alt="Sun City Summerlin resort-style pool"
-              fill
-              className="object-cover"
-              priority
-            />
-          </div>
-          <div className="relative max-w-4xl mx-auto px-4 text-center z-10">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
-              Frequently Asked Questions | Sun City Summerlin
-            </h1>
-            <p className="text-xl text-[#141210]">
-              Everything you need to know about Sun City Summerlin
-            </p>
-          </div>
-        </section>
+                <PageHero
+          title="Frequently Asked Questions | Sun City Summerlin"
+          subtitle="Everything you need to know about Sun City Summerlin"
+          imageSrc={pageHeroImages["faq"].src}
+          imageAlt={pageHeroImages["faq"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Faq" />
 

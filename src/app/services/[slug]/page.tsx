@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
 import { CheckCircle2, MapPin, Phone, Clock, ArrowRight } from "lucide-react";
 import {
@@ -13,6 +14,7 @@ import {
   getServiceBySlug,
 } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 type ServicePageProps = {
   params: Promise<{ slug: string }>;
@@ -157,21 +159,20 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         ]}
       />
       <main id="main-content" className="pt-16 md:pt-20">
-        <section className="bg-[#1C1917] text-white py-12 md:py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <p className="text-sm uppercase tracking-wide text-[#C9A962] mb-3">
-                {category.label} · {category.gbpRole} category
-              </p>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
-                {service.h1}
-              </h1>
-              <p data-aeo-answer className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                {service.answer}
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          eyebrow={`${category.label} · ${category.gbpRole} category`}
+          title={service.h1}
+          imageSrc={pageHeroImages.services.src}
+          imageAlt={pageHeroImages.services.alt}
+          align="left"
+        >
+          <p
+            data-aeo-answer
+            className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]"
+          >
+            {service.answer}
+          </p>
+        </PageHero>
 
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${service.name}`}

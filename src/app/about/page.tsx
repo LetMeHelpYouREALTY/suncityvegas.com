@@ -3,6 +3,7 @@ import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import { Phone, Mail, MapPin, Award, Users, Home } from "lucide-react";
@@ -10,6 +11,7 @@ import { getAllTestimonials } from "@/lib/old-site-data";
 import { Quote } from "lucide-react";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 export const metadata: Metadata = {
   title: "About Dr. Jan Duffy REALTOR® | Sun City Summerlin Specialist",
@@ -96,20 +98,12 @@ export default function AboutPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                About Dr. Jan Duffy | Sun City Summerlin Specialist
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Your trusted REALTOR® specializing in Sun City Summerlin and
-                Las Vegas 55+ communities
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="About Dr. Jan Duffy | Sun City Summerlin Specialist"
+          subtitle="Your trusted REALTOR® specializing in Sun City Summerlin and Las Vegas 55+ communities"
+          imageSrc={pageHeroImages.about.src}
+          imageAlt={pageHeroImages.about.alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | About" />
 

@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 import Link from "next/link";
 import { CheckCircle2, AlertCircle, Mail, Home, FileText } from "lucide-react";
 
@@ -67,22 +69,12 @@ export default function AccessibilityPage() {
         ]}
       />
       <main className="pt-16 md:pt-20 min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="bg-[#F7F6F4] py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
-                Accessibility Statement
-              </h1>
-              <p className="text-lg md:text-xl text-[#141210] mb-6">
-                Our commitment to making the Sun City Summerlin real estate website accessible to everyone—whether you&apos;re searching for <Link href="/homes-for-sale" className="text-[#1C1917] hover:underline font-medium">55+ homes for sale</Link>, exploring <Link href="/amenities" className="text-[#1C1917] hover:underline font-medium">amenities</Link>, or scheduling a tour with Dr. Jan Duffy.
-              </p>
-              <p className="text-[#141210] text-sm max-w-2xl mx-auto">
-                This statement applies to suncityvegas.com, the official site for Sun City Summerlin and Las Vegas 55+ active adult community real estate by Berkshire Hathaway HomeServices Nevada Properties.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Accessibility Statement"
+          subtitle="Our commitment to making the Sun City Summerlin real estate website accessible to everyone—whether you're searching for 55+ homes for sale, exploring amenities, or scheduling a tour with Dr. Jan Duffy."
+          imageSrc={DEFAULT_PAGE_HERO}
+          imageAlt="Sun City Summerlin Las Vegas 55+ community accessibility"
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Accessibility" />
 

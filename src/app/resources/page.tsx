@@ -3,10 +3,12 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { BookOpen, TrendingUp, Truck, Home, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Resources | Guides, Market Insights & Moving Tips",
   description:
@@ -76,24 +78,12 @@ export default function ResourcesPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero */}
-        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <div className="flex justify-center mb-6">
-                  <BookOpen className="w-16 h-16 text-[#C9A962]" />
-                </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Sun City Summerlin Resources
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                  Guides, market insights, and tips to help you buy, sell, or move to Sun City Summerlin.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Sun City Summerlin Resources"
+          subtitle="Guides, market insights, and tips to help you buy, sell, or move to Sun City Summerlin."
+          imageSrc={pageHeroImages["resources"].src}
+          imageAlt={pageHeroImages["resources"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Resources" />
 

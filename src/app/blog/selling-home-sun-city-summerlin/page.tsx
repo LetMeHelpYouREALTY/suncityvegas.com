@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import YouTubeEmbed from "@components/YouTubeEmbed";
 import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight } from "lucide-react";
@@ -75,26 +76,21 @@ export default function SellingHomeSunCitySummerlinPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
-                Pillar Guide
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-playfair">
-                Selling a Home in Sun City Summerlin: Timing, Pricing, and Updates That Actually Pay Off (2026)
-              </h1>
-              <div className="flex flex-wrap items-center gap-4 text-gray-100">
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-5 h-5" />
-                  <time dateTime="2026-01-27">January 27, 2026</time>
-                </div>
-                <span>•</span>
-                <span>By Dr. Jan Duffy</span>
-              </div>
+        <PageHero
+          title="Selling a Home in Sun City Summerlin: Timing, Pricing, and Updates That Actually Pay Off (2026)"
+          imageSrc="/images/hero/hero-bg.jpg"
+          imageAlt="Selling a Home in Sun City Summerlin: Timing, Pricing, and Updates That Actually Pay Off (2026) — Sun City Summerlin Las Vegas 55+ community"
+          align="left"
+        >
+          <div className="flex flex-wrap items-center gap-4 text-gray-100">
+            <div className="flex items-center gap-2">
+              <Calendar className="w-5 h-5" />
+              <time dateTime="2026-01-27">January 27, 2026</time>
             </div>
+            <span>•</span>
+            <span>By Dr. Jan Duffy</span>
           </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Selling Home Sun City Summerlin" />
 

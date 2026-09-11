@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import ScheduleTour from "@components/ScheduleTour";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { Phone, DollarSign, TrendingUp, Clock, Shield, FileText, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -111,50 +112,26 @@ export default function SellingPage() {
           ]}
         />
 
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#F7F6F4] to-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-6 font-playfair">
-                  Sell Your Sun City Summerlin Home with Confidence
-                </h1>
-                <p className="text-lg md:text-xl text-[#141210] mb-8 leading-relaxed">
-                  Expert real estate services tailored for Sun City Summerlin sellers. Get your free home valuation and discover how we can help you achieve your selling goals.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">
-                    <Link href="/home-value">Get Free Valuation</Link>
-                  </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
-                    <a href="tel:7027180043">
-                      <Phone className="w-5 h-5 mr-2" />
-                      Call (702) 718-0043
-                    </a>
-                  </Button>
-                </div>
-              </ScrollAnimation>
-            </div>
+                <PageHero
+          title="Sell Your Sun City Summerlin Home with Confidence"
+          subtitle="Expert real estate services tailored for Sun City Summerlin sellers. Get your free home valuation and discover how we can help you achieve your selling goals."
+          imageSrc={pageHeroImages["selling"].src}
+          imageAlt={pageHeroImages["selling"].alt}
+        >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210] min-h-[44px]">
+              <Link href="/home-value">Get Free Valuation</Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 min-h-[44px]">
+              <a href="tel:7027180043">
+                <Phone className="w-5 h-5 mr-2" />
+                Call (702) 718-0043
+              </a>
+            </Button>
           </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Selling" />
-
-
-        <section className="pb-4 md:pb-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
-              <Image
-                src="/images/homes/spacious.jpg"
-                alt="Luxury single-story Sun City Summerlin home prepared for sale with Red Rock mountain views"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                priority
-              />
-            </div>
-          </div>
-        </section>
 
         {/* Services Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

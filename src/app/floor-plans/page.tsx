@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
@@ -9,6 +10,7 @@ import { Home, Maximize2, Calendar, Building } from "lucide-react";
 import MortgageCalculator from "@components/MortgageCalculator";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 export const metadata: Metadata = {
   title: "Home Styles & Sizes | Sun City Summerlin | 1,000-3,500+ Sq Ft Resale Homes",
@@ -108,22 +110,12 @@ export default function HomeStylesPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Home Styles at Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                With 7,779 homes built between 1989-2002, Sun City Summerlin offers incredible variety. 
-                From cozy 1,000 sq ft retreats to stunning 3,500+ sq ft estates, find your perfect fit. 
-                View <Link href="/homes-for-sale" className="text-white hover:text-gray-200 underline">current listings</Link> or 
-                explore the <Link href="/amenities" className="text-white hover:text-gray-200 underline">world-class amenities</Link> included with every home.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Home Styles at Sun City Summerlin"
+          subtitle="With 7,779 homes built between 1989-2002, Sun City Summerlin offers incredible variety. From cozy 1,000 sq ft retreats to spacious 3,000+ sq ft residences."
+          imageSrc={pageHeroImages["floor-plans"].src}
+          imageAlt={pageHeroImages["floor-plans"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Floor Plans" />
 

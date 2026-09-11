@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 import Link from "next/link";
 import { FileText, Calendar } from "lucide-react";
 
@@ -59,23 +61,12 @@ export default function TermsPage() {
         ]}
       />
       <main className="pt-16 md:pt-20 min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="bg-[#F7F6F4] py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
-                Terms of Service
-              </h1>
-              <p className="text-lg md:text-xl text-[#141210]">
-                Terms and conditions for using Sun City Summerlin website
-              </p>
-              <div className="mt-4 flex items-center justify-center gap-2 text-sm text-gray-500">
-                <Calendar className="w-4 h-4" />
-                <span>Last updated: January 25, 2026</span>
-              </div>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Terms of Service"
+          subtitle="Terms and conditions for using Sun City Summerlin website"
+          imageSrc={DEFAULT_PAGE_HERO}
+          imageAlt="Sun City Summerlin Las Vegas 55+ community"
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Terms" />
 

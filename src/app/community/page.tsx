@@ -3,12 +3,14 @@ import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
 import { MapPin, Calendar, Home, Users, Activity, Award } from "lucide-react";
 import { getGolfCourses, getRecreationCenters } from "@/lib/communityData";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 export const metadata: Metadata = {
   title: "Sun City Summerlin Community Guide | Las Vegas 55+ Active Adult Community",
@@ -76,32 +78,24 @@ export default function CommunityPage() {
           ]}
         />
 
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#F7F6F4] to-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-6 font-playfair">
-                  Discover Sun City Summerlin
-                </h1>
-                <p className="text-lg md:text-xl text-[#141210] mb-8 leading-relaxed">
-                  One of the nation's premiere active adult communities. Organized by Del Webb Corporation in 1989, featuring 7,781 single-family homes, 4 golf courses, 4 fitness centers, an Olympic-sized pool, and extensive recreation facilities.
-                </p>
-                <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">
-                    <Link href="/homes-for-sale">View Homes for Sale</Link>
-                  </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
-                    <Link href="/amenities">Explore Amenities</Link>
-                  </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
-                    <Link href="/community/neighborhood">Explore Neighborhood</Link>
-                  </Button>
-                </div>
-              </ScrollAnimation>
-            </div>
+        <PageHero
+          title="Discover Sun City Summerlin"
+          subtitle="One of the nation's premiere active adult communities. Organized by Del Webb Corporation in 1989, featuring 7,781 single-family homes, 4 golf courses, 4 fitness centers, an Olympic-sized pool, and extensive recreation facilities."
+          imageSrc={pageHeroImages.community.src}
+          imageAlt={pageHeroImages.community.alt}
+        >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button asChild size="lg" className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210] min-h-[44px]">
+              <Link href="/homes-for-sale">View Homes for Sale</Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 min-h-[44px]">
+              <Link href="/amenities">Explore Amenities</Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 min-h-[44px]">
+              <Link href="/community/neighborhood">Explore Neighborhood</Link>
+            </Button>
           </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Community" />
 

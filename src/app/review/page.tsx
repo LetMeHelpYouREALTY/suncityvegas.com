@@ -4,7 +4,9 @@ import { ExternalLink, Star, MessageSquareHeart, Smartphone } from "lucide-react
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import CopyReviewLink from "@/components/CopyReviewLink";
 import { siteConfig } from "@/lib/site-config";
 
@@ -46,25 +48,12 @@ export default function ReviewPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        <section className="bg-[#1C1917] py-12 text-white md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="mx-auto max-w-3xl text-center">
-              <div className="mb-4 flex justify-center gap-1" aria-hidden>
-                {[1, 2, 3, 4, 5].map((star) => (
-                  <Star key={star} className="h-7 w-7 fill-[#C9A962] text-[#C9A962]" />
-                ))}
-              </div>
-              <h1 className="mb-4 font-playfair text-3xl font-bold md:mb-6 md:text-4xl lg:text-5xl">
-                Leave a Google Review
-              </h1>
-              <p className="text-lg leading-relaxed text-gray-100 md:text-xl">
-                Thank you for working with Dr. Jan Duffy in Sun City Summerlin.
-                Your review helps other 55+ buyers and sellers find trusted local
-                guidance in Las Vegas.
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="Leave a Google Review"
+          subtitle="Thank you for working with Dr. Jan Duffy in Sun City Summerlin. Your review helps other 55+ buyers and sellers find trusted local guidance in Las Vegas."
+          imageSrc={pageHeroImages["review"].src}
+          imageAlt={pageHeroImages["review"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Review" />
 

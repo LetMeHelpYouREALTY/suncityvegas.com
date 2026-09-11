@@ -4,12 +4,14 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import ScrollAnimation from "@components/scroll-animation";
 import { Phone, Mail, MapPin, Youtube, ExternalLink, Car, Train, Footprints } from "lucide-react";
 import ScheduleTour from "@components/ScheduleTour";
 import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -203,21 +205,12 @@ export default function ContactPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Contact & Schedule a Tour | Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Ready to explore Sun City Summerlin? Contact <Link href="/about" className="text-[#C9A962] hover:text-white underline">Dr. Jan Duffy</Link> to
-                schedule a private tour, ask questions, or learn more about
-                <Link href="/homes-for-sale" className="text-[#C9A962] hover:text-white underline"> available homes</Link>. Explore <Link href="/amenities" className="text-[#C9A962] hover:text-white underline">amenities</Link> and <Link href="/lifestyle" className="text-[#C9A962] hover:text-white underline">lifestyle</Link>.
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="Contact & Schedule a Tour | Sun City Summerlin"
+          subtitle="Ready to explore Sun City Summerlin? Contact Dr. Jan Duffy to schedule a private tour, ask questions, or learn more about available homes. Explore amenities and lifestyle."
+          imageSrc={pageHeroImages.contact.src}
+          imageAlt={pageHeroImages.contact.alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Contact" />
 

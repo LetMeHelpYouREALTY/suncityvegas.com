@@ -4,8 +4,10 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { Calendar, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -263,20 +265,12 @@ export default function BlogPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Blog | Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Stay informed about Sun City Summerlin, 55+ living tips, and
-                life in Las Vegas.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Blog | Sun City Summerlin"
+          subtitle="Stay informed about Sun City Summerlin, 55+ living tips, and life in Las Vegas."
+          imageSrc={pageHeroImages["blog"].src}
+          imageAlt={pageHeroImages["blog"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Blog" />
 

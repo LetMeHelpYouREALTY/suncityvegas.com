@@ -1,10 +1,10 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, MapPin, Home, Star } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
@@ -45,8 +45,6 @@ export const metadata: Metadata = {
   },
 };
 
-const blurDataURL =
-  "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
 // FAQ Schema
 const faqSchema = {
@@ -120,52 +118,24 @@ export default function BestNeighborhoodsPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
-                Neighborhood Guide
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-playfair">
-                Best Neighborhoods in Sun City Summerlin: Complete Guide
-              </h1>
-              <div className="flex flex-wrap items-center gap-4 text-gray-100">
-                <div className="flex items-center gap-2">
-                  <Calendar className="w-5 h-5" />
-                  <time dateTime="2025-01-26">January 26, 2025</time>
-                </div>
-                <span>•</span>
-                <span>By Dr. Jan Duffy</span>
-                <span>•</span>
-                <span>10 min read</span>
-              </div>
+        <PageHero
+          title="Best Neighborhoods in Sun City Summerlin: Complete Guide"
+          imageSrc="/images/blog/neighborhoods-hero.jpg"
+          imageAlt="Best neighborhoods in Sun City Summerlin with beautiful homes"
+          align="left"
+        >
+          <div className="flex flex-wrap items-center gap-4 text-gray-100">
+            <div className="flex items-center gap-2">
+              <Calendar className="w-5 h-5" />
+              <time dateTime="2025-01-26">January 26, 2025</time>
             </div>
+            <span>•</span>
+            <span>By Dr. Jan Duffy</span>
           </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Best Sun City Summerlin Neighborhoods" />
 
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
-                <Image
-                  src="/images/blog/neighborhoods-hero.jpg"
-                  alt="Best neighborhoods in Sun City Summerlin with beautiful homes"
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Article Content */}
         <div className="py-12 md:py-16 bg-white">

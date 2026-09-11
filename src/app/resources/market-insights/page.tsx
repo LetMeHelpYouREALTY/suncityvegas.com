@@ -3,12 +3,14 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import MarketInsights from "@/components/MarketInsights";
 import { getMarketInsightsFeed } from "@/lib/market-insights-feed";
 import { TrendingUp, Truck, Home, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Market Insights | Las Vegas Housing Market Trends 2026",
   description:
@@ -84,27 +86,12 @@ export default async function MarketInsightsPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <div className="flex justify-center mb-6">
-                  <TrendingUp className="w-16 h-16 text-[#C9A962]" />
-                </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Sun City Summerlin Market Insights
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  89134 pricing, days on market, and Las Vegas 55+ trends
-                </p>
-                <p className="text-base md:text-lg text-gray-200">
-                  Mortgage rates, home prices, and forecasts translated for Sun City Summerlin buyers and sellers—so your next offer or listing price matches local comps, not national averages.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Sun City Summerlin Market Insights"
+          subtitle="89134 pricing, days on market, and Las Vegas 55+ trends. Mortgage rates, home prices, and forecasts translated for Sun City Summerlin buyers and sellers."
+          imageSrc={pageHeroImages["resources/market-insights"].src}
+          imageAlt={pageHeroImages["resources/market-insights"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Market Insights" />
 

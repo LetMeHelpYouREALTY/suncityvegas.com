@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import { 
   FileText, 
@@ -26,6 +27,7 @@ import { getAllFlyers, getFlyerBySlug } from "@/lib/flyers";
 import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export async function generateStaticParams() {
   const flyers = getAllFlyers();
   return flyers.map((flyer) => ({
@@ -362,54 +364,44 @@ export default async function FlyerPage({
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-br from-[#1C1917] to-[#6B4E2C] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6 mx-auto">
-                <FileText className="w-10 h-10 text-white" />
-              </div>
-              <div className="mb-4 flex flex-wrap gap-2 justify-center">
-                <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
-                  {flyer.category}
-                </span>
-                <span className="inline-block px-4 py-2 bg-[#C9A962]/80 text-white text-sm font-semibold rounded-full">
-                  Free Download
-                </span>
-                {flyer.pages && (
-                  <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
-                    {flyer.pages} Pages
-                  </span>
-                )}
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                {flyer.title}
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-8">
-                {flyer.description}
-              </p>
-              
-              {/* Quick Download CTA */}
-              <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                <a
-                  href={flyer.filePath}
-                  download
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] font-bold rounded-lg hover:bg-[#C9A962]/90 transition-colors text-lg"
-                >
-                  <Download className="w-6 h-6" />
-                  Download Free Guide
-                </a>
-                <a
-                  href="tel:7027180043"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/20 text-white font-semibold rounded-lg hover:bg-white/30 transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  (702) 718-0043
-                </a>
-              </div>
-            </div>
+        <PageHero
+          title={flyer.title}
+          subtitle={flyer.description}
+          imageSrc={pageHeroImages.flyers.src}
+          imageAlt={pageHeroImages.flyers.alt}
+          align="left"
+        >
+          <div className="mb-4 flex flex-wrap gap-2">
+            <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
+              {flyer.category}
+            </span>
+            <span className="inline-block px-4 py-2 bg-[#C9A962]/80 text-white text-sm font-semibold rounded-full">
+              Free Download
+            </span>
+            {flyer.pages ? (
+              <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
+                {flyer.pages} Pages
+              </span>
+            ) : null}
           </div>
-        </section>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a
+              href={flyer.filePath}
+              download
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] font-bold rounded-lg hover:bg-[#C9A962]/90 transition-colors text-lg min-h-[44px]"
+            >
+              <Download className="w-6 h-6" />
+              Download Free Guide
+            </a>
+            <a
+              href="tel:7027180043"
+              className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/20 text-white font-semibold rounded-lg hover:bg-white/30 transition-colors min-h-[44px]"
+            >
+              <Phone className="w-5 h-5" />
+              (702) 718-0043
+            </a>
+          </div>
+        </PageHero>
 
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${flyer.title}`}

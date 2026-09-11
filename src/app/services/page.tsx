@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
 import { ArrowRight, Phone } from "lucide-react";
 import {
@@ -12,6 +12,7 @@ import {
   getServicesByCategory,
 } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 const PAGE_URL = "https://www.suncityvegas.com/services";
 
@@ -87,46 +88,26 @@ export default function ServicesIndexPage() {
         ]}
       />
       <main id="main-content" className="pt-16 md:pt-20">
-        <section className="bg-[#1C1917] text-white py-12 md:py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <p className="text-sm uppercase tracking-wide text-[#C9A962] mb-3">
-                Hyper-Local 55+ Realtor
-              </p>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
-                Real Estate Services | Sun City Summerlin 55+ | Las Vegas
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                Dr. Jan Duffy provides licensed real estate agent, agency, retirement-community,
-                and consulting services for 55+ buyers and sellers in Sun City Summerlin and
-                northwest Las Vegas.
-              </p>
-              <p className="text-base text-gray-100">
-                {siteConfig.address} · Daily 6:00 AM–9:00 PM ·{" "}
-                <a href="tel:+17027180043" className="underline hover:text-[#C9A962]">
-                  (702) 718-0043
-                </a>
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          eyebrow="Hyper-Local 55+ Realtor"
+          title="Real Estate Services | Sun City Summerlin 55+ | Las Vegas"
+          subtitle="Dr. Jan Duffy provides licensed real estate agent, agency, retirement-community, and consulting services for 55+ buyers and sellers in Sun City Summerlin and northwest Las Vegas."
+          imageSrc={pageHeroImages.services.src}
+          imageAlt={pageHeroImages.services.alt}
+        >
+          <p className="text-base text-gray-100">
+            {siteConfig.address} · Daily 6:00 AM–9:00 PM ·{" "}
+            <a href="tel:+17027180043" className="underline hover:text-[#C9A962]">
+              (702) 718-0043
+            </a>
+          </p>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Services" />
 
-
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
-            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
-              <Image
-                src="/images/explore/contact.jpg"
-                alt="Dr. Jan Duffy Sun City Summerlin realtor services office consultation in Las Vegas 89134"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                priority
-              />
-            </div>
-            <p className="mt-4 text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
+            <p className="text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
               Buyer agency, seller representation, HOA review, VA guidance, and 55+ relocation—hyper-local help inside Sun City Summerlin gates.
             </p>
           </div>

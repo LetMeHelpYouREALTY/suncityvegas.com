@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Phone } from "lucide-react";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import MortgageCalculator from "@components/MortgageCalculator";
 import RealScoutListings from "@components/RealScoutListings";
 import { getCommunityInfo } from "@/lib/communityData";
+import { pageHeroImages } from "@/lib/page-heroes";
 
 export const metadata: Metadata = {
   title: "Sun City Summerlin Las Vegas NV 89134 Current Homes for Sale | Del Webb Summerlin",
@@ -78,54 +79,33 @@ export default async function HomesForSalePage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Sun City Summerlin Las Vegas NV 89134 Current Homes for Sale
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                Browse current homes for sale in Sun City Summerlin, the Del Webb 55+ community in Las Vegas, NV 89134. Listings updated daily. Explore <Link href="/amenities" className="text-[#C9A962] hover:text-white underline">resort-style amenities</Link>—4 golf courses, 3 recreation centers, 80+ clubs.
-              </p>
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <Button
-                  asChild
-                  variant="accent"
-                  size="lg"
-                  className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210]"
-                >
-                  <Link href="#listings">View Listings</Link>
-                </Button>
-                <a
-                  href="tel:7027180043"
-                  className="flex items-center gap-2 text-lg font-semibold hover:text-[#C9A962] transition-colors"
-                >
-                  <Phone className="w-5 h-5" />
-                  (702) 718-0043
-                </a>
-              </div>
-            </div>
+        <PageHero
+          title="Sun City Summerlin Las Vegas NV 89134 Current Homes for Sale"
+          subtitle="Browse current homes for sale in Sun City Summerlin, the Del Webb 55+ community in Las Vegas, NV 89134. Listings updated daily. Explore resort-style amenities—4 golf courses, 3 recreation centers, 80+ clubs."
+          imageSrc={pageHeroImages["homes-for-sale"].src}
+          imageAlt={pageHeroImages["homes-for-sale"].alt}
+        >
+          <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+            <Button
+              asChild
+              variant="accent"
+              size="lg"
+              className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210] min-h-[44px]"
+            >
+              <Link href="#listings">View Listings</Link>
+            </Button>
+            <a
+              href="tel:7027180043"
+              className="flex items-center gap-2 text-lg font-semibold hover:text-[#C9A962] transition-colors min-h-[44px]"
+            >
+              <Phone className="w-5 h-5" />
+              (702) 718-0043
+            </a>
           </div>
-        </section>
+        </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Homes For Sale" />
 
-
-        <section className="bg-white py-8">
-          <div className="container mx-auto px-4">
-            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
-              <Image
-                src="/images/explore/homes-for-sale.jpg"
-                alt="Current Sun City Summerlin homes for sale with golf-course and Red Rock views in Las Vegas 89134"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                priority
-              />
-            </div>
-          </div>
-        </section>
         {/* CTA Cards Section */}
         <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">

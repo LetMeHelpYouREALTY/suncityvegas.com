@@ -2,8 +2,10 @@ import type { Metadata } from 'next';
 import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
+import PageHero from "@components/PageHero";
 import ScheduleTour from '@components/ScheduleTour';
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { Phone, Calendar, Clock, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -56,22 +58,12 @@ export default function SchedulePage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <Calendar className="w-16 h-16 mx-auto mb-6 text-[#C9A962]" />
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Schedule Your Private Tour | Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                Experience Sun City Summerlin in person. Walk the community,
-                explore the 4 golf courses and 3 recreation centers, and step inside the homes. No pressure,
-                no obligation—just the information you need.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Schedule Your Private Tour | Sun City Summerlin"
+          subtitle="Experience Sun City Summerlin in person. Walk the community, explore the 4 golf courses and 3 recreation centers, and step inside the homes. No pressure, no obligation—just the information you need."
+          imageSrc={pageHeroImages["schedule"].src}
+          imageAlt={pageHeroImages["schedule"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Schedule" />
 

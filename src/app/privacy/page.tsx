@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Privacy Policy | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -44,12 +46,18 @@ export default function PrivacyPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
+        <PageHero
+          title="Privacy Policy"
+          subtitle="How we collect, use, and protect your information when you contact Dr. Jan Duffy about Sun City Summerlin homes in Las Vegas."
+          imageSrc={DEFAULT_PAGE_HERO}
+          imageAlt="Sun City Summerlin Las Vegas 55+ community privacy policy"
+        />
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Privacy" />
+
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h1 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
-                Privacy Policy
-              </h1>
               <div className="prose prose-lg max-w-none space-y-6 text-[#141210]">
                 <p className="text-sm text-gray-500">
                   Last updated: {new Date().toLocaleDateString()}
@@ -158,8 +166,6 @@ export default function PrivacyPage() {
             </div>
           </div>
         </section>
-
-        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Privacy" />
 
       </main>
       <Footer />

@@ -2,10 +2,12 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import { FileText, Download } from "lucide-react";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { getAllFlyers } from "@/lib/flyers";
 
 export const metadata: Metadata = {
@@ -38,19 +40,12 @@ export default function FlyersPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Community Flyers & Brochures
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Download printable flyers and brochures about Sun City Summerlin. Share with friends and family or keep for your records.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Community Flyers & Brochures"
+          subtitle="Download printable flyers and brochures about Sun City Summerlin. Share with friends and family or keep for your records."
+          imageSrc={pageHeroImages["flyers"].src}
+          imageAlt={pageHeroImages["flyers"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Flyers" />
 

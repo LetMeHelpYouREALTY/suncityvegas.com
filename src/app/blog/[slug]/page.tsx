@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
 import { Calendar, ArrowLeft, ArrowRight } from "lucide-react";
+import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 
 const blogPosts: Record<
   string,
@@ -162,9 +163,6 @@ const blogPosts: Record<
   },
 };
 
-const blurDataURL =
-  "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
-
 export async function generateStaticParams() {
   return Object.keys(blogPosts).map((slug) => ({
     slug,
@@ -250,61 +248,37 @@ export default function BlogPostPage({
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <Link
-                href="/blog"
-                className="inline-flex items-center gap-2 text-gray-100 hover:text-[#C9A962] transition-colors mb-6"
-              >
-                <ArrowLeft className="w-5 h-5" />
-                Back to Blog
-              </Link>
-              <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4">
-                <span className="text-sm font-semibold">{post.category}</span>
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
-                {post.title}
-              </h1>
-              <div className="flex items-center gap-4 text-gray-100">
-                <Calendar className="w-5 h-5" />
-                <time dateTime={post.date}>
-                  {new Date(post.date).toLocaleDateString("en-US", {
-                    year: "numeric",
-                    month: "long",
-                    day: "numeric",
-                  })}
-                </time>
-              </div>
-            </div>
+        <PageHero
+          title={post.title}
+          imageSrc={post.image || DEFAULT_PAGE_HERO}
+          imageAlt={`${post.title} — Sun City Summerlin Las Vegas 55+ community`}
+          align="left"
+        >
+          <Link
+            href="/blog"
+            className="inline-flex items-center gap-2 text-gray-100 hover:text-[#C9A962] transition-colors min-h-[44px]"
+          >
+            <ArrowLeft className="w-5 h-5" />
+            Back to Blog
+          </Link>
+          <div className="inline-block bg-white/20 px-4 py-2 rounded-full mt-4">
+            <span className="text-sm font-semibold">{post.category}</span>
           </div>
-        </section>
+          <div className="flex items-center gap-4 text-gray-100 mt-4">
+            <Calendar className="w-5 h-5" />
+            <time dateTime={post.date}>
+              {new Date(post.date).toLocaleDateString("en-US", {
+                year: "numeric",
+                month: "long",
+                day: "numeric",
+              })}
+            </time>
+          </div>
+        </PageHero>
 
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${post.title}`}
         />
-
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
-                <Image
-                  src={post.image}
-                  alt={post.title}
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Article Content */}
         <article className="py-12 md:py-16 bg-white">

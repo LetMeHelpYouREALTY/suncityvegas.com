@@ -2,7 +2,9 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 import Link from "next/link";
 import { FileText, Home, Phone, HelpCircle, Shield, Users } from "lucide-react";
 import { services } from "@/lib/services";
@@ -124,19 +126,12 @@ export default function SitemapPage() {
         ]}
       />
       <main className="pt-16 md:pt-20 min-h-screen bg-white">
-        {/* Hero Section */}
-        <section className="bg-[#F7F6F4] py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
-                Site Map
-              </h1>
-              <p className="text-lg md:text-xl text-[#141210]">
-                Find all pages and resources on Sun City Summerlin website
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Site Map"
+          subtitle="Find all pages and resources on Sun City Summerlin website"
+          imageSrc={DEFAULT_PAGE_HERO}
+          imageAlt="Sun City Summerlin website site map"
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sitemap Page" />
 

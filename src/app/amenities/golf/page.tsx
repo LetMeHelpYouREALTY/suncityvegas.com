@@ -5,12 +5,14 @@ import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import { Phone, MapPin, Clock, Users, ArrowRight, CircleDot } from "lucide-react";
 import { getGolfCourses } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Golf Courses | Palm Valley, Highland Falls, Eagle Crest",
   description:
@@ -76,50 +78,14 @@ export default function GolfPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <div className="flex justify-center mb-6">
-                  <CircleDot className="w-16 h-16 text-[#C9A962]" />
-                </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Sun City Summerlin Golf Courses
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Three Player-Friendly, Yet Challenging Courses Designed by Hall-of-Famer Billy Casper & Master Course-Planner Greg Nash
-                </p>
-                <p className="text-base md:text-lg text-gray-200">
-                  Play year-round in the perfect Las Vegas climate. Each course offers its own designated driving range and practice green.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="Sun City Summerlin Golf Courses"
+          subtitle="Three Player-Friendly, Yet Challenging Courses Designed by Hall-of-Famer Billy Casper & Master Course-Planner Greg Nash Play year-round in the perfect Las Vegas climate. Each course offers its own designated driving range and practice greens."
+          imageSrc={pageHeroImages["amenities/golf"].src}
+          imageAlt={pageHeroImages["amenities/golf"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Golf" />
-
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                <Image
-                  src="/images/amenities/golf-hero.jpg"
-                  alt="Golf course at Sun City Summerlin with Red Rock Canyon views"
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Introduction */}
         <section className="py-12 md:py-16 bg-white">

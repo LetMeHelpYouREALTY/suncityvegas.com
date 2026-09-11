@@ -2,8 +2,10 @@ import type { Metadata } from 'next';
 import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
+import PageHero from "@components/PageHero";
 import ScrollAnimation from '@components/scroll-animation';
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import { getAllTestimonials } from '@/lib/old-site-data';
 import { Quote } from 'lucide-react';
 
@@ -68,20 +70,12 @@ export default function TestimonialsPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Client Testimonials | Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Read real testimonials from clients who found their dream home in
-                Sun City Summerlin with Dr. Jan Duffy.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Client Testimonials | Sun City Summerlin"
+          subtitle="Read real testimonials from clients who found their dream home in Sun City Summerlin with Dr. Jan Duffy."
+          imageSrc={pageHeroImages["testimonials"].src}
+          imageAlt={pageHeroImages["testimonials"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Testimonials" />
 

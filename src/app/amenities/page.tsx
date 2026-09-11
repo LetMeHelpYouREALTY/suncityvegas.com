@@ -3,11 +3,13 @@ import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import { getAmenities, getRecreationCenters, getGolfCourses } from "@/lib/communityData";
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 import {
   Activity,
   Users,
@@ -264,38 +266,18 @@ export default function AmenitiesPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Sun City Summerlin Amenities | Golf, Rec Centers & Clubs
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Sun City Summerlin offers unmatched amenities: 4 championship golf courses, 
-                3 recreation centers totaling over 125,000 sq ft, and 80+ clubs. 
-                View <Link href="/homes-for-sale" className="text-[#C9A962] hover:text-white underline">homes with access to these amenities</Link>.
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="Sun City Summerlin Amenities | Golf, Rec Centers & Clubs"
+          subtitle="Sun City Summerlin offers unmatched amenities: 4 championship golf courses, 3 recreation centers totaling over 125,000 sq ft, and 80+ clubs. View homes with access to these amenities."
+          imageSrc={pageHeroImages.amenities.src}
+          imageAlt={pageHeroImages.amenities.alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Amenities" />
 
-
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
-            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
-              <Image
-                src="/images/amenities/golf-hero.jpg"
-                alt="Sun City Summerlin championship golf fairway with Red Rock Canyon views in Las Vegas 89134"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-                priority
-              />
-            </div>
-            <p className="mt-4 text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
+            <p className="text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
               Four courses, three rec centers, and 80+ clubs—Dr. Jan Duffy helps you buy the home that puts the amenities you will use within a short drive.
             </p>
           </div>

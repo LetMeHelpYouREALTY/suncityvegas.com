@@ -1,13 +1,14 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import { Home, TrendingUp, Calculator } from "lucide-react";
 import { Button } from "@components/ui/button";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -70,39 +71,15 @@ export default function HomeValuePage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6 mx-auto">
-                <TrendingUp className="w-10 h-10 text-white" />
-              </div>
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Sun City Summerlin Home Value Estimate
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Get a hyper-local CMA-backed estimate for your 89134 home—golf-course lots, single-story plans, and Del Webb comps from Dr. Jan Duffy.
-              </p>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Sun City Summerlin Home Value Estimate"
+          subtitle="Get a hyper-local CMA-backed estimate for your 89134 home—golf-course lots, single-story plans, and Del Webb comps from Dr. Jan Duffy."
+          imageSrc={pageHeroImages["home-value"].src}
+          imageAlt={pageHeroImages["home-value"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Home Value" />
 
-
-        <section className="bg-white py-8">
-          <div className="container mx-auto px-4">
-            <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
-              <Image
-                src="/images/homes/mid-size.jpg"
-                alt="Sun City Summerlin mid-size home used for local CMA and home value estimates in 89134"
-                fill
-                className="object-cover"
-                sizes="(max-width: 1024px) 100vw, 1024px"
-              />
-            </div>
-          </div>
-        </section>
 
         {/* Home Value Widget Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

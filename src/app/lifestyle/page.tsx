@@ -3,11 +3,13 @@ import Image from "next/image";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
 import { getDistances, getClubs } from "@/lib/communityData";
+import { pageHeroImages } from "@/lib/page-heroes";
 import {
   Users,
   Calendar,
@@ -140,21 +142,12 @@ export default function LifestylePage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                Active Adult Lifestyle | Sun City Summerlin
-              </h1>
-              <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
-                Sun City Summerlin isn&apos;t just a place to live—it&apos;s a vibrant
-                community where neighbors become friends and every day offers new
-                opportunities to connect, learn, and enjoy life with 80+ clubs and activities.
-              </p>
-            </div>
-          </div>
-        </section>
+        <PageHero
+          title="Active Adult Lifestyle | Sun City Summerlin"
+          subtitle="Sun City Summerlin isn't just a place to live—it's a vibrant community where neighbors become friends and every day offers new opportunities to connect, learn, and enjoy life with 80+ clubs and activities."
+          imageSrc={pageHeroImages.lifestyle.src}
+          imageAlt={pageHeroImages.lifestyle.alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Lifestyle" />
 

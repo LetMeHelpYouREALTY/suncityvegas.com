@@ -1,14 +1,15 @@
 import type { Metadata } from "next";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import { Phone, Calendar, Building, Users, MapPin } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin History | Del Webb in Summerlin 1989-2002",
   description:
@@ -42,8 +43,6 @@ export const metadata: Metadata = {
   },
 };
 
-const blurDataURL =
-  "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
 export default function HistoryPage() {
   return (
@@ -57,50 +56,15 @@ export default function HistoryPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <ScrollAnimation>
-                <div className="flex justify-center mb-6">
-                  <Building className="w-16 h-16 text-[#C9A962]" />
-                </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
-                  Sun City Summerlin History
-                </h1>
-                <p className="text-lg md:text-xl text-gray-100 leading-relaxed mb-6">
-                  Built by Del Webb Corporation (1989-2002)
-                </p>
-                <p className="text-base md:text-lg text-gray-200">
-                  From vision to reality: The story of how Sun City Summerlin became one of Las Vegas' premier 55+ active adult communities.
-                </p>
-              </ScrollAnimation>
-            </div>
-          </div>
-        </section>
+                <PageHero
+          title="Sun City Summerlin History"
+          subtitle="Built by Del Webb Corporation (1989-2002). From vision to reality: The story of how Sun City Summerlin became one of Las Vegas' premier 55+ active adult communities."
+          imageSrc={pageHeroImages["community/history"].src}
+          imageAlt={pageHeroImages["community/history"].alt}
+        />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | History" />
 
-
-        {/* Featured Image */}
-        <section className="py-8 bg-white">
-          <div className="container mx-auto px-4">
-            <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                <Image
-                  src="/images/community/history-hero.jpg"
-                  alt="Sun City Summerlin history and development by Del Webb"
-                  fill
-                  className="object-cover"
-                  placeholder="blur"
-                  blurDataURL={blurDataURL}
-                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 80vw, 1200px"
-                  priority
-                />
-              </div>
-            </div>
-          </div>
-        </section>
 
         {/* Introduction */}
         <section className="py-12 md:py-16 bg-white">
