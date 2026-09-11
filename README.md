@@ -44,15 +44,15 @@ This website showcases Sun City Summerlin, featuring:
 ## 🎨 Design System
 
 ### Colors
-- **Primary:** Warm Brown (#8B5E3C)
-- **Accent:** Gold (#D4AF37)
-- **Success/CTA:** Sage Green (#5D7A5D)
-- **Background:** White (#ffffff) and Cream (#FDF8F3)
-- **Text:** Dark Brown (#2D2A26)
+- **Primary:** Ink charcoal (#1C1917)
+- **Accent:** Champagne gold (#C9A962) — decorative on dark only
+- **Secondary:** Stone (#57534E)
+- **Background:** Cool ivory (#F7F6F4)
+- **Text:** Near black (#141210)
 
 ### Typography
-- **Headings:** Playfair Display (serif)
-- **Body:** Inter (sans-serif)
+- **Headings:** Cormorant Garamond (serif)
+- **Body:** Outfit (sans-serif)
 - **Minimum body text:** 16px for readability
 
 ## 🚀 Getting Started
