@@ -280,6 +280,9 @@ export default function AmenitiesPage() {
           </div>
         </section>
 
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Amenities" />
+
+
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
             <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
@@ -394,10 +397,6 @@ export default function AmenitiesPage() {
             </div>
           </div>
         </section>
-
-        {/* RealScout Listings */}
-        <RealScoutListings h2Text="View Available Homes in Sun City Summerlin with These Amazing Amenities" />
-
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

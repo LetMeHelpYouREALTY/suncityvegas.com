@@ -9,6 +9,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, Home, Square } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Floor Plans: Complete Guide (2025)",
   description:
@@ -142,6 +143,9 @@ export default function FloorPlansPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun City Summerlin Floor Plans" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

@@ -11,6 +11,7 @@ import { Phone, Check, X, Calendar, ArrowRight } from "lucide-react";
 import { getCommunityInfo } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 /** Replace with your YouTube video ID (from youtube.com/watch?v=VIDEO_ID) */
 const YOUTUBE_VIDEO_ID = "";
 
@@ -174,6 +175,9 @@ export default function ProsConsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Pros And Cons Sun City Summerlin" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

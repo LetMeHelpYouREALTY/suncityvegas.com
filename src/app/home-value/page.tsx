@@ -7,6 +7,7 @@ import Link from "next/link";
 import { Home, TrendingUp, Calculator } from "lucide-react";
 import { Button } from "@components/ui/button";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -85,6 +86,9 @@ export default function HomeValuePage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Home Value" />
+
 
         <section className="bg-white py-8">
           <div className="container mx-auto px-4">

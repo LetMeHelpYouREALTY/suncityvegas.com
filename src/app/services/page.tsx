@@ -4,6 +4,7 @@ import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import RealScoutListings from "@components/RealScoutListings";
 import { ArrowRight, Phone } from "lucide-react";
 import {
   SERVICE_CATEGORIES,
@@ -109,6 +110,9 @@ export default function ServicesIndexPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Services" />
+
 
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">

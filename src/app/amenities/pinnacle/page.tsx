@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Pinnacle Community Center | Sun City Summerlin Amenities",
   description:
@@ -100,6 +101,9 @@ export default function PinnaclePage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Pinnacle" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

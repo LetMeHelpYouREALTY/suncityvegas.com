@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Users, Heart, Music, Palette, Camera, BookOpen, Gamepad2 } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Clubs & Organizations | 80+ Active Groups",
   description:
@@ -145,6 +146,9 @@ export default function ClubsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Clubs" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

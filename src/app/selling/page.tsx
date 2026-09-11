@@ -7,6 +7,7 @@ import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import ScheduleTour from "@components/ScheduleTour";
 import { Button } from "@components/ui/button";
+import RealScoutListings from "@components/RealScoutListings";
 import { Phone, DollarSign, TrendingUp, Clock, Shield, FileText, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -136,6 +137,9 @@ export default function SellingPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Selling" />
+
 
         <section className="pb-4 md:pb-8 bg-white">
           <div className="container mx-auto px-4">

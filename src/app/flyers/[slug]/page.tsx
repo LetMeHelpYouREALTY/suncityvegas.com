@@ -25,6 +25,7 @@ import { Button } from "@components/ui/button";
 import { getAllFlyers, getFlyerBySlug } from "@/lib/flyers";
 import CalendlyInline from "@components/CalendlyInline";
 
+import RealScoutListings from "@components/RealScoutListings";
 export async function generateStaticParams() {
   const flyers = getAllFlyers();
   return flyers.map((flyer) => ({
@@ -409,6 +410,11 @@ export default async function FlyerPage({
             </div>
           </div>
         </section>
+
+        <RealScoutListings
+          h2Text={`Homes for Sale in Sun City Summerlin | ${flyer.title}`}
+        />
+
 
         {/* Community Highlights Grid */}
         <section className="py-12 md:py-16 bg-white">

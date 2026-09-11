@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, UtensilsCrossed, MapPin, Clock, Star } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Restaurants Near Sun City Summerlin | Dining Guide (2025)",
   description:
@@ -100,6 +101,9 @@ export default function RestaurantsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Restaurants" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

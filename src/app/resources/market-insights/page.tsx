@@ -8,6 +8,7 @@ import { getMarketInsightsFeed } from "@/lib/market-insights-feed";
 import { TrendingUp, Truck, Home, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Market Insights | Las Vegas Housing Market Trends 2026",
   description:
@@ -104,6 +105,9 @@ export default async function MarketInsightsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Market Insights" />
+
 
         {/* Market Insights Component */}
         <MarketInsights limit={9} />

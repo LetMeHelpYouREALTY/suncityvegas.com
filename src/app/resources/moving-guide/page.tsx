@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, Check, Truck, FileText, Home, MapPin, TrendingUp, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Moving to Sun City Summerlin: Complete Relocation Guide (2026)",
   description:
@@ -70,6 +71,9 @@ export default function MovingGuidePage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Moving Guide" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

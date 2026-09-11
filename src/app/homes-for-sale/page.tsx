@@ -109,6 +109,9 @@ export default async function HomesForSalePage() {
           </div>
         </section>
 
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Homes For Sale" />
+
+
         <section className="bg-white py-8">
           <div className="container mx-auto px-4">
             <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
@@ -123,10 +126,6 @@ export default async function HomesForSalePage() {
             </div>
           </div>
         </section>
-
-        {/* RealScout Listings - Main Lead Generator */}
-        <RealScoutListings h2Text="View Current Homes for Sale in Sun City Summerlin | Las Vegas 55+ Community" />
-
         {/* CTA Cards Section */}
         <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">

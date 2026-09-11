@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import RealScoutListings from "@components/RealScoutListings";
 import Link from "next/link";
 import { CheckCircle2, AlertCircle, Mail, Home, FileText } from "lucide-react";
 
@@ -82,6 +83,9 @@ export default function AccessibilityPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Accessibility" />
+
 
         {/* Content Section */}
         <section className="py-12 md:py-16">

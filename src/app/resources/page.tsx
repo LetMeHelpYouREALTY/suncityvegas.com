@@ -6,6 +6,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import { BookOpen, TrendingUp, Truck, Home, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Resources | Guides, Market Insights & Moving Tips",
   description:
@@ -93,6 +94,9 @@ export default function ResourcesPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Resources" />
+
 
         {/* Resource cards */}
         <section className="py-12 md:py-16 bg-[#F7F6F4]">

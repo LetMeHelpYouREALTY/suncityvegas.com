@@ -10,6 +10,7 @@ import { Phone, MapPin, Clock, Users, ArrowRight, CircleDot } from "lucide-react
 import { getGolfCourses } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Golf Courses | Palm Valley, Highland Falls, Eagle Crest",
   description:
@@ -96,6 +97,9 @@ export default function GolfPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Golf" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

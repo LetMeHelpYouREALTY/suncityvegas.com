@@ -3,6 +3,7 @@ import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
 import ScrollAnimation from '@components/scroll-animation';
+import RealScoutListings from "@components/RealScoutListings";
 import { getAllTestimonials } from '@/lib/old-site-data';
 import { Quote } from 'lucide-react';
 
@@ -81,6 +82,9 @@ export default function TestimonialsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Testimonials" />
+
 
         {/* Testimonials Grid */}
         <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">

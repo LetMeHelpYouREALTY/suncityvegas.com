@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, Music, UtensilsCrossed, Gift, Sparkles } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Events & Activities | Year-Round Calendar",
   description:
@@ -127,6 +128,9 @@ export default function EventsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Events" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

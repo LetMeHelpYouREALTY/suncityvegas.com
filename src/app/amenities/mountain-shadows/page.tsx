@@ -9,6 +9,7 @@ import { Button } from "@components/ui/button";
 import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Mountain Shadows Community Center | Sun City Summerlin Amenities",
   description:
@@ -101,6 +102,9 @@ export default function MountainShadowsPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Mountain Shadows" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

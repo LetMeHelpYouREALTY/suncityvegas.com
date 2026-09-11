@@ -5,6 +5,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import Link from "next/link";
 import { FileText, Download } from "lucide-react";
 import { Button } from "@components/ui/button";
+import RealScoutListings from "@components/RealScoutListings";
 import { getAllFlyers } from "@/lib/flyers";
 
 export const metadata: Metadata = {
@@ -50,6 +51,9 @@ export default function FlyersPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Flyers" />
+
 
         {/* Flyers Grid */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

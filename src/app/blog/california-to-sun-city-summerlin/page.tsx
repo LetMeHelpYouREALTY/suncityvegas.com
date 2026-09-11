@@ -9,6 +9,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, MapPin, DollarSign, Home } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Moving from California to Sun City Summerlin: Complete Relocation Guide (2025)",
   description:
@@ -142,6 +143,9 @@ export default function CaliforniaRelocationPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | California To Sun City Summerlin" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

@@ -9,6 +9,7 @@ import { Phone, Mail, MapPin, Youtube, ExternalLink, Car, Train, Footprints } fr
 import ScheduleTour from "@components/ScheduleTour";
 import CalendlyInline from "@components/CalendlyInline";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -217,6 +218,9 @@ export default function ContactPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Contact" />
+
 
         {/* Contact Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

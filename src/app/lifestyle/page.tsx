@@ -156,6 +156,9 @@ export default function LifestylePage() {
           </div>
         </section>
 
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Lifestyle" />
+
+
         {/* Quick Stats */}
         <section className="py-8 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
@@ -376,10 +379,6 @@ export default function LifestylePage() {
             </div>
           </div>
         </section>
-
-        {/* RealScout Listings */}
-        <RealScoutListings h2Text="View Available Homes in Sun City Summerlin to Experience This Lifestyle" />
-
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

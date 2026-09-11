@@ -111,6 +111,9 @@ export default function AboutPage() {
           </div>
         </section>
 
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | About" />
+
+
         {/* About Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">
@@ -326,10 +329,6 @@ export default function AboutPage() {
             </div>
           </div>
         </section>
-
-        {/* RealScout Listings - Lead Generator */}
-        <RealScoutListings h2Text="View Available Homes in Sun City Summerlin | Work With Dr. Jan Duffy" />
-
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

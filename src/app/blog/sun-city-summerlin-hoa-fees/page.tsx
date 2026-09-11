@@ -10,6 +10,7 @@ import { Phone, Calendar, ArrowRight, Check, DollarSign } from "lucide-react";
 import { getCommunityInfo } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin HOA Fees 2025: Complete Breakdown | HOA Sun City Del Webb",
   description:
@@ -160,6 +161,9 @@ export default function HOAFeesPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun City Summerlin Hoa Fees" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

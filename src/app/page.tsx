@@ -19,7 +19,6 @@ import ServicesAeoSection from "@components/sections/services-aeo";
 // Below-the-fold sections: lazy-load to improve LCP and reduce initial JS (PageSpeed / Core Web Vitals)
 const MarketInsights = dynamic(() => import("@/components/MarketInsights"), { ssr: true });
 const VirtualTours = dynamic(() => import("@components/VirtualTours"), { ssr: true });
-const HomesForSaleWidget = dynamic(() => import("@components/HomesForSaleWidget"), { ssr: true });
 const Testimonials = dynamic(() => import("@components/Testimonials"), { ssr: true });
 const MortgageCalculator = dynamic(() => import("@components/MortgageCalculator"), { ssr: true });
 const QuickFAQ = dynamic(() => import("@components/QuickFAQ"), { ssr: true });
@@ -72,13 +71,14 @@ export default function Home() {
       <Navbar />
       <main id="main-content" className="pt-16 md:pt-20">
         <Hero />
+
+        <RealScoutListings h2Text="Browse Homes for Sale in Sun City Summerlin | Las Vegas 55+ Community" />
+
         {/* Featured Listing Section - Enable in component when listing is available */}
         <FeaturedListingSection />
         {/* Explore Community Section - Prominent internal linking for sitelinks */}
         <ExploreCommunitySection />
         <ServicesAeoSection />
-        {/* RealScout Listings - Main Lead Generator - Prominently placed after hero */}
-        <RealScoutListings h2Text="Browse Homes for Sale in Sun City Summerlin | Las Vegas 55+ Community" />
         {/* Market Statistics */}
         <MarketStatsSection />
         {/* Market Insights - Latest Real Estate News */}
@@ -91,7 +91,6 @@ export default function Home() {
         <HomeCollectionsSection />
         <FlyersSection />
         <VirtualTours />
-        <HomesForSaleWidget />
         <Testimonials />
         <MortgageCalculator />
         <QuickFAQ />

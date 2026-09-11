@@ -9,6 +9,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, Shield, Lock, Users } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
   description:
@@ -142,6 +143,9 @@ export default function SafetyPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Is Sun City Summerlin Safe" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

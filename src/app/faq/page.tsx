@@ -4,6 +4,7 @@ import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
 import FAQAccordion from '@components/FAQAccordion';
+import RealScoutListings from "@components/RealScoutListings";
 import { getAllQuestions } from '@/lib/faqData';
 import Link from 'next/link';
 
@@ -115,6 +116,9 @@ export default function FAQPage() {
             </p>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Faq" />
+
 
         {/* FAQ Content */}
         <section className="py-16">

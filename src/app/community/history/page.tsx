@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, Building, Users, MapPin } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin History | Del Webb in Summerlin 1989-2002",
   description:
@@ -77,6 +78,9 @@ export default function HistoryPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | History" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

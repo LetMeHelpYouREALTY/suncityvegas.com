@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Desert Vista Community Center | Sun City Summerlin's Largest Facility",
   description:
@@ -100,6 +101,9 @@ export default function DesertVistaPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Desert Vista" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import { Phone, ArrowRight, Check, Home, DollarSign, FileText, Shield, Users, TrendingUp, Truck, BookOpen } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "First-Time Buyer Guide for Sun City Summerlin: Sun City Summerlin 55+ Community",
   description:
@@ -70,6 +71,9 @@ export default function FirstTimeBuyersPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | First Time Buyers" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

@@ -125,6 +125,9 @@ export default function HomeStylesPage() {
           </div>
         </section>
 
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Floor Plans" />
+
+
         {/* Community Stats */}
         <section className="py-8 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
@@ -243,10 +246,6 @@ export default function HomeStylesPage() {
 
         {/* Mortgage Calculator Section */}
         <MortgageCalculator />
-
-        {/* RealScout Listings */}
-        <RealScoutListings h2Text="View Available Homes in Sun City Summerlin" />
-
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

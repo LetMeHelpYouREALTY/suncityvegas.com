@@ -9,6 +9,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight, Check, X } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin vs Sun City Anthem: Which is Better? (2025)",
   description:
@@ -142,6 +143,9 @@ export default function ComparisonPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun City Summerlin Vs Sun City Anthem" />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

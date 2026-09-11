@@ -6,6 +6,7 @@ import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
 import { Button } from "@components/ui/button";
+import RealScoutListings from "@components/RealScoutListings";
 import { Calendar, ArrowLeft, ArrowRight } from "lucide-react";
 
 const blogPosts: Record<
@@ -279,6 +280,11 @@ export default function BlogPostPage({
             </div>
           </div>
         </section>
+
+        <RealScoutListings
+          h2Text={`Homes for Sale in Sun City Summerlin | ${post.title}`}
+        />
+
 
         {/* Featured Image */}
         <section className="py-8 bg-white">

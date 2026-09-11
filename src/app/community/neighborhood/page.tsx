@@ -5,6 +5,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
+import RealScoutListings from "@components/RealScoutListings";
 import {
   MapPin,
   UtensilsCrossed,
@@ -143,6 +144,9 @@ export default function NeighborhoodPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Neighborhood" />
+
 
         {/* Map */}
         <section className="py-12 md:py-16 bg-white" id="map">

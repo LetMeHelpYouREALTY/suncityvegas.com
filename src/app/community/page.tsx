@@ -6,6 +6,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
+import RealScoutListings from "@components/RealScoutListings";
 import { MapPin, Calendar, Home, Users, Activity, Award } from "lucide-react";
 import { getGolfCourses, getRecreationCenters } from "@/lib/communityData";
 
@@ -101,6 +102,9 @@ export default function CommunityPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Community" />
+
 
         {/* History Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

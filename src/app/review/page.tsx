@@ -4,6 +4,7 @@ import { ExternalLink, Star, MessageSquareHeart, Smartphone } from "lucide-react
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import RealScoutListings from "@components/RealScoutListings";
 import CopyReviewLink from "@/components/CopyReviewLink";
 import { siteConfig } from "@/lib/site-config";
 
@@ -64,6 +65,9 @@ export default function ReviewPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Review" />
+
 
         <section className="bg-[#F7F6F4] py-12 md:py-16">
           <div className="container mx-auto px-4">

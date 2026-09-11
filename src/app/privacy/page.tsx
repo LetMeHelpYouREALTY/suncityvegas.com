@@ -3,6 +3,7 @@ import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
 
+import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Privacy Policy | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -157,6 +158,9 @@ export default function PrivacyPage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Privacy" />
+
       </main>
       <Footer />
     </>

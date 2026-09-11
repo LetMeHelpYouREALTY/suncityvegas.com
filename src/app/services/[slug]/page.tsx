@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
+import RealScoutListings from "@components/RealScoutListings";
 import { CheckCircle2, MapPin, Phone, Clock, ArrowRight } from "lucide-react";
 import {
   getAllServiceSlugs,
@@ -171,6 +172,11 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             </div>
           </div>
         </section>
+
+        <RealScoutListings
+          h2Text={`Homes for Sale in Sun City Summerlin | ${service.name}`}
+        />
+
 
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">

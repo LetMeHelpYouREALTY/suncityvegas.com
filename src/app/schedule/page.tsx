@@ -3,6 +3,7 @@ import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
 import ScheduleTour from '@components/ScheduleTour';
+import RealScoutListings from "@components/RealScoutListings";
 import { Phone, Calendar, Clock, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -71,6 +72,9 @@ export default function SchedulePage() {
             </div>
           </div>
         </section>
+
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Schedule" />
+
 
         {/* Quick Info Section */}
         <section className="py-12 md:py-16 bg-white">
