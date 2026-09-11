@@ -147,11 +147,11 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
       name: "Dr. Jan Duffy, REALTOR®",
       description: "Sun City Summerlin specialist helping buyers find homes in Las Vegas' premier 55+ active adult community.",
       url: "https://www.suncityvegas.com",
-      telephone: "+1-702-718-0042",
+      telephone: "+1-702-718-0043",
       email: "DrDuffySells@SunCityVegas.com",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "9406 Del Webb Blvd",
+        streetAddress: "9406 Del Webb Boulevard",
         addressLocality: "Las Vegas",
         addressRegion: "NV",
         postalCode: "89134",
@@ -195,8 +195,8 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
         {
           "@type": "OpeningHoursSpecification",
           dayOfWeek: ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-          opens: "08:00",
-          closes: "20:00",
+          opens: "06:00",
+          closes: "21:00",
         },
       ],
       sameAs: [
@@ -211,7 +211,7 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
       description: "Las Vegas' premier 55+ active adult community featuring 4 golf courses, 3 recreation centers, and 80+ clubs.",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "9406 Del Webb Blvd",
+        streetAddress: "9406 Del Webb Boulevard",
         addressLocality: "Las Vegas",
         addressRegion: "NV",
         postalCode: "89134",
@@ -399,11 +399,11 @@ export default async function FlyerPage({
                   Download Free Guide
                 </a>
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white/20 text-white font-semibold rounded-lg hover:bg-white/30 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  (702) 718-0042
+                  (702) 718-0043
                 </a>
               </div>
             </div>
@@ -526,7 +526,7 @@ export default async function FlyerPage({
                     <p className="text-sm text-[#2D2A26] flex items-start gap-2">
                       <MapPin className="w-4 h-4 mt-0.5 text-[#8B5E3C] flex-shrink-0" />
                       <span>
-                        <strong>Address:</strong> 9406 Del Webb Blvd, Las Vegas, NV 89134
+                        <strong>Address:</strong> 9406 Del Webb Boulevard, Las Vegas, NV 89134
                       </span>
                     </p>
                   </div>
@@ -610,8 +610,8 @@ export default async function FlyerPage({
                       </div>
                       <div>
                         <p className="text-sm text-[#2D2A26]/70">Call or Text</p>
-                        <a href="tel:7027180042" className="font-semibold text-[#8B5E3C] hover:underline">
-                          (702) 718-0042
+                        <a href="tel:7027180043" className="font-semibold text-[#8B5E3C] hover:underline">
+                          (702) 718-0043
                         </a>
                       </div>
                     </div>
@@ -621,7 +621,7 @@ export default async function FlyerPage({
                       </div>
                       <div>
                         <p className="text-sm text-[#2D2A26]/70">Meeting Location</p>
-                        <p className="font-semibold text-[#8B5E3C]">9406 Del Webb Blvd, Las Vegas, NV 89134</p>
+                        <p className="font-semibold text-[#8B5E3C]">9406 Del Webb Boulevard, Las Vegas, NV 89134</p>
                       </div>
                     </div>
                   </div>

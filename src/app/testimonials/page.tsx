@@ -126,10 +126,10 @@ export default function TestimonialsPage() {
                   Schedule a Tour
                 </a>
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#8B5E3C] transition-colors min-h-[48px] touch-manipulation"
                 >
-                  Call (702) 718-0042
+                  Call (702) 718-0043
                 </a>
               </div>
             </div>

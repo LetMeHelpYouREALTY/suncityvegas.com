@@ -104,7 +104,7 @@
 | Metadata: keywords, improved description | ✅ Present |
 | Hero: unique copy + links to /homes-for-sale, /amenities | ✅ Present |
 | "Explore Sun City Summerlin" block (Home, Homes for Sale, Contact, About) | ✅ Present |
-| CTA phone (702) 718-0042 | ✅ Present |
+| CTA phone (702) 718-0043 | ✅ Present |
 | robots: index true | ✅ Present |
 
 **Location:** `src/app/accessibility/page.tsx`
@@ -115,7 +115,7 @@
 
 | Check | Status |
 |-------|--------|
-| **Current NAP phone:** (702) 718-0042 — used site-wide (site-config, SchemaMarkup, layout, footer, navbar, hero, all app pages, faqData, flyers guide) | ✅ Consistent |
+| **Current NAP phone:** (702) 718-0043 — used site-wide (site-config, SchemaMarkup, layout, footer, navbar, hero, all app pages, faqData, flyers guide) | ✅ Consistent |
 
 ---
 

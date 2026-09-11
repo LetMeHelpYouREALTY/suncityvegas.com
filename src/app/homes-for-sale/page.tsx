@@ -12,7 +12,7 @@ import { getCommunityInfo } from "@/lib/communityData";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Las Vegas NV 89134 Current Homes for Sale | Del Webb Summerlin",
   description:
-    "Current homes for sale in Sun City Summerlin, Las Vegas, NV 89134. Del Webb Summerlin 55+ community—browse listings updated daily. 55 and over communities in Las Vegas for sale. Call (702) 718-0042",
+    "Current homes for sale in Sun City Summerlin, Las Vegas, NV 89134. Del Webb Summerlin 55+ community—browse listings updated daily. 55 and over communities in Las Vegas for sale. Call (702) 718-0043",
   keywords: [
     "Sun City Summerlin Las Vegas NV 89134 current homes for sale",
     "Del Webb Summerlin homes for sale",
@@ -97,11 +97,11 @@ export default async function HomesForSalePage() {
                   <Link href="#listings">View Listings</Link>
                 </Button>
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="flex items-center gap-2 text-lg font-semibold hover:text-[#D4AF37] transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  (702) 718-0042
+                  (702) 718-0043
                 </a>
               </div>
             </div>
@@ -216,11 +216,11 @@ export default async function HomesForSalePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
-                    href="tel:7027180042"
+                    href="tel:7027180043"
                     className="flex items-center justify-center gap-2 px-6 py-4 bg-[#8B5E3C] text-white rounded-md font-semibold hover:bg-[#8B5E3C]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
-                    Call (702) 718-0042
+                    Call (702) 718-0043
                   </a>
                   <Button asChild variant="accent" size="lg" className="bg-[#D4AF37] hover:bg-[#D4AF37]/90 text-[#2D2A26] min-h-[48px] px-6">
                     <Link href="/contact">Schedule a Tour</Link>

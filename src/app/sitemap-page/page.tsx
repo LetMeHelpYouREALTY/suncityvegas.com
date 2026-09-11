@@ -4,6 +4,7 @@ import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
 import Link from "next/link";
 import { FileText, Home, Phone, HelpCircle, Shield, Users } from "lucide-react";
+import { services } from "@/lib/services";
 
 export const metadata: Metadata = {
   title: "Sitemap | Sun City Summerlin | Site Navigation | Las Vegas",
@@ -38,6 +39,7 @@ const sitePages = [
     pages: [
       { href: "/", label: "Home", description: "Discover Sun City Summerlin 55+ community" },
       { href: "/homes-for-sale", label: "Homes for Sale", description: "Browse current listings in Sun City Summerlin" },
+      { href: "/services", label: "Services", description: "Buyer, seller, HOA, VA, relocation, and 55+ consulting" },
       { href: "/amenities", label: "Amenities", description: "4 golf courses, 3 rec centers, and more" },
       { href: "/lifestyle", label: "Lifestyle", description: "Active adult living with 80+ clubs" },
     ],
@@ -53,7 +55,19 @@ const sitePages = [
     ],
   },
   {
-    category: "Contact & Services",
+    category: "Real Estate Services",
+    icon: FileText,
+    pages: [
+      { href: "/services", label: "All Services", description: "Buyer, seller, HOA, VA, relocation, and 55+ consulting" },
+      ...services.map((service) => ({
+        href: `/services/${service.slug}`,
+        label: service.name,
+        description: service.answer.slice(0, 110) + (service.answer.length > 110 ? "…" : ""),
+      })),
+    ],
+  },
+  {
+    category: "Contact & Tours",
     icon: Phone,
     pages: [
       { href: "/contact", label: "Contact", description: "Get in touch with Dr. Jan Duffy" },

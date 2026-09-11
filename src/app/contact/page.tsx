@@ -12,14 +12,14 @@ import CalendlyInline from "@components/CalendlyInline";
 export const metadata: Metadata = {
   title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
   description:
-    "Contact Dr. Jan Duffy to schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0042 or book online.",
+    "Contact Dr. Jan Duffy to schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0043 or book online.",
   alternates: {
     canonical: "https://www.suncityvegas.com/contact",
   },
   openGraph: {
     title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
     description:
-      "Schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0042.",
+      "Schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0043.",
     url: "https://www.suncityvegas.com/contact",
     siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
     locale: "en_US",
@@ -42,7 +42,7 @@ export const metadata: Metadata = {
 };
 
 // Directions: Google Maps Embed API (directions mode). Destination = Sun City Summerlin (NAP).
-const DIRECTIONS_DESTINATION = "9406 Del Webb Blvd, Las Vegas, NV 89134";
+const DIRECTIONS_DESTINATION = "9406 Del Webb Boulevard, Las Vegas, NV 89134";
 const DIRECTIONS_ORIGIN_STRIP = "Las Vegas Strip, Las Vegas, NV";
 const DIRECTIONS_ORIGIN_AIRPORT = "Harry Reid International Airport, Las Vegas, NV";
 
@@ -181,7 +181,7 @@ const contactWebPageSchema = {
   "@id": "https://www.suncityvegas.com/contact",
   name: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
   description:
-    "Contact Dr. Jan Duffy to schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0042 or book online.",
+    "Contact Dr. Jan Duffy to schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0043 or book online.",
   url: "https://www.suncityvegas.com/contact",
 };
 
@@ -271,10 +271,10 @@ export default function ContactPage() {
                             Phone
                           </h3>
                           <a
-                            href="tel:7027180042"
+                            href="tel:7027180043"
                             className="text-[#2D2A26] hover:text-[#8B5E3C] transition-colors text-lg"
                           >
-                            (702) 718-0042
+                            (702) 718-0043
                           </a>
                           <p className="text-sm text-gray-500 mt-1">
                             Call or text anytime
@@ -313,7 +313,7 @@ export default function ContactPage() {
                             Sun City Summerlin
                           </h3>
                           <p className="text-[#2D2A26]">
-                            9406 Del Webb Blvd
+                            9406 Del Webb Boulevard
                             <br />
                             Las Vegas, NV 89134
                           </p>
@@ -357,11 +357,11 @@ export default function ContactPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#8B5E3C] text-white rounded-md font-semibold hover:bg-[#8B5E3C]/90 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
-                  Call (702) 718-0042
+                  Call (702) 718-0043
                 </a>
                 <ScheduleTour variant="accent" size="lg" />
               </div>

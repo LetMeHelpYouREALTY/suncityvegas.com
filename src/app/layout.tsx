@@ -5,6 +5,7 @@ import "./globals.css";
 import CalendlyButton from "@components/CalendlyButton";
 import SchemaMarkup from "@components/SchemaMarkup";
 import { siteConfig } from "@/lib/site-config";
+import { services } from "@/lib/services";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -25,7 +26,7 @@ export const metadata: Metadata = {
     template: "%s | Sun City Summerlin | Dr. Jan Duffy",
   },
   description:
-    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas. With over 25 years of experience in active adult communities, Dr. Jan Duffy has helped countless retirees discover the perfect home. Sun City Summerlin offers world-class amenities—golf, fitness, pools, 80+ clubs. Call (702) 718-0042.",
+    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Dr. Duffy has helped countless retirees discover the perfect home. Call (702) 718-0043.",
   keywords: [
     "Sun City Summerlin",
     "Sun City Summerlin homes for sale",
@@ -71,7 +72,7 @@ export const metadata: Metadata = {
     siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas. With over 25 years of experience in active adult communities, Dr. Jan Duffy has helped countless retirees discover the perfect home. Call (702) 718-0042.",
+      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Call (702) 718-0043.",
     images: [
       {
         url: "/images/hero/hero-bg.jpg",
@@ -86,7 +87,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—over 25 years in active adult communities. Call (702) 718-0042.",
+      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—over 25 years in active adult communities. Call (702) 718-0043.",
     images: ["/images/hero/hero-bg.jpg"],
     creator: "@drjanduffy",
   },
@@ -125,19 +126,19 @@ export default function RootLayout({
   // LocalBusiness Schema for Google Business Profile (matches GBP) – NAP from siteConfig
   const localBusinessSchema = {
     "@context": "https://schema.org",
-    "@type": "RealEstateAgent",
+    "@type": ["RealEstateAgent", "LocalBusiness"],
     "@id": `${baseUrl}/#agent`,
     name: siteConfig.siteName,
     alternateName: ["Sun City Vegas Real Estate", "Homes by Dr. Jan Duffy"],
-    description: "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas. With over 25 years of experience in active adult communities, Dr. Duffy has helped countless retirees discover the perfect home to suit their lifestyle and needs. Sun City Summerlin offers a variety of beautiful options. This vibrant community is designed specifically for active adults, featuring world-class amenities such as golf courses, fitness centers, pools, walking trails, and social clubs. Dr. Duffy provides expert guidance and personalized service every step of the way, ensuring your transition into this exciting new chapter is seamless and stress-free. Start your journey toward a fulfilling and active retirement today!",
+    description: siteConfig.siteDescription,
     image: `${baseUrl}${siteConfig.agent.photo}`,
     url: `${baseUrl}/`,
-    telephone: "+1-702-718-0042",
+    telephone: "+1-702-718-0043",
     email: siteConfig.agent.email,
     foundingDate: siteConfig.agent.openingDate,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Blvd",
+      streetAddress: "9406 Del Webb Boulevard",
       addressLocality: siteConfig.city,
       addressRegion: siteConfig.state,
       postalCode: siteConfig.zip,
@@ -149,6 +150,16 @@ export default function RootLayout({
       { "@type": "City", name: "Henderson", addressRegion: "NV" },
       { "@type": "AdministrativeArea", name: "Clark County", addressRegion: "NV" },
       { "@type": "Place", name: "Sun City Summerlin", address: { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV", postalCode: "89134" } },
+      { "@type": "Place", name: "Centennial Hills", address: { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV" } },
+      { "@type": "Place", name: "Providence", address: { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV" } },
+      { "@type": "Place", name: "Skye Canyon", address: { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV" } },
+      { "@type": "Place", name: "Kyle Canyon", address: { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV" } },
+      { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV", postalCode: "89122" },
+      { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV", postalCode: "89135" },
+      { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV", postalCode: "89138" },
+      { "@type": "PostalAddress", addressLocality: "Las Vegas", addressRegion: "NV", postalCode: "89166" },
+      { "@type": "PostalAddress", addressLocality: "North Las Vegas", addressRegion: "NV", postalCode: "89084" },
+      { "@type": "PostalAddress", addressLocality: "Henderson", addressRegion: "NV", postalCode: "89052" },
       { "@type": "Place", name: "Anthem", address: { "@type": "PostalAddress", addressLocality: "Henderson", addressRegion: "NV", postalCode: "89052" } },
       { "@type": "Place", name: "Lake Las Vegas", address: { "@type": "PostalAddress", addressLocality: "Henderson", addressRegion: "NV", postalCode: "89011" } },
       { "@type": "City", name: "North Las Vegas", addressRegion: "NV" },
@@ -201,11 +212,17 @@ export default function RootLayout({
     specialOpeningHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
-        validFrom: "2026-02-16",
-        validThrough: "2026-02-16",
-        opens: "10:00",
-        closes: "18:00",
-        description: "Washington's Birthday",
+        validFrom: "2026-07-03",
+        validThrough: "2026-07-03",
+        opens: "00:00",
+        closes: "00:00",
+      },
+      {
+        "@type": "OpeningHoursSpecification",
+        validFrom: "2026-07-04",
+        validThrough: "2026-07-04",
+        opens: "00:00",
+        closes: "00:00",
       },
     ],
     aggregateRating: {
@@ -216,36 +233,15 @@ export default function RootLayout({
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Real Estate Services",
-      itemListElement: [
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Free Community Tours & Personalized Home Showings",
-          },
+      itemListElement: services.map((service) => ({
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: service.name,
+          url: `https://www.suncityvegas.com/services/${service.slug}`,
+          description: service.answer,
         },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Market Analysis & Pricing Guidance",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Alerts on New Listings & Inventory Updates",
-          },
-        },
-        {
-          "@type": "Offer",
-          itemOffered: {
-            "@type": "Service",
-            name: "Expert Negotiation & Closing Support",
-          },
-        },
-      ],
+      })),
     },
     knowsAbout: [
       "Sun City Summerlin",
@@ -280,7 +276,7 @@ export default function RootLayout({
     description: "Del Webb's premier 55+ active adult community in Las Vegas, Nevada featuring 4 golf courses, 3 recreation centers, and 80+ clubs and activities.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Blvd",
+      streetAddress: "9406 Del Webb Boulevard",
       addressLocality: "Las Vegas",
       addressRegion: "NV",
       postalCode: "89134",

@@ -74,7 +74,7 @@ npm start
 ## 📧 Contact
 
 **Dr. Jan Duffy, REALTOR®**
-- **Phone:** (702) 718-0042
+- **Phone:** (702) 718-0043
 - **Email:** DrDuffySells@SunCityVegas.com
 - **License:** S.0197614.LLC
 - **Brokerage:** Berkshire Hathaway HomeServices Nevada Properties

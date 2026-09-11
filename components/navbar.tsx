@@ -11,6 +11,7 @@ import { cn } from "@/lib/utils";
 const mainNavLinks = [
   { href: "/", label: "Home" },
   { href: "/homes-for-sale", label: "Homes for Sale" },
+  { href: "/services", label: "Services" },
   { href: "/amenities", label: "Amenities" },
   { href: "/lifestyle", label: "Lifestyle" },
   { href: "/about", label: "About" },
@@ -26,6 +27,7 @@ const dropdownMenus = [
       { href: "/community/neighborhood", label: "Explore Neighborhood" },
       { href: "/resources", label: "Resources" },
       { href: "/selling", label: "Selling" },
+      { href: "/services", label: "Services" },
       { href: "/home-value", label: "Home Value" },
       { href: "/blog", label: "Blog" },
       { href: "/faq", label: "FAQ" },
@@ -37,6 +39,7 @@ const dropdownMenus = [
 const allNavLinks = [
   { href: "/", label: "Home" },
   { href: "/homes-for-sale", label: "Homes for Sale" },
+  { href: "/services", label: "Services" },
   { href: "/amenities", label: "Amenities" },
   { href: "/lifestyle", label: "Lifestyle" },
   { href: "/community", label: "Community" },
@@ -184,12 +187,12 @@ export default function Navbar() {
           {/* Desktop CTA & Phone */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
             <a
-              href="tel:7027180042"
+              href="tel:7027180043"
               className="flex items-center gap-2 text-sm xl:text-base text-[#2D2A26] hover:text-[#8B5E3C] transition-colors"
-              aria-label="Call (702) 718-0042"
+              aria-label="Call (702) 718-0043"
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">(702) 718-0042</span>
+              <span className="font-medium">(702) 718-0043</span>
             </a>
             <Button
               asChild
@@ -238,11 +241,11 @@ export default function Navbar() {
               ))}
               <div className="mt-2 pt-2 border-t border-[#C4A574]/20">
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="flex items-center gap-2 text-[#2D2A26] hover:text-[#8B5E3C] transition-colors px-4 py-3 rounded-md min-h-[48px] touch-manipulation"
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-medium">(702) 718-0042</span>
+                  <span className="font-medium">(702) 718-0043</span>
                 </a>
                 <Button
                   asChild

@@ -236,10 +236,10 @@ export default function AboutPage() {
                   <Phone className="w-8 h-8 text-[#8B5E3C] mx-auto mb-4" />
                   <h3 className="font-semibold text-[#8B5E3C] mb-2">Phone</h3>
                   <a
-                    href="tel:7027180042"
+                    href="tel:7027180043"
                     className="text-[#2D2A26] hover:text-[#8B5E3C] transition-colors"
                   >
-                    (702) 718-0042
+                    (702) 718-0043
                   </a>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
@@ -256,7 +256,7 @@ export default function AboutPage() {
                   <MapPin className="w-8 h-8 text-[#8B5E3C] mx-auto mb-4" />
                   <h3 className="font-semibold text-[#8B5E3C] mb-2">Location</h3>
                   <p className="text-[#2D2A26] text-sm">
-                    9406 Del Webb Blvd
+                    9406 Del Webb Boulevard
                     <br />
                     Las Vegas, NV 89134
                   </p>

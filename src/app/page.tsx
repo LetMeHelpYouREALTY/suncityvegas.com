@@ -14,6 +14,7 @@ import RealScoutListings from "@components/RealScoutListings";
 import ExploreCommunitySection from "@components/sections/explore-community";
 import FeaturedListingSection from "@components/sections/featured-listing";
 import MarketStatsSection from "@components/sections/market-stats";
+import ServicesAeoSection from "@components/sections/services-aeo";
 
 // Below-the-fold sections: lazy-load to improve LCP and reduce initial JS (PageSpeed / Core Web Vitals)
 const MarketInsights = dynamic(() => import("@/components/MarketInsights"), { ssr: true });
@@ -29,7 +30,7 @@ const FinalCTASection = dynamic(() => import("@components/sections/final-cta"), 
 export const metadata: Metadata = {
   title: "Sun City Summerlin 55+ Community Homes for Sale | Del Webb Las Vegas Summerlin | Dr. Jan Duffy",
   description:
-    "Sun City Summerlin 55+ community homes for sale in Las Vegas, NV 89134. Del Webb built this active adult community—4 golf courses, 3 rec centers, 80+ clubs. Browse current listings. Call (702) 718-0042",
+    "Sun City Summerlin 55+ community homes for sale in Las Vegas, NV 89134. Buyer, seller, HOA, VA, and relocation services from Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
     "Sun City Summerlin homes for sale",
     "Sun City Summerlin 55+ community homes for sale",
@@ -44,7 +45,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Sun City Summerlin Homes for Sale | Las Vegas 55+ Community | Dr. Jan Duffy",
     description:
-      "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. 4 golf courses, 3 rec centers, 80+ clubs. Homes $300K-$800K+. Call (702) 718-0042.",
+      "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. Buyer, seller, and relocation services. Call (702) 718-0043.",
     url: "https://www.suncityvegas.com/",
     siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     images: [
@@ -60,7 +61,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin Homes for Sale | Las Vegas 55+ Community | Dr. Jan Duffy",
     description:
-      "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. 4 golf courses, 3 rec centers, 80+ clubs. Homes $300K-$800K+. Call (702) 718-0042.",
+      "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. Buyer, seller, and relocation services. Call (702) 718-0043.",
     images: ["/images/amenities/resort-pool.jpeg"],
   },
 };
@@ -75,6 +76,7 @@ export default function Home() {
         <FeaturedListingSection />
         {/* Explore Community Section - Prominent internal linking for sitelinks */}
         <ExploreCommunitySection />
+        <ServicesAeoSection />
         {/* RealScout Listings - Main Lead Generator - Prominently placed after hero */}
         <RealScoutListings h2Text="Browse Homes for Sale in Sun City Summerlin | Las Vegas 55+ Community" />
         {/* Market Statistics */}

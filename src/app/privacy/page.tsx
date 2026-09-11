@@ -146,10 +146,10 @@ export default function PrivacyPage() {
                     <br />
                     <strong>Phone:</strong>{" "}
                     <a
-                      href="tel:7027180042"
+                      href="tel:7027180043"
                       className="text-[#8B5E3C] hover:underline"
                     >
-                      (702) 718-0042
+                      (702) 718-0043
                     </a>
                   </p>
                 </div>

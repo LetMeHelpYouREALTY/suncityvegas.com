@@ -136,7 +136,7 @@ export default function NeighborhoodPage() {
                     </Link>
                   </Button>
                   <Button asChild variant="outline" size="lg" className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]">
-                    <a href="tel:7027180042">Call (702) 718-0042</a>
+                    <a href="tel:7027180043">Call (702) 718-0043</a>
                   </Button>
                 </div>
               </ScrollAnimation>
@@ -153,7 +153,7 @@ export default function NeighborhoodPage() {
                   Sun City Summerlin &amp; Surrounding Area
                 </h2>
                 <p className="text-[#2D2A26] text-center mb-8 max-w-2xl mx-auto">
-                  Use the map to explore the community and nearby highlights. Centered on Sun City Summerlin—9406 Del Webb Blvd, Las Vegas, NV 89134.
+                  Use the map to explore the community and nearby highlights. Centered on Sun City Summerlin—9406 Del Webb Boulevard, Las Vegas, NV 89134.
                 </p>
               </ScrollAnimation>
               <ScrollAnimation delay={100}>
@@ -241,7 +241,7 @@ export default function NeighborhoodPage() {
                     <Link href="/contact">Schedule a tour</Link>
                   </Button>
                   <Button asChild variant="outline" size="lg" className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]">
-                    <a href="tel:7027180042">(702) 718-0042</a>
+                    <a href="tel:7027180043">(702) 718-0043</a>
                   </Button>
                 </div>
               </ScrollAnimation>

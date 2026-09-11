@@ -3,18 +3,21 @@ export const siteConfig = {
   domain: "suncityvegas.com",
   siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
   siteTitle: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-  siteDescription: "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas. With over 25 years of experience in active adult communities, Dr. Duffy has helped countless retirees discover the perfect home to suit their lifestyle and needs. Sun City Summerlin offers world-class amenities—golf, fitness, pools, 80+ clubs. Dr. Duffy provides expert guidance every step of the way.",
+  siteDescription: "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Dr. Duffy has helped countless retirees discover the perfect home to suit their lifestyle and needs. Sun City Summerlin offers a variety of beautiful options. This vibrant community is designed specifically for active adults, featuring world-class amenities such as golf courses, fitness centers, pools, walking trails, and social clubs. Dr. Duffy provides expert guidance and personalized service every step of the way, ensuring your transition into this exciting new chapter is seamless and stress-free. Start your journey toward a fulfilling and active retirement today!",
   
   // Location
   community: "Sun City Summerlin",
   city: "Las Vegas",
   state: "NV",
   zip: "89134",
-  address: "9406 Del Webb Blvd, Las Vegas, NV 89134",
+  address: "9406 Del Webb Boulevard, Las Vegas, NV 89134",
+  streetAddress: "9406 Del Webb Boulevard",
 
   // Canonical NAP (use for display and tel: links) – matches GBP
-  phoneDisplay: "(702) 718-0042",
-  phoneHref: "tel:7027180042",
+  phoneDisplay: "(702) 718-0043",
+  phoneHref: "tel:+17027180043",
+  phoneSmsHref: "sms:+17027180043",
+  phoneE164: "+1-702-718-0043",
 
   // Agent Info
   agent: {
@@ -22,8 +25,8 @@ export const siteConfig = {
     title: "Sun City Summerlin Specialist",
     license: "S.0197614.LLC",
     phone: {
-      marketing: "(702) 718-0042",
-      professional: "(702) 718-0042"
+      marketing: "(702) 718-0043",
+      professional: "(702) 718-0043"
     },
     email: "DrDuffySells@SunCityVegas.com",
     photo: "/images/agent/dr-jan-duffy.jpg",

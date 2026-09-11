@@ -297,7 +297,7 @@ export default function CommunityPage() {
                             <p className="font-semibold text-[#8B5E3C] mb-2">Community Location</p>
                             <p className="text-[#2D2A26]">
                               Sun City Summerlin<br />
-                              9406 Del Webb Blvd<br />
+                              9406 Del Webb Boulevard<br />
                               Las Vegas, NV 89134
                             </p>
                             <p className="text-sm text-[#2D2A26] opacity-75 mt-2">

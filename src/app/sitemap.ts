@@ -1,4 +1,5 @@
 import { MetadataRoute } from "next";
+import { getAllServiceSlugs } from "@/lib/services";
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = "https://www.suncityvegas.com";
@@ -34,6 +35,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: `${baseUrl}/homes-for-sale`,
       lastModified: new Date(),
       changeFrequency: "daily",
+      priority: 0.9,
+    },
+    {
+      url: `${baseUrl}/services`,
+      lastModified: new Date(),
+      changeFrequency: "weekly",
       priority: 0.9,
     },
     // Secondary Pages - Priority 0.8
@@ -192,5 +199,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.65,
   }));
 
-  return [...staticPages, ...blogPages, ...amenityPages, ...lifestylePages, ...communityPages, ...resourcePages];
+  const servicePages: MetadataRoute.Sitemap = getAllServiceSlugs().map((slug) => ({
+    url: `${baseUrl}/services/${slug}`,
+    lastModified: new Date(),
+    changeFrequency: "monthly" as const,
+    priority: 0.8,
+  }));
+
+  return [...staticPages, ...blogPages, ...amenityPages, ...lifestylePages, ...communityPages, ...resourcePages, ...servicePages];
 }

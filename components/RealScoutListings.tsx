@@ -143,10 +143,10 @@ export default function RealScoutListings({
                   Set Up Alerts
                 </a>
                 <a
-                  href="tel:7027180042"
+                  href="tel:7027180043"
                   className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-[#8B5E3C] text-[#8B5E3C] font-semibold rounded-lg hover:bg-[#8B5E3C]/5 transition-colors whitespace-nowrap"
                 >
-                  Call (702) 718-0042
+                  Call (702) 718-0043
                 </a>
               </div>
             </div>

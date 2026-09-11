@@ -252,10 +252,10 @@ export default function AccessibilityPage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4">
                   <a
-                    href="tel:7027180042"
+                    href="tel:7027180043"
                     className="inline-flex items-center justify-center px-6 py-3 bg-[#8B5E3C] text-white font-semibold rounded-lg hover:bg-[#8B5E3C]/90 transition-colors"
                   >
-                    Call (702) 718-0042
+                    Call (702) 718-0043
                   </a>
                   <Link
                     href="/contact"

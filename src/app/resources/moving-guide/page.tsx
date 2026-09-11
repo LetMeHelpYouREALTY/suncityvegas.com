@@ -450,11 +450,11 @@ export default function MovingGuidePage() {
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
-                    href="tel:7027180042"
+                    href="tel:7027180043"
                     className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
-                    Call/Text: (702) 718-0042
+                    Call/Text: (702) 718-0043
                   </a>
                   <Button
                     asChild

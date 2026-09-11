@@ -33,6 +33,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/services"
+                  className="text-gray-300 hover:text-[#D4AF37] transition-colors"
+                >
+                  Services
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/homes-for-sale"
                   className="text-gray-300 hover:text-[#D4AF37] transition-colors"
                 >
@@ -144,19 +152,19 @@ export default function Footer() {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:7027180042"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#D4AF37] transition-colors"
-                  aria-label="Call (702) 718-0042"
+                  href="tel:+17027180043"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#D4AF37] transition-colors min-h-[44px]"
+                  aria-label="Call (702) 718-0043"
                 >
                   <Phone className="w-4 h-4" />
-                  (702) 718-0042
+                  (702) 718-0043
                 </a>
               </li>
               <li>
                 <a
-                  href="sms:7027180042"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#D4AF37] transition-colors"
-                  aria-label="Text (702) 718-0042"
+                  href="sms:+17027180043"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#D4AF37] transition-colors min-h-[44px]"
+                  aria-label="Text (702) 718-0043"
                 >
                   <Phone className="w-4 h-4" />
                   Text / Chat
@@ -175,9 +183,11 @@ export default function Footer() {
                 <div className="flex items-start gap-2 text-gray-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <span>
-                    9406 Del Webb Blvd
+                    9406 Del Webb Boulevard
                     <br />
                     Las Vegas, NV 89134
+                    <br />
+                    Daily 6:00 AM–9:00 PM
                   </span>
                 </div>
               </li>
@@ -409,7 +419,7 @@ export default function Footer() {
             Berkshire Hathaway HomeServices Nevada Properties | License S.0197614.LLC
           </p>
           <p className="mt-2">
-            <a href="tel:7027180042" className="text-[#D4AF37] hover:underline" aria-label="Call (702) 718-0042">(702) 718-0042</a>
+            <a href="tel:+17027180043" className="text-[#D4AF37] hover:underline" aria-label="Call (702) 718-0043">(702) 718-0043</a>
           </p>
         </div>
       </div>

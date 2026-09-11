@@ -6,7 +6,7 @@
 ## ✅ Completed Updates
 
 ### 1. Phone Number Updates
-- **Current NAP:** `(702) 718-0042` (office number; ensure this matches GBP)
+- **Current NAP:** `(702) 718-0043` (office number; ensure this matches GBP)
 - **Updated:** 62 instances across 25 files
 - **Status:** ✅ All references updated
 
