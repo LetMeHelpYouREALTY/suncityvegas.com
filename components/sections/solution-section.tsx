@@ -12,7 +12,7 @@ export default function SolutionSection() {
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <ScrollAnimation>
-              <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src="/images/hero/community-entrance.jpg"
                   alt="Sun City Summerlin community entrance landscaping near Red Rock Canyon, Las Vegas"
@@ -26,28 +26,28 @@ export default function SolutionSection() {
             </ScrollAnimation>
             <ScrollAnimation delay={100}>
               <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-4 md:mb-6 font-playfair px-2">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 md:mb-6 font-playfair px-2">
                   A Community Built for Living
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4 md:space-y-6">
-                  <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed px-2">
+                  <p className="text-base sm:text-lg md:text-xl text-[#141210] leading-relaxed px-2">
                     Sun City Summerlin is Las Vegas&apos; premier 55+ community: 7,779 homes, four
                     championship golf courses, and three recreation centers—built for people who
                     want to live, not just exist.
                   </p>
-                  <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed px-2">
+                  <p className="text-base sm:text-lg md:text-xl text-[#141210] leading-relaxed px-2">
                     Dr. Jan Duffy maps villages, lot premiums, and{" "}
-                    <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">
+                    <Link href="/amenities" className="text-[#1C1917] hover:text-[#57534E] underline">
                       amenity access
                     </Link>{" "}
                     before you write an offer. Guard-gated security, Red Rock views, and 80+ clubs
                     define daily life. Explore the{" "}
-                    <Link href="/lifestyle" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">
+                    <Link href="/lifestyle" className="text-[#1C1917] hover:text-[#57534E] underline">
                       active adult lifestyle
                     </Link>
                     —and keep more of your retirement income in Nevada with no state income tax.
                   </p>
-                  <p className="text-base sm:text-lg md:text-xl text-[#2D2A26] leading-relaxed font-semibold px-2">
+                  <p className="text-base sm:text-lg md:text-xl text-[#141210] leading-relaxed font-semibold px-2">
                     This isn&apos;t a place to slow down. It&apos;s a place to finally do everything
                     you&apos;ve been putting off—with a realtor who works this community every week.
                   </p>

@@ -56,10 +56,10 @@ export default function SchedulePage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <Calendar className="w-16 h-16 mx-auto mb-6 text-[#D4AF37]" />
+              <Calendar className="w-16 h-16 mx-auto mb-6 text-[#C9A962]" />
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                 Schedule Your Private Tour | Sun City Summerlin
               </h1>
@@ -77,25 +77,25 @@ export default function SchedulePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12">
-                <div className="text-center p-6 bg-[#FDF8F3] rounded-lg">
-                  <Clock className="w-10 h-10 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Tour Duration</h3>
-                  <p className="text-[#2D2A26]">60-90 minutes</p>
+                <div className="text-center p-6 bg-[#F7F6F4] rounded-lg">
+                  <Clock className="w-10 h-10 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Tour Duration</h3>
+                  <p className="text-[#141210]">60-90 minutes</p>
                 </div>
-                <div className="text-center p-6 bg-[#FDF8F3] rounded-lg">
-                  <MapPin className="w-10 h-10 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Location</h3>
-                  <p className="text-[#2D2A26]">Sun City Summerlin</p>
+                <div className="text-center p-6 bg-[#F7F6F4] rounded-lg">
+                  <MapPin className="w-10 h-10 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Location</h3>
+                  <p className="text-[#141210]">Sun City Summerlin</p>
                   <p className="text-sm text-gray-600 mt-1">
                     9406 Del Webb Boulevard, Las Vegas, NV 89134
                   </p>
                 </div>
-                <div className="text-center p-6 bg-[#FDF8F3] rounded-lg">
-                  <Phone className="w-10 h-10 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Questions?</h3>
+                <div className="text-center p-6 bg-[#F7F6F4] rounded-lg">
+                  <Phone className="w-10 h-10 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Questions?</h3>
                   <a
                     href="tel:7027180043"
-                    className="text-[#D4AF37] hover:text-[#8B5E3C] transition-colors"
+                    className="text-[#C9A962] hover:text-[#1C1917] transition-colors"
                   >
                     (702) 718-0043
                   </a>
@@ -106,14 +106,14 @@ export default function SchedulePage() {
         </section>
 
         {/* Calendly Inline Widget */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="bg-white rounded-lg shadow-three p-6 md:p-8">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
                   Select Your Preferred Date & Time
                 </h2>
-                <p className="text-[#2D2A26] text-center mb-8">
+                <p className="text-[#141210] text-center mb-8">
                   Choose a time that works for you. Dr. Jan Duffy will confirm
                   your appointment and provide all the details you need.
                 </p>
@@ -127,24 +127,24 @@ export default function SchedulePage() {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                 Prefer to Call or Email?
               </h2>
-              <p className="text-[#2D2A26] mb-6">
+              <p className="text-[#141210] mb-6">
                 You can also reach out directly to schedule your tour or ask any
                 questions.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:7027180043"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#8B5E3C] text-white rounded-md font-semibold hover:bg-[#8B5E3C]/90 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#1C1917] text-white rounded-md font-semibold hover:bg-[#1C1917]/90 transition-colors"
                 >
                   <Phone className="w-5 h-5" />
                   Call (702) 718-0043
                 </a>
                 <a
                   href="mailto:DrDuffySells@SunCityVegas.com"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#8B5E3C] text-[#8B5E3C] rounded-md font-semibold hover:bg-[#8B5E3C] hover:text-white transition-colors"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#1C1917] text-[#1C1917] rounded-md font-semibold hover:bg-[#1C1917] hover:text-white transition-colors"
                 >
                   Send Email
                 </a>

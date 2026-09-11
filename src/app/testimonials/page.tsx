@@ -68,7 +68,7 @@ export default function TestimonialsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -83,19 +83,19 @@ export default function TestimonialsPage() {
         </section>
 
         {/* Testimonials Grid */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 {testimonials.map((testimonial, index) => (
                   <ScrollAnimation key={testimonial.name} delay={index * 100}>
                     <div className="bg-white p-6 md:p-8 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
-                      <Quote className="w-8 h-8 md:w-10 md:h-10 text-[#8B5E3C] mb-4 opacity-50" />
-                      <blockquote className="text-base md:text-lg text-[#2D2A26] leading-relaxed mb-6 flex-grow font-playfair italic">
+                      <Quote className="w-8 h-8 md:w-10 md:h-10 text-[#1C1917] mb-4 opacity-50" />
+                      <blockquote className="text-base md:text-lg text-[#141210] leading-relaxed mb-6 flex-grow font-playfair italic">
                         &quot;{testimonial.text}&quot;
                       </blockquote>
-                      <div className="border-t border-[#C4A574]/30 pt-4">
-                        <p className="text-lg md:text-xl text-[#8B5E3C] font-semibold">
+                      <div className="border-t border-[#B8A078]/30 pt-4">
+                        <p className="text-lg md:text-xl text-[#1C1917] font-semibold">
                           — {testimonial.name}
                         </p>
                       </div>
@@ -108,7 +108,7 @@ export default function TestimonialsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
@@ -121,13 +121,13 @@ export default function TestimonialsPage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="/contact"
-                  className="inline-flex items-center justify-center px-8 py-4 bg-[#D4AF37] hover:bg-[#D4AF37]/90 text-[#2D2A26] rounded-md font-semibold transition-colors min-h-[48px] touch-manipulation"
+                  className="inline-flex items-center justify-center px-8 py-4 bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210] rounded-md font-semibold transition-colors min-h-[48px] touch-manipulation"
                 >
                   Schedule a Tour
                 </a>
                 <a
                   href="tel:7027180043"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#8B5E3C] transition-colors min-h-[48px] touch-manipulation"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#1C1917] transition-colors min-h-[48px] touch-manipulation"
                 >
                   Call (702) 718-0043
                 </a>

@@ -70,7 +70,7 @@ export default function HomeValuePage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <div className="flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6 mx-auto">
@@ -104,7 +104,7 @@ export default function HomeValuePage() {
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-three border border-[#C4A574]/20 p-6 md:p-8">
+              <div className="bg-white rounded-lg shadow-three border border-[#B8A078]/20 p-6 md:p-8">
                 {/* RealScout Home Value Widget - Using dangerouslySetInnerHTML per integration rules */}
                 <div 
                   className="w-full"
@@ -116,43 +116,43 @@ export default function HomeValuePage() {
         </section>
 
         {/* Benefits Section */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                 Why Get a Home Value Estimate?
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <div className="flex items-center justify-center w-16 h-16 bg-[#8B5E3C]/10 rounded-full mb-4 mx-auto">
-                    <Home className="w-8 h-8 text-[#8B5E3C]" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-[#1C1917]/10 rounded-full mb-4 mx-auto">
+                    <Home className="w-8 h-8 text-[#1C1917]" />
                   </div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Plan Your Move
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Understand your home&apos;s value to make informed decisions about your next purchase at Sun City Summerlin.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <div className="flex items-center justify-center w-16 h-16 bg-[#8B5E3C]/10 rounded-full mb-4 mx-auto">
-                    <TrendingUp className="w-8 h-8 text-[#8B5E3C]" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-[#1C1917]/10 rounded-full mb-4 mx-auto">
+                    <TrendingUp className="w-8 h-8 text-[#1C1917]" />
                   </div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Market Insights
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Get current market data and trends to understand how your property compares to similar homes in the area.
                   </p>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <div className="flex items-center justify-center w-16 h-16 bg-[#8B5E3C]/10 rounded-full mb-4 mx-auto">
-                    <Calculator className="w-8 h-8 text-[#8B5E3C]" />
+                  <div className="flex items-center justify-center w-16 h-16 bg-[#1C1917]/10 rounded-full mb-4 mx-auto">
+                    <Calculator className="w-8 h-8 text-[#1C1917]" />
                   </div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Accurate Estimates
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Receive data-driven estimates based on recent sales, market trends, and property characteristics.
                   </p>
                 </div>
@@ -165,46 +165,46 @@ export default function HomeValuePage() {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 What&apos;s Next?
               </h2>
-              <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 space-y-4">
+              <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 space-y-4">
                 <div className="flex items-start gap-4">
-                  <div className="flex items-center justify-center w-8 h-8 bg-[#8B5E3C] text-white rounded-full flex-shrink-0 font-bold">
+                  <div className="flex items-center justify-center w-8 h-8 bg-[#1C1917] text-white rounded-full flex-shrink-0 font-bold">
                     1
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                       Get Your Estimate
                     </h3>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Use the tool above to get an instant estimate of your home&apos;s value.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="flex items-center justify-center w-8 h-8 bg-[#8B5E3C] text-white rounded-full flex-shrink-0 font-bold">
+                  <div className="flex items-center justify-center w-8 h-8 bg-[#1C1917] text-white rounded-full flex-shrink-0 font-bold">
                     2
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                       Review Your Results
                     </h3>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Review your estimate and compare it with similar properties in your area.
                     </p>
                   </div>
                 </div>
                 <div className="flex items-start gap-4">
-                  <div className="flex items-center justify-center w-8 h-8 bg-[#8B5E3C] text-white rounded-full flex-shrink-0 font-bold">
+                  <div className="flex items-center justify-center w-8 h-8 bg-[#1C1917] text-white rounded-full flex-shrink-0 font-bold">
                     3
                   </div>
                   <div>
-                    <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                       Connect with Dr. Jan Duffy
                     </h3>
-                    <p className="text-[#2D2A26]">
-                      Schedule a consultation to discuss your home value, explore <Link href="/homes-for-sale" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">homes for sale</Link> in Sun City Summerlin, or learn more about the <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">amenities</Link> available.
+                    <p className="text-[#141210]">
+                      Schedule a consultation to discuss your home value, explore <Link href="/homes-for-sale" className="text-[#1C1917] hover:text-[#57534E] underline">homes for sale</Link> in Sun City Summerlin, or learn more about the <Link href="/amenities" className="text-[#1C1917] hover:text-[#57534E] underline">amenities</Link> available.
                     </p>
                   </div>
                 </div>
@@ -214,7 +214,7 @@ export default function HomeValuePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
@@ -226,7 +226,7 @@ export default function HomeValuePage() {
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <a
                   href="tel:7027180043"
-                  className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-[#8B5E3C] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-3 bg-white text-[#1C1917] font-semibold rounded-lg hover:bg-gray-100 transition-colors"
                 >
                   Call (702) 718-0043
                 </a>
@@ -244,10 +244,10 @@ export default function HomeValuePage() {
         </section>
 
         {/* Related Links */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 Explore More
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -255,10 +255,10 @@ export default function HomeValuePage() {
                   href="/homes-for-sale"
                   className="bg-white p-6 rounded-lg shadow-two hover:shadow-three transition-shadow text-center"
                 >
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Homes for Sale
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     View current listings in Sun City Summerlin
                   </p>
                 </Link>
@@ -266,10 +266,10 @@ export default function HomeValuePage() {
                   href="/amenities"
                   className="bg-white p-6 rounded-lg shadow-two hover:shadow-three transition-shadow text-center"
                 >
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Amenities
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     4 golf courses, 3 rec centers, 80+ clubs
                   </p>
                 </Link>
@@ -277,10 +277,10 @@ export default function HomeValuePage() {
                   href="/lifestyle"
                   className="bg-white p-6 rounded-lg shadow-two hover:shadow-three transition-shadow text-center"
                 >
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Lifestyle
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     Active adult community living
                   </p>
                 </Link>

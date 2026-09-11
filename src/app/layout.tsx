@@ -1,20 +1,23 @@
 import type { Metadata } from "next";
 import Script from "next/script";
-import { Inter, Playfair_Display } from "next/font/google";
+import { Outfit, Cormorant_Garamond } from "next/font/google";
 import "./globals.css";
 import CalendlyButton from "@components/CalendlyButton";
 import SchemaMarkup from "@components/SchemaMarkup";
 import { siteConfig } from "@/lib/site-config";
 import { services } from "@/lib/services";
 
-const inter = Inter({
+/** Refined sans for body — luxury editorial feel without Inter defaults */
+const inter = Outfit({
   subsets: ["latin"],
   variable: "--font-inter",
   display: "swap",
 });
 
-const playfair = Playfair_Display({
+/** Classic display serif for headlines */
+const playfair = Cormorant_Garamond({
   subsets: ["latin"],
+  weight: ["400", "500", "600", "700"],
   variable: "--font-playfair",
   display: "swap",
 });
@@ -349,16 +352,16 @@ export default function RootLayout({
         <style dangerouslySetInnerHTML={{
           __html: `
             realscout-office-listings {
-              --rs-listing-divider-color: #8B5E3C;
+              --rs-listing-divider-color: #1C1917;
               width: 100%;
             }
             realscout-home-value {
-              --rs-hvw-background-color: #FDF8F3;
-              --rs-hvw-title-color: #2D2A26;
-              --rs-hvw-subtitle-color: rgba(45, 42, 38, 0.6);
+              --rs-hvw-background-color: #F7F6F4;
+              --rs-hvw-title-color: #141210;
+              --rs-hvw-subtitle-color: rgba(20, 18, 16, 0.6);
               --rs-hvw-primary-button-text-color: #ffffff;
-              --rs-hvw-primary-button-color: #8B5E3C;
-              --rs-hvw-secondary-button-text-color: #8B5E3C;
+              --rs-hvw-primary-button-color: #1C1917;
+              --rs-hvw-secondary-button-text-color: #1C1917;
               --rs-hvw-secondary-button-color: #ffffff;
               --rs-hvw-widget-width: auto;
             }

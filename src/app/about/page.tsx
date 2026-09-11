@@ -97,7 +97,7 @@ export default function AboutPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -135,23 +135,23 @@ export default function AboutPage() {
                 {/* Content */}
                 <ScrollAnimation delay={100}>
                   <div>
-                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-4 md:mb-6 font-playfair">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#1C1917] mb-4 md:mb-6 font-playfair">
                       Your Sun City Summerlin Expert
                     </h2>
                     <div className="prose prose-lg max-w-none space-y-4">
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                         Dr. Jan Duffy is an independent REALTOR® with Berkshire Hathaway
                         HomeServices who specializes exclusively in Sun City Summerlin,
                         Las Vegas&apos; premier 55+ active adult community.
                       </p>
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                         With years of experience helping clients find their dream
                         homes in vibrant 55+ communities, Dr. Duffy understands
                         the unique needs of active adults. She knows which neighborhoods 
-                        have the best mountain views, which <Link href="/homes-for-sale" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">resale homes</Link> are worth
+                        have the best mountain views, which <Link href="/homes-for-sale" className="text-[#1C1917] hover:text-[#57534E] underline">resale homes</Link> are worth
                         considering, and which offer the best value for your investment.
                       </p>
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed font-semibold">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed font-semibold">
                         When you work with her, you get honest guidance—not a
                         sales pitch. Her goal is to help you find the perfect
                         home that matches your lifestyle, not just make a sale.
@@ -165,23 +165,23 @@ export default function AboutPage() {
         </section>
 
         {/* Specialties */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                 Why Work With Dr. Jan Duffy?
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6 lg:gap-8">
                 {specialties.map((specialty, index) => (
                   <ScrollAnimation key={specialty.title} delay={index * 100}>
                     <div className="bg-white p-6 md:p-8 rounded-lg shadow-two hover:shadow-three transition-shadow">
-                      <div className="flex items-center justify-center w-14 h-14 bg-[#8B5E3C]/10 rounded-full mb-4">
-                        <div className="text-[#8B5E3C]">{specialty.icon}</div>
+                      <div className="flex items-center justify-center w-14 h-14 bg-[#1C1917]/10 rounded-full mb-4">
+                        <div className="text-[#1C1917]">{specialty.icon}</div>
                       </div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {specialty.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         {specialty.description}
                       </p>
                     </div>
@@ -196,10 +196,10 @@ export default function AboutPage() {
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 About Sun City Summerlin
               </h2>
-              <div className="prose prose-lg max-w-none space-y-4 text-[#2D2A26]">
+              <div className="prose prose-lg max-w-none space-y-4 text-[#141210]">
                 <p>
                   Sun City Summerlin is Las Vegas&apos; premier 55+ active adult community, 
                   developed by Del Webb between 1989 and 2002. Nestled against the 
@@ -215,8 +215,8 @@ export default function AboutPage() {
                 <p>
                   With <strong>80+ clubs and organizations</strong>, residents enjoy everything from 
                   golf and tennis to art clubs, hiking groups, and social gatherings. Explore 
-                  the <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">resort-style amenities</Link> and 
-                  <Link href="/lifestyle" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline"> active lifestyle</Link> that 
+                  the <Link href="/amenities" className="text-[#1C1917] hover:text-[#57534E] underline">resort-style amenities</Link> and 
+                  <Link href="/lifestyle" className="text-[#1C1917] hover:text-[#57534E] underline"> active lifestyle</Link> that 
                   make Sun City Summerlin special.
                 </p>
               </div>
@@ -225,37 +225,37 @@ export default function AboutPage() {
         </section>
 
         {/* Contact Info */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 Let&apos;s Connect
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <Phone className="w-8 h-8 text-[#8B5E3C] mx-auto mb-4" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Phone</h3>
+                  <Phone className="w-8 h-8 text-[#1C1917] mx-auto mb-4" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Phone</h3>
                   <a
                     href="tel:7027180043"
-                    className="text-[#2D2A26] hover:text-[#8B5E3C] transition-colors"
+                    className="text-[#141210] hover:text-[#1C1917] transition-colors"
                   >
                     (702) 718-0043
                   </a>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <Mail className="w-8 h-8 text-[#8B5E3C] mx-auto mb-4" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Email</h3>
+                  <Mail className="w-8 h-8 text-[#1C1917] mx-auto mb-4" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Email</h3>
                   <a
                     href="mailto:DrDuffySells@SunCityVegas.com"
-                    className="text-[#2D2A26] hover:text-[#8B5E3C] transition-colors break-all"
+                    className="text-[#141210] hover:text-[#1C1917] transition-colors break-all"
                   >
                     DrDuffySells@SunCityVegas.com
                   </a>
                 </div>
                 <div className="bg-white p-6 rounded-lg shadow-two text-center">
-                  <MapPin className="w-8 h-8 text-[#8B5E3C] mx-auto mb-4" />
-                  <h3 className="font-semibold text-[#8B5E3C] mb-2">Location</h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <MapPin className="w-8 h-8 text-[#1C1917] mx-auto mb-4" />
+                  <h3 className="font-semibold text-[#1C1917] mb-2">Location</h3>
+                  <p className="text-[#141210] text-sm">
                     9406 Del Webb Boulevard
                     <br />
                     Las Vegas, NV 89134
@@ -270,19 +270,19 @@ export default function AboutPage() {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                 What Clients Say About Dr. Jan Duffy
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 {testimonials.map((testimonial, index) => (
                   <ScrollAnimation key={testimonial.name} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
-                      <Quote className="w-6 h-6 text-[#8B5E3C] mb-3 opacity-50" />
-                      <p className="text-sm md:text-base text-[#2D2A26] leading-relaxed mb-4 flex-grow font-playfair italic">
+                    <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
+                      <Quote className="w-6 h-6 text-[#1C1917] mb-3 opacity-50" />
+                      <p className="text-sm md:text-base text-[#141210] leading-relaxed mb-4 flex-grow font-playfair italic">
                         &quot;{testimonial.text.substring(0, 150)}...&quot;
                       </p>
-                      <div className="border-t border-[#C4A574]/30 pt-3">
-                        <p className="text-base font-semibold text-[#8B5E3C]">
+                      <div className="border-t border-[#B8A078]/30 pt-3">
+                        <p className="text-base font-semibold text-[#1C1917]">
                           — {testimonial.name}
                         </p>
                       </div>
@@ -293,7 +293,7 @@ export default function AboutPage() {
               <div className="text-center mt-8">
                 <Link
                   href="/testimonials"
-                  className="text-[#8B5E3C] hover:text-[#5D7A5D] font-semibold transition-colors"
+                  className="text-[#1C1917] hover:text-[#57534E] font-semibold transition-colors"
                 >
                   Read All Testimonials →
                 </Link>
@@ -303,14 +303,14 @@ export default function AboutPage() {
         </section>
 
         {/* License & Brokerage */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <div className="bg-white p-6 md:p-8 rounded-lg">
-                <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                   License & Brokerage Information
                 </h3>
-                <div className="space-y-2 text-[#2D2A26]">
+                <div className="space-y-2 text-[#141210]">
                   <p>
                     <strong>License:</strong> S.0197614.LLC
                   </p>
@@ -331,7 +331,7 @@ export default function AboutPage() {
         <RealScoutListings h2Text="View Available Homes in Sun City Summerlin | Work With Dr. Jan Duffy" />
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
@@ -339,7 +339,7 @@ export default function AboutPage() {
               </h2>
               <p className="text-lg text-gray-100 mb-6">
                 Let&apos;s schedule a time to discuss your needs and tour Sun City
-                Summerlin together. <Link href="/contact" className="text-[#D4AF37] hover:text-white underline">Contact Dr. Jan Duffy</Link> to get started.
+                Summerlin together. <Link href="/contact" className="text-[#C9A962] hover:text-white underline">Contact Dr. Jan Duffy</Link> to get started.
               </p>
               <ScheduleTour variant="accent" size="lg" />
             </div>

@@ -50,12 +50,12 @@ export default function MovingGuidePage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <Truck className="w-16 h-16 text-[#D4AF37]" />
+                  <Truck className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Moving to Sun City Summerlin: Complete Guide
@@ -75,7 +75,7 @@ export default function MovingGuidePage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/resources/moving-guide-hero.jpg"
                   alt="Moving to Sun City Summerlin relocation guide"
@@ -96,8 +96,8 @@ export default function MovingGuidePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     Moving to a new community is exciting, but it can also feel overwhelming. This comprehensive guide will help you navigate every step of your move to Sun City Summerlin.
                   </p>
                   <p>
@@ -110,11 +110,11 @@ export default function MovingGuidePage() {
         </section>
 
         {/* Timeline Section */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Moving Timeline
                 </h2>
               </ScrollAnimation>
@@ -178,22 +178,22 @@ export default function MovingGuidePage() {
                   },
                 ].map((phase, index) => (
                   <ScrollAnimation key={phase.timeframe} delay={index * 100}>
-                    <div className="bg-white rounded-lg p-6 border-l-4 border-[#8B5E3C]">
+                    <div className="bg-white rounded-lg p-6 border-l-4 border-[#1C1917]">
                       <div className="flex items-center gap-4 mb-4">
-                        <div className="bg-[#8B5E3C] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">
+                        <div className="bg-[#1C1917] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">
                           {index + 1}
                         </div>
                         <div>
-                          <p className="text-sm font-semibold text-[#8B5E3C]">{phase.timeframe}</p>
-                          <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair">
+                          <p className="text-sm font-semibold text-[#1C1917]">{phase.timeframe}</p>
+                          <h3 className="text-xl font-bold text-[#1C1917] font-playfair">
                             {phase.title}
                           </h3>
                         </div>
                       </div>
                       <ul className="space-y-2 ml-16">
                         {phase.tasks.map((task) => (
-                          <li key={task} className="flex items-start gap-2 text-[#2D2A26]">
-                            <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <li key={task} className="flex items-start gap-2 text-[#141210]">
+                            <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                             <span>{task}</span>
                           </li>
                         ))}
@@ -211,7 +211,7 @@ export default function MovingGuidePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Utilities Setup
                 </h2>
               </ScrollAnimation>
@@ -247,17 +247,17 @@ export default function MovingGuidePage() {
                   },
                 ].map((utility, index) => (
                   <ScrollAnimation key={utility.name} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {utility.name}
                       </h3>
-                      <p className="text-[#2D2A26] mb-2">
+                      <p className="text-[#141210] mb-2">
                         <strong>Provider:</strong> {utility.provider}
                       </p>
-                      <p className="text-[#2D2A26] mb-2">
+                      <p className="text-[#141210] mb-2">
                         <strong>Contact:</strong> {utility.contact}
                       </p>
-                      <p className="text-sm text-[#2D2A26] opacity-75">{utility.notes}</p>
+                      <p className="text-sm text-[#141210] opacity-75">{utility.notes}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -267,39 +267,39 @@ export default function MovingGuidePage() {
         </section>
 
         {/* HOA Registration */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   HOA Registration & Access
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8 shadow-md space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <FileText className="w-6 h-6" />
                     Register with HOA
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     After closing, you'll need to register with the Sun City Summerlin HOA. This process includes providing proof of ownership, completing resident registration forms, and setting up your HOA account for fee payments.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <Home className="w-6 h-6" />
                     Gate Access
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     The HOA will issue gate access cards or codes for the guard-gated entrances. Make sure to register all vehicles and get visitor passes for family members who will visit regularly.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <MapPin className="w-6 h-6" />
                     Recreation Center Access
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Once registered, you'll have access to all three recreation centers, pools, fitness facilities, and community amenities. The HOA will provide information about hours, rules, and how to reserve facilities.
                   </p>
                 </div>
@@ -313,7 +313,7 @@ export default function MovingGuidePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Tips for Getting Settled
                 </h2>
               </ScrollAnimation>
@@ -351,11 +351,11 @@ export default function MovingGuidePage() {
                   },
                 ].map((tip, index) => (
                   <ScrollAnimation key={tip.title} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {tip.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{tip.description}</p>
+                      <p className="text-[#141210] leading-relaxed">{tip.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -365,42 +365,42 @@ export default function MovingGuidePage() {
         </section>
 
         {/* Important Documents */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Important Documents to Have Ready
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8 shadow-md">
-                <ul className="space-y-3 text-[#2D2A26]">
+                <ul className="space-y-3 text-[#141210]">
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Closing documents and deed</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Driver's license or state ID</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Social Security card</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Vehicle registration and title</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Insurance documents (home, auto, health)</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Medical records and prescriptions</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                    <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                     <span>Bank statements and financial documents</span>
                   </li>
                 </ul>
@@ -414,20 +414,20 @@ export default function MovingGuidePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">Related Resources</h2>
-                <ul className="space-y-2 text-[#2D2A26]">
+                <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">Related Resources</h2>
+                <ul className="space-y-2 text-[#141210]">
                   <li>
-                    <Link href="/resources/market-insights" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources/market-insights" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <TrendingUp className="w-4 h-4" /> Market Insights &amp; Trends
                     </Link>
                   </li>
                   <li>
-                    <Link href="/resources/first-time-buyers" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources/first-time-buyers" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <Home className="w-4 h-4" /> First-Time Homebuyer Guide
                     </Link>
                   </li>
                   <li>
-                    <Link href="/resources" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <BookOpen className="w-4 h-4" /> All Resources
                     </Link>
                   </li>
@@ -438,7 +438,7 @@ export default function MovingGuidePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -451,7 +451,7 @@ export default function MovingGuidePage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

@@ -76,12 +76,12 @@ export default function GolfPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <CircleDot className="w-16 h-16 text-[#D4AF37]" />
+                  <CircleDot className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Sun City Summerlin Golf Courses
@@ -101,7 +101,7 @@ export default function GolfPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/amenities/golf-hero.jpg"
                   alt="Golf course at Sun City Summerlin with Red Rock Canyon views"
@@ -122,8 +122,8 @@ export default function GolfPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     Golf Summerlin features three distinct golf experiences, from championship layouts to executive courses. Together, this trifecta of golf courses offers a broad variety of golf experiences for players of all skill levels.
                   </p>
                   <p>
@@ -139,11 +139,11 @@ export default function GolfPage() {
         </section>
 
         {/* Highland Falls */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Highland Falls Golf Course
                 </h2>
               </ScrollAnimation>
@@ -162,8 +162,8 @@ export default function GolfPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       Two-Time Best of Las Vegas Winner
                     </p>
                     <p className="mb-4">
@@ -173,22 +173,22 @@ export default function GolfPage() {
                       The course is a two-time winner of the Las Vegas Review-Journal Best of Las Vegas award for the incredible views of all Las Vegas has to display. The panoramic view of Las Vegas at the 14th hole has been featured in some of the city's largest publications and has been used as the backdrop for national ad campaigns and television segments.
                     </p>
                     <div className="bg-white rounded-lg p-6 mt-6">
-                      <h3 className="text-lg font-bold text-[#8B5E3C] mb-3 font-playfair">Course Details</h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <h3 className="text-lg font-bold text-[#1C1917] mb-3 font-playfair">Course Details</h3>
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Holes:</strong> 18</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Type:</strong> Championship</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Designers:</strong> Billy Casper & Greg Nash</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Signature Hole:</strong> 14th hole with panoramic Las Vegas view</span>
                         </li>
                       </ul>
@@ -205,14 +205,14 @@ export default function GolfPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Palm Valley Golf Course
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26] order-2 lg:order-1">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210] order-2 lg:order-1">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       Traditional Championship Layout
                     </p>
                     <p className="mb-4">
@@ -224,23 +224,23 @@ export default function GolfPage() {
                     <p className="mb-4">
                       A beautifully landscaped championship course featuring mature palm trees, water features, and strategic bunkering throughout. Palm Valley offers a classic golf experience with modern course conditions.
                     </p>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 mt-6">
-                      <h3 className="text-lg font-bold text-[#8B5E3C] mb-3 font-playfair">Course Details</h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 mt-6">
+                      <h3 className="text-lg font-bold text-[#1C1917] mb-3 font-playfair">Course Details</h3>
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Holes:</strong> 18</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Type:</strong> Championship</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Designers:</strong> Billy Casper & Greg Nash</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Features:</strong> Mature palm trees, water features, strategic bunkering</span>
                         </li>
                       </ul>
@@ -248,7 +248,7 @@ export default function GolfPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3] order-1 lg:order-2">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4] order-1 lg:order-2">
                     <Image
                       src="/images/amenities/palm-valley-fairway.jpg"
                       alt="Palm Valley Golf Course fairway with palm trees"
@@ -266,11 +266,11 @@ export default function GolfPage() {
         </section>
 
         {/* Eagle Crest */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Eagle Crest Executive Course
                 </h2>
               </ScrollAnimation>
@@ -289,8 +289,8 @@ export default function GolfPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       Perfect for Quick Rounds
                     </p>
                     <p className="mb-4">
@@ -303,22 +303,22 @@ export default function GolfPage() {
                       An executive-length course perfect for a quick round, offering scenic views and a more relaxed pace of play. Ideal for improving your short game or enjoying a casual afternoon on the course.
                     </p>
                     <div className="bg-white rounded-lg p-6 mt-6">
-                      <h3 className="text-lg font-bold text-[#8B5E3C] mb-3 font-playfair">Course Details</h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <h3 className="text-lg font-bold text-[#1C1917] mb-3 font-playfair">Course Details</h3>
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Holes:</strong> 18 (6 par 4s, 12 par 3s)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Type:</strong> Executive</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Play Time:</strong> Under 3 hours</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Special Feature:</strong> Panoramic Las Vegas Strip view from driving range</span>
                         </li>
                       </ul>
@@ -335,33 +335,33 @@ export default function GolfPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Practice Facilities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Driving Ranges
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Each Golf Summerlin course features its own designated driving range, making it convenient to practice before or after your round. The ranges are well-maintained and provide both grass and mat hitting areas.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Eagle Crest's driving range is particularly notable for its stunning panoramic view of the Las Vegas Strip, making practice sessions as enjoyable as they are productive.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Practice Greens
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Each course has its own practice putting green, allowing you to work on your short game in conditions that match the course you're about to play.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       The practice greens are maintained to the same high standards as the course greens, ensuring your practice translates directly to improved performance on the course.
                     </p>
                   </div>
@@ -372,35 +372,35 @@ export default function GolfPage() {
         </section>
 
         {/* Membership & Fees */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Golf Membership & Green Fees
                 </h2>
                 <div className="bg-white rounded-lg p-6 md:p-8 shadow-md space-y-6">
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Membership Options</h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Membership Options</h3>
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Golf course access requires a separate membership from your HOA fee. Golf Summerlin offers various membership options to suit different playing frequencies and preferences.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Membership includes access to all three courses, driving ranges, and practice facilities. Members also receive priority tee times and discounted rates for guests.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Green Fees</h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Green Fees</h3>
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Green fees vary by course and time of day. Eagle Crest offers the lowest rates, making it an excellent option for frequent play or those on a budget.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       For current rates and membership information, contact Golf Summerlin directly or speak with Dr. Jan Duffy, who can provide details about golf memberships as part of your home purchase.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Tee Times</h3>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Tee Times</h3>
+                    <p className="text-[#141210] leading-relaxed">
                       Tee times can be reserved in advance, with members receiving priority booking. The courses are open year-round, taking advantage of Las Vegas' ideal golf climate.
                     </p>
                   </div>
@@ -415,12 +415,12 @@ export default function GolfPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Golf Course Homes for Sale
                 </h2>
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                   <ScrollAnimation delay={100}>
-                    <div className="prose prose-lg max-w-none text-[#2D2A26]">
+                    <div className="prose prose-lg max-w-none text-[#141210]">
                       <p className="mb-4">
                         Many Sun City Summerlin homes feature golf course views, offering residents the opportunity to enjoy the beautiful course scenery from their own backyard. Golf course homes are highly sought after and tend to hold their value exceptionally well.
                       </p>
@@ -433,7 +433,7 @@ export default function GolfPage() {
                       <Button
                         asChild
                         size="lg"
-                        className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white"
+                        className="bg-[#1C1917] hover:bg-[#1C1917]/90 text-white"
                       >
                         <Link href="/homes-for-sale?view=golf">
                           Browse Golf Course Homes
@@ -442,7 +442,7 @@ export default function GolfPage() {
                     </div>
                   </ScrollAnimation>
                   <ScrollAnimation delay={200}>
-                    <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+                    <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                       <Image
                         src="/images/amenities/golf-course-home.jpg"
                         alt="Golf course home with views of Sun City Summerlin golf course"
@@ -461,35 +461,35 @@ export default function GolfPage() {
         </section>
 
         {/* Why Golf at Sun City Summerlin */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Why Golf at Sun City Summerlin?
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Year-Round Play</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Year-Round Play</h3>
+                    <p className="text-[#141210]">
                       Las Vegas' ideal climate means you can play golf year-round. Even in summer, the elevated location keeps temperatures manageable, especially for morning and evening rounds.
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Variety of Courses</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Variety of Courses</h3>
+                    <p className="text-[#141210]">
                       Three distinct courses mean you'll never get bored. Play a challenging championship round one day, then enjoy a quick executive course round the next.
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Stunning Views</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Stunning Views</h3>
+                    <p className="text-[#141210]">
                       Every course offers beautiful views of Red Rock Canyon, the Las Vegas Valley, or the surrounding mountains. Golf here is as much about the scenery as the game.
                     </p>
                   </div>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Active Golf Community</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Active Golf Community</h3>
+                    <p className="text-[#141210]">
                       Join golf leagues, participate in tournaments, or simply enjoy casual rounds with neighbors. The golf community at Sun City Summerlin is welcoming and active.
                     </p>
                   </div>
@@ -500,7 +500,7 @@ export default function GolfPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -513,7 +513,7 @@ export default function GolfPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

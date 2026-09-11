@@ -28,21 +28,21 @@ export default function AboutAgentSection() {
 
             <ScrollAnimation delay={100}>
               <div>
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-4 md:mb-6 font-playfair">
+                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 md:mb-6 font-playfair">
                   Your Sun City Summerlin Expert
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4">
-                  <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                  <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                     Dr. Jan Duffy is an independent REALTOR® with Berkshire Hathaway HomeServices
                     Nevada Properties who specializes in Sun City Summerlin and nearby 55+
                     inventory across Summerlin and Centennial Hills.
                   </p>
-                  <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                  <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                     She knows which villages deliver Red Rock views, which lots carry golf
                     premiums, and how HOA age verification and reserves affect your offer. From
                     CMAs to closing coordination, the work stays hyper-local.
                   </p>
-                  <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed font-semibold">
+                  <p className="text-base md:text-lg text-[#141210] leading-relaxed font-semibold">
                     When you work with her, you get honest guidance—not a generic Las Vegas sales
                     pitch.
                   </p>
@@ -52,7 +52,7 @@ export default function AboutAgentSection() {
                     asChild
                     variant="default"
                     size="lg"
-                    className="w-full sm:w-auto bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white min-h-[48px]"
+                    className="w-full sm:w-auto bg-[#1C1917] hover:bg-[#1C1917]/90 text-white min-h-[48px]"
                   >
                     <Link href="/about">Meet Dr. Jan Duffy</Link>
                   </Button>
@@ -60,7 +60,7 @@ export default function AboutAgentSection() {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="w-full sm:w-auto border-[#8B5E3C] text-[#8B5E3C] min-h-[48px]"
+                    className="w-full sm:w-auto border-[#1C1917] text-[#1C1917] min-h-[48px]"
                   >
                     <Link href="/services">View Realtor Services</Link>
                   </Button>

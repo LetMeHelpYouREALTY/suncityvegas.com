@@ -156,10 +156,10 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         ]}
       />
       <main id="main-content" className="pt-16 md:pt-20">
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <p className="text-sm uppercase tracking-wide text-[#D4AF37] mb-3">
+              <p className="text-sm uppercase tracking-wide text-[#C9A962] mb-3">
                 {category.label} · {category.gbpRole} category
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
@@ -175,15 +175,15 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                 How this service works in Sun City Summerlin
               </h2>
-              <p className="text-[#2D2A26] leading-relaxed mb-8">{service.description}</p>
+              <p className="text-[#141210] leading-relaxed mb-8">{service.description}</p>
               <ul className="space-y-3">
                 {service.highlights.map((item) => (
                   <li key={item} className="flex items-start gap-3">
-                    <CheckCircle2 className="w-5 h-5 text-[#5D7A5D] mt-0.5 flex-shrink-0" />
-                    <span className="text-[#2D2A26]">{item}</span>
+                    <CheckCircle2 className="w-5 h-5 text-[#57534E] mt-0.5 flex-shrink-0" />
+                    <span className="text-[#141210]">{item}</span>
                   </li>
                 ))}
               </ul>
@@ -191,20 +191,20 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                 Areas served
               </h2>
-              <p className="text-[#2D2A26] mb-6">
+              <p className="text-[#141210] mb-6">
                 {service.name} coverage includes these Las Vegas-area communities:
               </p>
               <ul className="flex flex-wrap gap-3">
                 {service.areas.map((area) => (
                   <li
                     key={area}
-                    className="px-4 py-2 bg-white border border-[#C4A574]/30 rounded-full text-[#2D2A26]"
+                    className="px-4 py-2 bg-white border border-[#B8A078]/30 rounded-full text-[#141210]"
                   >
                     {area}
                   </li>
@@ -217,16 +217,16 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 font-playfair">
                 {service.name} FAQs
               </h2>
               <div className="space-y-6">
                 {service.faqs.map((faq) => (
-                  <article key={faq.question} className="border-b border-[#C4A574]/30 pb-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <article key={faq.question} className="border-b border-[#B8A078]/30 pb-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                       {faq.question}
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed">{faq.answer}</p>
+                    <p className="text-[#141210] leading-relaxed">{faq.answer}</p>
                   </article>
                 ))}
               </div>
@@ -235,10 +235,10 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         </section>
 
         {related.length > 0 ? (
-          <section className="py-12 md:py-16 bg-[#FDF8F3]">
+          <section className="py-12 md:py-16 bg-[#F7F6F4]">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Related Sun City Summerlin services
                 </h2>
                 <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -246,7 +246,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                     <li key={item.slug}>
                       <Link
                         href={`/services/${item.slug}`}
-                        className="flex items-center justify-between min-h-[44px] gap-3 bg-white rounded-lg border border-[#C4A574]/30 px-4 py-3 text-[#8B5E3C] font-semibold hover:border-[#8B5E3C]"
+                        className="flex items-center justify-between min-h-[44px] gap-3 bg-white rounded-lg border border-[#B8A078]/30 px-4 py-3 text-[#1C1917] font-semibold hover:border-[#1C1917]"
                       >
                         {item.name}
                         <ArrowRight className="w-4 h-4 flex-shrink-0" aria-hidden />
@@ -262,43 +262,43 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
-              <div className="bg-[#FDF8F3] rounded-lg p-6">
-                <Phone className="w-6 h-6 text-[#8B5E3C] mb-3" aria-hidden />
-                <h3 className="font-semibold text-[#8B5E3C] mb-2">Call or text</h3>
+              <div className="bg-[#F7F6F4] rounded-lg p-6">
+                <Phone className="w-6 h-6 text-[#1C1917] mb-3" aria-hidden />
+                <h3 className="font-semibold text-[#1C1917] mb-2">Call or text</h3>
                 <a
                   href="tel:+17027180043"
-                  className="text-[#2D2A26] hover:text-[#8B5E3C] min-h-[44px] inline-flex items-center"
+                  className="text-[#141210] hover:text-[#1C1917] min-h-[44px] inline-flex items-center"
                 >
                   (702) 718-0043
                 </a>
-                <p className="text-sm text-[#2D2A26] mt-1">
+                <p className="text-sm text-[#141210] mt-1">
                   <a href="sms:+17027180043" className="hover:underline">
                     SMS +1 702-718-0043
                   </a>
                 </p>
               </div>
-              <div className="bg-[#FDF8F3] rounded-lg p-6">
-                <MapPin className="w-6 h-6 text-[#8B5E3C] mb-3" aria-hidden />
-                <h3 className="font-semibold text-[#8B5E3C] mb-2">Office</h3>
-                <p className="text-[#2D2A26]">
+              <div className="bg-[#F7F6F4] rounded-lg p-6">
+                <MapPin className="w-6 h-6 text-[#1C1917] mb-3" aria-hidden />
+                <h3 className="font-semibold text-[#1C1917] mb-2">Office</h3>
+                <p className="text-[#141210]">
                   9406 Del Webb Boulevard
                   <br />
                   Las Vegas, NV 89134
                 </p>
                 <a
                   href="https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Boulevard,+Las+Vegas,+NV+89134"
-                  className="inline-flex items-center min-h-[44px] text-[#8B5E3C] font-semibold hover:underline mt-2"
+                  className="inline-flex items-center min-h-[44px] text-[#1C1917] font-semibold hover:underline mt-2"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   Directions
                 </a>
               </div>
-              <div className="bg-[#FDF8F3] rounded-lg p-6">
-                <Clock className="w-6 h-6 text-[#8B5E3C] mb-3" aria-hidden />
-                <h3 className="font-semibold text-[#8B5E3C] mb-2">Hours</h3>
-                <p className="text-[#2D2A26]">Daily 6:00 AM–9:00 PM</p>
-                <p className="text-sm text-[#2D2A26] mt-2">
+              <div className="bg-[#F7F6F4] rounded-lg p-6">
+                <Clock className="w-6 h-6 text-[#1C1917] mb-3" aria-hidden />
+                <h3 className="font-semibold text-[#1C1917] mb-2">Hours</h3>
+                <p className="text-[#141210]">Daily 6:00 AM–9:00 PM</p>
+                <p className="text-sm text-[#141210] mt-2">
                   Closed July 3–4, 2026. Appointment not required.
                 </p>
               </div>
@@ -306,7 +306,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
             <div className="max-w-4xl mx-auto text-center mt-10">
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center min-h-[44px] px-6 py-3 bg-[#8B5E3C] text-white font-semibold rounded-lg hover:bg-[#8B5E3C]/90"
+                className="inline-flex items-center justify-center min-h-[44px] px-6 py-3 bg-[#1C1917] text-white font-semibold rounded-lg hover:bg-[#1C1917]/90"
               >
                 Schedule a consult
               </Link>

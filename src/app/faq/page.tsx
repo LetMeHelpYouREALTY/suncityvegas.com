@@ -96,7 +96,7 @@ export default function FAQPage() {
         }}
         />
         {/* Hero Section */}
-        <section className="relative bg-[#FDF8F3] py-16 md:py-24 overflow-hidden">
+        <section className="relative bg-[#F7F6F4] py-16 md:py-24 overflow-hidden">
           <div className="absolute inset-0 opacity-10">
             <Image
               src="/images/amenities/resort-pool.jpeg"
@@ -107,10 +107,10 @@ export default function FAQPage() {
             />
           </div>
           <div className="relative max-w-4xl mx-auto px-4 text-center z-10">
-            <h1 className="text-4xl md:text-5xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+            <h1 className="text-4xl md:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
               Frequently Asked Questions | Sun City Summerlin
             </h1>
-            <p className="text-xl text-[#2D2A26]">
+            <p className="text-xl text-[#141210]">
               Everything you need to know about Sun City Summerlin
             </p>
           </div>
@@ -176,9 +176,9 @@ export default function FAQPage() {
                 </div>
 
                 {/* Community Stats */}
-                <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-lg">
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-4 font-playfair">Quick Facts</h3>
-                  <ul className="space-y-2 text-[#2D2A26]">
+                <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-lg">
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-4 font-playfair">Quick Facts</h3>
+                  <ul className="space-y-2 text-[#141210]">
                     <li><strong>Homes:</strong> 7,779</li>
                     <li><strong>Built:</strong> 1989-2002</li>
                     <li><strong>HOA Fee:</strong> ~$165/month</li>
@@ -192,7 +192,7 @@ export default function FAQPage() {
         </section>
 
         {/* Contact CTA */}
-        <section className="bg-[#8B5E3C] py-16">
+        <section className="bg-[#1C1917] py-16">
           <div className="max-w-4xl mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-bold text-white mb-4 font-playfair">
               Still Have Questions?
@@ -203,7 +203,7 @@ export default function FAQPage() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:7027180043"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#8B5E3C] font-semibold rounded-lg hover:bg-gray-100 transition-colors min-h-[48px] touch-manipulation"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#1C1917] font-semibold rounded-lg hover:bg-gray-100 transition-colors min-h-[48px] touch-manipulation"
               >
                 Call (702) 718-0043
               </a>

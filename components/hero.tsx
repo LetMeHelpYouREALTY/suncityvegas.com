@@ -8,7 +8,7 @@ const blurDataURL =
 
 export default function Hero() {
   return (
-    <section className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center bg-[#2D2A26] text-white overflow-hidden">
+    <section className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center bg-[#141210] text-white overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
           src="/images/hero/hero-bg.jpg"
@@ -25,13 +25,13 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#D4AF37] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+          <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
             Dr. Jan Duffy · Sun City Summerlin Specialist
           </p>
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
             Sun City Summerlin Homes for Sale
           </h1>
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic mb-4 md:mb-6 text-[#D4AF37] leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
+          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic mb-4 md:mb-6 text-[#C9A962] leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
             Las Vegas&apos; Premier 55+ Community
           </p>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gray-100 leading-relaxed px-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
@@ -48,20 +48,20 @@ export default function Hero() {
               <ScheduleTour
                 variant="accent"
                 size="lg"
-                className="w-full sm:w-auto text-base md:text-lg px-6 py-4 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[48px]"
+                className="w-full sm:w-auto text-base md:text-lg px-6 py-4 bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[48px]"
               />
             </div>
             <Button
               asChild
               variant="outline"
               size="lg"
-              className="border-2 border-[#D4AF37] text-[#D4AF37] hover:bg-[#D4AF37] hover:text-[#2D2A26] w-full sm:w-auto sm:min-w-[200px] min-h-[48px] text-base md:text-lg px-6 py-4"
+              className="border-2 border-[#C9A962] text-[#C9A962] hover:bg-[#C9A962] hover:text-[#141210] w-full sm:w-auto sm:min-w-[200px] min-h-[48px] text-base md:text-lg px-6 py-4"
             >
               <Link href="/homes-for-sale">Browse Available Homes</Link>
             </Button>
           </div>
           <div className="mt-8 text-sm text-gray-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
-            <a href="tel:+17027180043" className="hover:text-[#D4AF37] transition-colors">
+            <a href="tel:+17027180043" className="hover:text-[#C9A962] transition-colors">
               Call Dr. Jan Duffy: (702) 718-0043
             </a>
             <span className="mx-2">·</span>

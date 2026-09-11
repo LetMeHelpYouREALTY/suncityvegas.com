@@ -124,13 +124,13 @@ export default function SitemapPage() {
       />
       <main className="pt-16 md:pt-20 min-h-screen bg-white">
         {/* Hero Section */}
-        <section className="bg-[#FDF8F3] py-12 md:py-16 lg:py-20">
+        <section className="bg-[#F7F6F4] py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
                 Site Map
               </h1>
-              <p className="text-lg md:text-xl text-[#2D2A26]">
+              <p className="text-lg md:text-xl text-[#141210]">
                 Find all pages and resources on Sun City Summerlin website
               </p>
             </div>
@@ -145,12 +145,12 @@ export default function SitemapPage() {
                 {sitePages.map((category) => {
                   const IconComponent = category.icon;
                   return (
-                    <div key={category.category} className="bg-white rounded-lg shadow-sm border border-[#C4A574]/20 p-6">
+                    <div key={category.category} className="bg-white rounded-lg shadow-sm border border-[#B8A078]/20 p-6">
                       <div className="flex items-center gap-3 mb-6">
-                        <div className="flex items-center justify-center w-10 h-10 bg-[#8B5E3C]/10 rounded-lg">
-                          <IconComponent className="w-5 h-5 text-[#8B5E3C]" />
+                        <div className="flex items-center justify-center w-10 h-10 bg-[#1C1917]/10 rounded-lg">
+                          <IconComponent className="w-5 h-5 text-[#1C1917]" />
                         </div>
-                        <h2 className="text-xl md:text-2xl font-bold text-[#8B5E3C] font-playfair">
+                        <h2 className="text-xl md:text-2xl font-bold text-[#1C1917] font-playfair">
                           {category.category}
                         </h2>
                       </div>
@@ -159,9 +159,9 @@ export default function SitemapPage() {
                           <li key={page.href}>
                             <Link
                               href={page.href}
-                              className="block group hover:bg-[#FDF8F3] rounded-lg p-3 transition-colors"
+                              className="block group hover:bg-[#F7F6F4] rounded-lg p-3 transition-colors"
                             >
-                              <div className="font-semibold text-[#2D2A26] group-hover:text-[#8B5E3C] transition-colors mb-1">
+                              <div className="font-semibold text-[#141210] group-hover:text-[#1C1917] transition-colors mb-1">
                                 {page.label}
                               </div>
                               <div className="text-sm text-gray-600">{page.description}</div>
@@ -175,21 +175,21 @@ export default function SitemapPage() {
               </div>
 
               {/* XML Sitemap Link */}
-              <div className="mt-12 bg-[#C4A574]/20 border-l-4 border-[#C4A574] p-6 rounded-lg">
+              <div className="mt-12 bg-[#B8A078]/20 border-l-4 border-[#B8A078] p-6 rounded-lg">
                 <div className="flex items-start gap-4">
-                  <FileText className="w-6 h-6 text-[#8B5E3C] flex-shrink-0 mt-1" />
+                  <FileText className="w-6 h-6 text-[#1C1917] flex-shrink-0 mt-1" />
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                       XML Sitemap
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       For search engines and developers, our XML sitemap is available at:
                     </p>
                     <a
                       href="/sitemap.xml"
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center gap-2 text-[#8B5E3C] hover:text-[#5D7A5D] transition-colors font-medium"
+                      className="inline-flex items-center gap-2 text-[#1C1917] hover:text-[#57534E] transition-colors font-medium"
                     >
                       <FileText className="w-4 h-4" />
                       https://www.suncityvegas.com/sitemap.xml
@@ -200,18 +200,18 @@ export default function SitemapPage() {
 
               {/* Quick Links */}
               <div className="mt-8 text-center">
-                <p className="text-[#2D2A26] mb-4">Need help finding something?</p>
+                <p className="text-[#141210] mb-4">Need help finding something?</p>
                 <div className="flex flex-wrap justify-center gap-4">
                   <Link
                     href="/contact"
-                    className="inline-flex items-center gap-2 px-6 py-3 bg-[#8B5E3C] text-white rounded-lg hover:bg-[#8B5E3C]/90 transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-3 bg-[#1C1917] text-white rounded-lg hover:bg-[#1C1917]/90 transition-colors"
                   >
                     <Phone className="w-4 h-4" />
                     Contact Us
                   </Link>
                   <Link
                     href="/faq"
-                    className="inline-flex items-center gap-2 px-6 py-3 border-2 border-[#8B5E3C] text-[#8B5E3C] rounded-lg hover:bg-[#8B5E3C]/10 transition-colors"
+                    className="inline-flex items-center gap-2 px-6 py-3 border-2 border-[#1C1917] text-[#1C1917] rounded-lg hover:bg-[#1C1917]/10 transition-colors"
                   >
                     <HelpCircle className="w-4 h-4" />
                     View FAQ

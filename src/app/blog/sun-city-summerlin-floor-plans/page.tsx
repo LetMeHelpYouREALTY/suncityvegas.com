@@ -120,7 +120,7 @@ export default function FloorPlansPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
@@ -147,7 +147,7 @@ export default function FloorPlansPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src="/images/blog/floor-plans-hero.jpg"
                   alt="Sun City Summerlin floor plan examples and home layouts"
@@ -169,8 +169,8 @@ export default function FloorPlansPage() {
             <div className="max-w-4xl mx-auto">
               {/* Introduction */}
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] mb-12">
-                  <p className="text-xl md:text-2xl font-semibold text-[#8B5E3C] leading-relaxed mb-6">
+                <div className="prose prose-lg max-w-none text-[#141210] mb-12">
+                  <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
                     Sun City Summerlin offers a wide variety of floor plans, from cozy 1,200 square foot homes to spacious 3,500+ square foot estates. All homes are single-story, designed specifically for active adult living.
                   </p>
                   <p className="text-lg leading-relaxed">
@@ -182,28 +182,28 @@ export default function FloorPlansPage() {
               {/* Size Range */}
               <ScrollAnimation delay={100}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Home Size Range
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 mb-6">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 mb-6">
                     <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-6">
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-[#8B5E3C] mb-2">1,200</div>
-                        <div className="text-[#2D2A26]">Smallest</div>
-                        <div className="text-sm text-[#2D2A26] opacity-75">sq ft</div>
+                        <div className="text-4xl font-bold text-[#1C1917] mb-2">1,200</div>
+                        <div className="text-[#141210]">Smallest</div>
+                        <div className="text-sm text-[#141210] opacity-75">sq ft</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-[#8B5E3C] mb-2">1,500-2,500</div>
-                        <div className="text-[#2D2A26]">Most Common</div>
-                        <div className="text-sm text-[#2D2A26] opacity-75">sq ft</div>
+                        <div className="text-4xl font-bold text-[#1C1917] mb-2">1,500-2,500</div>
+                        <div className="text-[#141210]">Most Common</div>
+                        <div className="text-sm text-[#141210] opacity-75">sq ft</div>
                       </div>
                       <div className="text-center">
-                        <div className="text-4xl font-bold text-[#8B5E3C] mb-2">3,500+</div>
-                        <div className="text-[#2D2A26]">Largest</div>
-                        <div className="text-sm text-[#2D2A26] opacity-75">sq ft</div>
+                        <div className="text-4xl font-bold text-[#1C1917] mb-2">3,500+</div>
+                        <div className="text-[#141210]">Largest</div>
+                        <div className="text-sm text-[#141210] opacity-75">sq ft</div>
                       </div>
                     </div>
-                    <p className="text-lg leading-relaxed text-[#2D2A26]">
+                    <p className="text-lg leading-relaxed text-[#141210]">
                       The majority of Sun City Summerlin homes fall in the 1,500 to 2,500 square foot range, offering the perfect balance of space and manageability. Smaller homes (1,200-1,500 sq ft) are ideal for couples who want low-maintenance living, while larger homes (2,500-3,500+ sq ft) offer space for hobbies, home offices, or frequent guests.
                     </p>
                   </div>
@@ -213,46 +213,46 @@ export default function FloorPlansPage() {
               {/* Single-Story Design */}
               <ScrollAnimation delay={200}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     All Single-Story (Ranch-Style) Design
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
                         <Home className="w-6 h-6" />
                         Why Single-Story?
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-[#141210] leading-relaxed mb-4">
                         All Sun City Summerlin homes are single-story (ranch-style), which is ideal for 55+ living. This design eliminates stairs, making homes more accessible and easier to navigate as you age.
                       </p>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Single-story homes also offer better flow and are easier to maintain. Everything is on one level, from the master bedroom to the kitchen to the living areas.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
                         <Square className="w-6 h-6" />
                         Layout Benefits
                       </h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>No stairs to navigate</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Better accessibility</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Easier maintenance</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Open floor plan options</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Age-in-place friendly</span>
                         </li>
                       </ul>
@@ -264,123 +264,123 @@ export default function FloorPlansPage() {
               {/* Popular Floor Plans */}
               <ScrollAnimation delay={300}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Popular Floor Plan Configurations
                   </h2>
                   <div className="space-y-8">
                     {/* 2BR/2BA */}
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 border-l-4 border-[#57534E]">
+                      <h3 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         2 Bedroom, 2 Bathroom (1,500-1,800 sq ft)
                       </h3>
-                      <p className="text-lg text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-lg text-[#141210] leading-relaxed mb-4">
                         This is one of the most popular configurations, perfect for couples or single residents. These homes typically feature:
                       </p>
-                      <ul className="space-y-2 text-[#2D2A26] mb-4">
+                      <ul className="space-y-2 text-[#141210] mb-4">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Master suite with walk-in closet and ensuite bathroom</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Guest bedroom (often used as office or hobby room)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Open kitchen/living area</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>Covered patio or lanai</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span>2-car garage</span>
                         </li>
                       </ul>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         These homes offer the perfect balance of space and efficiency, with enough room for comfortable living without being overwhelming to maintain.
                       </p>
                     </div>
 
                     {/* 3BR/2BA */}
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 border-l-4 border-[#8B5E3C]">
-                      <h3 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 border-l-4 border-[#1C1917]">
+                      <h3 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         3 Bedroom, 2 Bathroom (2,000-2,500 sq ft)
                       </h3>
-                      <p className="text-lg text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-lg text-[#141210] leading-relaxed mb-4">
                         Ideal for those who want extra space for guests, hobbies, or home offices. These homes typically include:
                       </p>
-                      <ul className="space-y-2 text-[#2D2A26] mb-4">
+                      <ul className="space-y-2 text-[#141210] mb-4">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>Master suite with large walk-in closet</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>Two guest bedrooms (or one bedroom + den)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>Spacious kitchen with island</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>Formal dining area or great room</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>Larger covered patio</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#8B5E3C] font-bold">•</span>
+                          <span className="text-[#1C1917] font-bold">•</span>
                           <span>2-car garage (sometimes 3-car)</span>
                         </li>
                       </ul>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         These homes offer flexibility for hosting family, pursuing hobbies, or working from home. The extra bedroom can serve as a den, office, craft room, or guest room.
                       </p>
                     </div>
 
                     {/* 3BR/3BA or 4BR */}
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 border-l-4 border-[#C4A574]">
-                      <h3 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 border-l-4 border-[#B8A078]">
+                      <h3 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         3+ Bedroom, 3 Bathroom (2,500-3,500+ sq ft)
                       </h3>
-                      <p className="text-lg text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-lg text-[#141210] leading-relaxed mb-4">
                         The largest homes in Sun City Summerlin, perfect for those who want maximum space and luxury. These homes often feature:
                       </p>
-                      <ul className="space-y-2 text-[#2D2A26] mb-4">
+                      <ul className="space-y-2 text-[#141210] mb-4">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Luxurious master suite with sitting area</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Multiple guest bedrooms and bathrooms</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Gourmet kitchen with premium appliances</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Formal dining room and great room</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Den or bonus room</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>Expansive outdoor living space</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#C4A574] font-bold">•</span>
+                          <span className="text-[#B8A078] font-bold">•</span>
                           <span>3-car garage</span>
                         </li>
                       </ul>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         These homes are ideal for those who frequently host family, want space for hobbies or collections, or simply prefer more room to spread out.
                       </p>
                     </div>
@@ -391,43 +391,43 @@ export default function FloorPlansPage() {
               {/* Key Features */}
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Key Floor Plan Features
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Master Suite</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Master Suite</h3>
+                      <p className="text-[#141210]">
                         Most homes feature a master suite with walk-in closet and private bathroom. Larger homes may have sitting areas or dual vanities in the master bath.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Open Floor Plans</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Open Floor Plans</h3>
+                      <p className="text-[#141210]">
                         Many homes feature open kitchen/living areas, perfect for entertaining and creating a sense of spaciousness.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Covered Patios</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Covered Patios</h3>
+                      <p className="text-[#141210]">
                         Most homes include covered patios or lanais, extending your living space outdoors and perfect for enjoying Las Vegas weather.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Garages</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Garages</h3>
+                      <p className="text-[#141210]">
                         Standard 2-car garages are common, with some larger homes offering 3-car garages. Many garages have additional storage space.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Dens & Bonus Rooms</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Dens & Bonus Rooms</h3>
+                      <p className="text-[#141210]">
                         Many floor plans include dens or bonus rooms that can serve as home offices, hobby rooms, or additional guest space.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Split Bedroom Plans</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Split Bedroom Plans</h3>
+                      <p className="text-[#141210]">
                         Some floor plans feature split bedroom designs, with the master suite on one side and guest bedrooms on the other for privacy.
                       </p>
                     </div>
@@ -438,37 +438,37 @@ export default function FloorPlansPage() {
               {/* What to Look For */}
               <ScrollAnimation delay={500}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     What to Look For in a Floor Plan
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 space-y-6">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 space-y-6">
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Your Lifestyle Needs</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Your Lifestyle Needs</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Consider how you'll use the space. Do you need a home office? A hobby room? Space for frequent guests? A den for reading or watching TV? Make sure the floor plan matches your lifestyle.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Natural Light</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Natural Light</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Look for floor plans with good natural light, especially in the main living areas. Windows and orientation matter for creating a bright, welcoming home.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Flow & Functionality</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Flow & Functionality</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         The best floor plans have good flow—easy movement between rooms, logical placement of spaces, and efficient use of square footage. Avoid awkward layouts or wasted space.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Storage Space</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Storage Space</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Pay attention to closet space, pantry size, and garage storage. Good storage is essential for comfortable living, especially if you're downsizing from a larger home.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Outdoor Living</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Outdoor Living</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Consider the patio or lanai size and how it connects to the indoor living space. In Las Vegas, outdoor living is important, so make sure you have space to enjoy it.
                       </p>
                     </div>
@@ -479,42 +479,42 @@ export default function FloorPlansPage() {
               {/* FAQ Section */}
               <ScrollAnimation delay={600}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Frequently Asked Questions
                   </h2>
                   <div className="space-y-4">
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What size are Sun City Summerlin homes?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Sun City Summerlin homes range from approximately 1,200 to 3,500+ square feet. Most homes are between 1,500 and 2,500 square feet, with 2-4 bedrooms and 2-3 bathrooms. All homes are single-story, designed for easy living.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Are all Sun City Summerlin homes single-story?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Yes, all homes in Sun City Summerlin are single-story (ranch-style). This design is ideal for 55+ living, eliminating stairs and making the homes more accessible as residents age in place.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What are the most popular floor plans?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Popular floor plans include 2-bedroom, 2-bathroom models around 1,500-1,800 sq ft, and 3-bedroom, 2-bathroom models around 2,000-2,500 sq ft. Many buyers also seek homes with dens or bonus rooms for hobbies or home offices.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Can I see floor plans before viewing homes?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Yes, I can provide floor plans for available homes. Many listings include floor plans in their descriptions, and I can help you understand how different layouts work for your needs.
                       </p>
                     </details>
@@ -525,35 +525,35 @@ export default function FloorPlansPage() {
               {/* Related Links */}
               <ScrollAnimation delay={700}>
                 <section className="mb-16">
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Related Articles
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Link
                       href="/homes-for-sale"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Browse Homes for Sale
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         See current listings in Sun City Summerlin with detailed floor plans and photos.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         View Listings <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
                     <Link
                       href="/blog/pros-and-cons-sun-city-summerlin"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Pros and Cons of Sun City Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         Learn more about what makes Sun City Summerlin special.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
@@ -564,7 +564,7 @@ export default function FloorPlansPage() {
           </div>
         </div>
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white" aria-label="CTA">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white" aria-label="CTA">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <ScrollAnimation>
@@ -577,7 +577,7 @@ export default function FloorPlansPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a
                       href="tel:7027180043"
-                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                     >
                       <Phone className="w-5 h-5" />
                       Call/Text: (702) 718-0043

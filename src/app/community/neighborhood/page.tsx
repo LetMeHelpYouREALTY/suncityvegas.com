@@ -116,26 +116,26 @@ export default function NeighborhoodPage() {
         />
 
         {/* Hero */}
-        <section className="bg-gradient-to-b from-[#FDF8F3] to-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#F7F6F4] to-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <MapPin className="w-14 h-14 text-[#8B5E3C]" aria-hidden />
+                  <MapPin className="w-14 h-14 text-[#1C1917]" aria-hidden />
                 </div>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Explore the Neighborhood
                 </h1>
-                <p className="text-lg md:text-xl text-[#2D2A26] mb-8 leading-relaxed">
+                <p className="text-lg md:text-xl text-[#141210] mb-8 leading-relaxed">
                   Get to know Sun City Summerlin with local knowledge. Discover restaurants, schools, parks, healthcare, and shopping—so you can see what the area really offers.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[44px]">
+                  <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">
                     <Link href="/contact">
                       Ask Dr. Jan for a neighborhood tour
                     </Link>
                   </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]">
+                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
                     <a href="tel:7027180043">Call (702) 718-0043</a>
                   </Button>
                 </div>
@@ -149,10 +149,10 @@ export default function NeighborhoodPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
                   Sun City Summerlin &amp; Surrounding Area
                 </h2>
-                <p className="text-[#2D2A26] text-center mb-8 max-w-2xl mx-auto">
+                <p className="text-[#141210] text-center mb-8 max-w-2xl mx-auto">
                   Use the map to explore the community and nearby highlights. Centered on Sun City Summerlin—9406 Del Webb Boulevard, Las Vegas, NV 89134.
                 </p>
               </ScrollAnimation>
@@ -173,14 +173,14 @@ export default function NeighborhoodPage() {
         </section>
 
         {/* Local highlights */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
                   What the Neighborhood Offers
                 </h2>
-                <p className="text-lg text-[#2D2A26] text-center mb-12 max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] text-center mb-12 max-w-2xl mx-auto">
                   Local knowledge to help you explore restaurants, schools, parks, healthcare, and shopping near Sun City Summerlin.
                 </p>
               </ScrollAnimation>
@@ -189,28 +189,28 @@ export default function NeighborhoodPage() {
                   const Icon = item.icon;
                   return (
                     <ScrollAnimation key={item.title} delay={index * 80}>
-                      <div className="bg-white rounded-lg p-6 md:p-8 shadow-md border-l-4 border-[#8B5E3C]">
+                      <div className="bg-white rounded-lg p-6 md:p-8 shadow-md border-l-4 border-[#1C1917]">
                         <div className="flex items-start gap-4">
-                          <div className="shrink-0 w-12 h-12 rounded-lg bg-[#8B5E3C]/10 flex items-center justify-center">
-                            <Icon className="w-6 h-6 text-[#8B5E3C]" aria-hidden />
+                          <div className="shrink-0 w-12 h-12 rounded-lg bg-[#1C1917]/10 flex items-center justify-center">
+                            <Icon className="w-6 h-6 text-[#1C1917]" aria-hidden />
                           </div>
                           <div>
-                            <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                            <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-2 font-playfair">
                               {item.title}
                             </h3>
-                            <p className="text-[#2D2A26] mb-4 leading-relaxed">
+                            <p className="text-[#141210] mb-4 leading-relaxed">
                               {item.description}
                             </p>
-                            <ul className="space-y-1 text-sm text-[#2D2A26] mb-4">
+                            <ul className="space-y-1 text-sm text-[#141210] mb-4">
                               {item.items.map((bullet) => (
                                 <li key={bullet} className="flex items-start gap-2">
-                                  <span className="text-[#8B5E3C] mt-1">•</span>
+                                  <span className="text-[#1C1917] mt-1">•</span>
                                   <span>{bullet}</span>
                                 </li>
                               ))}
                             </ul>
                             {item.link && (
-                              <Button asChild size="sm" className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90">
+                              <Button asChild size="sm" className="bg-[#1C1917] hover:bg-[#1C1917]/90">
                                 <Link href={item.link.href}>{item.link.label}</Link>
                               </Button>
                             )}
@@ -230,17 +230,17 @@ export default function NeighborhoodPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                   See it in person
                 </h2>
-                <p className="text-lg text-[#2D2A26] mb-6">
+                <p className="text-lg text-[#141210] mb-6">
                   Get a personalized neighborhood tour with Dr. Jan Duffy. Over 25 years of experience in Sun City Summerlin and active adult communities—so you can explore with someone who knows the area inside and out.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[44px]">
+                  <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">
                     <Link href="/contact">Schedule a tour</Link>
                   </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]">
+                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
                     <a href="tel:7027180043">(702) 718-0043</a>
                   </Button>
                 </div>

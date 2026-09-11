@@ -73,7 +73,7 @@ export default function SunShadowsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#8B5E3C] to-[#5D7A5D] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#1C1917] to-[#57534E] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -106,7 +106,7 @@ export default function SunShadowsPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/amenities/sun-shadows-hero.jpg"
                   alt="Sun Shadows Community Center with Olympic-sized pool"
@@ -127,10 +127,10 @@ export default function SunShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Overview
                 </h2>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
                   <p>
                     Sun Shadows Community Center is one of four world-class recreation centers serving Sun City Summerlin residents. This facility is particularly known for its exceptional aquatic amenities, featuring one of the community's most impressive pool facilities.
                   </p>
@@ -147,11 +147,11 @@ export default function SunShadowsPage() {
         </section>
 
         {/* Olympic Pool Section */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Olympic-Size Indoor Heated Pool
                 </h2>
               </ScrollAnimation>
@@ -170,8 +170,8 @@ export default function SunShadowsPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       World-Class Swimming Facility
                     </p>
                     <p className="mb-4">
@@ -182,19 +182,19 @@ export default function SunShadowsPage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Full Olympic Dimensions:</strong> Perfect for serious lap swimmers</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Year-Round Heated:</strong> Comfortable swimming in any season</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Water Aerobics Classes:</strong> Scheduled classes throughout the week</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Lifeguard Services:</strong> Safety first with trained staff on duty</span>
                       </li>
                     </ul>
@@ -211,8 +211,8 @@ export default function SunShadowsPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <h3 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <h3 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Indoor Spa
                     </h3>
                     <p className="mb-4">
@@ -227,7 +227,7 @@ export default function SunShadowsPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                     <Image
                       src="/images/amenities/sun-shadows-spa.jpg"
                       alt="Indoor spa at Sun Shadows Community Center"
@@ -245,11 +245,11 @@ export default function SunShadowsPage() {
         </section>
 
         {/* Aerobics Studio */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Aerobics Studio
                 </h2>
               </ScrollAnimation>
@@ -268,7 +268,7 @@ export default function SunShadowsPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
                     <p className="mb-4">
                       The dedicated aerobics studio at Sun Shadows offers a variety of fitness classes throughout the week. The studio is equipped with mirrors, sound systems, and all the equipment needed for group fitness classes.
                     </p>
@@ -277,19 +277,19 @@ export default function SunShadowsPage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Low-impact aerobics</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Cardio dance classes</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Strength training classes</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Flexibility and stretching sessions</span>
                       </li>
                     </ul>
@@ -308,13 +308,13 @@ export default function SunShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Bocce Ball Courts
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
                     <p className="mb-4">
                       Sun Shadows features four lighted bocce ball courts, making it easy to play during the day or evening. Bocce ball is a popular social activity at Sun City Summerlin, combining friendly competition with social interaction.
                     </p>
@@ -327,7 +327,7 @@ export default function SunShadowsPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                     <Image
                       src="/images/amenities/sun-shadows-bocce.jpg"
                       alt="Lighted bocce ball courts at Sun Shadows"
@@ -345,35 +345,35 @@ export default function SunShadowsPage() {
         </section>
 
         {/* Meeting & Social Spaces */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Meeting Rooms & Social Spaces
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Meeting Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Meeting Rooms</h3>
+                    <p className="text-[#141210]">
                       Multiple meeting rooms of various sizes available for club meetings, classes, and private gatherings. Rooms can be reserved in advance.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Card Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Card Rooms</h3>
+                    <p className="text-[#141210]">
                       Dedicated card rooms for bridge, poker, and other card games. Regular game sessions scheduled throughout the week.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Lounge Area</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Lounge Area</h3>
+                    <p className="text-[#141210]">
                       Comfortable lounge with seating for casual conversation and relaxation between activities or after a swim.
                     </p>
                   </div>
@@ -388,60 +388,60 @@ export default function SunShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Hours of Operation & Access
                 </h2>
-                <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 space-y-6">
+                <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 space-y-6">
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Hours of Operation</h3>
-                    <p className="text-lg text-[#2D2A26] mb-2">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Hours of Operation</h3>
+                    <p className="text-lg text-[#141210] mb-2">
                       <strong>Daily:</strong> 6:00 AM - 9:00 PM
                     </p>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Sun Shadows is open year-round, including holidays. The facility is maintained and cleaned regularly to ensure a safe and pleasant environment for all residents.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Membership & Access</h3>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Membership & Access</h3>
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>All residents must check in with membership card</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Guest passes available (guests must be accompanied by a resident)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Access included with your HOA fee—no additional membership required</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Pool and spa facilities available to all Sun City Summerlin residents</span>
                       </li>
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Classes & Activities</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Classes & Activities</h3>
+                    <p className="text-[#141210] mb-4">
                       Regular classes and activities are scheduled throughout the week, including:
                     </p>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Water aerobics classes (multiple times per week)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Lap swimming sessions</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Aerobics and fitness classes</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Bocce ball leagues and open play</span>
                       </li>
                     </ul>
@@ -453,11 +453,11 @@ export default function SunShadowsPage() {
         </section>
 
         {/* Related Centers */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Explore Other Community Centers
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -465,13 +465,13 @@ export default function SunShadowsPage() {
                     href="/amenities/mountain-shadows"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Mountain Shadows
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The original recreation center at 45,000 sq ft with fitness center, indoor pool, racquetball, and arts & crafts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -479,13 +479,13 @@ export default function SunShadowsPage() {
                     href="/amenities/desert-vista"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Desert Vista
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The largest recreation center at 48,000 sq ft with a grand ballroom, tennis courts, and pickleball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -493,13 +493,13 @@ export default function SunShadowsPage() {
                     href="/amenities/pinnacle"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Pinnacle
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       A welcoming 34,000 sq ft center with fitness facilities, pool, tennis courts, and bocce ball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -510,7 +510,7 @@ export default function SunShadowsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -523,7 +523,7 @@ export default function SunShadowsPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

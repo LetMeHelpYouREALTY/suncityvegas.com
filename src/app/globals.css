@@ -1,4 +1,4 @@
-/* Fonts: Inter & Playfair Display loaded via next/font in layout.tsx (no render-blocking @import) */
+/* Fonts: Outfit & Cormorant Garamond loaded via next/font in layout.tsx (no render-blocking @import) */
 @import 'tailwindcss';
 
 @custom-variant dark (&:is(.dark *));
@@ -15,15 +15,15 @@
   --color-current: currentColor;
   --color-transparent: transparent;
   --color-white: #ffffff;
-  --color-black: #121723;
+  --color-black: #0C0A09;
   
-  /* Sun City Summerlin Color Palette */
-  --color-primary: #8B5E3C; /* Warm brown */
-  --color-accent: #D4AF37; /* Gold */
-  --color-success: #5D7A5D; /* Sage green */
-  --color-bg-light: #FDF8F3; /* Cream */
-  --color-text-dark: #2D2A26; /* Dark brown */
-  --color-footer-bg: #2D2A26; /* Dark brown for footer */
+  /* Luxury palette — ink, champagne, cool ivory */
+  --color-primary: #1C1917; /* Ink charcoal — CTAs, links, icons on light */
+  --color-accent: #C9A962; /* Champagne gold — decorative on dark only */
+  --color-success: #57534E; /* Stone — secondary accents */
+  --color-bg-light: #F7F6F4; /* Cool ivory */
+  --color-text-dark: #141210; /* Near-black body text */
+  --color-footer-bg: #141210; /* Ink footer */
 
   --color-body-color: #788293;
   --color-body-color-dark: #959cb1;
@@ -64,12 +64,13 @@
   
   body {
     font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
-    @apply bg-white text-gray-800 antialiased;
+    @apply bg-[#F7F6F4] text-[#141210] antialiased;
+    letter-spacing: 0.01em;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: var(--font-playfair), ui-serif, Georgia, serif;
-    @apply font-semibold;
+    font-family: var(--font-playfair), ui-serif, Georgia, "Times New Roman", serif;
+    @apply font-semibold tracking-wide text-[#141210];
   }
   /* Explicit font-size for h1 so we don't rely on deprecated UA rules (H1UserAgentFontSizeInSection) */
   h1 {
@@ -121,7 +122,11 @@
   }
   
   .font-playfair {
-    font-family: "Playfair Display", serif;
+    font-family: var(--font-playfair), ui-serif, Georgia, "Times New Roman", serif;
+  }
+
+  .font-sans-luxury {
+    font-family: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
   }
   
   .shadow-sticky {

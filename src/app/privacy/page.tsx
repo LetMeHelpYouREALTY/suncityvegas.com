@@ -46,16 +46,16 @@ export default function PrivacyPage() {
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h1 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+              <h1 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                 Privacy Policy
               </h1>
-              <div className="prose prose-lg max-w-none space-y-6 text-[#2D2A26]">
+              <div className="prose prose-lg max-w-none space-y-6 text-[#141210]">
                 <p className="text-sm text-gray-500">
                   Last updated: {new Date().toLocaleDateString()}
                 </p>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Information We Collect
                   </h2>
                   <p>
@@ -71,7 +71,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     How We Use Your Information
                   </h2>
                   <p>We use the information you provide to:</p>
@@ -84,7 +84,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Information Sharing
                   </h2>
                   <p>
@@ -104,7 +104,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Data Security
                   </h2>
                   <p>
@@ -115,7 +115,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Your Rights
                   </h2>
                   <p>You have the right to:</p>
@@ -128,7 +128,7 @@ export default function PrivacyPage() {
                 </div>
 
                 <div>
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Contact Us
                   </h2>
                   <p>
@@ -139,7 +139,7 @@ export default function PrivacyPage() {
                     <strong>Email:</strong>{" "}
                     <a
                       href="mailto:DrDuffySells@SunCityVegas.com"
-                      className="text-[#8B5E3C] hover:underline"
+                      className="text-[#1C1917] hover:underline"
                     >
                       DrDuffySells@SunCityVegas.com
                     </a>
@@ -147,7 +147,7 @@ export default function PrivacyPage() {
                     <strong>Phone:</strong>{" "}
                     <a
                       href="tel:7027180043"
-                      className="text-[#8B5E3C] hover:underline"
+                      className="text-[#1C1917] hover:underline"
                     >
                       (702) 718-0043
                     </a>

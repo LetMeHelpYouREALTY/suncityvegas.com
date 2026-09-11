@@ -39,14 +39,14 @@ export default function MarketStatsSection() {
   ];
 
   return (
-    <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+    <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <ScrollAnimation>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
               Current Sun City Summerlin Market
             </h2>
-            <p className="text-lg text-[#2D2A26] text-center mb-12 max-w-2xl mx-auto">
+            <p className="text-lg text-[#141210] text-center mb-12 max-w-2xl mx-auto">
               Stay informed with the latest market statistics for Sun City Summerlin homes.
             </p>
           </ScrollAnimation>
@@ -55,16 +55,16 @@ export default function MarketStatsSection() {
             {stats.map((stat, index) => (
               <ScrollAnimation key={index} delay={index * 100}>
                 <div className="bg-white rounded-lg p-6 md:p-8 text-center shadow-md hover:shadow-lg transition-shadow">
-                  <div className="flex items-center justify-center text-[#8B5E3C] mb-4">
+                  <div className="flex items-center justify-center text-[#1C1917] mb-4">
                     {stat.icon}
                   </div>
-                  <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <div className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-2 font-playfair">
                     {stat.value}
                   </div>
-                  <div className="text-sm md:text-base font-semibold text-[#2D2A26] mb-1">
+                  <div className="text-sm md:text-base font-semibold text-[#141210] mb-1">
                     {stat.label}
                   </div>
-                  <div className="text-xs md:text-sm text-[#2D2A26] opacity-75">
+                  <div className="text-xs md:text-sm text-[#141210] opacity-75">
                     {stat.description}
                   </div>
                 </div>
@@ -73,9 +73,9 @@ export default function MarketStatsSection() {
           </div>
 
           <div className="mt-8 text-center">
-            <p className="text-sm text-[#2D2A26] opacity-75">
+            <p className="text-sm text-[#141210] opacity-75">
               Market data updated regularly. For the most current information,{" "}
-              <a href="tel:7027180043" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">
+              <a href="tel:7027180043" className="text-[#1C1917] hover:text-[#57534E] underline">
                 contact Dr. Jan Duffy
               </a>
               .

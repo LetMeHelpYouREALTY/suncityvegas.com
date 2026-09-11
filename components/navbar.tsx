@@ -97,8 +97,8 @@ export default function Navbar() {
       className={cn(
         "fixed top-0 left-0 right-0 z-50 transition-all duration-300",
         isSticky
-          ? "bg-[#FDF8F3] shadow-sticky py-3"
-          : "bg-[#FDF8F3]/95 backdrop-blur-sm py-4"
+          ? "bg-[#F7F6F4] shadow-sticky py-3"
+          : "bg-[#F7F6F4]/95 backdrop-blur-sm py-4"
       )}
     >
       <nav className="container mx-auto px-4">
@@ -106,7 +106,7 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-lg sm:text-xl md:text-2xl font-bold text-[#8B5E3C] font-playfair"
+            className="text-lg sm:text-xl md:text-2xl font-bold text-[#1C1917] font-playfair"
             aria-label="Sun City Summerlin Home"
           >
             Sun City Summerlin
@@ -121,13 +121,13 @@ export default function Navbar() {
                 className={cn(
                   "text-sm xl:text-base font-medium transition-colors relative",
                   isActive(link.href)
-                    ? "text-[#8B5E3C]"
-                    : "text-[#2D2A26] hover:text-[#8B5E3C]"
+                    ? "text-[#1C1917]"
+                    : "text-[#141210] hover:text-[#1C1917]"
                 )}
               >
                 {link.label}
                 {isActive(link.href) && (
-                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#8B5E3C]" />
+                  <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#1C1917]" />
                 )}
               </Link>
             ))}
@@ -144,8 +144,8 @@ export default function Navbar() {
                     className={cn(
                       "min-h-[44px] min-w-[44px] flex items-center gap-1 text-sm xl:text-base font-medium transition-colors relative py-2",
                       isActiveMenu
-                        ? "text-[#8B5E3C]"
-                        : "text-[#2D2A26] hover:text-[#8B5E3C]"
+                        ? "text-[#1C1917]"
+                        : "text-[#141210] hover:text-[#1C1917]"
                     )}
                   >
                     {menu.label}
@@ -156,13 +156,13 @@ export default function Navbar() {
                       )}
                     />
                     {isActiveMenu && (
-                      <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#8B5E3C]" />
+                      <span className="absolute -bottom-1 left-0 right-0 h-0.5 bg-[#1C1917]" />
                     )}
                   </button>
 
                   {/* Dropdown Content */}
                   {isOpenMenu && (
-                    <div className="absolute top-full left-0 mt-2 w-48 bg-[#FDF8F3] rounded-lg shadow-lg border border-[#C4A574]/20 py-2 z-50">
+                    <div className="absolute top-full left-0 mt-2 w-48 bg-[#F7F6F4] rounded-lg shadow-lg border border-[#B8A078]/20 py-2 z-50">
                       {menu.items.map((item) => (
                         <Link
                           key={item.href}
@@ -170,8 +170,8 @@ export default function Navbar() {
                           className={cn(
                             "block px-4 py-2 text-sm transition-colors",
                             isActive(item.href)
-                              ? "text-[#8B5E3C] bg-[#8B5E3C]/5 font-medium"
-                              : "text-[#2D2A26] hover:text-[#8B5E3C] hover:bg-[#C4A574]/10"
+                              ? "text-[#1C1917] bg-[#1C1917]/5 font-medium"
+                              : "text-[#141210] hover:text-[#1C1917] hover:bg-[#B8A078]/10"
                           )}
                         >
                           {item.label}
@@ -188,7 +188,7 @@ export default function Navbar() {
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
             <a
               href="tel:7027180043"
-              className="flex items-center gap-2 text-sm xl:text-base text-[#2D2A26] hover:text-[#8B5E3C] transition-colors"
+              className="flex items-center gap-2 text-sm xl:text-base text-[#141210] hover:text-[#1C1917] transition-colors"
               aria-label="Call (702) 718-0043"
             >
               <Phone className="w-4 h-4" />
@@ -198,7 +198,7 @@ export default function Navbar() {
               asChild
               variant="default"
               size="sm"
-              className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white text-sm xl:text-base"
+              className="bg-[#1C1917] hover:bg-[#1C1917]/90 text-white text-sm xl:text-base"
             >
               <Link href="/contact">Schedule a Tour</Link>
             </Button>
@@ -207,7 +207,7 @@ export default function Navbar() {
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="lg:hidden p-2 text-[#2D2A26] hover:text-[#8B5E3C] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
+            className="lg:hidden p-2 text-[#141210] hover:text-[#1C1917] transition-colors min-h-[44px] min-w-[44px] flex items-center justify-center"
             aria-label="Toggle menu"
             aria-expanded={isOpen ? 'true' : 'false'}
           >
@@ -222,7 +222,7 @@ export default function Navbar() {
             isOpen ? "max-h-[800px] opacity-100" : "max-h-0 opacity-0"
           )}
         >
-          <div className="mt-4 pb-4 border-t border-[#C4A574]/20 pt-4">
+          <div className="mt-4 pb-4 border-t border-[#B8A078]/20 pt-4">
             <div className="flex flex-col gap-1">
               {allNavLinks.map((link) => (
                 <Link
@@ -232,17 +232,17 @@ export default function Navbar() {
                   className={cn(
                     "px-3 py-3 rounded-md font-medium transition-colors min-h-[44px] flex items-center",
                     isActive(link.href)
-                      ? "text-[#8B5E3C] bg-[#8B5E3C]/10 font-semibold"
-                      : "text-[#2D2A26] hover:text-[#8B5E3C] hover:bg-[#C4A574]/10"
+                      ? "text-[#1C1917] bg-[#1C1917]/10 font-semibold"
+                      : "text-[#141210] hover:text-[#1C1917] hover:bg-[#B8A078]/10"
                   )}
                 >
                   {link.label}
                 </Link>
               ))}
-              <div className="mt-2 pt-2 border-t border-[#C4A574]/20">
+              <div className="mt-2 pt-2 border-t border-[#B8A078]/20">
                 <a
                   href="tel:7027180043"
-                  className="flex items-center gap-2 text-[#2D2A26] hover:text-[#8B5E3C] transition-colors px-4 py-3 rounded-md min-h-[48px] touch-manipulation"
+                  className="flex items-center gap-2 text-[#141210] hover:text-[#1C1917] transition-colors px-4 py-3 rounded-md min-h-[48px] touch-manipulation"
                 >
                   <Phone className="w-4 h-4" />
                   <span className="font-medium">(702) 718-0043</span>
@@ -250,7 +250,7 @@ export default function Navbar() {
                 <Button
                   asChild
                   variant="default"
-                  className="w-full mt-4 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white min-h-[48px] px-6"
+                  className="w-full mt-4 bg-[#1C1917] hover:bg-[#1C1917]/90 text-white min-h-[48px] px-6"
                 >
                   <Link href="/contact" onClick={() => setIsOpen(false)}>
                     Schedule a Tour

@@ -24,7 +24,7 @@ function CollectionCard({
   return (
     <ScrollAnimation delay={delay}>
       <div className="bg-white p-6 md:p-8 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
-        <div className="relative h-48 md:h-56 rounded-lg mb-4 md:mb-6 overflow-hidden bg-[#FDF8F3]">
+        <div className="relative h-48 md:h-56 rounded-lg mb-4 md:mb-6 overflow-hidden bg-[#F7F6F4]">
           <Image
             src={imagePath}
             alt={`${title} exterior in Sun City Summerlin, Las Vegas`}
@@ -35,13 +35,13 @@ function CollectionCard({
             sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
           />
         </div>
-        <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-2 md:mb-3 font-playfair">
+        <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-2 md:mb-3 font-playfair">
           {title}
         </h3>
-        <p className="text-base md:text-lg font-semibold text-[#8B5E3C] mb-3 md:mb-4">
+        <p className="text-base md:text-lg font-semibold text-[#1C1917] mb-3 md:mb-4">
           {specs}
         </p>
-        <p className="text-sm md:text-base text-[#2D2A26] leading-relaxed flex-grow">
+        <p className="text-sm md:text-base text-[#141210] leading-relaxed flex-grow">
           {description}
         </p>
       </div>
@@ -75,12 +75,12 @@ export default function HomeCollectionsSection() {
   ];
 
   return (
-    <section id="home-styles" className="py-16 md:py-20 lg:py-24 bg-[#FDF8F3]">
+    <section id="home-styles" className="py-16 md:py-20 lg:py-24 bg-[#F7F6F4]">
       <div className="container mx-auto px-4">
-        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-3 md:mb-4 text-center font-playfair px-4">
+        <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-3 md:mb-4 text-center font-playfair px-4">
           Find Your Perfect Home Size
         </h2>
-        <p className="text-center text-base md:text-lg text-[#2D2A26] mb-8 md:mb-12 max-w-2xl mx-auto px-4">
+        <p className="text-center text-base md:text-lg text-[#141210] mb-8 md:mb-12 max-w-2xl mx-auto px-4">
           With 7,779 homes built 1989–2002, Sun City Summerlin offers rare variety. Nearly all
           are single-story with attached garages—Dr. Duffy matches plan, village, and lot to your
           next chapter.
@@ -104,7 +104,7 @@ export default function HomeCollectionsSection() {
             asChild
             variant="default"
             size="lg"
-            className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90"
+            className="w-full sm:w-auto min-h-[48px] min-w-[48px] px-6 bg-[#1C1917] hover:bg-[#1C1917]/90"
           >
             <Link href="/homes-for-sale">View Available Homes</Link>
           </Button>

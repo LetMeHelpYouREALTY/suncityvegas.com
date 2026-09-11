@@ -107,12 +107,12 @@ export default function EventsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <Calendar className="w-16 h-16 text-[#D4AF37]" />
+                  <Calendar className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Sun City Summerlin Events & Activities
@@ -132,7 +132,7 @@ export default function EventsPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/lifestyle/events-hero.jpg"
                   alt="Sun City Summerlin community events and celebrations"
@@ -153,8 +153,8 @@ export default function EventsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     Life at Sun City Summerlin is never boring. The community hosts a full calendar of events throughout the year, bringing residents together for fun, entertainment, and socializing.
                   </p>
                   <p>
@@ -170,11 +170,11 @@ export default function EventsPage() {
         </section>
 
         {/* Event Types */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Types of Events
                 </h2>
               </ScrollAnimation>
@@ -185,18 +185,18 @@ export default function EventsPage() {
                     <ScrollAnimation key={type.name} delay={index * 100}>
                       <div className="bg-white rounded-lg p-6 shadow-md">
                         <div className="flex items-center gap-3 mb-4">
-                          <Icon className="w-8 h-8 text-[#8B5E3C]" />
-                          <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair">
+                          <Icon className="w-8 h-8 text-[#1C1917]" />
+                          <h3 className="text-xl font-bold text-[#1C1917] font-playfair">
                             {type.name}
                           </h3>
                         </div>
-                        <p className="text-[#2D2A26] mb-4 leading-relaxed">
+                        <p className="text-[#141210] mb-4 leading-relaxed">
                           {type.description}
                         </p>
                         <ul className="space-y-2">
                           {type.events.map((event) => (
-                            <li key={event} className="flex items-start gap-2 text-[#2D2A26]">
-                              <span className="text-[#5D7A5D] font-bold">•</span>
+                            <li key={event} className="flex items-start gap-2 text-[#141210]">
+                              <span className="text-[#57534E] font-bold">•</span>
                               <span>{event}</span>
                             </li>
                           ))}
@@ -215,7 +215,7 @@ export default function EventsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Year-Round Calendar
                 </h2>
               </ScrollAnimation>
@@ -239,11 +239,11 @@ export default function EventsPage() {
                   },
                 ].map((season, index) => (
                   <ScrollAnimation key={season.season} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#8B5E3C]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#1C1917]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {season.season}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{season.events}</p>
+                      <p className="text-[#141210] leading-relaxed">{season.events}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -253,36 +253,36 @@ export default function EventsPage() {
         </section>
 
         {/* Event Venues */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Event Venues
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8 space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Desert Vista Grand Ballroom
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     The largest event space in Sun City Summerlin, perfect for major celebrations, concerts, and large social gatherings. The grand ballroom can accommodate hundreds of guests.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Recreation Center Meeting Rooms
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     All three recreation centers have meeting rooms and social spaces that host smaller events, seminars, and club meetings throughout the year.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Outdoor Spaces
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Beautiful outdoor spaces throughout the community host summer events, BBQs, and outdoor concerts, taking advantage of Las Vegas' ideal weather.
                   </p>
                 </div>
@@ -296,40 +296,40 @@ export default function EventsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Getting Involved
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-[#FDF8F3] rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                <div className="bg-[#F7F6F4] rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Attend Events
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Most events are open to all residents. Check the community calendar, newsletter, or recreation center bulletin boards for upcoming events.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                <div className="bg-[#F7F6F4] rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Volunteer
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Many residents volunteer to help organize and run events. It's a great way to get involved and meet people while contributing to the community.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                <div className="bg-[#F7F6F4] rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Suggest Events
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     The community welcomes suggestions for new events. If you have an idea for an event, share it with the HOA or recreation center staff.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] rounded-lg p-6">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                <div className="bg-[#F7F6F4] rounded-lg p-6">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Stay Informed
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Stay up-to-date on events through the community newsletter, website, recreation center announcements, and word-of-mouth from neighbors.
                   </p>
                 </div>
@@ -339,7 +339,7 @@ export default function EventsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -352,7 +352,7 @@ export default function EventsPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

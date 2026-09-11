@@ -26,14 +26,14 @@ function FAQItem({
       <div className="bg-white rounded-lg shadow-two overflow-hidden">
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-[#FDF8F3] transition-colors"
+          className="w-full px-6 py-4 flex items-center justify-between text-left hover:bg-[#F7F6F4] transition-colors"
           aria-expanded={isOpen ? 'true' : 'false'}
         >
-          <span className="font-semibold text-[#2D2A26] pr-4">{question}</span>
+          <span className="font-semibold text-[#141210] pr-4">{question}</span>
           {isOpen ? (
-            <ChevronUp className="w-5 h-5 text-[#8B5E3C] flex-shrink-0" />
+            <ChevronUp className="w-5 h-5 text-[#1C1917] flex-shrink-0" />
           ) : (
-            <ChevronDown className="w-5 h-5 text-[#8B5E3C] flex-shrink-0" />
+            <ChevronDown className="w-5 h-5 text-[#1C1917] flex-shrink-0" />
           )}
         </button>
         <div
@@ -42,8 +42,8 @@ function FAQItem({
             isOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
           )}
         >
-          <div className="px-6 py-4 border-t border-[#C4A574]/20">
-            <p className="text-[#2D2A26] leading-relaxed">{answer}</p>
+          <div className="px-6 py-4 border-t border-[#B8A078]/20">
+            <p className="text-[#141210] leading-relaxed">{answer}</p>
           </div>
         </div>
       </div>
@@ -59,12 +59,12 @@ export default function FAQContent() {
         <section
           key={category.category}
           className={`py-12 md:py-16 ${
-            categoryIndex % 2 === 0 ? 'bg-white' : 'bg-[#FDF8F3]'
+            categoryIndex % 2 === 0 ? 'bg-white' : 'bg-[#F7F6F4]'
           }`}
         >
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 font-playfair">
                 {category.category}
               </h2>
               <div className="space-y-4">
@@ -83,7 +83,7 @@ export default function FAQContent() {
       ))}
 
       {/* Still Have Questions */}
-      <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+      <section className="py-12 md:py-16 bg-[#1C1917] text-white">
         <div className="container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
@@ -96,13 +96,13 @@ export default function FAQContent() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
                 href="tel:7027180043"
-                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors"
+                className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors"
               >
                 Call (702) 718-0043
               </a>
               <a
                 href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#8B5E3C] transition-colors"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white hover:text-[#1C1917] transition-colors"
               >
                 Send a Message
               </a>

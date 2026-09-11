@@ -57,12 +57,12 @@ export default function HistoryPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <Building className="w-16 h-16 text-[#D4AF37]" />
+                  <Building className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Sun City Summerlin History
@@ -82,7 +82,7 @@ export default function HistoryPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/community/history-hero.jpg"
                   alt="Sun City Summerlin history and development by Del Webb"
@@ -103,8 +103,8 @@ export default function HistoryPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     Sun City Summerlin represents a significant chapter in the history of active adult communities in Las Vegas. Built by Del Webb Corporation from 1989 to 2002, it was one of the first major 55+ communities in the Las Vegas area.
                   </p>
                   <p>
@@ -117,36 +117,36 @@ export default function HistoryPage() {
         </section>
 
         {/* Del Webb Legacy */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   The Del Webb Legacy
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8 shadow-md space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Pioneering Active Adult Living
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Del Webb Corporation revolutionized retirement living when they opened the first Sun City in Arizona in 1960. The concept of an age-restricted community designed specifically for active adults was groundbreaking, and it changed how Americans thought about retirement.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Bringing the Vision to Las Vegas
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     By the late 1980s, Del Webb had perfected the Sun City model. When they chose Summerlin, Las Vegas, as the location for a new Sun City community, they brought decades of experience in creating active adult communities. Sun City Summerlin was designed to be a flagship community, showcasing the best of what Del Webb had learned.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Quality and Vision
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Del Webb's commitment to quality construction, thoughtful planning, and comprehensive amenities is evident throughout Sun City Summerlin. The community was built to last, with attention to detail that has helped it maintain its value and desirability over the decades.
                   </p>
                 </div>
@@ -160,7 +160,7 @@ export default function HistoryPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Development Timeline
                 </h2>
               </ScrollAnimation>
@@ -198,16 +198,16 @@ export default function HistoryPage() {
                   },
                 ].map((milestone, index) => (
                   <ScrollAnimation key={milestone.year} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#8B5E3C]">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#1C1917]">
                       <div className="flex items-center gap-4 mb-3">
-                        <div className="bg-[#8B5E3C] text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-lg flex-shrink-0">
+                        <div className="bg-[#1C1917] text-white rounded-full w-16 h-16 flex items-center justify-center font-bold text-lg flex-shrink-0">
                           {milestone.year}
                         </div>
-                        <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair">
+                        <h3 className="text-xl font-bold text-[#1C1917] font-playfair">
                           {milestone.title}
                         </h3>
                       </div>
-                      <p className="text-[#2D2A26] leading-relaxed ml-20">
+                      <p className="text-[#141210] leading-relaxed ml-20">
                         {milestone.description}
                       </p>
                     </div>
@@ -219,48 +219,48 @@ export default function HistoryPage() {
         </section>
 
         {/* Community Growth */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Community Growth & Evolution
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <Users className="w-6 h-6" />
                     Population Growth
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     From the first residents in 1989 to today's thriving community of over 7,781 homes, Sun City Summerlin has grown into one of the largest and most established 55+ communities in Las Vegas.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <Building className="w-6 h-6" />
                     Amenity Development
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Over the years, all three recreation centers, three golf courses, and extensive amenities were completed. The community now offers over 125,000 square feet of recreation facilities.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <Calendar className="w-6 h-6" />
                     Community Culture
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     A vibrant community culture has developed with 80+ clubs, year-round events, and active social life. Residents have created a welcoming, engaged community.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair flex items-center gap-3">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair flex items-center gap-3">
                     <MapPin className="w-6 h-6" />
                     Established Reputation
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Sun City Summerlin has established itself as one of Las Vegas' premier 55+ communities, known for its amenities, location, and active lifestyle.
                   </p>
                 </div>
@@ -274,11 +274,11 @@ export default function HistoryPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Today's Sun City Summerlin
                 </h2>
               </ScrollAnimation>
-              <div className="bg-gradient-to-r from-[#8B5E3C] to-[#5D7A5D] text-white rounded-lg p-8 md:p-12">
+              <div className="bg-gradient-to-r from-[#1C1917] to-[#57534E] text-white rounded-lg p-8 md:p-12">
                 <p className="text-lg md:text-xl leading-relaxed mb-6">
                   Today, Sun City Summerlin stands as a testament to Del Webb's vision. The community has matured beautifully, with established landscaping, proven amenities, and a vibrant resident community.
                 </p>
@@ -294,7 +294,7 @@ export default function HistoryPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -307,7 +307,7 @@ export default function HistoryPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

@@ -53,20 +53,20 @@ export default function MortgageCalculator() {
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto">
           <div className="text-center mb-8 md:mb-12">
-            <Calculator className="w-12 h-12 text-[#8B5E3C] mx-auto mb-4" />
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+            <Calculator className="w-12 h-12 text-[#1C1917] mx-auto mb-4" />
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 font-playfair">
               Mortgage Calculator
             </h2>
-            <p className="text-[#2D2A26]">
+            <p className="text-[#141210]">
               Estimate your monthly payment for a home in Sun City Summerlin
             </p>
           </div>
 
-          <div className="bg-[#FDF8F3] rounded-lg shadow-three p-6 md:p-8">
+          <div className="bg-[#F7F6F4] rounded-lg shadow-three p-6 md:p-8">
             {/* Purchase Price */}
             <div className="mb-6">
-              <label htmlFor="purchase-price" className="block text-sm font-semibold text-[#8B5E3C] mb-3">
-                Purchase Price: <span className="text-[#8B5E3C] font-bold">${purchasePrice.toLocaleString()}</span>
+              <label htmlFor="purchase-price" className="block text-sm font-semibold text-[#1C1917] mb-3">
+                Purchase Price: <span className="text-[#1C1917] font-bold">${purchasePrice.toLocaleString()}</span>
               </label>
               <input
                 id="purchase-price"
@@ -76,7 +76,7 @@ export default function MortgageCalculator() {
                 step="5000"
                 value={purchasePrice}
                 onChange={(e) => setPurchasePrice(Number(e.target.value))}
-                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#8B5E3C]"
+                className="w-full h-2 bg-gray-200 rounded-lg appearance-none cursor-pointer accent-[#1C1917]"
                 aria-label="Purchase price slider"
               />
               <div className="flex justify-between text-xs text-gray-500 mt-1">
@@ -87,9 +87,9 @@ export default function MortgageCalculator() {
 
             {/* Down Payment */}
             <div className="mb-6">
-              <label htmlFor="down-payment" className="block text-sm font-semibold text-[#8B5E3C] mb-2">
+              <label htmlFor="down-payment" className="block text-sm font-semibold text-[#1C1917] mb-2">
                 Down Payment: {downPaymentPercent}% (
-                <span className="text-[#8B5E3C] font-bold">
+                <span className="text-[#1C1917] font-bold">
                   ${((purchasePrice * downPaymentPercent) / 100).toLocaleString()}
                 </span>
                 )
@@ -98,7 +98,7 @@ export default function MortgageCalculator() {
                 id="down-payment"
                 value={downPaymentPercent}
                 onChange={(e) => setDownPaymentPercent(Number(e.target.value))}
-                className="w-full p-3 border-2 border-[#C4A574]/30 rounded-lg focus:border-[#8B5E3C] focus:outline-none transition-colors"
+                className="w-full p-3 border-2 border-[#B8A078]/30 rounded-lg focus:border-[#1C1917] focus:outline-none transition-colors"
                 aria-label="Down payment percentage"
               >
                 {[0, 3, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70].map((pct) => (
@@ -111,8 +111,8 @@ export default function MortgageCalculator() {
 
             {/* Interest Rate */}
             <div className="mb-6">
-              <label htmlFor="interest-rate" className="block text-sm font-semibold text-[#8B5E3C] mb-2">
-                Interest Rate: <span className="text-[#8B5E3C] font-bold">{interestRate}%</span>
+              <label htmlFor="interest-rate" className="block text-sm font-semibold text-[#1C1917] mb-2">
+                Interest Rate: <span className="text-[#1C1917] font-bold">{interestRate}%</span>
               </label>
               <input
                 id="interest-rate"
@@ -122,21 +122,21 @@ export default function MortgageCalculator() {
                 max="15"
                 value={interestRate}
                 onChange={(e) => setInterestRate(Number(e.target.value))}
-                className="w-full p-3 border-2 border-[#C4A574]/30 rounded-lg focus:border-[#8B5E3C] focus:outline-none transition-colors"
+                className="w-full p-3 border-2 border-[#B8A078]/30 rounded-lg focus:border-[#1C1917] focus:outline-none transition-colors"
                 aria-label="Interest rate percentage"
               />
             </div>
 
             {/* Loan Term */}
             <div className="mb-6">
-              <label htmlFor="loan-term" className="block text-sm font-semibold text-[#8B5E3C] mb-2">
+              <label htmlFor="loan-term" className="block text-sm font-semibold text-[#1C1917] mb-2">
                 Loan Term
               </label>
               <select
                 id="loan-term"
                 value={loanTerm}
                 onChange={(e) => setLoanTerm(Number(e.target.value))}
-                className="w-full p-3 border-2 border-[#C4A574]/30 rounded-lg focus:border-[#8B5E3C] focus:outline-none transition-colors"
+                className="w-full p-3 border-2 border-[#B8A078]/30 rounded-lg focus:border-[#1C1917] focus:outline-none transition-colors"
                 aria-label="Loan term in years"
               >
                 <option value={5}>5 years</option>
@@ -158,10 +158,10 @@ export default function MortgageCalculator() {
                   type="checkbox"
                   checked={includeTaxes}
                   onChange={(e) => setIncludeTaxes(e.target.checked)}
-                  className="w-5 h-5 rounded accent-[#8B5E3C]"
+                  className="w-5 h-5 rounded accent-[#1C1917]"
                   aria-label="Include taxes and insurance"
                 />
-                <span className="text-sm font-medium text-[#2D2A26]">
+                <span className="text-sm font-medium text-[#141210]">
                   Include Taxes & Insurance
                 </span>
               </label>
@@ -170,8 +170,8 @@ export default function MortgageCalculator() {
             {/* Property Tax Rate (shown when includeTaxes is true) */}
             {includeTaxes && (
               <div className="mb-6">
-                <label htmlFor="property-tax-rate" className="block text-sm font-semibold text-[#8B5E3C] mb-2">
-                  Property Tax Rate: <span className="text-[#8B5E3C] font-bold">{propertyTaxRate}%</span>
+                <label htmlFor="property-tax-rate" className="block text-sm font-semibold text-[#1C1917] mb-2">
+                  Property Tax Rate: <span className="text-[#1C1917] font-bold">{propertyTaxRate}%</span>
                 </label>
                 <input
                   id="property-tax-rate"
@@ -181,7 +181,7 @@ export default function MortgageCalculator() {
                   max="4"
                   value={propertyTaxRate}
                   onChange={(e) => setPropertyTaxRate(Number(e.target.value))}
-                  className="w-full p-3 border-2 border-[#C4A574]/30 rounded-lg focus:border-[#8B5E3C] focus:outline-none transition-colors"
+                  className="w-full p-3 border-2 border-[#B8A078]/30 rounded-lg focus:border-[#1C1917] focus:outline-none transition-colors"
                   aria-label="Property tax rate percentage"
                 />
                 <p className="text-xs text-gray-500 mt-1">
@@ -193,8 +193,8 @@ export default function MortgageCalculator() {
             {/* Monthly Insurance (shown when includeTaxes is true) */}
             {includeTaxes && (
               <div className="mb-6">
-                <label htmlFor="monthly-insurance" className="block text-sm font-semibold text-[#8B5E3C] mb-2">
-                  Monthly Insurance: <span className="text-[#8B5E3C] font-bold">${monthlyInsurance}</span>
+                <label htmlFor="monthly-insurance" className="block text-sm font-semibold text-[#1C1917] mb-2">
+                  Monthly Insurance: <span className="text-[#1C1917] font-bold">${monthlyInsurance}</span>
                 </label>
                 <input
                   id="monthly-insurance"
@@ -204,7 +204,7 @@ export default function MortgageCalculator() {
                   max="500"
                   value={monthlyInsurance}
                   onChange={(e) => setMonthlyInsurance(Number(e.target.value))}
-                  className="w-full p-3 border-2 border-[#C4A574]/30 rounded-lg focus:border-[#8B5E3C] focus:outline-none transition-colors"
+                  className="w-full p-3 border-2 border-[#B8A078]/30 rounded-lg focus:border-[#1C1917] focus:outline-none transition-colors"
                   aria-label="Monthly insurance amount"
                   title="Monthly insurance amount"
                 />
@@ -212,7 +212,7 @@ export default function MortgageCalculator() {
             )}
 
             {/* Result */}
-            <div className="mt-8 p-6 md:p-8 bg-[#8B5E3C] rounded-lg text-white text-center">
+            <div className="mt-8 p-6 md:p-8 bg-[#1C1917] rounded-lg text-white text-center">
               <DollarSign className="w-8 h-8 mx-auto mb-3 opacity-80" />
               <p className="text-sm uppercase tracking-wide mb-2 opacity-90">
                 Estimated Monthly Payment
@@ -236,13 +236,13 @@ export default function MortgageCalculator() {
             </p>
 
             {/* Link to Home Value Page */}
-            <div className="mt-6 pt-6 border-t border-[#C4A574]/30 text-center">
-              <p className="text-sm text-[#2D2A26] mb-3">
+            <div className="mt-6 pt-6 border-t border-[#B8A078]/30 text-center">
+              <p className="text-sm text-[#141210] mb-3">
                 Want to know your current home&apos;s value?
               </p>
               <a
                 href="/home-value"
-                className="inline-flex items-center gap-2 px-6 py-3 bg-[#8B5E3C] text-white font-semibold rounded-lg hover:bg-[#8B5E3C]/90 transition-colors"
+                className="inline-flex items-center gap-2 px-6 py-3 bg-[#1C1917] text-white font-semibold rounded-lg hover:bg-[#1C1917]/90 transition-colors"
               >
                 Get Free Home Value Estimate
               </a>

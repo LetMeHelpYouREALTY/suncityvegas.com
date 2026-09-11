@@ -111,21 +111,21 @@ export default function SellingPage() {
         />
 
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#FDF8F3] to-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#F7F6F4] to-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
-                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Sell Your Sun City Summerlin Home with Confidence
                 </h1>
-                <p className="text-lg md:text-xl text-[#2D2A26] mb-8 leading-relaxed">
+                <p className="text-lg md:text-xl text-[#141210] mb-8 leading-relaxed">
                   Expert real estate services tailored for Sun City Summerlin sellers. Get your free home valuation and discover how we can help you achieve your selling goals.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[44px]">
+                  <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">
                     <Link href="/home-value">Get Free Valuation</Link>
                   </Button>
-                  <Button asChild variant="outline" size="lg" className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]">
+                  <Button asChild variant="outline" size="lg" className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]">
                     <a href="tel:7027180043">
                       <Phone className="w-5 h-5 mr-2" />
                       Call (702) 718-0043
@@ -157,10 +157,10 @@ export default function SellingPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
                   Why Choose Dr. Jan Duffy to Sell Your Home?
                 </h2>
-                <p className="text-lg text-[#2D2A26] text-center mb-12 max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] text-center mb-12 max-w-2xl mx-auto">
                   As a Sun City Summerlin specialist, I understand the unique market dynamics of this 55+ community and how to position your home for maximum appeal.
                 </p>
               </ScrollAnimation>
@@ -168,12 +168,12 @@ export default function SellingPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                 {services.map((service, index) => (
                   <ScrollAnimation key={index} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 h-full">
-                      <div className="text-[#8B5E3C] mb-4">{service.icon}</div>
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 h-full">
+                      <div className="text-[#1C1917] mb-4">{service.icon}</div>
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {service.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{service.description}</p>
+                      <p className="text-[#141210] leading-relaxed">{service.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -183,14 +183,14 @@ export default function SellingPage() {
         </section>
 
         {/* Selling Process */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
                   Our Selling Process
                 </h2>
-                <p className="text-lg text-[#2D2A26] text-center mb-12 max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] text-center mb-12 max-w-2xl mx-auto">
                   A straightforward, stress-free approach designed for active adults selling in Sun City Summerlin.
                 </p>
               </ScrollAnimation>
@@ -199,13 +199,13 @@ export default function SellingPage() {
                 {sellingSteps.map((step, index) => (
                   <ScrollAnimation key={index} delay={index * 100}>
                     <div className="bg-white rounded-lg p-6 shadow-md h-full">
-                      <div className="w-12 h-12 rounded-full bg-[#8B5E3C] text-white flex items-center justify-center text-xl font-bold mb-4">
+                      <div className="w-12 h-12 rounded-full bg-[#1C1917] text-white flex items-center justify-center text-xl font-bold mb-4">
                         {step.step}
                       </div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {step.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{step.description}</p>
+                      <p className="text-[#141210] leading-relaxed">{step.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -219,45 +219,45 @@ export default function SellingPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Sun City Summerlin Market Insights
                 </h2>
               </ScrollAnimation>
 
-              <div className="bg-[#FDF8F3] rounded-lg p-8 md:p-12">
+              <div className="bg-[#F7F6F4] rounded-lg p-8 md:p-12">
                 <ul className="space-y-4">
                   <li className="flex items-start gap-4">
-                    <CheckCircle2 className="w-6 h-6 text-[#5D7A5D] flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-6 h-6 text-[#57534E] flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-[#2D2A26] font-semibold mb-1">Strong Buyer Demand</p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210] font-semibold mb-1">Strong Buyer Demand</p>
+                      <p className="text-[#141210]">
                         The 55+ active adult market in Las Vegas remains strong, with steady demand for Sun City Summerlin homes.
                       </p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <CheckCircle2 className="w-6 h-6 text-[#5D7A5D] flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-6 h-6 text-[#57534E] flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-[#2D2A26] font-semibold mb-1">Competitive Pricing</p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210] font-semibold mb-1">Competitive Pricing</p>
+                      <p className="text-[#141210]">
                         Homes priced correctly for the current market typically sell within 30-60 days in Sun City Summerlin.
                       </p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <CheckCircle2 className="w-6 h-6 text-[#5D7A5D] flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-6 h-6 text-[#57534E] flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-[#2D2A26] font-semibold mb-1">Premium Features Matter</p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210] font-semibold mb-1">Premium Features Matter</p>
+                      <p className="text-[#141210]">
                         Golf course views, updated kitchens, and single-story layouts command premium prices in this community.
                       </p>
                     </div>
                   </li>
                   <li className="flex items-start gap-4">
-                    <CheckCircle2 className="w-6 h-6 text-[#5D7A5D] flex-shrink-0 mt-1" />
+                    <CheckCircle2 className="w-6 h-6 text-[#57534E] flex-shrink-0 mt-1" />
                     <div>
-                      <p className="text-[#2D2A26] font-semibold mb-1">Expert Marketing</p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210] font-semibold mb-1">Expert Marketing</p>
+                      <p className="text-[#141210]">
                         Professional photography, virtual tours, and targeted marketing to 55+ buyers maximize your home's visibility.
                       </p>
                     </div>
@@ -269,7 +269,7 @@ export default function SellingPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -280,7 +280,7 @@ export default function SellingPage() {
                   Get your free home valuation and learn how we can help you achieve your selling goals.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                  <Button asChild size="lg" className="bg-white text-[#8B5E3C] hover:bg-white/90 min-h-[44px]">
+                  <Button asChild size="lg" className="bg-white text-[#1C1917] hover:bg-white/90 min-h-[44px]">
                     <Link href="/home-value">Get Free Valuation</Link>
                   </Button>
                   <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 min-h-[44px]">

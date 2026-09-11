@@ -86,10 +86,10 @@ export default function ServicesIndexPage() {
         ]}
       />
       <main id="main-content" className="pt-16 md:pt-20">
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <p className="text-sm uppercase tracking-wide text-[#D4AF37] mb-3">
+              <p className="text-sm uppercase tracking-wide text-[#C9A962] mb-3">
                 Hyper-Local 55+ Realtor
               </p>
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-playfair">
@@ -102,7 +102,7 @@ export default function ServicesIndexPage() {
               </p>
               <p className="text-base text-gray-100">
                 {siteConfig.address} · Daily 6:00 AM–9:00 PM ·{" "}
-                <a href="tel:+17027180043" className="underline hover:text-[#D4AF37]">
+                <a href="tel:+17027180043" className="underline hover:text-[#C9A962]">
                   (702) 718-0043
                 </a>
               </p>
@@ -110,7 +110,7 @@ export default function ServicesIndexPage() {
           </div>
         </section>
 
-        <section className="bg-[#FDF8F3] py-8 md:py-10">
+        <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
             <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
               <Image
@@ -122,7 +122,7 @@ export default function ServicesIndexPage() {
                 priority
               />
             </div>
-            <p className="mt-4 text-center text-[#2D2A26] max-w-3xl mx-auto text-base md:text-lg">
+            <p className="mt-4 text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
               Buyer agency, seller representation, HOA review, VA guidance, and 55+ relocation—hyper-local help inside Sun City Summerlin gates.
             </p>
           </div>
@@ -139,30 +139,30 @@ export default function ServicesIndexPage() {
             <section
               key={category.id}
               id={category.id}
-              className="py-12 md:py-16 even:bg-[#FDF8F3] bg-white"
+              className="py-12 md:py-16 even:bg-[#F7F6F4] bg-white"
             >
               <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
-                  <p className="text-sm font-semibold text-[#8B5E3C] mb-2">
+                  <p className="text-sm font-semibold text-[#1C1917] mb-2">
                     {category.gbpRole} Google Business category
                   </p>
-                  <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-3 font-playfair">
                     {category.label}
                   </h2>
-                  <p className="text-[#2D2A26] mb-8 max-w-3xl">{category.summary}</p>
+                  <p className="text-[#141210] mb-8 max-w-3xl">{category.summary}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     {categoryServices.map((service) => (
                       <article
                         key={service.slug}
-                        className="bg-white border border-[#C4A574]/30 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
+                        className="bg-white border border-[#B8A078]/30 rounded-lg p-6 shadow-sm hover:shadow-md transition-shadow"
                       >
-                        <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                        <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                           {service.name}
                         </h3>
-                        <p className="text-[#2D2A26] leading-relaxed mb-4">{service.answer}</p>
+                        <p className="text-[#141210] leading-relaxed mb-4">{service.answer}</p>
                         <Link
                           href={`/services/${service.slug}`}
-                          className="inline-flex items-center gap-2 min-h-[44px] text-[#8B5E3C] font-semibold hover:text-[#5D7A5D]"
+                          className="inline-flex items-center gap-2 min-h-[44px] text-[#1C1917] font-semibold hover:text-[#57534E]"
                         >
                           Open {service.name} page
                           <ArrowRight className="w-4 h-4" aria-hidden />
@@ -176,7 +176,7 @@ export default function ServicesIndexPage() {
           );
         })}
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4 text-center">
             <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
               Talk through the right service
@@ -187,7 +187,7 @@ export default function ServicesIndexPage() {
             </p>
             <a
               href="tel:+17027180043"
-              className="inline-flex items-center justify-center gap-2 min-h-[44px] min-w-[44px] px-6 py-3 bg-white text-[#8B5E3C] font-semibold rounded-lg hover:bg-[#FDF8F3]"
+              className="inline-flex items-center justify-center gap-2 min-h-[44px] min-w-[44px] px-6 py-3 bg-white text-[#1C1917] font-semibold rounded-lg hover:bg-[#F7F6F4]"
             >
               <Phone className="w-5 h-5" aria-hidden />
               (702) 718-0043

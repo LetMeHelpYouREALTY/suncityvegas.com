@@ -74,7 +74,7 @@ export default function SunCityVsOther55CommunitiesPage() {
         ]}
       />
       <main className="pt-16 md:pt-20">
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
@@ -107,17 +107,17 @@ export default function SunCityVsOther55CommunitiesPage() {
                 </div>
               )}
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26]">
+                <div className="prose prose-lg max-w-none text-[#141210]">
                   <p className="text-lg leading-relaxed mb-4">
                     How does Sun City Summerlin compare to other 55+ communities in Las Vegas—like Aliante, Siena, Sun City Anthem, and others? In this guide we cover location, amenities, HOA fees, home prices, and lifestyle so you can choose the community that fits you best.
                   </p>
                   <p className="mb-6">
                     For the full picture, see the{" "}
-                    <Link href="/flyers/sun-city-summerlin-guide" className="text-[#8B5E3C] font-semibold hover:text-[#5D7A5D] underline">
+                    <Link href="/flyers/sun-city-summerlin-guide" className="text-[#1C1917] font-semibold hover:text-[#57534E] underline">
                       Sun City Summerlin Complete Community Guide
                     </Link>
                     , or{" "}
-                    <Link href="/schedule" className="text-[#8B5E3C] font-semibold hover:text-[#5D7A5D] underline">
+                    <Link href="/schedule" className="text-[#1C1917] font-semibold hover:text-[#57534E] underline">
                       book a 55+ strategy call
                     </Link>
                     {" "}with Dr. Jan Duffy to compare communities in person and tour Sun City Summerlin.
@@ -129,15 +129,15 @@ export default function SunCityVsOther55CommunitiesPage() {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
                   <Link
                     href="/flyers/sun-city-summerlin-guide"
-                    className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20 flex items-center gap-4"
+                    className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20 flex items-center gap-4"
                   >
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                       Read the full guide <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
                   <Link
                     href="/schedule"
-                    className="bg-[#8B5E3C] text-white rounded-lg p-6 hover:bg-[#7a5335] transition-colors flex items-center gap-4"
+                    className="bg-[#1C1917] text-white rounded-lg p-6 hover:bg-[#7a5335] transition-colors flex items-center gap-4"
                   >
                     <span className="font-semibold flex items-center gap-2">
                       Book a 55+ Strategy Call <ArrowRight className="w-4 h-4" />
@@ -149,7 +149,7 @@ export default function SunCityVsOther55CommunitiesPage() {
           </div>
         </section>
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white" aria-label="CTA">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white" aria-label="CTA">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -162,7 +162,7 @@ export default function SunCityVsOther55CommunitiesPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

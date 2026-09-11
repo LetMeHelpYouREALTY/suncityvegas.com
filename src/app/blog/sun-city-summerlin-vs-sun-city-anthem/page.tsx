@@ -120,7 +120,7 @@ export default function ComparisonPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
@@ -147,7 +147,7 @@ export default function ComparisonPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src="/images/blog/comparison-hero.jpg"
                   alt="Comparison of Sun City Summerlin and Sun City Anthem communities"
@@ -169,8 +169,8 @@ export default function ComparisonPage() {
             <div className="max-w-4xl mx-auto">
               {/* Introduction */}
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] mb-12">
-                  <p className="text-xl md:text-2xl font-semibold text-[#8B5E3C] leading-relaxed mb-6">
+                <div className="prose prose-lg max-w-none text-[#141210] mb-12">
+                  <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
                     Both Sun City Summerlin and Sun City Anthem are premier 55+ communities in Las Vegas, but they offer different experiences. Here's my honest comparison to help you decide which is the right fit.
                   </p>
                   <p className="text-lg leading-relaxed">
@@ -182,61 +182,61 @@ export default function ComparisonPage() {
               {/* Quick Comparison Table */}
               <ScrollAnimation delay={100}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Quick Comparison
                   </h2>
                   <div className="overflow-x-auto">
                     <table className="w-full border-collapse bg-white rounded-lg shadow-md">
                       <thead>
-                        <tr className="bg-[#8B5E3C] text-white">
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Feature</th>
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Sun City Summerlin</th>
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Sun City Anthem</th>
+                        <tr className="bg-[#1C1917] text-white">
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Feature</th>
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Sun City Summerlin</th>
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Sun City Anthem</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Built</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Built</td>
                           <td className="border border-gray-200 p-4">1989-2002</td>
                           <td className="border border-gray-200 p-4">1998-2008</td>
                         </tr>
                         <tr>
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Homes</td>
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Homes</td>
                           <td className="border border-gray-200 p-4">7,781</td>
                           <td className="border border-gray-200 p-4">7,219</td>
                         </tr>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Location</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Location</td>
                           <td className="border border-gray-200 p-4">West Vegas (Summerlin)</td>
                           <td className="border border-gray-200 p-4">Henderson</td>
                         </tr>
                         <tr>
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Elevation</td>
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Elevation</td>
                           <td className="border border-gray-200 p-4">~3,000 ft</td>
                           <td className="border border-gray-200 p-4">~2,500 ft</td>
                         </tr>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Golf Courses</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Golf Courses</td>
                           <td className="border border-gray-200 p-4">3 courses</td>
                           <td className="border border-gray-200 p-4">2 courses</td>
                         </tr>
                         <tr>
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Recreation Centers</td>
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Recreation Centers</td>
                           <td className="border border-gray-200 p-4">3 (125,000+ sq ft)</td>
                           <td className="border border-gray-200 p-4">2 centers</td>
                         </tr>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">HOA Fee</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">HOA Fee</td>
                           <td className="border border-gray-200 p-4">~$165/month</td>
                           <td className="border border-gray-200 p-4">~$200/month</td>
                         </tr>
                         <tr>
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Home Age</td>
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Home Age</td>
                           <td className="border border-gray-200 p-4">25-35 years</td>
                           <td className="border border-gray-200 p-4">16-26 years</td>
                         </tr>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Views</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Views</td>
                           <td className="border border-gray-200 p-4">Red Rock Canyon</td>
                           <td className="border border-gray-200 p-4">Mountains/Valley</td>
                         </tr>
@@ -249,60 +249,60 @@ export default function ComparisonPage() {
               {/* Location Comparison */}
               <ScrollAnimation delay={200}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Location: Summerlin vs Henderson
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Sun City Summerlin (Summerlin)
                       </h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>Located in prestigious Summerlin master-planned community</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>10 minutes to Downtown Summerlin (shopping, dining)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>15 minutes to Las Vegas Strip</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>5 minutes to Red Rock Canyon</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>Higher elevation (~3,000 ft) = 5-10° cooler</span>
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#C4A574]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#B8A078]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Sun City Anthem (Henderson)
                       </h3>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>Located in Henderson, southeast of Las Vegas</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>Closer to Lake Mead and recreational areas</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>20-25 minutes to Las Vegas Strip</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>Lower elevation (~2,500 ft)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>More suburban, residential feel</span>
                         </li>
                       </ul>
@@ -314,17 +314,17 @@ export default function ComparisonPage() {
               {/* Amenities Comparison */}
               <ScrollAnimation delay={300}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Amenities: Which Has More?
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 mb-6">
-                    <p className="text-lg font-semibold text-[#8B5E3C] mb-4">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 mb-6">
+                    <p className="text-lg font-semibold text-[#1C1917] mb-4">
                       Winner: Sun City Summerlin
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Sun City Summerlin has more amenities overall: 3 recreation centers totaling 125,000+ square feet versus 2 centers at Sun City Anthem. Sun City Summerlin also has 3 golf courses compared to 2 at Anthem.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Both communities offer excellent amenities, but if variety and quantity matter to you, Sun City Summerlin has the edge. The additional recreation center and golf course provide more options for staying active and social.
                     </p>
                   </div>
@@ -334,29 +334,29 @@ export default function ComparisonPage() {
               {/* Home Age Comparison */}
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Home Age: Newer vs More Established
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-white border-l-4 border-[#C4A574] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-white border-l-4 border-[#B8A078] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Sun City Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         <strong>Built:</strong> 1989-2002 (25-35 years old)
                       </p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210]">
                         Homes are older but well-maintained. Many have been updated by previous owners. The established nature means mature landscaping and proven community infrastructure.
                       </p>
                     </div>
-                    <div className="bg-white border-l-4 border-[#5D7A5D] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-white border-l-4 border-[#57534E] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Sun City Anthem
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         <strong>Built:</strong> 1998-2008 (16-26 years old)
                       </p>
-                      <p className="text-[#2D2A26]">
+                      <p className="text-[#141210]">
                         Homes are newer, which can mean less need for immediate updates. However, newer doesn't always mean better—it depends on how well homes have been maintained.
                       </p>
                     </div>
@@ -367,17 +367,17 @@ export default function ComparisonPage() {
               {/* HOA Fees Comparison */}
               <ScrollAnimation delay={500}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     HOA Fees: Value Comparison
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <p className="text-lg font-semibold text-[#8B5E3C] mb-4">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <p className="text-lg font-semibold text-[#1C1917] mb-4">
                       Winner: Sun City Summerlin
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       At approximately $165 per month, Sun City Summerlin's HOA fees are lower than Sun City Anthem's ~$200 per month, yet you get more amenities. This represents exceptional value.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       For $35 less per month, you get an additional recreation center, an additional golf course, and more overall amenities. Over a year, that's $420 in savings, and over 10 years, that's $4,200.
                     </p>
                   </div>
@@ -387,60 +387,60 @@ export default function ComparisonPage() {
               {/* Who Should Choose Which */}
               <ScrollAnimation delay={600}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Who Should Choose Which?
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Choose Sun City Summerlin If:
                       </h3>
-                      <ul className="space-y-3 text-[#2D2A26]">
+                      <ul className="space-y-3 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>You want the most amenities for your money</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>You prefer Summerlin's location and proximity to Red Rock Canyon</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>You want cooler temperatures (higher elevation)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>You value lower HOA fees</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                           <span>You're okay with older homes (25-35 years)</span>
                         </li>
                       </ul>
                     </div>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#C4A574]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#B8A078]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Choose Sun City Anthem If:
                       </h3>
-                      <ul className="space-y-3 text-[#2D2A26]">
+                      <ul className="space-y-3 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>You want newer homes (16-26 years old)</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>You prefer Henderson's location</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>You want to be closer to Lake Mead</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>You're okay with higher HOA fees for fewer amenities</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <Check className="w-5 h-5 text-[#C4A574] flex-shrink-0 mt-0.5" />
+                          <Check className="w-5 h-5 text-[#B8A078] flex-shrink-0 mt-0.5" />
                           <span>You prefer a slightly smaller community (7,219 vs 7,781 homes)</span>
                         </li>
                       </ul>
@@ -452,10 +452,10 @@ export default function ComparisonPage() {
               {/* Verdict */}
               <ScrollAnimation delay={700}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     My Verdict
                   </h2>
-                  <div className="bg-gradient-to-r from-[#8B5E3C] to-[#5D7A5D] text-white rounded-lg p-8 md:p-12">
+                  <div className="bg-gradient-to-r from-[#1C1917] to-[#57534E] text-white rounded-lg p-8 md:p-12">
                     <p className="text-xl md:text-2xl leading-relaxed mb-6 font-semibold">
                       Both communities are excellent choices, but Sun City Summerlin offers better value for most buyers.
                     </p>
@@ -472,33 +472,33 @@ export default function ComparisonPage() {
               {/* FAQ Section */}
               <ScrollAnimation delay={800}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Frequently Asked Questions
                   </h2>
                   <div className="space-y-4">
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Which is better: Sun City Summerlin or Sun City Anthem?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         The better choice depends on your priorities. Sun City Summerlin offers more amenities (3 rec centers vs 2, 3 golf courses vs 2), lower HOA fees (~$165 vs ~$200), and a more established community. Sun City Anthem has newer homes (built 1998-2008 vs 1989-2002) and is located in Henderson. If you prioritize amenities and value, Sun City Summerlin is better. If you want newer construction, Sun City Anthem may be preferable.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What's the difference in home prices?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Both communities have similar price ranges, typically $275,000 to $1,200,000+. Sun City Summerlin has 7,781 homes, while Sun City Anthem has 7,219 homes. The average home price is similar in both communities, around $450,000.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Which has better amenities?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Sun City Summerlin has more amenities: 3 recreation centers totaling 125,000+ sq ft vs 2 centers, 3 golf courses vs 2, and 80+ clubs. Both communities offer excellent amenities, but Sun City Summerlin has the edge in variety and quantity.
                       </p>
                     </details>
@@ -509,35 +509,35 @@ export default function ComparisonPage() {
               {/* Related Links */}
               <ScrollAnimation delay={900}>
                 <section className="mb-16">
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Related Articles
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Link
                       href="/blog/pros-and-cons-sun-city-summerlin"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Pros and Cons of Sun City Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         An honest assessment of what makes Sun City Summerlin special.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
                     <Link
                       href="/blog/sun-city-summerlin-hoa-fees"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Sun City Summerlin HOA Fees
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         Complete breakdown of what's included in your HOA fee.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
@@ -548,7 +548,7 @@ export default function ComparisonPage() {
           </div>
         </div>
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white" aria-label="CTA">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white" aria-label="CTA">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <ScrollAnimation>
@@ -561,7 +561,7 @@ export default function ComparisonPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a
                       href="tel:7027180043"
-                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                     >
                       <Phone className="w-5 h-5" />
                       Call/Text: (702) 718-0043

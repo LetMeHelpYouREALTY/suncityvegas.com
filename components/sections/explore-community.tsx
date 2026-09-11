@@ -61,7 +61,7 @@ export default function ExploreCommunitySection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+            <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 font-playfair">
               Explore Sun City Summerlin
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
@@ -77,7 +77,7 @@ export default function ExploreCommunitySection() {
                 <Link
                   key={card.href}
                   href={card.href}
-                  className="group relative block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#C4A574]/20"
+                  className="group relative block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#B8A078]/20"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
                     <Image
@@ -90,23 +90,23 @@ export default function ExploreCommunitySection() {
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                     <div className="absolute top-4 left-4">
                       <div className="bg-white/90 backdrop-blur-sm rounded-full p-3">
-                        <Icon className="w-6 h-6 text-[#8B5E3C]" aria-hidden />
+                        <Icon className="w-6 h-6 text-[#1C1917]" aria-hidden />
                       </div>
                     </div>
                     {card.primary && (
                       <div className="absolute top-4 right-4">
-                        <span className="bg-[#D4AF37] text-[#2D2A26] px-3 py-1 rounded-full text-xs font-semibold">
+                        <span className="bg-[#C9A962] text-[#141210] px-3 py-1 rounded-full text-xs font-semibold">
                           Popular
                         </span>
                       </div>
                     )}
                   </div>
                   <div className="p-6">
-                    <h3 className="text-xl font-bold text-[#2D2A26] mb-2 group-hover:text-[#8B5E3C] transition-colors">
+                    <h3 className="text-xl font-bold text-[#141210] mb-2 group-hover:text-[#1C1917] transition-colors">
                       {card.title}
                     </h3>
                     <p className="text-gray-600 text-sm mb-4">{card.description}</p>
-                    <span className="text-[#8B5E3C] font-semibold text-sm group-hover:underline">
+                    <span className="text-[#1C1917] font-semibold text-sm group-hover:underline">
                       Learn More →
                     </span>
                   </div>
@@ -119,7 +119,7 @@ export default function ExploreCommunitySection() {
             <Button
               asChild
               size="lg"
-              className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white min-h-[48px] px-6"
+              className="bg-[#1C1917] hover:bg-[#1C1917]/90 text-white min-h-[48px] px-6"
             >
               <Link href="/contact" className="inline-flex items-center gap-2 min-h-[48px]">
                 <Phone className="w-5 h-5" aria-hidden />

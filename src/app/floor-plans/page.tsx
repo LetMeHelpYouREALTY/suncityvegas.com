@@ -109,7 +109,7 @@ export default function HomeStylesPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -126,29 +126,29 @@ export default function HomeStylesPage() {
         </section>
 
         {/* Community Stats */}
-        <section className="py-8 bg-[#FDF8F3]">
+        <section className="py-8 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 <div className="p-4">
-                  <Building className="w-8 h-8 text-[#8B5E3C] mx-auto mb-2" />
-                  <p className="text-2xl font-bold text-[#8B5E3C]">7,779</p>
-                  <p className="text-sm text-[#2D2A26]">Total Homes</p>
+                  <Building className="w-8 h-8 text-[#1C1917] mx-auto mb-2" />
+                  <p className="text-2xl font-bold text-[#1C1917]">7,779</p>
+                  <p className="text-sm text-[#141210]">Total Homes</p>
                 </div>
                 <div className="p-4">
-                  <Maximize2 className="w-8 h-8 text-[#8B5E3C] mx-auto mb-2" />
-                  <p className="text-2xl font-bold text-[#8B5E3C]">1K-3.5K+</p>
-                  <p className="text-sm text-[#2D2A26]">Sq Ft Range</p>
+                  <Maximize2 className="w-8 h-8 text-[#1C1917] mx-auto mb-2" />
+                  <p className="text-2xl font-bold text-[#1C1917]">1K-3.5K+</p>
+                  <p className="text-sm text-[#141210]">Sq Ft Range</p>
                 </div>
                 <div className="p-4">
-                  <Calendar className="w-8 h-8 text-[#8B5E3C] mx-auto mb-2" />
-                  <p className="text-2xl font-bold text-[#8B5E3C]">1989-2002</p>
-                  <p className="text-sm text-[#2D2A26]">Years Built</p>
+                  <Calendar className="w-8 h-8 text-[#1C1917] mx-auto mb-2" />
+                  <p className="text-2xl font-bold text-[#1C1917]">1989-2002</p>
+                  <p className="text-sm text-[#141210]">Years Built</p>
                 </div>
                 <div className="p-4">
-                  <Home className="w-8 h-8 text-[#8B5E3C] mx-auto mb-2" />
-                  <p className="text-2xl font-bold text-[#8B5E3C]">100%</p>
-                  <p className="text-sm text-[#2D2A26]">Single Story</p>
+                  <Home className="w-8 h-8 text-[#1C1917] mx-auto mb-2" />
+                  <p className="text-2xl font-bold text-[#1C1917]">100%</p>
+                  <p className="text-sm text-[#141210]">Single Story</p>
                 </div>
               </div>
             </div>
@@ -160,10 +160,10 @@ export default function HomeStylesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-12">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 font-playfair">
                   Find Your Perfect Home Size
                 </h2>
-                <p className="text-lg text-[#2D2A26] max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] max-w-2xl mx-auto">
                   Sun City Summerlin homes come in a variety of sizes and styles to fit every lifestyle and budget.
                 </p>
               </div>
@@ -171,37 +171,37 @@ export default function HomeStylesPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 {homeStyles.map((style, index) => (
                   <ScrollAnimation key={style.name} delay={index * 100}>
-                    <div className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow border border-[#C4A574]/20 overflow-hidden">
-                      <div className="bg-[#8B5E3C] text-white p-4">
+                    <div className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow border border-[#B8A078]/20 overflow-hidden">
+                      <div className="bg-[#1C1917] text-white p-4">
                         <h3 className="text-xl font-bold font-playfair">{style.name}</h3>
-                        <p className="text-[#D4AF37] font-semibold">{style.sqftRange}</p>
+                        <p className="text-[#C9A962] font-semibold">{style.sqftRange}</p>
                       </div>
                       <div className="p-6">
                         {/* Specs */}
-                        <div className="grid grid-cols-3 gap-4 mb-4 pb-4 border-b border-[#C4A574]/20">
+                        <div className="grid grid-cols-3 gap-4 mb-4 pb-4 border-b border-[#B8A078]/20">
                           <div className="text-center">
                             <p className="text-sm text-gray-500">Bedrooms</p>
-                            <p className="font-semibold text-[#2D2A26]">{style.beds}</p>
+                            <p className="font-semibold text-[#141210]">{style.beds}</p>
                           </div>
                           <div className="text-center">
                             <p className="text-sm text-gray-500">Bathrooms</p>
-                            <p className="font-semibold text-[#2D2A26]">{style.baths}</p>
+                            <p className="font-semibold text-[#141210]">{style.baths}</p>
                           </div>
                           <div className="text-center">
                             <p className="text-sm text-gray-500">Price Range</p>
-                            <p className="font-semibold text-[#8B5E3C] text-sm">{style.priceRange}</p>
+                            <p className="font-semibold text-[#1C1917] text-sm">{style.priceRange}</p>
                           </div>
                         </div>
 
-                        <p className="text-[#2D2A26] mb-4 leading-relaxed">
+                        <p className="text-[#141210] mb-4 leading-relaxed">
                           {style.description}
                         </p>
 
                         {/* Features */}
                         <ul className="space-y-1 mb-6">
                           {style.features.map((feature) => (
-                            <li key={feature} className="text-sm text-[#2D2A26] flex items-center gap-2">
-                              <span className="w-1.5 h-1.5 bg-[#D4AF37] rounded-full" />
+                            <li key={feature} className="text-sm text-[#141210] flex items-center gap-2">
+                              <span className="w-1.5 h-1.5 bg-[#C9A962] rounded-full" />
                               {feature}
                             </li>
                           ))}
@@ -210,7 +210,7 @@ export default function HomeStylesPage() {
                         <Button
                           asChild
                           variant="default"
-                          className="w-full bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[48px] px-6"
+                          className="w-full bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[48px] px-6"
                         >
                           <Link href="/homes-for-sale">
                             View Available Homes
@@ -226,13 +226,13 @@ export default function HomeStylesPage() {
         </section>
 
         {/* All Single Story Note */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                 All Homes Are Single-Story
               </h2>
-              <p className="text-lg text-[#2D2A26] mb-6">
+              <p className="text-lg text-[#141210] mb-6">
                 Every home in Sun City Summerlin is single-story, designed specifically for active adults. 
                 No stairs to worry about—now or in the future. This thoughtful design makes daily living easier 
                 and ensures your home works for you at every stage of life.
@@ -248,7 +248,7 @@ export default function HomeStylesPage() {
         <RealScoutListings h2Text="View Available Homes in Sun City Summerlin" />
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">

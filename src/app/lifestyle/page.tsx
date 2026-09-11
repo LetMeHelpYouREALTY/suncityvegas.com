@@ -141,7 +141,7 @@ export default function LifestylePage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -157,24 +157,24 @@ export default function LifestylePage() {
         </section>
 
         {/* Quick Stats */}
-        <section className="py-8 bg-[#FDF8F3]">
+        <section className="py-8 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">80+</p>
-                <p className="text-[#2D2A26]">Active Clubs</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">80+</p>
+                <p className="text-[#141210]">Active Clubs</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">4</p>
-                <p className="text-[#2D2A26]">Golf Courses</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">4</p>
+                <p className="text-[#141210]">Golf Courses</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">3</p>
-                <p className="text-[#2D2A26]">Rec Centers</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">3</p>
+                <p className="text-[#141210]">Rec Centers</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">7,779</p>
-                <p className="text-[#2D2A26]">Homes</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">7,779</p>
+                <p className="text-[#141210]">Homes</p>
               </div>
             </div>
           </div>
@@ -186,7 +186,7 @@ export default function LifestylePage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation>
-                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                     <Image
                       src="/images/amenities/event-lawn-club.jpeg"
                       alt="Community events and gatherings at Sun City Summerlin"
@@ -200,22 +200,22 @@ export default function LifestylePage() {
                 </ScrollAnimation>
                 <ScrollAnimation delay={100}>
                   <div>
-                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 md:mb-6 font-playfair">
+                    <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 md:mb-6 font-playfair">
                       More Than Neighbors—A Community
                     </h2>
                     <div className="prose prose-lg max-w-none space-y-4">
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                         At Sun City Summerlin, you&apos;ll find a community of
                         active adults who chose this lifestyle on purpose. They&apos;re
                         here to live fully, not just exist.
                       </p>
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                         Whether you&apos;re joining a morning golf game, attending
-                        a club meeting at the <Link href="/amenities" className="text-[#8B5E3C] hover:text-[#5D7A5D] underline">recreation centers</Link>, or simply chatting with neighbors on a
+                        a club meeting at the <Link href="/amenities" className="text-[#1C1917] hover:text-[#57534E] underline">recreation centers</Link>, or simply chatting with neighbors on a
                         walk with Red Rock Canyon views, you&apos;ll discover that making friends comes naturally
                         here.
                       </p>
-                      <p className="text-base md:text-lg text-[#2D2A26] leading-relaxed font-semibold">
+                      <p className="text-base md:text-lg text-[#141210] leading-relaxed font-semibold">
                         Everyone here gets it. They understand what you&apos;re looking
                         for because they&apos;re looking for the same thing: a place to
                         finally do everything you&apos;ve been putting off.
@@ -229,14 +229,14 @@ export default function LifestylePage() {
         </section>
 
         {/* Clubs & Groups */}
-        <section className="py-12 md:py-16 lg:py-20 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 lg:py-20 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-8 md:mb-12">
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 font-playfair">
                   80+ Clubs & Organizations
                 </h2>
-                <p className="text-lg text-[#2D2A26] max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] max-w-2xl mx-auto">
                   From golf leagues to book clubs, photography groups to dance classes—
                   there&apos;s something for everyone at Sun City Summerlin.
                 </p>
@@ -245,13 +245,13 @@ export default function LifestylePage() {
                 {clubs.map((club, index) => (
                   <ScrollAnimation key={club.name} delay={index * 50}>
                     <div className="bg-white p-6 rounded-lg shadow-two hover:shadow-three transition-shadow">
-                      <div className="flex items-center justify-center w-14 h-14 bg-[#8B5E3C]/10 rounded-full mb-4">
-                        <div className="text-[#8B5E3C]">{club.icon}</div>
+                      <div className="flex items-center justify-center w-14 h-14 bg-[#1C1917]/10 rounded-full mb-4">
+                        <div className="text-[#1C1917]">{club.icon}</div>
                       </div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         {club.name}
                       </h3>
-                      <p className="text-[#2D2A26]">{club.description}</p>
+                      <p className="text-[#141210]">{club.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -266,12 +266,12 @@ export default function LifestylePage() {
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-8 md:mb-12">
                 <div className="flex items-center justify-center gap-4 mb-4">
-                  <Calendar className="w-10 h-10 text-[#8B5E3C]" />
-                  <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] font-playfair">
+                  <Calendar className="w-10 h-10 text-[#1C1917]" />
+                  <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] font-playfair">
                     Community Events
                   </h2>
                 </div>
-                <p className="text-lg text-[#2D2A26] max-w-2xl mx-auto">
+                <p className="text-lg text-[#141210] max-w-2xl mx-auto">
                   Regular events and activities bring the community together
                   throughout the year.
                 </p>
@@ -279,11 +279,11 @@ export default function LifestylePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {events.map((event, index) => (
                   <ScrollAnimation key={event.title} delay={index * 50}>
-                    <div className="bg-[#FDF8F3] p-6 rounded-lg">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] p-6 rounded-lg">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {event.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         {event.description}
                       </p>
                     </div>
@@ -295,14 +295,14 @@ export default function LifestylePage() {
         </section>
 
         {/* Nearby Attractions & Distances */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-8">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                   Conveniently Located
                 </h2>
-                <p className="text-lg text-[#2D2A26]">
+                <p className="text-lg text-[#141210]">
                   Sun City Summerlin is perfectly positioned near everything you need—
                   with Red Rock Canyon at your doorstep and the Las Vegas Strip just minutes away.
                 </p>
@@ -310,10 +310,10 @@ export default function LifestylePage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 {Object.entries(distances).map(([key, distance]) => (
                   <div key={key} className="bg-white p-6 rounded-lg shadow-two">
-                    <h3 className="font-semibold text-[#8B5E3C] mb-2">
+                    <h3 className="font-semibold text-[#1C1917] mb-2">
                       {distance.description}
                     </h3>
-                    <p className="text-2xl font-bold text-[#8B5E3C]">
+                    <p className="text-2xl font-bold text-[#1C1917]">
                       {distance.miles} miles
                     </p>
                   </div>
@@ -328,46 +328,46 @@ export default function LifestylePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="text-center mb-8">
-                <Users className="w-12 h-12 text-[#8B5E3C] mx-auto mb-4" />
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <Users className="w-12 h-12 text-[#1C1917] mx-auto mb-4" />
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                   Built-In Social Network
                 </h2>
-                <p className="text-lg text-[#2D2A26]">
+                <p className="text-lg text-[#141210]">
                   One of the best parts of living in a 55+ community? Everyone
                   is in the same stage of life. You&apos;ll find:
                 </p>
               </div>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-two">
-                  <h3 className="font-semibold text-[#8B5E3C] mb-3">
+                <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-two">
+                  <h3 className="font-semibold text-[#1C1917] mb-3">
                     Shared Experiences
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Common life experiences create instant connections and
                     understanding.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-two">
-                  <h3 className="font-semibold text-[#8B5E3C] mb-3">
+                <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-two">
+                  <h3 className="font-semibold text-[#1C1917] mb-3">
                     Active Lifestyles
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Neighbors who want to stay active, social, and engaged.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-two">
-                  <h3 className="font-semibold text-[#8B5E3C] mb-3">
+                <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-two">
+                  <h3 className="font-semibold text-[#1C1917] mb-3">
                     No Generational Gap
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Everyone understands your priorities and lifestyle choices.
                   </p>
                 </div>
-                <div className="bg-[#FDF8F3] p-6 rounded-lg shadow-two">
-                  <h3 className="font-semibold text-[#8B5E3C] mb-3">
+                <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-two">
+                  <h3 className="font-semibold text-[#1C1917] mb-3">
                     Easy Friendships
                   </h3>
-                  <p className="text-[#2D2A26]">
+                  <p className="text-[#141210]">
                     Making friends happens naturally when everyone is open to
                     connection.
                   </p>
@@ -381,15 +381,15 @@ export default function LifestylePage() {
         <RealScoutListings h2Text="View Available Homes in Sun City Summerlin to Experience This Lifestyle" />
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
                 Experience the Lifestyle for Yourself
               </h2>
               <p className="text-lg text-gray-100 mb-6">
-                Schedule a tour with <Link href="/about" className="text-[#D4AF37] hover:text-white underline">Dr. Jan Duffy</Link> to see the community, meet residents, and learn
-                about the clubs and activities available. Explore <Link href="/homes-for-sale" className="text-[#D4AF37] hover:text-white underline">homes for sale</Link> or view the <Link href="/amenities" className="text-[#D4AF37] hover:text-white underline">resort-style amenities</Link>.
+                Schedule a tour with <Link href="/about" className="text-[#C9A962] hover:text-white underline">Dr. Jan Duffy</Link> to see the community, meet residents, and learn
+                about the clubs and activities available. Explore <Link href="/homes-for-sale" className="text-[#C9A962] hover:text-white underline">homes for sale</Link> or view the <Link href="/amenities" className="text-[#C9A962] hover:text-white underline">resort-style amenities</Link>.
               </p>
               <ScheduleTour variant="accent" size="lg" />
             </div>

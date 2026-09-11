@@ -73,7 +73,7 @@ export default function MountainShadowsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#8B5E3C] to-[#5D7A5D] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#1C1917] to-[#57534E] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -106,7 +106,7 @@ export default function MountainShadowsPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/amenities/mountain-shadows-hero.jpg"
                   alt="Mountain Shadows Community Center exterior with mountain views"
@@ -127,10 +127,10 @@ export default function MountainShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Overview
                 </h2>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
                   <p>
                     Mountain Shadows Community Center is one of four world-class recreation centers serving the 7,781 homes of Sun City Summerlin. As the original recreation center, Mountain Shadows holds a special place in the community's history, having been part of Del Webb's vision for active adult living since the community's early days.
                   </p>
@@ -147,11 +147,11 @@ export default function MountainShadowsPage() {
         </section>
 
         {/* Fitness Facilities */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Fitness Center & Equipment
                 </h2>
               </ScrollAnimation>
@@ -170,8 +170,8 @@ export default function MountainShadowsPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       State-of-the-Art Fitness Equipment
                     </p>
                     <p className="mb-4">
@@ -179,19 +179,19 @@ export default function MountainShadowsPage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Cardio Equipment:</strong> Treadmills, ellipticals, stationary bikes, and rowing machines</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Strength Training:</strong> Circuit machines, free weights, and resistance equipment</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Flexibility Area:</strong> Dedicated space for stretching, yoga, and mobility work</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Personal Training:</strong> Certified trainers available for individual or group sessions</span>
                       </li>
                     </ul>
@@ -210,26 +210,26 @@ export default function MountainShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Pool & Spa Facilities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Indoor Spa
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       Relax and unwind in the heated indoor spa, perfect for soothing sore muscles after a workout or simply enjoying a moment of tranquility. The spa is maintained at an ideal temperature year-round, making it a popular spot regardless of the weather outside.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       The indoor spa area includes comfortable seating and a peaceful atmosphere designed for relaxation. Many residents make the spa part of their regular wellness routine, combining it with their fitness activities for a complete health and wellness experience.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+                  <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                     <Image
                       src="/images/amenities/mountain-shadows-pool.jpg"
                       alt="Mountain Shadows indoor pool and spa area"
@@ -243,14 +243,14 @@ export default function MountainShadowsPage() {
                 </ScrollAnimation>
               </div>
               <ScrollAnimation delay={300}>
-                <div className="mt-8 bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                  <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <div className="mt-8 bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Outdoor Heated Lap Pool
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed mb-4">
+                  <p className="text-[#141210] leading-relaxed mb-4">
                     The outdoor heated lap pool is perfect for morning swims, water aerobics classes, or simply enjoying the Las Vegas sunshine. The pool is heated year-round, allowing residents to swim comfortably even during cooler months.
                   </p>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     The pool area includes comfortable lounge chairs, shaded areas, and easy access to the facility. Many residents start their day with a swim, enjoying the peaceful morning atmosphere and the beautiful mountain views that surround the community.
                   </p>
                 </div>
@@ -260,59 +260,59 @@ export default function MountainShadowsPage() {
         </section>
 
         {/* Sports Courts */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Sports Courts & Activities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Tennis Courts</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Tennis Courts</h3>
+                    <p className="text-[#141210] mb-4">
                       Multiple lighted tennis courts available for residents. Whether you're playing singles, doubles, or taking lessons, the courts are well-maintained and ready for play.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Racquetball Court</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Racquetball Court</h3>
+                    <p className="text-[#141210] mb-4">
                       Indoor racquetball court for year-round play. Perfect for staying active during hot summer months or cooler winter days.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Shuffleboard Courts</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Shuffleboard Courts</h3>
+                    <p className="text-[#141210] mb-4">
                       Multiple shuffleboard courts for casual games with friends. A popular social activity that combines fun and light exercise.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={400}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Walking Track</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Walking Track</h3>
+                    <p className="text-[#141210] mb-4">
                       Outdoor walking track perfect for morning or evening walks. Enjoy the fresh air and beautiful surroundings while staying active.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={500}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Mini Golf Course</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Mini Golf Course</h3>
+                    <p className="text-[#141210] mb-4">
                       9-hole mini golf course for fun, casual play. Great for families visiting or residents looking for a relaxed activity.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={600}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Aerobics Studio</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Aerobics Studio</h3>
+                    <p className="text-[#141210] mb-4">
                       Dedicated aerobics studio with scheduled classes throughout the week. From low-impact to high-energy workouts, there's something for every fitness level.
                     </p>
                   </div>
@@ -327,55 +327,55 @@ export default function MountainShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Arts & Hobby Rooms
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Ceramics Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Ceramics Room</h3>
+                    <p className="text-[#141210]">
                       Fully equipped ceramics studio with kilns, work tables, and storage for projects. The ceramics club is one of the most active groups at Mountain Shadows.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Stained Glass Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Stained Glass Room</h3>
+                    <p className="text-[#141210]">
                       Dedicated space for stained glass work with all necessary tools and equipment. Perfect for creating beautiful art pieces.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Silver Crafts Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Silver Crafts Room</h3>
+                    <p className="text-[#141210]">
                       Specialized room for jewelry making and metalwork. Well-equipped for both beginners and experienced crafters.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={400}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Sewing Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Sewing Room</h3>
+                    <p className="text-[#141210]">
                       Complete sewing room with machines, cutting tables, and storage. Popular with quilters, seamstresses, and crafters.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={500}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Woodworking Shop</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Woodworking Shop</h3>
+                    <p className="text-[#141210]">
                       Extensive woodworking shop with professional-grade tools and equipment. Safety equipment and training available.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={600}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Arts & Crafts Studio</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Arts & Crafts Studio</h3>
+                    <p className="text-[#141210]">
                       General-purpose arts and crafts room for painting, drawing, and various creative projects. Open to all residents.
                     </p>
                   </div>
@@ -386,59 +386,59 @@ export default function MountainShadowsPage() {
         </section>
 
         {/* Social Spaces */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Social & Meeting Spaces
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Ballroom</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Ballroom</h3>
+                    <p className="text-[#141210]">
                       Large ballroom perfect for community events, dances, and social gatherings. Available for resident reservations.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Library</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Library</h3>
+                    <p className="text-[#141210]">
                       Quiet library space with reading materials and comfortable seating. A peaceful retreat for book lovers.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Card Room</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Card Room</h3>
+                    <p className="text-[#141210]">
                       Dedicated card room for bridge, poker, and other card games. Regular game sessions scheduled throughout the week.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={400}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Puzzle Room</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Puzzle Room</h3>
+                    <p className="text-[#141210]">
                       Comfortable space for working on puzzles, both individually and as a group activity.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={500}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Lounge Area</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Lounge Area</h3>
+                    <p className="text-[#141210]">
                       Comfortable lounge with seating for casual conversation and relaxation between activities.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={600}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Meeting Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Meeting Rooms</h3>
+                    <p className="text-[#141210]">
                       Multiple meeting rooms of various sizes for club meetings, classes, and private gatherings.
                     </p>
                   </div>
@@ -453,60 +453,60 @@ export default function MountainShadowsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Hours of Operation & Membership
                 </h2>
-                <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 space-y-6">
+                <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 space-y-6">
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Hours of Operation</h3>
-                    <p className="text-lg text-[#2D2A26] mb-2">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Hours of Operation</h3>
+                    <p className="text-lg text-[#141210] mb-2">
                       <strong>Daily:</strong> 6:00 AM - 9:00 PM
                     </p>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Mountain Shadows is open year-round, including holidays. The facility is maintained and cleaned regularly to ensure a safe and pleasant environment for all residents.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Membership Requirements</h3>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Membership Requirements</h3>
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>All residents must check in with membership card at the front desk</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Guest passes available from the social monitor (guests must be accompanied by a resident)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Residents must accompany guests under 19 at all times</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Access to all amenities included with your HOA fee—no additional membership required</span>
                       </li>
                     </ul>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Reservations & Classes</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Reservations & Classes</h3>
+                    <p className="text-[#141210] mb-4">
                       Many facilities can be reserved in advance, including meeting rooms, tennis courts, and the ballroom. Regular classes and activities are scheduled throughout the week, including:
                     </p>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Water aerobics classes</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Fitness classes (yoga, Pilates, strength training)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Arts and crafts workshops</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Social events and dances</span>
                       </li>
                     </ul>
@@ -518,11 +518,11 @@ export default function MountainShadowsPage() {
         </section>
 
         {/* Related Centers */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Explore Other Community Centers
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -530,13 +530,13 @@ export default function MountainShadowsPage() {
                     href="/amenities/desert-vista"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Desert Vista
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The largest recreation center at 48,000 sq ft with a grand ballroom, tennis courts, and pickleball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -544,13 +544,13 @@ export default function MountainShadowsPage() {
                     href="/amenities/pinnacle"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Pinnacle
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       A welcoming 34,000 sq ft center with fitness facilities, pool, tennis courts, and bocce ball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -558,13 +558,13 @@ export default function MountainShadowsPage() {
                     href="/amenities/golf"
                     className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Golf Courses
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       Three championship golf courses designed by Billy Casper & Greg Nash, offering variety for all skill levels.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -575,7 +575,7 @@ export default function MountainShadowsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -588,7 +588,7 @@ export default function MountainShadowsPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

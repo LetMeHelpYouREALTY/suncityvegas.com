@@ -138,7 +138,7 @@ export default function HOAFeesPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
@@ -165,7 +165,7 @@ export default function HOAFeesPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src="/images/blog/hoa-fees-hero.jpg"
                   alt="Sun City Summerlin community amenities included in HOA fee"
@@ -187,8 +187,8 @@ export default function HOAFeesPage() {
             <div className="max-w-4xl mx-auto">
               {/* Introduction */}
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] mb-12">
-                  <p className="text-xl md:text-2xl font-semibold text-[#8B5E3C] leading-relaxed mb-6">
+                <div className="prose prose-lg max-w-none text-[#141210] mb-12">
+                  <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
                     One of the most common questions I get from buyers is: "What are the HOA fees, and what do they cover?" Here's everything you need to know about HOA fees at Sun City Summerlin.
                   </p>
                   <p className="text-lg leading-relaxed">
@@ -200,12 +200,12 @@ export default function HOAFeesPage() {
               {/* Current Fee */}
               <ScrollAnimation delay={100}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Current Monthly HOA Fee
                   </h2>
-                  <div className="bg-gradient-to-r from-[#8B5E3C] to-[#5D7A5D] text-white rounded-lg p-8 md:p-12 mb-6">
+                  <div className="bg-gradient-to-r from-[#1C1917] to-[#57534E] text-white rounded-lg p-8 md:p-12 mb-6">
                     <div className="flex items-center gap-4 mb-4">
-                      <DollarSign className="w-12 h-12 text-[#D4AF37]" />
+                      <DollarSign className="w-12 h-12 text-[#C9A962]" />
                       <div>
                         <p className="text-4xl md:text-5xl font-bold mb-2">
                           ~$165/month
@@ -216,7 +216,7 @@ export default function HOAFeesPage() {
                       </div>
                     </div>
                   </div>
-                  <p className="text-lg leading-relaxed text-[#2D2A26]">
+                  <p className="text-lg leading-relaxed text-[#141210]">
                     The HOA fee is billed monthly and is separate from your mortgage payment. It's important to note that fees can change over time, though increases are typically modest and require HOA board approval. The current rate of approximately $165 per month has remained relatively stable, reflecting the community's efficient management and established infrastructure.
                   </p>
                 </section>
@@ -225,90 +225,90 @@ export default function HOAFeesPage() {
               {/* What's Included */}
               <ScrollAnimation delay={200}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     What's Included in Your HOA Fee
                   </h2>
                   <div className="space-y-6">
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Access to All Recreation Centers
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-[#141210] leading-relaxed mb-4">
                         Your HOA fee includes access to all three recreation centers totaling over 125,000 square feet:
                       </p>
-                      <ul className="space-y-2 text-[#2D2A26]">
+                      <ul className="space-y-2 text-[#141210]">
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Mountain Shadows</strong> (45,000 sq ft) - Fitness center, indoor pool, racquetball, arts & crafts</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Desert Vista</strong> (48,000 sq ft) - Grand ballroom, tennis, pickleball, fitness center</span>
                         </li>
                         <li className="flex items-start gap-2">
-                          <span className="text-[#5D7A5D] font-bold">•</span>
+                          <span className="text-[#57534E] font-bold">•</span>
                           <span><strong>Pinnacle</strong> (34,000 sq ft) - Fitness center, pool, tennis, bocce ball</span>
                         </li>
                       </ul>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         All Pools & Spas
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Access to all indoor and outdoor pools and spas across all recreation centers. Pools are heated year-round, and there's no additional fee for pool use.
                       </p>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Fitness Centers
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Use of all fitness centers with state-of-the-art equipment, including cardio machines, strength training equipment, and free weights. Fitness classes are also included.
                       </p>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Sports Courts
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed mb-4">
+                      <p className="text-[#141210] leading-relaxed mb-4">
                         Access to all tennis courts, pickleball courts, bocce ball courts, and other sports facilities. Courts can be reserved in advance at no additional cost.
                       </p>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Guard-Gated Security
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         24/7 guard-gated security at all community entrances. This provides peace of mind and helps maintain property values.
                       </p>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Landscaping of Common Areas
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Maintenance and landscaping of all common areas, including parks, medians, and community spaces. This keeps the community looking beautiful year-round.
                       </p>
                     </div>
 
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
-                        <Check className="w-6 h-6 text-[#5D7A5D]" />
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
+                        <Check className="w-6 h-6 text-[#57534E]" />
                         Community Events
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Access to community events, socials, holiday celebrations, and educational seminars. Many events are free or low-cost for residents.
                       </p>
                     </div>
@@ -319,31 +319,31 @@ export default function HOAFeesPage() {
               {/* What's NOT Included */}
               <ScrollAnimation delay={300}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     What's NOT Included (Additional Costs)
                   </h2>
-                  <div className="bg-white border-l-4 border-[#C4A574] rounded-lg p-6 md:p-8 space-y-6">
+                  <div className="bg-white border-l-4 border-[#B8A078] rounded-lg p-6 md:p-8 space-y-6">
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Golf Course Access</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Golf Course Access</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Golf course access requires a separate membership from Golf Summerlin. Green fees and membership costs are not included in your HOA fee. This is standard for most golf communities, as golf facilities require specialized maintenance and management.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Personal Home Maintenance</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Personal Home Maintenance</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Your HOA fee covers common areas only. You're responsible for maintaining your own home, including landscaping, exterior maintenance, and any repairs or updates.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Utilities</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Utilities</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Electricity, water, sewer, gas, internet, and cable are separate costs paid directly to utility providers. These are not included in the HOA fee.
                       </p>
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Property Taxes</h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Property Taxes</h3>
+                      <p className="text-[#141210] leading-relaxed">
                         Property taxes are separate and paid to Clark County. Nevada's property tax rate is relatively low, typically around 0.75% of assessed value.
                       </p>
                     </div>
@@ -354,14 +354,14 @@ export default function HOAFeesPage() {
               {/* No SIDs or LIDs */}
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     No SIDs or LIDs
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <p className="text-lg leading-relaxed text-[#2D2A26] mb-4">
-                      <strong className="text-[#8B5E3C]">Important:</strong> Sun City Summerlin has no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts). This means your HOA fee is the only monthly community fee you'll pay.
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <p className="text-lg leading-relaxed text-[#141210] mb-4">
+                      <strong className="text-[#1C1917]">Important:</strong> Sun City Summerlin has no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts). This means your HOA fee is the only monthly community fee you'll pay.
                     </p>
-                    <p className="text-lg leading-relaxed text-[#2D2A26]">
+                    <p className="text-lg leading-relaxed text-[#141210]">
                       Some newer communities add SIDs or LIDs to fund infrastructure improvements, which can add $50-200+ per month to your costs. At Sun City Summerlin, all infrastructure was paid for during development, so you won't face these additional fees.
                     </p>
                   </div>
@@ -371,22 +371,22 @@ export default function HOAFeesPage() {
               {/* Comparison */}
               <ScrollAnimation delay={500}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     How HOA Fees Compare to Other Communities
                   </h2>
                   <div className="overflow-x-auto">
                     <table className="w-full border-collapse bg-white rounded-lg shadow-md">
                       <thead>
-                        <tr className="bg-[#8B5E3C] text-white">
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Community</th>
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Monthly HOA Fee</th>
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Recreation Centers</th>
-                          <th className="border border-[#8B5E3C] p-4 text-left font-semibold">Golf Courses</th>
+                        <tr className="bg-[#1C1917] text-white">
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Community</th>
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Monthly HOA Fee</th>
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Recreation Centers</th>
+                          <th className="border border-[#1C1917] p-4 text-left font-semibold">Golf Courses</th>
                         </tr>
                       </thead>
                       <tbody>
-                        <tr className="bg-[#FDF8F3]">
-                          <td className="border border-gray-200 p-4 font-semibold text-[#8B5E3C]">Sun City Summerlin</td>
+                        <tr className="bg-[#F7F6F4]">
+                          <td className="border border-gray-200 p-4 font-semibold text-[#1C1917]">Sun City Summerlin</td>
                           <td className="border border-gray-200 p-4">~$165</td>
                           <td className="border border-gray-200 p-4">3 (125,000+ sq ft)</td>
                           <td className="border border-gray-200 p-4">3 courses</td>
@@ -397,7 +397,7 @@ export default function HOAFeesPage() {
                           <td className="border border-gray-200 p-4">2 centers</td>
                           <td className="border border-gray-200 p-4">2 courses</td>
                         </tr>
-                        <tr className="bg-[#FDF8F3]">
+                        <tr className="bg-[#F7F6F4]">
                           <td className="border border-gray-200 p-4">Other 55+ Communities</td>
                           <td className="border border-gray-200 p-4">$200-300+</td>
                           <td className="border border-gray-200 p-4">1-2 centers</td>
@@ -406,7 +406,7 @@ export default function HOAFeesPage() {
                       </tbody>
                     </table>
                   </div>
-                  <p className="text-lg leading-relaxed text-[#2D2A26] mt-6">
+                  <p className="text-lg leading-relaxed text-[#141210] mt-6">
                     As you can see, Sun City Summerlin offers exceptional value. You get more amenities for less money compared to most other 55+ communities in Las Vegas.
                   </p>
                 </section>
@@ -415,24 +415,24 @@ export default function HOAFeesPage() {
               {/* Fee History */}
               <ScrollAnimation delay={600}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     HOA Fee History & Stability
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <p className="text-lg leading-relaxed text-[#2D2A26] mb-4">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <p className="text-lg leading-relaxed text-[#141210] mb-4">
                       Sun City Summerlin's HOA fees have remained relatively stable over the years, with only modest increases to keep pace with inflation and maintenance costs. This stability reflects:
                     </p>
-                    <ul className="space-y-3 text-[#2D2A26]">
+                    <ul className="space-y-3 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span><strong>Established Infrastructure:</strong> All major facilities were built during development, so there are no large capital projects requiring fee increases</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span><strong>Efficient Management:</strong> The HOA board and management company work to keep costs reasonable while maintaining high standards</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span><strong>Large Community:</strong> With 7,781 homes, costs are spread across a large base, keeping individual fees lower</span>
                       </li>
                     </ul>
@@ -443,31 +443,31 @@ export default function HOAFeesPage() {
               {/* How Fees Are Used */}
               <ScrollAnimation delay={700}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     How Your HOA Fees Are Used
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Facility Maintenance</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Facility Maintenance</h3>
+                      <p className="text-[#141210]">
                         Keeping all recreation centers, pools, fitness equipment, and sports courts in excellent condition.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Security Services</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Security Services</h3>
+                      <p className="text-[#141210]">
                         Funding 24/7 guard-gated security at all community entrances.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Landscaping</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Landscaping</h3>
+                      <p className="text-[#141210]">
                         Maintaining common area landscaping, parks, and community spaces.
                       </p>
                     </div>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Administration</h3>
-                      <p className="text-[#2D2A26]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Administration</h3>
+                      <p className="text-[#141210]">
                         HOA management, board operations, and community administration.
                       </p>
                     </div>
@@ -478,51 +478,51 @@ export default function HOAFeesPage() {
               {/* FAQ Section */}
               <ScrollAnimation delay={800}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Frequently Asked Questions
                   </h2>
                   <div className="space-y-4">
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         How much are HOA fees at Sun City Summerlin?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         HOA fees at Sun City Summerlin are approximately $165 per month (subject to change). This fee covers access to all recreation centers, pools, fitness facilities, guard-gated security, landscaping of common areas, and community events.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What's included in the HOA fee?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         The HOA fee includes access to all three recreation centers (125,000+ sq ft), all pools and spas, fitness centers, tennis courts, pickleball courts, bocce ball courts, guard-gated security, landscaping of common areas, and community events. Golf course access requires a separate membership.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Are there SIDs or LIDs at Sun City Summerlin?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         No, there are no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts) at Sun City Summerlin. Your HOA fee is the only monthly community fee you'll pay.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         How do HOA fees compare to other 55+ communities?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Sun City Summerlin's HOA fees are remarkably low compared to other 55+ communities in Las Vegas. Many similar communities charge $200-300+ per month for fewer amenities. At approximately $165/month, Sun City Summerlin offers exceptional value.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Can HOA fees increase?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Yes, HOA fees can increase over time, but increases require HOA board approval and are typically modest, keeping pace with inflation and maintenance costs. Sun City Summerlin's fees have remained relatively stable due to the community's established infrastructure and efficient management.
                       </p>
                     </details>
@@ -533,35 +533,35 @@ export default function HOAFeesPage() {
               {/* Related Links */}
               <ScrollAnimation delay={900}>
                 <section className="mb-16">
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Related Articles
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Link
                       href="/blog/pros-and-cons-sun-city-summerlin"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Pros and Cons of Sun City Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         An honest assessment of what makes Sun City Summerlin special—and what to consider.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
                     <Link
                       href="/blog/sun-city-summerlin-vs-sun-city-anthem"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Sun City Summerlin vs Sun City Anthem
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         Compare two of Las Vegas' premier 55+ communities, including HOA fees and amenities.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
@@ -572,7 +572,7 @@ export default function HOAFeesPage() {
           </div>
         </div>
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white" aria-label="CTA">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white" aria-label="CTA">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <ScrollAnimation>
@@ -585,7 +585,7 @@ export default function HOAFeesPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a
                       href="tel:7027180043"
-                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                     >
                       <Phone className="w-5 h-5" />
                       Call/Text: (702) 718-0043

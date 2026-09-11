@@ -250,12 +250,12 @@ export default function BlogPostPage({
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <Link
                 href="/blog"
-                className="inline-flex items-center gap-2 text-gray-100 hover:text-[#D4AF37] transition-colors mb-6"
+                className="inline-flex items-center gap-2 text-gray-100 hover:text-[#C9A962] transition-colors mb-6"
               >
                 <ArrowLeft className="w-5 h-5" />
                 Back to Blog
@@ -284,7 +284,7 @@ export default function BlogPostPage({
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src={post.image}
                   alt={post.title}
@@ -305,7 +305,7 @@ export default function BlogPostPage({
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div
-                className="prose prose-lg max-w-none text-[#2D2A26]"
+                className="prose prose-lg max-w-none text-[#141210]"
                 dangerouslySetInnerHTML={{ __html: post.content }}
               />
             </div>
@@ -314,7 +314,7 @@ export default function BlogPostPage({
 
         {/* Navigation */}
         {(prevPost || nextPost) && (
-          <section className="py-12 bg-[#FDF8F3]">
+          <section className="py-12 bg-[#F7F6F4]">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -327,7 +327,7 @@ export default function BlogPostPage({
                         <ArrowLeft className="w-4 h-4" />
                         Previous Post
                       </div>
-                      <h3 className="font-bold text-[#8B5E3C] font-playfair">
+                      <h3 className="font-bold text-[#1C1917] font-playfair">
                         {prevPost.title}
                       </h3>
                     </Link>
@@ -341,7 +341,7 @@ export default function BlogPostPage({
                         Next Post
                         <ArrowRight className="w-4 h-4" />
                       </div>
-                      <h3 className="font-bold text-[#8B5E3C] font-playfair">
+                      <h3 className="font-bold text-[#1C1917] font-playfair">
                         {nextPost.title}
                       </h3>
                     </Link>
@@ -353,7 +353,7 @@ export default function BlogPostPage({
         )}
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
@@ -367,7 +367,7 @@ export default function BlogPostPage({
                 asChild
                 variant="accent"
                 size="lg"
-                className="bg-[#D4AF37] hover:bg-[#D4AF37]/90 text-[#2D2A26]"
+                className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210]"
               >
                 <Link href="/contact">Schedule Your Tour</Link>
               </Button>

@@ -80,12 +80,12 @@ export default function RestaurantsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <UtensilsCrossed className="w-16 h-16 text-[#D4AF37]" />
+                  <UtensilsCrossed className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Restaurants Near Sun City Summerlin
@@ -105,7 +105,7 @@ export default function RestaurantsPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/lifestyle/restaurants-hero.jpg"
                   alt="Restaurants and dining near Sun City Summerlin"
@@ -126,8 +126,8 @@ export default function RestaurantsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     One of the advantages of living in Sun City Summerlin is the proximity to excellent dining options. Summerlin and Las Vegas offer a diverse culinary scene, from fine dining to casual eateries.
                   </p>
                   <p>
@@ -143,11 +143,11 @@ export default function RestaurantsPage() {
         </section>
 
         {/* Restaurant Categories */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Dining Options by Category
                 </h2>
               </ScrollAnimation>
@@ -155,27 +155,27 @@ export default function RestaurantsPage() {
                 {restaurantCategories.map((category, index) => (
                   <ScrollAnimation key={category.name} delay={index * 100}>
                     <div className="bg-white rounded-lg p-6 md:p-8 shadow-md">
-                      <h3 className="text-2xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                      <h3 className="text-2xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {category.name}
                       </h3>
-                      <p className="text-[#2D2A26] mb-6 leading-relaxed">
+                      <p className="text-[#141210] mb-6 leading-relaxed">
                         {category.description}
                       </p>
                       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
                         {category.restaurants.map((restaurant) => (
                           <div
                             key={restaurant.name}
-                            className="bg-[#FDF8F3] rounded-lg p-4 border-l-4 border-[#8B5E3C]"
+                            className="bg-[#F7F6F4] rounded-lg p-4 border-l-4 border-[#1C1917]"
                           >
                             <div className="flex items-center gap-2 mb-2">
-                              <Star className="w-5 h-5 text-[#D4AF37]" />
-                              <h4 className="font-bold text-[#8B5E3C]">{restaurant.name}</h4>
+                              <Star className="w-5 h-5 text-[#C9A962]" />
+                              <h4 className="font-bold text-[#1C1917]">{restaurant.name}</h4>
                             </div>
-                            <p className="text-sm text-[#2D2A26] mb-1">
+                            <p className="text-sm text-[#141210] mb-1">
                               <strong>Cuisine:</strong> {restaurant.cuisine}
                             </p>
-                            <p className="text-sm text-[#2D2A26] flex items-center gap-1">
-                              <MapPin className="w-4 h-4 text-[#5D7A5D]" />
+                            <p className="text-sm text-[#141210] flex items-center gap-1">
+                              <MapPin className="w-4 h-4 text-[#57534E]" />
                               {restaurant.distance} from Sun City Summerlin
                             </p>
                           </div>
@@ -194,33 +194,33 @@ export default function RestaurantsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Downtown Summerlin
                 </h2>
               </ScrollAnimation>
-              <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                <p className="text-lg text-[#2D2A26] leading-relaxed mb-4">
+              <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                <p className="text-lg text-[#141210] leading-relaxed mb-4">
                   Just 10 minutes from Sun City Summerlin, Downtown Summerlin is a premier shopping and dining destination. This walkable outdoor center features:
                 </p>
-                <ul className="space-y-2 text-[#2D2A26]">
+                <ul className="space-y-2 text-[#141210]">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#5D7A5D] font-bold">•</span>
+                    <span className="text-[#57534E] font-bold">•</span>
                     <span>30+ restaurants and eateries</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#5D7A5D] font-bold">•</span>
+                    <span className="text-[#57534E] font-bold">•</span>
                     <span>Fine dining to casual options</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#5D7A5D] font-bold">•</span>
+                    <span className="text-[#57534E] font-bold">•</span>
                     <span>Outdoor dining and patios</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#5D7A5D] font-bold">•</span>
+                    <span className="text-[#57534E] font-bold">•</span>
                     <span>Entertainment and events</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#5D7A5D] font-bold">•</span>
+                    <span className="text-[#57534E] font-bold">•</span>
                     <span>Easy parking and accessibility</span>
                   </li>
                 </ul>
@@ -230,37 +230,37 @@ export default function RestaurantsPage() {
         </section>
 
         {/* Las Vegas Strip */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Las Vegas Strip (15 Minutes)
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8">
-                <p className="text-lg text-[#2D2A26] leading-relaxed mb-4">
+                <p className="text-lg text-[#141210] leading-relaxed mb-4">
                   The Las Vegas Strip is just 15 minutes from Sun City Summerlin, offering world-class dining from celebrity chefs and renowned restaurants. Whether you're celebrating a special occasion or just want an exceptional meal, the Strip offers:
                 </p>
-                <ul className="space-y-2 text-[#2D2A26]">
+                <ul className="space-y-2 text-[#141210]">
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8B5E3C] font-bold">•</span>
+                    <span className="text-[#1C1917] font-bold">•</span>
                     <span>Celebrity chef restaurants</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8B5E3C] font-bold">•</span>
+                    <span className="text-[#1C1917] font-bold">•</span>
                     <span>Fine dining establishments</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8B5E3C] font-bold">•</span>
+                    <span className="text-[#1C1917] font-bold">•</span>
                     <span>International cuisine</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8B5E3C] font-bold">•</span>
+                    <span className="text-[#1C1917] font-bold">•</span>
                     <span>Buffets and casual options</span>
                   </li>
                   <li className="flex items-start gap-2">
-                    <span className="text-[#8B5E3C] font-bold">•</span>
+                    <span className="text-[#1C1917] font-bold">•</span>
                     <span>Entertainment and shows</span>
                   </li>
                 </ul>
@@ -274,7 +274,7 @@ export default function RestaurantsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Local Favorites
                 </h2>
               </ScrollAnimation>
@@ -298,11 +298,11 @@ export default function RestaurantsPage() {
                   },
                 ].map((item, index) => (
                   <ScrollAnimation key={item.name} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {item.name}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{item.description}</p>
+                      <p className="text-[#141210] leading-relaxed">{item.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -312,7 +312,7 @@ export default function RestaurantsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -325,7 +325,7 @@ export default function RestaurantsPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

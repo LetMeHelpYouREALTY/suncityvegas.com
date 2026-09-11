@@ -76,12 +76,12 @@ export default function ResourcesPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <BookOpen className="w-16 h-16 text-[#D4AF37]" />
+                  <BookOpen className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Sun City Summerlin Resources
@@ -95,11 +95,11 @@ export default function ResourcesPage() {
         </section>
 
         {/* Resource cards */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-5xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Browse by Topic
                 </h2>
               </ScrollAnimation>
@@ -108,16 +108,16 @@ export default function ResourcesPage() {
                   <ScrollAnimation key={r.href} delay={i * 100}>
                     <Link
                       href={r.href}
-                      className="group block bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow border border-[#C4A574]/20"
+                      className="group block bg-white rounded-lg shadow-md p-6 md:p-8 hover:shadow-lg transition-shadow border border-[#B8A078]/20"
                     >
                       <div className="flex items-center gap-3 mb-4">
-                        <r.icon className="w-10 h-10 text-[#8B5E3C]" />
-                        <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                        <r.icon className="w-10 h-10 text-[#1C1917]" />
+                        <h3 className="text-xl font-bold text-[#1C1917] font-playfair group-hover:text-[#57534E] transition-colors">
                           {r.title}
                         </h3>
                       </div>
-                      <p className="text-[#2D2A26] leading-relaxed mb-4">{r.description}</p>
-                      <span className="inline-flex items-center gap-2 text-[#8B5E3C] font-medium group-hover:gap-3 transition-all">
+                      <p className="text-[#141210] leading-relaxed mb-4">{r.description}</p>
+                      <span className="inline-flex items-center gap-2 text-[#1C1917] font-medium group-hover:gap-3 transition-all">
                         Read more
                         <ArrowRight className="w-4 h-4" />
                       </span>
@@ -134,14 +134,14 @@ export default function ResourcesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-3xl mx-auto text-center">
               <ScrollAnimation>
-                <p className="text-lg text-[#2D2A26] mb-6">
-                  Explore <Link href="/amenities" className="text-[#8B5E3C] font-semibold hover:underline">amenities</Link>,{" "}
-                  <Link href="/lifestyle" className="text-[#8B5E3C] font-semibold hover:underline">lifestyle</Link>, and{" "}
-                  <Link href="/blog" className="text-[#8B5E3C] font-semibold hover:underline">blog</Link> for more on Sun City Summerlin.
+                <p className="text-lg text-[#141210] mb-6">
+                  Explore <Link href="/amenities" className="text-[#1C1917] font-semibold hover:underline">amenities</Link>,{" "}
+                  <Link href="/lifestyle" className="text-[#1C1917] font-semibold hover:underline">lifestyle</Link>, and{" "}
+                  <Link href="/blog" className="text-[#1C1917] font-semibold hover:underline">blog</Link> for more on Sun City Summerlin.
                 </p>
                 <Link
                   href="/contact"
-                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#8B5E3C] text-white rounded-md font-semibold hover:bg-[#8B5E3C]/90 transition-colors"
+                  className="inline-flex items-center gap-2 px-6 py-3 bg-[#1C1917] text-white rounded-md font-semibold hover:bg-[#1C1917]/90 transition-colors"
                 >
                   Contact Dr. Jan Duffy
                   <ArrowRight className="w-4 h-4" />

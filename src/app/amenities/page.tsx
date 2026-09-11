@@ -53,7 +53,7 @@ export const metadata: Metadata = {
 const amenities = [
   {
     category: "Golf Courses",
-    icon: <Activity className="w-8 h-8 text-[#5D7A5D]" />,
+    icon: <Activity className="w-8 h-8 text-[#57534E]" />,
     items: [
       {
         name: "Highland Falls Golf Course",
@@ -79,7 +79,7 @@ const amenities = [
   },
   {
     category: "Recreation Centers",
-    icon: <Users className="w-8 h-8 text-[#8B5E3C]" />,
+    icon: <Users className="w-8 h-8 text-[#1C1917]" />,
     items: [
       {
         name: "Mountain Shadows",
@@ -103,7 +103,7 @@ const amenities = [
   },
   {
     category: "Activities & Sports",
-    icon: <Sparkles className="w-8 h-8 text-[#D4AF37]" />,
+    icon: <Sparkles className="w-8 h-8 text-[#C9A962]" />,
     items: [
       {
         name: "Swimming Pools",
@@ -159,20 +159,20 @@ function AmenityMapEmbed() {
   }
 
   return (
-    <div className="rounded-lg border-2 border-dashed border-[#8B5E3C]/30 bg-[#FDF8F3] p-8 md:p-12 text-center">
-      <p className="text-[#2D2A26] mb-4">
+    <div className="rounded-lg border-2 border-dashed border-[#1C1917]/30 bg-[#F7F6F4] p-8 md:p-12 text-center">
+      <p className="text-[#141210] mb-4">
         View nearby restaurants, parks, golf, and schools on Google Maps.
       </p>
       <a
         href={AMENITY_MAP_SEARCH_URL}
         target="_blank"
         rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
+        className="inline-flex items-center gap-2 bg-[#1C1917] hover:bg-[#1C1917]/90 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
       >
         Open amenity map on Google Maps
         <ExternalLink className="w-4 h-4" aria-hidden />
       </a>
-      <p className="mt-4 text-sm text-[#2D2A26]/70">
+      <p className="mt-4 text-sm text-[#141210]/70">
         To show the map on this page, set{" "}
         <code className="bg-white/80 px-1 rounded">NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY</code> in your
         environment. Maps Embed API is free with unlimited usage.
@@ -190,7 +190,7 @@ function AmenityCard({
 }) {
   const CardContent = (
     <div className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow overflow-hidden">
-      <div className="relative h-48 bg-[#FDF8F3]">
+      <div className="relative h-48 bg-[#F7F6F4]">
         <Image
           src={amenity.image}
           alt={amenity.name}
@@ -202,16 +202,16 @@ function AmenityCard({
         />
       </div>
       <div className="p-6">
-        <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+        <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
           {amenity.name}
         </h3>
-        <p className="text-[#2D2A26] leading-relaxed">
+        <p className="text-[#141210] leading-relaxed">
           {amenity.description}
         </p>
         {amenity.link && (
           <Link
             href={amenity.link}
-            className="inline-flex items-center gap-2 text-[#8B5E3C] font-semibold hover:text-[#5D7A5D] transition-colors mt-4"
+            className="inline-flex items-center gap-2 text-[#1C1917] font-semibold hover:text-[#57534E] transition-colors mt-4"
           >
             Learn More <ArrowRight className="w-4 h-4" />
           </Link>
@@ -265,7 +265,7 @@ export default function AmenitiesPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -274,13 +274,13 @@ export default function AmenitiesPage() {
               <p className="text-lg md:text-xl text-gray-100 leading-relaxed">
                 Sun City Summerlin offers unmatched amenities: 4 championship golf courses, 
                 3 recreation centers totaling over 125,000 sq ft, and 80+ clubs. 
-                View <Link href="/homes-for-sale" className="text-[#D4AF37] hover:text-white underline">homes with access to these amenities</Link>.
+                View <Link href="/homes-for-sale" className="text-[#C9A962] hover:text-white underline">homes with access to these amenities</Link>.
               </p>
             </div>
           </div>
         </section>
 
-        <section className="bg-[#FDF8F3] py-8 md:py-10">
+        <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
             <div className="relative mx-auto max-w-5xl aspect-[21/9] overflow-hidden rounded-lg shadow-md">
               <Image
@@ -292,31 +292,31 @@ export default function AmenitiesPage() {
                 priority
               />
             </div>
-            <p className="mt-4 text-center text-[#2D2A26] max-w-3xl mx-auto text-base md:text-lg">
+            <p className="mt-4 text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
               Four courses, three rec centers, and 80+ clubs—Dr. Jan Duffy helps you buy the home that puts the amenities you will use within a short drive.
             </p>
           </div>
         </section>
 
         {/* Quick Stats */}
-        <section className="py-8 bg-[#FDF8F3]">
+        <section className="py-8 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">4</p>
-                <p className="text-[#2D2A26]">Golf Courses</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">4</p>
+                <p className="text-[#141210]">Golf Courses</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">3</p>
-                <p className="text-[#2D2A26]">Rec Centers</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">3</p>
+                <p className="text-[#141210]">Rec Centers</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">80+</p>
-                <p className="text-[#2D2A26]">Clubs</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">80+</p>
+                <p className="text-[#141210]">Clubs</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#8B5E3C]">125K+</p>
-                <p className="text-[#2D2A26]">Sq Ft Rec Space</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">125K+</p>
+                <p className="text-[#141210]">Sq Ft Rec Space</p>
               </div>
             </div>
           </div>
@@ -327,14 +327,14 @@ export default function AmenitiesPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="flex items-center justify-center gap-4 mb-4">
-                <div className="flex items-center justify-center w-14 h-14 bg-[#8B5E3C]/10 rounded-full">
-                  <MapPin className="w-7 h-7 text-[#8B5E3C]" aria-hidden />
+                <div className="flex items-center justify-center w-14 h-14 bg-[#1C1917]/10 rounded-full">
+                  <MapPin className="w-7 h-7 text-[#1C1917]" aria-hidden />
                 </div>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] font-playfair">
                   Nearby Amenities Map
                 </h2>
               </div>
-              <p className="text-[#2D2A26] text-center mb-8 max-w-2xl mx-auto">
+              <p className="text-[#141210] text-center mb-8 max-w-2xl mx-auto">
                 Explore restaurants, parks, golf, schools, and more near Sun City Summerlin. Use the map to see what&apos;s around the community.
               </p>
               <AmenityMapEmbed />
@@ -347,16 +347,16 @@ export default function AmenitiesPage() {
           <section
             key={category.category}
             className={`py-12 md:py-16 lg:py-20 ${
-              categoryIndex % 2 === 0 ? "bg-white" : "bg-[#FDF8F3]"
+              categoryIndex % 2 === 0 ? "bg-white" : "bg-[#F7F6F4]"
             }`}
           >
             <div className="container mx-auto px-4">
               <div className="mb-8 md:mb-12">
                 <div className="flex items-center justify-center gap-4 mb-4">
-                  <div className="flex items-center justify-center w-16 h-16 bg-[#8B5E3C]/10 rounded-full">
+                  <div className="flex items-center justify-center w-16 h-16 bg-[#1C1917]/10 rounded-full">
                     {category.icon}
                   </div>
-                  <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] font-playfair">
+                  <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] font-playfair">
                     {category.category}
                   </h2>
                 </div>
@@ -378,15 +378,15 @@ export default function AmenitiesPage() {
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 Complete Amenities List
               </h2>
-              <div className="bg-[#FDF8F3] rounded-lg shadow-two p-6 md:p-8">
+              <div className="bg-[#F7F6F4] rounded-lg shadow-two p-6 md:p-8">
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   {communityAmenities.map((amenity) => (
                     <div key={amenity} className="flex items-start gap-3">
-                      <CheckCircle2 className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
-                      <span className="text-[#2D2A26]">{amenity}</span>
+                      <CheckCircle2 className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
+                      <span className="text-[#141210]">{amenity}</span>
                     </div>
                   ))}
                 </div>
@@ -399,22 +399,22 @@ export default function AmenitiesPage() {
         <RealScoutListings h2Text="View Available Homes in Sun City Summerlin with These Amazing Amenities" />
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h2 className="text-2xl md:text-3xl font-bold mb-4 font-playfair">
                 Experience These Amenities for Yourself
               </h2>
               <p className="text-lg text-gray-100 mb-6">
-                Schedule a tour with <Link href="/about" className="text-[#D4AF37] hover:text-white underline">Dr. Jan Duffy</Link> to see the amenities and
-                community in person. Learn more about the <Link href="/lifestyle" className="text-[#D4AF37] hover:text-white underline">active adult lifestyle</Link> at Sun City Summerlin.
+                Schedule a tour with <Link href="/about" className="text-[#C9A962] hover:text-white underline">Dr. Jan Duffy</Link> to see the amenities and
+                community in person. Learn more about the <Link href="/lifestyle" className="text-[#C9A962] hover:text-white underline">active adult lifestyle</Link> at Sun City Summerlin.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center">
                 <Button
                   asChild
                   variant="accent"
                   size="lg"
-                  className="bg-[#D4AF37] hover:bg-[#D4AF37]/90 text-[#2D2A26]"
+                  className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210]"
                 >
                   <Link href="/contact">Schedule Your Tour</Link>
                 </Button>

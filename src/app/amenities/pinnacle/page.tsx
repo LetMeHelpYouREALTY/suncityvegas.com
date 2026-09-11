@@ -72,7 +72,7 @@ export default function PinnaclePage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#8B5E3C] to-[#5D7A5D] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#1C1917] to-[#57534E] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -105,7 +105,7 @@ export default function PinnaclePage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/amenities/pinnacle-hero.jpg"
                   alt="Pinnacle Community Center exterior"
@@ -126,10 +126,10 @@ export default function PinnaclePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Overview
                 </h2>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
                   <p>
                     Pinnacle Community Center is one of four world-class recreation centers serving the residents of Sun City Summerlin. At 34,000 square feet, Pinnacle offers a welcoming, intimate atmosphere while providing comprehensive fitness and recreation facilities.
                   </p>
@@ -146,11 +146,11 @@ export default function PinnaclePage() {
         </section>
 
         {/* Fitness Center */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Fitness Center
                 </h2>
               </ScrollAnimation>
@@ -169,8 +169,8 @@ export default function PinnaclePage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       Comprehensive Fitness Equipment
                     </p>
                     <p className="mb-4">
@@ -178,19 +178,19 @@ export default function PinnaclePage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Cardio Equipment:</strong> Treadmills, ellipticals, stationary bikes</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Strength Training:</strong> Circuit machines and free weights</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Flexibility Area:</strong> Space for stretching and mobility work</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Fitness Classes:</strong> Scheduled classes throughout the week</span>
                       </li>
                     </ul>
@@ -209,14 +209,14 @@ export default function PinnaclePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Pool & Spa Facilities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Pool & Spa
                     </h3>
                     <p className="mb-4">
@@ -231,7 +231,7 @@ export default function PinnaclePage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+                  <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                     <Image
                       src="/images/amenities/pinnacle-pool.jpg"
                       alt="Pool and spa at Pinnacle Community Center"
@@ -249,27 +249,27 @@ export default function PinnaclePage() {
         </section>
 
         {/* Sports Courts */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Sports Courts & Activities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ScrollAnimation delay={100}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Tennis Courts</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Tennis Courts</h3>
+                    <p className="text-[#141210]">
                       Lighted tennis courts available for residents. Perfect for singles, doubles, or taking lessons. The courts are well-maintained and ready for play.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Bocce Ball Courts</h3>
-                    <p className="text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Bocce Ball Courts</h3>
+                    <p className="text-[#141210]">
                       Lighted bocce ball courts for casual games with friends or organized league play. A popular social activity that combines fun and light exercise.
                     </p>
                   </div>
@@ -284,31 +284,31 @@ export default function PinnaclePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Social & Meeting Spaces
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Card Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Card Rooms</h3>
+                    <p className="text-[#141210]">
                       Dedicated card rooms for bridge, poker, and other card games. Regular game sessions scheduled throughout the week.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Multi-Purpose Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Multi-Purpose Rooms</h3>
+                    <p className="text-[#141210]">
                       Versatile multi-purpose rooms available for club meetings, classes, and private gatherings. Rooms can be reserved in advance.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Lounge Area</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Lounge Area</h3>
+                    <p className="text-[#141210]">
                       Comfortable lounge with seating for casual conversation and relaxation between activities.
                     </p>
                   </div>
@@ -319,40 +319,40 @@ export default function PinnaclePage() {
         </section>
 
         {/* Hours & Access */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Hours of Operation & Access
                 </h2>
                 <div className="bg-white rounded-lg p-6 md:p-8 space-y-6 shadow-md">
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Hours of Operation</h3>
-                    <p className="text-lg text-[#2D2A26] mb-2">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Hours of Operation</h3>
+                    <p className="text-lg text-[#141210] mb-2">
                       <strong>Daily:</strong> 6:00 AM - 9:00 PM
                     </p>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Pinnacle is open year-round, including holidays. The facility is maintained and cleaned regularly to ensure a safe and pleasant environment for all residents.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Membership & Access</h3>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Membership & Access</h3>
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>All residents must check in with membership card</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Guest passes available (guests must be accompanied by a resident)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Access included with your HOA fee—no additional membership required</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Meeting rooms and facilities can be reserved in advance</span>
                       </li>
                     </ul>
@@ -368,49 +368,49 @@ export default function PinnaclePage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Explore Other Community Centers
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <Link
                     href="/amenities/mountain-shadows"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Mountain Shadows
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The original recreation center at 45,000 sq ft with fitness center, indoor pool, racquetball, and arts & crafts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
                   <Link
                     href="/amenities/sun-shadows"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Sun Shadows
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       Home to the Olympic-sized indoor heated pool and spa facilities.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
                   <Link
                     href="/amenities/desert-vista"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Desert Vista
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The largest recreation center at 48,000 sq ft with a grand ballroom, tennis courts, and pickleball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -421,7 +421,7 @@ export default function PinnaclePage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -434,7 +434,7 @@ export default function PinnaclePage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

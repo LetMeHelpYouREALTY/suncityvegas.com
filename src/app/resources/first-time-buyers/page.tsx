@@ -50,12 +50,12 @@ export default function FirstTimeBuyersPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <Home className="w-16 h-16 text-[#D4AF37]" />
+                  <Home className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   First-Time Buyer Guide for Sun City Summerlin
@@ -75,7 +75,7 @@ export default function FirstTimeBuyersPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/resources/first-time-buyers-hero.jpg"
                   alt="First-time homebuyer guide for Sun City Summerlin"
@@ -96,8 +96,8 @@ export default function FirstTimeBuyersPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     Buying your first home in Sun City Summerlin is an exciting journey. Whether you're downsizing from a larger home or buying your first property, this guide will help you navigate the process with confidence.
                   </p>
                   <p>
@@ -110,11 +110,11 @@ export default function FirstTimeBuyersPage() {
         </section>
 
         {/* Step-by-Step Process */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   The Homebuying Process: Step by Step
                 </h2>
               </ScrollAnimation>
@@ -173,19 +173,19 @@ export default function FirstTimeBuyersPage() {
                   const Icon = item.icon;
                   return (
                     <ScrollAnimation key={item.step} delay={index * 100}>
-                      <div className="bg-white rounded-lg p-6 border-l-4 border-[#8B5E3C]">
+                      <div className="bg-white rounded-lg p-6 border-l-4 border-[#1C1917]">
                         <div className="flex items-start gap-4">
-                          <div className="bg-[#8B5E3C] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">
+                          <div className="bg-[#1C1917] text-white rounded-full w-12 h-12 flex items-center justify-center font-bold flex-shrink-0">
                             {item.step}
                           </div>
                           <div className="flex-1">
                             <div className="flex items-center gap-3 mb-3">
-                              <Icon className="w-6 h-6 text-[#8B5E3C]" />
-                              <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair">
+                              <Icon className="w-6 h-6 text-[#1C1917]" />
+                              <h3 className="text-xl font-bold text-[#1C1917] font-playfair">
                                 {item.title}
                               </h3>
                             </div>
-                            <p className="text-[#2D2A26] leading-relaxed">{item.description}</p>
+                            <p className="text-[#141210] leading-relaxed">{item.description}</p>
                           </div>
                         </div>
                       </div>
@@ -202,32 +202,32 @@ export default function FirstTimeBuyersPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Understanding 55+ Communities
                 </h2>
               </ScrollAnimation>
-              <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 space-y-6">
+              <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Age Restrictions
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Sun City Summerlin is a 55+ community, meaning at least one resident must be 55 or older. No one under 19 can live in the community permanently, though grandchildren can visit. This age restriction is legally enforceable and helps maintain the active adult lifestyle.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     HOA Fees
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Your monthly HOA fee (approximately $165) covers access to all amenities, maintenance of common areas, and guard-gated security. This is separate from your mortgage payment and is required for all homeowners.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     Community Rules
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Like all communities, Sun City Summerlin has rules and regulations. These cover things like parking, landscaping, exterior modifications, and noise. Understanding these rules before you buy helps ensure the community is a good fit for your lifestyle.
                   </p>
                 </div>
@@ -237,11 +237,11 @@ export default function FirstTimeBuyersPage() {
         </section>
 
         {/* Financing Options */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   Financing Your First Home
                 </h2>
               </ScrollAnimation>
@@ -270,10 +270,10 @@ export default function FirstTimeBuyersPage() {
                 ].map((option, index) => (
                   <ScrollAnimation key={option.title} delay={index * 100}>
                     <div className="bg-white rounded-lg p-6 shadow-md">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         {option.title}
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">{option.description}</p>
+                      <p className="text-[#141210] leading-relaxed">{option.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -287,7 +287,7 @@ export default function FirstTimeBuyersPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   What to Look For in Your First Home
                 </h2>
               </ScrollAnimation>
@@ -331,14 +331,14 @@ export default function FirstTimeBuyersPage() {
                   },
                 ].map((category, index) => (
                   <ScrollAnimation key={category.title} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                         {category.title}
                       </h3>
                       <ul className="space-y-2">
                         {category.items.map((item) => (
-                          <li key={item} className="flex items-start gap-2 text-[#2D2A26]">
-                            <Check className="w-5 h-5 text-[#5D7A5D] flex-shrink-0 mt-0.5" />
+                          <li key={item} className="flex items-start gap-2 text-[#141210]">
+                            <Check className="w-5 h-5 text-[#57534E] flex-shrink-0 mt-0.5" />
                             <span>{item}</span>
                           </li>
                         ))}
@@ -352,11 +352,11 @@ export default function FirstTimeBuyersPage() {
         </section>
 
         {/* Common Questions */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Common First-Time Buyer Questions
                 </h2>
               </ScrollAnimation>
@@ -385,10 +385,10 @@ export default function FirstTimeBuyersPage() {
                 ].map((faq, index) => (
                   <ScrollAnimation key={faq.q} delay={index * 100}>
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         {faq.q}
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">{faq.a}</p>
+                      <p className="mt-4 text-[#141210] leading-relaxed">{faq.a}</p>
                     </details>
                   </ScrollAnimation>
                 ))}
@@ -402,20 +402,20 @@ export default function FirstTimeBuyersPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">Related Resources</h2>
-                <ul className="space-y-2 text-[#2D2A26]">
+                <h2 className="text-2xl font-bold text-[#1C1917] mb-4 font-playfair">Related Resources</h2>
+                <ul className="space-y-2 text-[#141210]">
                   <li>
-                    <Link href="/resources/market-insights" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources/market-insights" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <TrendingUp className="w-4 h-4" /> Market Insights &amp; Trends
                     </Link>
                   </li>
                   <li>
-                    <Link href="/resources/moving-guide" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources/moving-guide" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <Truck className="w-4 h-4" /> Moving to Sun City Summerlin Guide
                     </Link>
                   </li>
                   <li>
-                    <Link href="/resources" className="inline-flex items-center gap-2 text-[#8B5E3C] hover:underline font-medium">
+                    <Link href="/resources" className="inline-flex items-center gap-2 text-[#1C1917] hover:underline font-medium">
                       <BookOpen className="w-4 h-4" /> All Resources
                     </Link>
                   </li>
@@ -426,7 +426,7 @@ export default function FirstTimeBuyersPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -439,7 +439,7 @@ export default function FirstTimeBuyersPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

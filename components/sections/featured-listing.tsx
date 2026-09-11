@@ -41,7 +41,7 @@ export default function FeaturedListingSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             {/* Image */}
             <ScrollAnimation>
-              <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src={featuredListing.image}
                   alt={`Featured home at ${featuredListing.address}`}
@@ -52,7 +52,7 @@ export default function FeaturedListingSection() {
                   sizes="(max-width: 768px) 100vw, 50vw"
                 />
                 {featuredListing.comingSoon && (
-                  <div className="absolute top-4 right-4 bg-[#8B5E3C] text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2">
+                  <div className="absolute top-4 right-4 bg-[#1C1917] text-white px-4 py-2 rounded-full text-sm font-semibold flex items-center gap-2">
                     <Calendar className="w-4 h-4" />
                     {featuredListing.comingSoonDate}
                   </div>
@@ -64,36 +64,36 @@ export default function FeaturedListingSection() {
             <ScrollAnimation delay={100}>
               <div>
                 {featuredListing.comingSoon && (
-                  <div className="inline-block bg-[#5D7A5D]/10 text-[#5D7A5D] px-4 py-2 rounded-full text-sm font-semibold mb-4">
+                  <div className="inline-block bg-[#57534E]/10 text-[#57534E] px-4 py-2 rounded-full text-sm font-semibold mb-4">
                     NEW LISTING - COMING {featuredListing.comingSoonDate}
                   </div>
                 )}
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 font-playfair">
                   Featured Home
                 </h2>
-                <div className="flex flex-wrap gap-4 mb-4 text-[#2D2A26]">
+                <div className="flex flex-wrap gap-4 mb-4 text-[#141210]">
                   <div className="flex items-center gap-2">
-                    <Home className="w-5 h-5 text-[#8B5E3C]" />
+                    <Home className="w-5 h-5 text-[#1C1917]" />
                     <span className="font-semibold">
                       {featuredListing.beds} bed | {featuredListing.baths} bath | {featuredListing.sqft} sq ft
                     </span>
                   </div>
                   <div className="flex items-center gap-2">
-                    <MapPin className="w-5 h-5 text-[#8B5E3C]" />
+                    <MapPin className="w-5 h-5 text-[#1C1917]" />
                     <span>{featuredListing.address}</span>
                   </div>
                 </div>
-                <p className="text-lg text-[#2D2A26] mb-6 leading-relaxed">
+                <p className="text-lg text-[#141210] mb-6 leading-relaxed">
                   {featuredListing.description}
                 </p>
                 <div className="mb-6">
-                  <h3 className="text-lg font-semibold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-lg font-semibold text-[#1C1917] mb-3 font-playfair">
                     Property Highlights
                   </h3>
                   <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
                     {featuredListing.highlights.map((highlight, index) => (
-                      <li key={index} className="flex items-center gap-2 text-[#2D2A26]">
-                        <span className="text-[#5D7A5D]">✓</span>
+                      <li key={index} className="flex items-center gap-2 text-[#141210]">
+                        <span className="text-[#57534E]">✓</span>
                         <span>{highlight}</span>
                       </li>
                     ))}
@@ -103,7 +103,7 @@ export default function FeaturedListingSection() {
                   <Button
                     asChild
                     size="lg"
-                    className="bg-[#8B5E3C] hover:bg-[#8B5E3C]/90 min-h-[44px]"
+                    className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]"
                   >
                     <Link href="/contact">Get Early Access</Link>
                   </Button>
@@ -111,7 +111,7 @@ export default function FeaturedListingSection() {
                     asChild
                     variant="outline"
                     size="lg"
-                    className="border-[#8B5E3C] text-[#8B5E3C] hover:bg-[#8B5E3C]/10 min-h-[44px]"
+                    className="border-[#1C1917] text-[#1C1917] hover:bg-[#1C1917]/10 min-h-[44px]"
                   >
                     <a href="tel:7027180043">
                       <Phone className="w-5 h-5 mr-2" />

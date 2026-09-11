@@ -55,10 +55,10 @@ export default function RealScoutListings({
               </span>
               Live MLS Listings - Updated Every 15 Minutes
             </div>
-            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+            <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-4 font-playfair">
               {h2Text}
             </h2>
-            <p className="text-[#2D2A26] max-w-2xl mx-auto">
+            <p className="text-[#141210] max-w-2xl mx-auto">
               Browse current homes for sale in Sun City Summerlin, Las Vegas NV 89134. 
               Click any listing for full details, photos, and to schedule a showing.
             </p>
@@ -67,29 +67,29 @@ export default function RealScoutListings({
           {/* Quick Stats */}
           {showStats && (
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
-              <div className="bg-[#FDF8F3] rounded-lg p-4 text-center border border-[#C4A574]/20">
-                <p className="text-2xl font-bold text-[#8B5E3C]">$350K-$900K+</p>
-                <p className="text-sm text-[#2D2A26]">Price Range</p>
+              <div className="bg-[#F7F6F4] rounded-lg p-4 text-center border border-[#B8A078]/20">
+                <p className="text-2xl font-bold text-[#1C1917]">$350K-$900K+</p>
+                <p className="text-sm text-[#141210]">Price Range</p>
               </div>
-              <div className="bg-[#FDF8F3] rounded-lg p-4 text-center border border-[#C4A574]/20">
-                <p className="text-2xl font-bold text-[#8B5E3C]">1,000-3,000+</p>
-                <p className="text-sm text-[#2D2A26]">Square Feet</p>
+              <div className="bg-[#F7F6F4] rounded-lg p-4 text-center border border-[#B8A078]/20">
+                <p className="text-2xl font-bold text-[#1C1917]">1,000-3,000+</p>
+                <p className="text-sm text-[#141210]">Square Feet</p>
               </div>
-              <div className="bg-[#FDF8F3] rounded-lg p-4 text-center border border-[#C4A574]/20">
-                <p className="text-2xl font-bold text-[#8B5E3C]">55+</p>
-                <p className="text-sm text-[#2D2A26]">Age Requirement</p>
+              <div className="bg-[#F7F6F4] rounded-lg p-4 text-center border border-[#B8A078]/20">
+                <p className="text-2xl font-bold text-[#1C1917]">55+</p>
+                <p className="text-sm text-[#141210]">Age Requirement</p>
               </div>
-              <div className="bg-[#FDF8F3] rounded-lg p-4 text-center border border-[#C4A574]/20">
-                <p className="text-2xl font-bold text-[#8B5E3C]">89134</p>
-                <p className="text-sm text-[#2D2A26]">ZIP Code</p>
+              <div className="bg-[#F7F6F4] rounded-lg p-4 text-center border border-[#B8A078]/20">
+                <p className="text-2xl font-bold text-[#1C1917]">89134</p>
+                <p className="text-sm text-[#141210]">ZIP Code</p>
               </div>
             </div>
           )}
 
           {/* RealScout Widget Container */}
-          <div className="bg-white rounded-lg shadow-lg border border-[#C4A574]/20 overflow-hidden">
+          <div className="bg-white rounded-lg shadow-lg border border-[#B8A078]/20 overflow-hidden">
             {/* Widget Header */}
-            <div className="bg-[#8B5E3C] text-white px-6 py-4 flex items-center justify-between">
+            <div className="bg-[#1C1917] text-white px-6 py-4 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <Home className="w-5 h-5" />
                 <span className="font-semibold">Sun City Summerlin Active Listings</span>
@@ -107,10 +107,10 @@ export default function RealScoutListings({
             
             {/* Loading State */}
             {!isLoaded && (
-              <div className="flex items-center justify-center py-12 bg-[#FDF8F3]">
+              <div className="flex items-center justify-center py-12 bg-[#F7F6F4]">
                 <div className="text-center">
-                  <RefreshCw className="w-8 h-8 text-[#8B5E3C] animate-spin mx-auto mb-3" />
-                  <p className="text-[#2D2A26]">Loading live listings...</p>
+                  <RefreshCw className="w-8 h-8 text-[#1C1917] animate-spin mx-auto mb-3" />
+                  <p className="text-[#141210]">Loading live listings...</p>
                 </div>
               </div>
             )}
@@ -123,13 +123,13 @@ export default function RealScoutListings({
           </div>
 
           {/* CTA Below Listings */}
-          <div className="mt-8 bg-[#FDF8F3] rounded-lg p-6 md:p-8 border border-[#C4A574]/20">
+          <div className="mt-8 bg-[#F7F6F4] rounded-lg p-6 md:p-8 border border-[#B8A078]/20">
             <div className="flex flex-col md:flex-row items-center justify-between gap-6">
               <div>
-                <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                   Don&apos;t See What You&apos;re Looking For?
                 </h3>
-                <p className="text-[#2D2A26]">
+                <p className="text-[#141210]">
                   New listings hit the market daily. Set up alerts to be notified instantly when homes matching your criteria become available.
                 </p>
               </div>
@@ -138,13 +138,13 @@ export default function RealScoutListings({
                   href="https://drjanduffy.realscout.com/onboarding"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#8B5E3C] text-white font-semibold rounded-lg hover:bg-[#8B5E3C]/90 transition-colors whitespace-nowrap"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#1C1917] text-white font-semibold rounded-lg hover:bg-[#1C1917]/90 transition-colors whitespace-nowrap"
                 >
                   Set Up Alerts
                 </a>
                 <a
                   href="tel:7027180043"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-[#8B5E3C] text-[#8B5E3C] font-semibold rounded-lg hover:bg-[#8B5E3C]/5 transition-colors whitespace-nowrap"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-[#1C1917] text-[#1C1917] font-semibold rounded-lg hover:bg-[#1C1917]/5 transition-colors whitespace-nowrap"
                 >
                   Call (702) 718-0043
                 </a>

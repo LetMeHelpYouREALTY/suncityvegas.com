@@ -362,7 +362,7 @@ export default async function FlyerPage({
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-br from-[#8B5E3C] to-[#6B4E2C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-br from-[#1C1917] to-[#6B4E2C] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <div className="flex items-center justify-center w-20 h-20 bg-white/10 rounded-full mb-6 mx-auto">
@@ -372,7 +372,7 @@ export default async function FlyerPage({
                 <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
                   {flyer.category}
                 </span>
-                <span className="inline-block px-4 py-2 bg-[#D4AF37]/80 text-white text-sm font-semibold rounded-full">
+                <span className="inline-block px-4 py-2 bg-[#C9A962]/80 text-white text-sm font-semibold rounded-full">
                   Free Download
                 </span>
                 {flyer.pages && (
@@ -393,7 +393,7 @@ export default async function FlyerPage({
                 <a
                   href={flyer.filePath}
                   download
-                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] font-bold rounded-lg hover:bg-[#D4AF37]/90 transition-colors text-lg"
+                  className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] font-bold rounded-lg hover:bg-[#C9A962]/90 transition-colors text-lg"
                 >
                   <Download className="w-6 h-6" />
                   Download Free Guide
@@ -414,19 +414,19 @@ export default async function FlyerPage({
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                 What Makes Sun City Summerlin Special
               </h2>
               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
                 {communityHighlights.map((item, index) => (
-                  <div key={index} className="bg-[#FDF8F3] rounded-lg p-6 border border-[#C4A574]/20">
+                  <div key={index} className="bg-[#F7F6F4] rounded-lg p-6 border border-[#B8A078]/20">
                     <div className="flex items-center gap-4 mb-3">
-                      <div className="w-12 h-12 bg-[#8B5E3C]/10 rounded-full flex items-center justify-center">
-                        <item.icon className="w-6 h-6 text-[#8B5E3C]" />
+                      <div className="w-12 h-12 bg-[#1C1917]/10 rounded-full flex items-center justify-center">
+                        <item.icon className="w-6 h-6 text-[#1C1917]" />
                       </div>
-                      <h3 className="font-bold text-[#8B5E3C] text-lg">{item.label}</h3>
+                      <h3 className="font-bold text-[#1C1917] text-lg">{item.label}</h3>
                     </div>
-                    <p className="text-[#2D2A26] text-sm">{item.description}</p>
+                    <p className="text-[#141210] text-sm">{item.description}</p>
                   </div>
                 ))}
               </div>
@@ -435,26 +435,26 @@ export default async function FlyerPage({
         </section>
 
         {/* Guide Contents Section */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 font-playfair">
                 What&apos;s Inside This Guide
               </h2>
-              <p className="text-lg text-[#2D2A26] leading-relaxed mb-8">
+              <p className="text-lg text-[#141210] leading-relaxed mb-8">
                 {flyer.content}
               </p>
               
               {flyer.features && (
-                <div className="bg-white rounded-lg p-6 md:p-8 border-2 border-[#C4A574]/30">
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <div className="bg-white rounded-lg p-6 md:p-8 border-2 border-[#B8A078]/30">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Complete Table of Contents:
                   </h3>
                   <ul className="space-y-4">
                     {flyer.features.map((feature, index) => (
                       <li key={index} className="flex items-start gap-3">
-                        <CheckCircle2 className="w-5 h-5 text-[#D4AF37] mt-0.5 flex-shrink-0" />
-                        <span className="text-[#2D2A26]">{feature}</span>
+                        <CheckCircle2 className="w-5 h-5 text-[#C9A962] mt-0.5 flex-shrink-0" />
+                        <span className="text-[#141210]">{feature}</span>
                       </li>
                     ))}
                   </ul>
@@ -462,7 +462,7 @@ export default async function FlyerPage({
               )}
 
               {flyer.lastUpdated && (
-                <p className="mt-6 text-sm text-[#2D2A26]/70 flex items-center gap-2">
+                <p className="mt-6 text-sm text-[#141210]/70 flex items-center gap-2">
                   <Calendar className="w-4 h-4" />
                   Last updated: {new Date(flyer.lastUpdated).toLocaleDateString("en-US", { 
                     year: "numeric", 
@@ -480,10 +480,10 @@ export default async function FlyerPage({
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <div className="text-center mb-10">
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                   Prime Location in Las Vegas, Nevada
                 </h2>
-                <p className="text-lg text-[#2D2A26] max-w-3xl mx-auto">
+                <p className="text-lg text-[#141210] max-w-3xl mx-auto">
                   Sun City Summerlin is ideally located in the Summerlin master-planned community, 
                   offering easy access to world-class entertainment, healthcare, shopping, and outdoor recreation.
                 </p>
@@ -491,7 +491,7 @@ export default async function FlyerPage({
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Map Embed */}
-                <div className="rounded-lg overflow-hidden shadow-lg border border-[#C4A574]/20 h-[400px]">
+                <div className="rounded-lg overflow-hidden shadow-lg border border-[#B8A078]/20 h-[400px]">
                   <iframe
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12934.123456789!2d-115.2936!3d36.2088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c1d1b5555555%3A0x1234567890abcdef!2sSun%20City%20Summerlin!5e0!3m2!1sen!2sus!4v1234567890"
                     width="100%"
@@ -506,25 +506,25 @@ export default async function FlyerPage({
 
                 {/* Nearby Attractions */}
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-6 font-playfair flex items-center gap-2">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-6 font-playfair flex items-center gap-2">
                     <Car className="w-5 h-5" />
                     Nearby Attractions & Services
                   </h3>
                   <div className="space-y-4">
                     {nearbyAttractions.map((attraction, index) => (
-                      <div key={index} className="flex items-center justify-between p-4 bg-[#FDF8F3] rounded-lg">
+                      <div key={index} className="flex items-center justify-between p-4 bg-[#F7F6F4] rounded-lg">
                         <div>
-                          <h4 className="font-semibold text-[#8B5E3C]">{attraction.name}</h4>
-                          <p className="text-sm text-[#2D2A26]/70">{attraction.type}</p>
+                          <h4 className="font-semibold text-[#1C1917]">{attraction.name}</h4>
+                          <p className="text-sm text-[#141210]/70">{attraction.type}</p>
                         </div>
-                        <span className="text-[#D4AF37] font-bold">{attraction.distance}</span>
+                        <span className="text-[#C9A962] font-bold">{attraction.distance}</span>
                       </div>
                     ))}
                   </div>
 
-                  <div className="mt-6 p-4 bg-[#8B5E3C]/10 rounded-lg">
-                    <p className="text-sm text-[#2D2A26] flex items-start gap-2">
-                      <MapPin className="w-4 h-4 mt-0.5 text-[#8B5E3C] flex-shrink-0" />
+                  <div className="mt-6 p-4 bg-[#1C1917]/10 rounded-lg">
+                    <p className="text-sm text-[#141210] flex items-start gap-2">
+                      <MapPin className="w-4 h-4 mt-0.5 text-[#1C1917] flex-shrink-0" />
                       <span>
                         <strong>Address:</strong> 9406 Del Webb Boulevard, Las Vegas, NV 89134
                       </span>
@@ -537,16 +537,16 @@ export default async function FlyerPage({
         </section>
 
         {/* PDF Download Section */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="bg-white rounded-lg shadow-lg border border-[#C4A574]/20 p-6 md:p-8">
+              <div className="bg-white rounded-lg shadow-lg border border-[#B8A078]/20 p-6 md:p-8">
                 <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
                   <div>
-                    <h3 className="text-2xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <h3 className="text-2xl font-bold text-[#1C1917] mb-2 font-playfair">
                       Download Your Free Guide
                     </h3>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Get instant access to the complete Sun City Summerlin community guide.
                     </p>
                   </div>
@@ -554,7 +554,7 @@ export default async function FlyerPage({
                     <a
                       href={flyer.filePath}
                       download
-                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#8B5E3C] text-white font-semibold rounded-lg hover:bg-[#8B5E3C]/90 transition-colors"
+                      className="inline-flex items-center justify-center gap-2 px-6 py-3 bg-[#1C1917] text-white font-semibold rounded-lg hover:bg-[#1C1917]/90 transition-colors"
                     >
                       <Download className="w-5 h-5" />
                       Download PDF
@@ -563,7 +563,7 @@ export default async function FlyerPage({
                       href={flyer.filePath}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-[#8B5E3C] text-[#8B5E3C] font-semibold rounded-lg hover:bg-[#8B5E3C]/5 transition-colors"
+                      className="inline-flex items-center justify-center gap-2 px-6 py-3 border-2 border-[#1C1917] text-[#1C1917] font-semibold rounded-lg hover:bg-[#1C1917]/5 transition-colors"
                     >
                       <FileText className="w-5 h-5" />
                       View Online
@@ -572,8 +572,8 @@ export default async function FlyerPage({
                 </div>
 
                 {/* PDF Preview */}
-                <div className="border-2 border-[#C4A574]/20 rounded-lg overflow-hidden bg-gray-100">
-                  <div className="bg-[#8B5E3C] text-white px-4 py-2 text-sm font-medium">
+                <div className="border-2 border-[#B8A078]/20 rounded-lg overflow-hidden bg-gray-100">
+                  <div className="bg-[#1C1917] text-white px-4 py-2 text-sm font-medium">
                     PDF Preview - {flyer.title}
                   </div>
                   <iframe
@@ -594,10 +594,10 @@ export default async function FlyerPage({
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-start">
                 {/* Left: CTA Text */}
                 <div>
-                  <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Ready to See Sun City Summerlin in Person?
                   </h2>
-                  <p className="text-lg text-[#2D2A26] leading-relaxed mb-6">
+                  <p className="text-lg text-[#141210] leading-relaxed mb-6">
                     The guide is great, but nothing compares to walking through the community yourself. 
                     Schedule a private tour with Dr. Jan Duffy to explore the golf courses, recreation centers, 
                     and available homes.
@@ -605,29 +605,29 @@ export default async function FlyerPage({
                   
                   <div className="space-y-4 mb-8">
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-[#8B5E3C]/10 rounded-full flex items-center justify-center">
-                        <Phone className="w-5 h-5 text-[#8B5E3C]" />
+                      <div className="w-10 h-10 bg-[#1C1917]/10 rounded-full flex items-center justify-center">
+                        <Phone className="w-5 h-5 text-[#1C1917]" />
                       </div>
                       <div>
-                        <p className="text-sm text-[#2D2A26]/70">Call or Text</p>
-                        <a href="tel:7027180043" className="font-semibold text-[#8B5E3C] hover:underline">
+                        <p className="text-sm text-[#141210]/70">Call or Text</p>
+                        <a href="tel:7027180043" className="font-semibold text-[#1C1917] hover:underline">
                           (702) 718-0043
                         </a>
                       </div>
                     </div>
                     <div className="flex items-center gap-3">
-                      <div className="w-10 h-10 bg-[#8B5E3C]/10 rounded-full flex items-center justify-center">
-                        <MapPin className="w-5 h-5 text-[#8B5E3C]" />
+                      <div className="w-10 h-10 bg-[#1C1917]/10 rounded-full flex items-center justify-center">
+                        <MapPin className="w-5 h-5 text-[#1C1917]" />
                       </div>
                       <div>
-                        <p className="text-sm text-[#2D2A26]/70">Meeting Location</p>
-                        <p className="font-semibold text-[#8B5E3C]">9406 Del Webb Boulevard, Las Vegas, NV 89134</p>
+                        <p className="text-sm text-[#141210]/70">Meeting Location</p>
+                        <p className="font-semibold text-[#1C1917]">9406 Del Webb Boulevard, Las Vegas, NV 89134</p>
                       </div>
                     </div>
                   </div>
 
-                  <div className="p-4 bg-[#FDF8F3] rounded-lg border border-[#C4A574]/20">
-                    <p className="text-sm text-[#2D2A26]">
+                  <div className="p-4 bg-[#F7F6F4] rounded-lg border border-[#B8A078]/20">
+                    <p className="text-sm text-[#141210]">
                       <strong>Dr. Jan Duffy</strong> is a Sun City Summerlin specialist with Berkshire Hathaway HomeServices Nevada Properties. 
                       License: S.0197614.LLC
                     </p>
@@ -635,8 +635,8 @@ export default async function FlyerPage({
                 </div>
 
                 {/* Right: Calendly */}
-                <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-[#C4A574]/20">
-                  <div className="bg-[#8B5E3C] text-white px-6 py-4">
+                <div className="bg-white rounded-lg shadow-lg overflow-hidden border border-[#B8A078]/20">
+                  <div className="bg-[#1C1917] text-white px-6 py-4">
                     <h3 className="text-xl font-bold font-playfair flex items-center gap-2">
                       <Calendar className="w-5 h-5" />
                       Schedule Your Private Tour
@@ -653,10 +653,10 @@ export default async function FlyerPage({
         </section>
 
         {/* FAQ Section (SEO) */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                 Frequently Asked Questions
               </h2>
               <div className="space-y-4">
@@ -682,9 +682,9 @@ export default async function FlyerPage({
                     a: "Nevada offers significant tax benefits for retirees including no state income tax, no inheritance tax, no estate tax, and no tax on Social Security benefits. Property taxes are also relatively low compared to many other states.",
                   },
                 ].map((faq, index) => (
-                  <div key={index} className="bg-white rounded-lg p-6 border border-[#C4A574]/20">
-                    <h3 className="font-bold text-[#8B5E3C] mb-2">{faq.q}</h3>
-                    <p className="text-[#2D2A26]">{faq.a}</p>
+                  <div key={index} className="bg-white rounded-lg p-6 border border-[#B8A078]/20">
+                    <h3 className="font-bold text-[#1C1917] mb-2">{faq.q}</h3>
+                    <p className="text-[#141210]">{faq.a}</p>
                   </div>
                 ))}
               </div>
@@ -696,43 +696,43 @@ export default async function FlyerPage({
         <section className="py-12 md:py-16 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                 Explore More Resources
               </h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <Link
                   href="/amenities"
-                  className="bg-[#FDF8F3] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#C4A574]/20"
+                  className="bg-[#F7F6F4] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#B8A078]/20"
                 >
-                  <Mountain className="w-8 h-8 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <Mountain className="w-8 h-8 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Amenities
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     4 golf courses, 3 rec centers, pools & more
                   </p>
                 </Link>
                 <Link
                   href="/lifestyle"
-                  className="bg-[#FDF8F3] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#C4A574]/20"
+                  className="bg-[#F7F6F4] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#B8A078]/20"
                 >
-                  <Users className="w-8 h-8 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <Users className="w-8 h-8 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Lifestyle & Clubs
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     80+ clubs and activities
                   </p>
                 </Link>
                 <Link
                   href="/homes-for-sale"
-                  className="bg-[#FDF8F3] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#C4A574]/20"
+                  className="bg-[#F7F6F4] p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow text-center border border-[#B8A078]/20"
                 >
-                  <Home className="w-8 h-8 text-[#8B5E3C] mx-auto mb-3" />
-                  <h3 className="text-lg font-bold text-[#8B5E3C] mb-2 font-playfair">
+                  <Home className="w-8 h-8 text-[#1C1917] mx-auto mb-3" />
+                  <h3 className="text-lg font-bold text-[#1C1917] mb-2 font-playfair">
                     Homes for Sale
                   </h3>
-                  <p className="text-[#2D2A26] text-sm">
+                  <p className="text-[#141210] text-sm">
                     View current listings
                   </p>
                 </Link>
@@ -743,7 +743,7 @@ export default async function FlyerPage({
                 <Button
                   asChild
                   variant="outline"
-                  className="flex items-center justify-center gap-2 border-[#8B5E3C] text-[#8B5E3C]"
+                  className="flex items-center justify-center gap-2 border-[#1C1917] text-[#1C1917]"
                 >
                   <Link href="/flyers">
                     <ArrowLeft className="w-4 h-4" />

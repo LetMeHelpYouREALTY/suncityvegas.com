@@ -15,29 +15,30 @@ alwaysApply: true
 ## 🚫 Accessibility - Color Contrast (WCAG AA)
 
 ### CRITICAL: Never Use These Combinations
-- ❌ `text-accent` (#D4AF37 gold) on light backgrounds → Use `text-[#8B5E3C]` (warm brown)
-- ❌ `bg-accent` for buttons with white text → Use `bg-[#8B5E3C]`
+- ❌ `text-accent` (#C9A962 champagne gold) on light backgrounds → Use `text-[#1C1917]` (ink)
+- ❌ `bg-accent` for buttons with white text → Use `bg-[#1C1917]`
 - ❌ Light text on light backgrounds
 
 ### ✅ Correct Patterns
 ```tsx
 // Text on light background
-<span className="text-[#8B5E3C] font-bold">${price}</span>  // ✅
-<span className="text-[#D4AF37]">${price}</span>            // ❌
+<span className="text-[#1C1917] font-bold">${price}</span>  // ✅
+<span className="text-[#C9A962]">${price}</span>            // ❌
 
 // Buttons
-<button className="bg-[#8B5E3C] text-white">Click</button>  // ✅
-<button className="bg-[#D4AF37] text-white">Click</button>  // ❌ (low contrast)
+<button className="bg-[#1C1917] text-white">Click</button>  // ✅
+<button className="bg-[#C9A962] text-white">Click</button>  // ❌ (low contrast)
 
 // Icons
-<ChevronDown className="w-5 h-5 text-[#8B5E3C]" />         // ✅
+<ChevronDown className="w-5 h-5 text-[#1C1917]" />         // ✅
 ```
 
 ### Color Usage Rules
-- **Primary (#8B5E3C brown):** Text on light backgrounds, button backgrounds, links, icons
-- **Accent (#D4AF37 gold):** Decorative elements on dark backgrounds, hover accents
-- **Background (#FDF8F3 cream):** Section backgrounds
-- **Text (#2D2A26 dark brown):** Body text
+- **Primary (#1C1917 ink):** Text on light backgrounds, button backgrounds, links, icons
+- **Accent (#C9A962 champagne):** Decorative elements on dark backgrounds, hover accents
+- **Background (#F7F6F4 cool ivory):** Section backgrounds
+- **Text (#141210 near black):** Body text
+- **Fonts:** Outfit (body), Cormorant Garamond (headings) — via next/font in layout.tsx
 
 ## 🎯 Touch Target Sizes (WCAG AA)
 

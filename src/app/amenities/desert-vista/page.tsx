@@ -72,7 +72,7 @@ export default function DesertVistaPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#8B5E3C] to-[#5D7A5D] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#1C1917] to-[#57534E] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -105,7 +105,7 @@ export default function DesertVistaPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/amenities/desert-vista-hero.jpg"
                   alt="Desert Vista Community Center exterior"
@@ -126,10 +126,10 @@ export default function DesertVistaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                   Overview
                 </h2>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
                   <p>
                     Desert Vista Community Center is the largest of Sun City Summerlin's four recreation centers, spanning 48,000 square feet. This impressive facility serves as a central hub for fitness, recreation, social events, and community gatherings.
                   </p>
@@ -146,11 +146,11 @@ export default function DesertVistaPage() {
         </section>
 
         {/* Grand Ballroom */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Grand Ballroom with Dance Floor & Stage
                 </h2>
               </ScrollAnimation>
@@ -169,8 +169,8 @@ export default function DesertVistaPage() {
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="prose prose-lg max-w-none text-[#2D2A26]">
-                    <p className="text-xl font-semibold text-[#8B5E3C] mb-4">
+                  <div className="prose prose-lg max-w-none text-[#141210]">
+                    <p className="text-xl font-semibold text-[#1C1917] mb-4">
                       The Heart of Community Social Life
                     </p>
                     <p className="mb-4">
@@ -181,19 +181,19 @@ export default function DesertVistaPage() {
                     </p>
                     <ul className="space-y-2">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Professional Stage:</strong> Perfect for live entertainment and performances</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Dance Floor:</strong> Spacious area for ballroom dancing and social events</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Sound System:</strong> Professional audio equipment for events</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">✓</span>
+                        <span className="text-[#57534E] font-bold">✓</span>
                         <span><strong>Reservations Available:</strong> Can be reserved for private events</span>
                       </li>
                     </ul>
@@ -210,38 +210,38 @@ export default function DesertVistaPage() {
             <div className="max-w-6xl mx-auto">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 mb-12">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Fitness Center
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       State-of-the-art fitness equipment including cardio machines, strength training equipment, and free weights. The fitness center is spacious and well-equipped to accommodate multiple users simultaneously.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Personal trainers are available for individual or group sessions, and the facility offers a variety of fitness classes throughout the week.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                       Outdoor Heated Lap Pool & Spa
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed mb-4">
+                    <p className="text-[#141210] leading-relaxed mb-4">
                       The outdoor heated lap pool is perfect for swimming laps, water aerobics, or simply enjoying the Las Vegas sunshine. The pool is heated year-round, allowing comfortable swimming even during cooler months.
                     </p>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Adjacent to the pool, the outdoor spa provides a perfect place to relax and unwind after a swim or workout.
                     </p>
                   </div>
                 </ScrollAnimation>
               </div>
               <ScrollAnimation delay={300}>
-                <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                  <h3 className="text-xl md:text-2xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                  <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-4 font-playfair">
                     Aerobics Studio
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Dedicated aerobics studio with scheduled classes throughout the week. From low-impact to high-energy workouts, the studio accommodates various fitness levels and preferences.
                   </p>
                 </div>
@@ -251,35 +251,35 @@ export default function DesertVistaPage() {
         </section>
 
         {/* Sports Courts */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Sports Courts & Facilities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Tennis Courts</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Tennis Courts</h3>
+                    <p className="text-[#141210] mb-4">
                       Two lighted tennis courts available for residents. The courts are well-maintained and perfect for singles, doubles, or taking lessons.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Pickleball Courts</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Pickleball Courts</h3>
+                    <p className="text-[#141210] mb-4">
                       Ten lighted pickleball courts make Desert Vista a pickleball enthusiast's paradise. Pickleball is one of the fastest-growing activities at Sun City Summerlin.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
                   <div className="bg-white rounded-lg p-6 shadow-md">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Bocce Ball Courts</h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Bocce Ball Courts</h3>
+                    <p className="text-[#141210] mb-4">
                       Four lighted bocce ball courts for casual games with friends or organized league play. A popular social activity that combines fun and light exercise.
                     </p>
                   </div>
@@ -294,55 +294,55 @@ export default function DesertVistaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Specialty Rooms & Facilities
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Paint Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Paint Room</h3>
+                    <p className="text-[#141210]">
                       Dedicated space for painting and artistic expression. Well-equipped with easels, work tables, and storage for art supplies.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Model Club Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Model Club Room</h3>
+                    <p className="text-[#141210]">
                       Specialized room for model building and hobby work. Perfect for residents interested in scale models, trains, and detailed craftwork.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Photography Room</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Photography Room</h3>
+                    <p className="text-[#141210]">
                       Dedicated space for photography enthusiasts, including areas for photo editing, display, and club meetings.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={400}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Computer Lab</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Computer Lab</h3>
+                    <p className="text-[#141210]">
                       Modern computer lab with internet access, available for classes, personal use, or club activities.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={500}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Library</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Library</h3>
+                    <p className="text-[#141210]">
                       Quiet library space with reading materials, comfortable seating, and a peaceful atmosphere for book lovers.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={600}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">Meeting Rooms</h3>
-                    <p className="text-[#2D2A26]">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Meeting Rooms</h3>
+                    <p className="text-[#141210]">
                       Multiple meeting rooms of various sizes for club meetings, classes, and private gatherings. Available for reservation.
                     </p>
                   </div>
@@ -353,40 +353,40 @@ export default function DesertVistaPage() {
         </section>
 
         {/* Hours & Access */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Hours of Operation & Access
                 </h2>
                 <div className="bg-white rounded-lg p-6 md:p-8 space-y-6 shadow-md">
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Hours of Operation</h3>
-                    <p className="text-lg text-[#2D2A26] mb-2">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Hours of Operation</h3>
+                    <p className="text-lg text-[#141210] mb-2">
                       <strong>Daily:</strong> 6:00 AM - 9:00 PM
                     </p>
-                    <p className="text-[#2D2A26]">
+                    <p className="text-[#141210]">
                       Desert Vista is open year-round, including holidays. The facility is maintained and cleaned regularly to ensure a safe and pleasant environment for all residents.
                     </p>
                   </div>
                   <div>
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">Membership & Access</h3>
-                    <ul className="space-y-2 text-[#2D2A26]">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">Membership & Access</h3>
+                    <ul className="space-y-2 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>All residents must check in with membership card</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Guest passes available (guests must be accompanied by a resident)</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Access included with your HOA fee—no additional membership required</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Ballroom and meeting rooms can be reserved in advance</span>
                       </li>
                     </ul>
@@ -402,49 +402,49 @@ export default function DesertVistaPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Explore Other Community Centers
                 </h2>
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <Link
                     href="/amenities/mountain-shadows"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Mountain Shadows
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       The original recreation center at 45,000 sq ft with fitness center, indoor pool, racquetball, and arts & crafts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
                   <Link
                     href="/amenities/sun-shadows"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Sun Shadows
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       Home to the Olympic-sized indoor heated pool and spa facilities.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
                   <Link
                     href="/amenities/pinnacle"
-                    className="bg-[#FDF8F3] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
+                    className="bg-[#F7F6F4] rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow group"
                   >
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair group-hover:text-[#5D7A5D] transition-colors">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair group-hover:text-[#57534E] transition-colors">
                       Pinnacle
                     </h3>
-                    <p className="text-[#2D2A26] mb-4">
+                    <p className="text-[#141210] mb-4">
                       A welcoming 34,000 sq ft center with fitness facilities, pool, tennis courts, and bocce ball courts.
                     </p>
-                    <span className="text-[#8B5E3C] font-semibold flex items-center gap-2 group-hover:text-[#5D7A5D] transition-colors">
+                    <span className="text-[#1C1917] font-semibold flex items-center gap-2 group-hover:text-[#57534E] transition-colors">
                       Learn More <ArrowRight className="w-4 h-4" />
                     </span>
                   </Link>
@@ -455,7 +455,7 @@ export default function DesertVistaPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -468,7 +468,7 @@ export default function DesertVistaPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

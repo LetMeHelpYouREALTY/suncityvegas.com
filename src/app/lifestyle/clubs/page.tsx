@@ -125,12 +125,12 @@ export default function ClubsPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-gradient-to-b from-[#5D7A5D] to-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-gradient-to-b from-[#57534E] to-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
                 <div className="flex justify-center mb-6">
-                  <Users className="w-16 h-16 text-[#D4AF37]" />
+                  <Users className="w-16 h-16 text-[#C9A962]" />
                 </div>
                 <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
                   Sun City Summerlin Clubs & Organizations
@@ -150,7 +150,7 @@ export default function ClubsPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
                 <Image
                   src="/images/lifestyle/clubs-hero.jpg"
                   alt="Sun City Summerlin club members enjoying activities together"
@@ -171,8 +171,8 @@ export default function ClubsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] space-y-4">
-                  <p className="text-xl font-semibold text-[#8B5E3C]">
+                <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
+                  <p className="text-xl font-semibold text-[#1C1917]">
                     One of the best ways to get involved and meet people at Sun City Summerlin is through the community's 80+ clubs and organizations.
                   </p>
                   <p>
@@ -188,11 +188,11 @@ export default function ClubsPage() {
         </section>
 
         {/* Club Categories */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Club Categories
                 </h2>
               </ScrollAnimation>
@@ -203,18 +203,18 @@ export default function ClubsPage() {
                     <ScrollAnimation key={category.name} delay={index * 100}>
                       <div className="bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow">
                         <div className="flex items-center gap-3 mb-4">
-                          <Icon className="w-8 h-8 text-[#8B5E3C]" />
-                          <h3 className="text-xl font-bold text-[#8B5E3C] font-playfair">
+                          <Icon className="w-8 h-8 text-[#1C1917]" />
+                          <h3 className="text-xl font-bold text-[#1C1917] font-playfair">
                             {category.name}
                           </h3>
                         </div>
-                        <p className="text-[#2D2A26] mb-4 leading-relaxed">
+                        <p className="text-[#141210] mb-4 leading-relaxed">
                           {category.description}
                         </p>
                         <ul className="space-y-2">
                           {category.clubs.map((club) => (
-                            <li key={club} className="flex items-start gap-2 text-[#2D2A26]">
-                              <span className="text-[#5D7A5D] font-bold">•</span>
+                            <li key={club} className="flex items-start gap-2 text-[#141210]">
+                              <span className="text-[#57534E] font-bold">•</span>
                               <span>{club}</span>
                             </li>
                           ))}
@@ -233,47 +233,47 @@ export default function ClubsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Benefits of Joining Clubs
                 </h2>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <ScrollAnimation delay={100}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                       Make New Friends
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Clubs are a great way to meet people who share your interests. You'll quickly build friendships with like-minded neighbors.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                       Stay Active
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Whether it's physical activity or mental stimulation, clubs help you stay active and engaged in retirement.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={300}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                       Learn New Skills
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Many clubs offer opportunities to learn new skills or improve existing ones, from art techniques to game strategies.
                     </p>
                   </div>
                 </ScrollAnimation>
                 <ScrollAnimation delay={400}>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6">
-                    <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6">
+                    <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                       Give Back
                     </h3>
-                    <p className="text-[#2D2A26] leading-relaxed">
+                    <p className="text-[#141210] leading-relaxed">
                       Volunteer clubs and groups provide opportunities to give back to the community and make a difference.
                     </p>
                   </div>
@@ -284,44 +284,44 @@ export default function ClubsPage() {
         </section>
 
         {/* How to Join */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 text-center font-playfair">
                   How to Join a Club
                 </h2>
               </ScrollAnimation>
               <div className="bg-white rounded-lg p-6 md:p-8 space-y-6">
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     1. Visit the Recreation Centers
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Each recreation center has bulletin boards and information about clubs that meet there. You can also ask staff members about clubs that match your interests.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     2. Attend a Meeting
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Most clubs welcome visitors to attend a meeting before joining. This gives you a chance to see if the club is a good fit for you.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     3. Talk to Neighbors
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     Your neighbors are a great source of information about clubs. Ask them what clubs they're involved in and if they'd recommend them.
                   </p>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                  <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                     4. Check Community Publications
                   </h3>
-                  <p className="text-[#2D2A26] leading-relaxed">
+                  <p className="text-[#141210] leading-relaxed">
                     The community newsletter and website often feature club information, meeting times, and contact information for club leaders.
                   </p>
                 </div>
@@ -335,7 +335,7 @@ export default function ClubsPage() {
           <div className="container mx-auto px-4">
             <div className="max-w-6xl mx-auto">
               <ScrollAnimation>
-                <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 text-center font-playfair">
+                <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 text-center font-playfair">
                   Popular Clubs
                 </h2>
               </ScrollAnimation>
@@ -349,12 +349,12 @@ export default function ClubsPage() {
                   { name: "Book Club", members: "60+", description: "Monthly discussions and social gatherings" },
                 ].map((club, index) => (
                   <ScrollAnimation key={club.name} delay={index * 100}>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#8B5E3C]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#1C1917]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         {club.name}
                       </h3>
-                      <p className="text-sm text-[#8B5E3C] mb-2">{club.members} members</p>
-                      <p className="text-[#2D2A26]">{club.description}</p>
+                      <p className="text-sm text-[#1C1917] mb-2">{club.members} members</p>
+                      <p className="text-[#141210]">{club.description}</p>
                     </div>
                   </ScrollAnimation>
                 ))}
@@ -364,7 +364,7 @@ export default function ClubsPage() {
         </section>
 
         {/* CTA Section */}
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <ScrollAnimation>
@@ -377,7 +377,7 @@ export default function ClubsPage() {
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043

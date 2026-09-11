@@ -51,14 +51,14 @@ export const siteConfig = {
     saturday: { open: "06:00", close: "21:00" }
   },
   
-  // Theme Colors (Desert/Mountain palette)
+  // Theme Colors (Luxury ink + champagne)
   colors: {
-    primary: "#8B5E3C",      // Warm terracotta
-    secondary: "#C4A574",    // Desert sand
-    accent: "#5D7A5D",       // Sage green
-    background: "#FDF8F3",   // Warm cream
-    text: "#2D2A26",         // Deep brown
-    highlight: "#D4AF37"     // Gold accent
+    primary: "#1C1917",      // Ink charcoal
+    secondary: "#B8A078",    // Soft bronze
+    accent: "#57534E",       // Stone
+    background: "#F7F6F4",   // Cool ivory
+    text: "#141210",         // Near black
+    highlight: "#C9A962"     // Champagne gold
   },
   
   // RealScout Configuration
@@ -67,6 +67,13 @@ export const siteConfig = {
     communityId: "sun-city-summerlin"
   },
   
+  // Google Business Profile
+  google: {
+    reviewUrl: "https://g.page/r/CVIgC-30nTd3EAI/review",
+    placeId: "ChIJg9rkzmSVyIARUiAL7fSdN3c",
+    mapsUrl: "https://maps.google.com/?cid=8597648921043141138",
+  },
+
   // Social Links (matching GBP)
   social: {
     facebook: "https://www.facebook.com/DrJanDuffyRealtorCentennialHills/",

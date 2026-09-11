@@ -120,7 +120,7 @@ export default function SafetyPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <div className="inline-block bg-white/20 px-4 py-2 rounded-full mb-4 text-sm font-semibold">
@@ -147,7 +147,7 @@ export default function SafetyPage() {
         <section className="py-8 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
-              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#FDF8F3]">
+              <div className="relative aspect-video rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                 <Image
                   src="/images/blog/safety-hero.jpg"
                   alt="Sun City Summerlin guard-gated security entrance"
@@ -169,8 +169,8 @@ export default function SafetyPage() {
             <div className="max-w-4xl mx-auto">
               {/* Introduction */}
               <ScrollAnimation>
-                <div className="prose prose-lg max-w-none text-[#2D2A26] mb-12">
-                  <p className="text-xl md:text-2xl font-semibold text-[#8B5E3C] leading-relaxed mb-6">
+                <div className="prose prose-lg max-w-none text-[#141210] mb-12">
+                  <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
                     Safety is one of the top concerns for retirees considering a move. The good news? Sun City Summerlin is considered one of the safest neighborhoods in Las Vegas.
                   </p>
                   <p className="text-lg leading-relaxed">
@@ -182,9 +182,9 @@ export default function SafetyPage() {
               {/* Quick Answer */}
               <ScrollAnimation delay={100}>
                 <section className="mb-16">
-                  <div className="bg-gradient-to-r from-[#5D7A5D] to-[#8B5E3C] text-white rounded-lg p-8 md:p-12">
+                  <div className="bg-gradient-to-r from-[#57534E] to-[#1C1917] text-white rounded-lg p-8 md:p-12">
                     <div className="flex items-center gap-4 mb-6">
-                      <Shield className="w-12 h-12 text-[#D4AF37]" />
+                      <Shield className="w-12 h-12 text-[#C9A962]" />
                       <h2 className="text-3xl md:text-4xl font-bold font-playfair">
                         Yes, Sun City Summerlin is Safe
                       </h2>
@@ -199,41 +199,41 @@ export default function SafetyPage() {
               {/* Security Measures */}
               <ScrollAnimation delay={200}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Security Measures
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
                         <Lock className="w-6 h-6" />
                         24/7 Guard-Gated Security
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         All community entrances are staffed 24 hours a day, 7 days a week by security guards. Visitors must check in and be approved before entering. This controlled access significantly reduces unauthorized entry.
                       </p>
                     </div>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#8B5E3C]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair flex items-center gap-3">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#1C1917]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair flex items-center gap-3">
                         <Users className="w-6 h-6" />
                         Neighborhood Watch
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Active neighborhood watch programs encourage residents to look out for one another. The close-knit community means neighbors know each other and notice anything out of the ordinary.
                       </p>
                     </div>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#C4A574]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#B8A078]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Well-Lit Streets
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         All streets and common areas are well-lit, making the community safe for evening walks and reducing opportunities for crime. The HOA maintains excellent lighting throughout.
                       </p>
                     </div>
-                    <div className="bg-[#FDF8F3] rounded-lg p-6 border-l-4 border-[#5D7A5D]">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+                    <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
                         Security Patrols
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Regular security patrols monitor the community, providing an additional layer of protection. Security personnel are trained to respond to any concerns or incidents.
                       </p>
                     </div>
@@ -244,14 +244,14 @@ export default function SafetyPage() {
               {/* Crime Rates */}
               <ScrollAnimation delay={300}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Crime Rates
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8 mb-6">
-                    <p className="text-lg font-semibold text-[#8B5E3C] mb-4">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 mb-6">
+                    <p className="text-lg font-semibold text-[#1C1917] mb-4">
                       Sun City Summerlin has significantly lower crime rates than the Las Vegas metro area average.
                     </p>
-                    <div className="space-y-4 text-[#2D2A26]">
+                    <div className="space-y-4 text-[#141210]">
                       <div>
                         <h3 className="font-bold text-lg mb-2">Violent Crime</h3>
                         <p className="leading-relaxed">
@@ -278,47 +278,47 @@ export default function SafetyPage() {
               {/* Why It's Safe */}
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Why Sun City Summerlin is Safe
                   </h2>
                   <div className="space-y-6">
-                    <div className="bg-white border-l-4 border-[#5D7A5D] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-white border-l-4 border-[#57534E] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         1. Guard-Gated Security
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         The 24/7 guard-gated security is the most visible safety feature. All visitors must check in, and security personnel monitor all entrances. This controlled access is a major deterrent to crime.
                       </p>
                     </div>
-                    <div className="bg-white border-l-4 border-[#8B5E3C] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-white border-l-4 border-[#1C1917] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         2. 55+ Age Restriction
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         The age restriction means the community is populated by mature, responsible adults. This naturally reduces certain types of crime that are more common in communities with younger populations.
                       </p>
                     </div>
-                    <div className="bg-white border-l-4 border-[#C4A574] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-white border-l-4 border-[#B8A078] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         3. Active Community
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         With 80+ clubs and year-round activities, there are always people out and about. This "eyes on the street" effect naturally deters crime. Neighbors know each other and look out for one another.
                       </p>
                     </div>
-                    <div className="bg-white border-l-4 border-[#5D7A5D] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-white border-l-4 border-[#57534E] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         4. Well-Maintained Infrastructure
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Well-lit streets, maintained landscaping, and clean common areas all contribute to safety. The HOA's commitment to maintenance shows that the community is cared for and monitored.
                       </p>
                     </div>
-                    <div className="bg-white border-l-4 border-[#8B5E3C] rounded-lg p-6">
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair">
+                    <div className="bg-white border-l-4 border-[#1C1917] rounded-lg p-6">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">
                         5. Location in Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] leading-relaxed">
+                      <p className="text-[#141210] leading-relaxed">
                         Sun City Summerlin is located in Summerlin, one of Las Vegas' most prestigious and safest master-planned communities. The surrounding area is also low-crime, adding an extra layer of safety.
                       </p>
                     </div>
@@ -329,36 +329,36 @@ export default function SafetyPage() {
               {/* Personal Safety Tips */}
               <ScrollAnimation delay={500}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Personal Safety Tips
                   </h2>
-                  <div className="bg-[#FDF8F3] rounded-lg p-6 md:p-8">
-                    <p className="text-lg text-[#2D2A26] leading-relaxed mb-6">
+                  <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
+                    <p className="text-lg text-[#141210] leading-relaxed mb-6">
                       While Sun City Summerlin is very safe, it's always wise to practice good personal safety habits:
                     </p>
-                    <ul className="space-y-3 text-[#2D2A26]">
+                    <ul className="space-y-3 text-[#141210]">
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Lock your doors and windows when away from home</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Don't leave valuables visible in your car</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Get to know your neighbors and participate in neighborhood watch</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Report any suspicious activity to security or the HOA</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Use the community's well-lit paths for evening walks</span>
                       </li>
                       <li className="flex items-start gap-2">
-                        <span className="text-[#5D7A5D] font-bold">•</span>
+                        <span className="text-[#57534E] font-bold">•</span>
                         <span>Keep emergency contact information readily available</span>
                       </li>
                     </ul>
@@ -369,42 +369,42 @@ export default function SafetyPage() {
               {/* FAQ Section */}
               <ScrollAnimation delay={600}>
                 <section className="mb-16">
-                  <h2 className="text-3xl md:text-4xl font-bold text-[#8B5E3C] mb-8 font-playfair">
+                  <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-8 font-playfair">
                     Frequently Asked Questions
                   </h2>
                   <div className="space-y-4">
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Is Sun City Summerlin safe?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Yes, Sun City Summerlin is considered one of the safest neighborhoods in Las Vegas. The community features 24/7 guard-gated security at all entrances, low crime rates, active neighborhood watch programs, and a 55+ age-restricted community that naturally reduces certain types of crime.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What security measures does Sun City Summerlin have?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Sun City Summerlin has 24/7 guard-gated security at all community entrances, requiring visitor check-in. The community also has active neighborhood watch programs, well-lit streets, and security patrols. All homes are within a gated community with controlled access.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         What are the crime rates in Sun City Summerlin?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Sun City Summerlin has significantly lower crime rates than the Las Vegas metro area average. Violent crime is extremely rare, and property crime rates are well below city and national averages. The 55+ age restriction and guard-gated security contribute to the low crime rates.
                       </p>
                     </details>
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
-                      <summary className="font-bold text-lg text-[#8B5E3C] cursor-pointer font-playfair">
+                      <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
                         Can visitors enter Sun City Summerlin?
                       </summary>
-                      <p className="mt-4 text-[#2D2A26] leading-relaxed">
+                      <p className="mt-4 text-[#141210] leading-relaxed">
                         Yes, visitors can enter Sun City Summerlin, but they must check in at the guard gate. Security will verify the visitor's destination and may contact the resident to confirm. This controlled access helps maintain security while allowing legitimate visitors.
                       </p>
                     </details>
@@ -415,35 +415,35 @@ export default function SafetyPage() {
               {/* Related Links */}
               <ScrollAnimation delay={700}>
                 <section className="mb-16">
-                  <h2 className="text-2xl font-bold text-[#8B5E3C] mb-6 font-playfair">
+                  <h2 className="text-2xl font-bold text-[#1C1917] mb-6 font-playfair">
                     Related Articles
                   </h2>
                   <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                     <Link
                       href="/blog/pros-and-cons-sun-city-summerlin"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Pros and Cons of Sun City Summerlin
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         Learn more about what makes Sun City Summerlin special, including safety and security.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
                     <Link
                       href="/community"
-                      className="bg-[#FDF8F3] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#8B5E3C]/20"
+                      className="bg-[#F7F6F4] rounded-lg p-6 hover:shadow-lg transition-shadow border border-[#1C1917]/20"
                     >
-                      <h3 className="text-xl font-bold text-[#8B5E3C] mb-2 font-playfair">
+                      <h3 className="text-xl font-bold text-[#1C1917] mb-2 font-playfair">
                         Learn About the Community
                       </h3>
-                      <p className="text-[#2D2A26] mb-4">
+                      <p className="text-[#141210] mb-4">
                         Discover more about Sun City Summerlin's amenities, location, and lifestyle.
                       </p>
-                      <span className="text-[#8B5E3C] font-semibold flex items-center gap-2">
+                      <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         View Community <ArrowRight className="w-4 h-4" />
                       </span>
                     </Link>
@@ -454,7 +454,7 @@ export default function SafetyPage() {
           </div>
         </div>
 
-        <section className="py-12 md:py-16 bg-[#8B5E3C] text-white" aria-label="CTA">
+        <section className="py-12 md:py-16 bg-[#1C1917] text-white" aria-label="CTA">
             <div className="container mx-auto px-4">
               <div className="max-w-4xl mx-auto text-center">
                 <ScrollAnimation>
@@ -467,7 +467,7 @@ export default function SafetyPage() {
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a
                       href="tel:7027180043"
-                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#D4AF37] text-[#2D2A26] rounded-md font-semibold hover:bg-[#D4AF37]/90 transition-colors min-h-[48px] touch-manipulation"
+                      className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
                     >
                       <Phone className="w-5 h-5" />
                       Call/Text: (702) 718-0043

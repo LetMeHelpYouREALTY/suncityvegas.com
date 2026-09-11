@@ -204,7 +204,7 @@ function BlogCard({
     <ScrollAnimation delay={index * 50}>
       <article className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow overflow-hidden h-full flex flex-col">
         <Link href={`/blog/${post.slug}`}>
-          <div className="relative h-48 bg-[#FDF8F3]">
+          <div className="relative h-48 bg-[#F7F6F4]">
             <Image
               src={post.image}
               alt={post.title}
@@ -214,7 +214,7 @@ function BlogCard({
               blurDataURL={blurDataURL}
               sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
             />
-            <div className="absolute top-4 left-4 bg-[#8B5E3C] text-white px-3 py-1 rounded text-sm font-semibold">
+            <div className="absolute top-4 left-4 bg-[#1C1917] text-white px-3 py-1 rounded text-sm font-semibold">
               {post.category}
             </div>
           </div>
@@ -231,16 +231,16 @@ function BlogCard({
             </time>
           </div>
           <Link href={`/blog/${post.slug}`}>
-            <h3 className="text-xl font-bold text-[#8B5E3C] mb-3 font-playfair hover:text-[#5D7A5D] transition-colors">
+            <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair hover:text-[#57534E] transition-colors">
               {post.title}
             </h3>
           </Link>
-          <p className="text-[#2D2A26] leading-relaxed mb-4 flex-grow">
+          <p className="text-[#141210] leading-relaxed mb-4 flex-grow">
             {post.excerpt}
           </p>
           <Link
             href={`/blog/${post.slug}`}
-            className="inline-flex items-center gap-2 text-[#8B5E3C] font-semibold hover:text-[#5D7A5D] transition-colors"
+            className="inline-flex items-center gap-2 text-[#1C1917] font-semibold hover:text-[#57534E] transition-colors"
           >
             Read More
             <ArrowRight className="w-4 h-4" />
@@ -263,7 +263,7 @@ export default function BlogPage() {
       />
       <main className="pt-16 md:pt-20">
         {/* Hero Section */}
-        <section className="bg-[#8B5E3C] text-white py-12 md:py-16 lg:py-20">
+        <section className="bg-[#1C1917] text-white py-12 md:py-16 lg:py-20">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 md:mb-6 font-playfair">
@@ -289,19 +289,19 @@ export default function BlogPage() {
         </section>
 
         {/* Newsletter CTA */}
-        <section className="py-12 md:py-16 bg-[#FDF8F3]">
+        <section className="py-12 md:py-16 bg-[#F7F6F4]">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h2 className="text-2xl md:text-3xl font-bold text-[#8B5E3C] mb-4 font-playfair">
+              <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair">
                 Stay Updated
               </h2>
-              <p className="text-lg text-[#2D2A26] mb-6">
+              <p className="text-lg text-[#141210] mb-6">
                 Want to receive updates about new blog posts and community news?
                 Contact Dr. Jan Duffy to be added to our newsletter.
               </p>
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 px-8 py-4 bg-[#8B5E3C] text-white rounded-md font-semibold hover:bg-[#8B5E3C]/90 transition-colors"
+                className="inline-flex items-center gap-2 px-8 py-4 bg-[#1C1917] text-white rounded-md font-semibold hover:bg-[#1C1917]/90 transition-colors"
               >
                 Contact Us
               </Link>
