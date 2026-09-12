@@ -329,14 +329,14 @@ export default function HOAFeesPage() {
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
                   <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
-                    No SIDs or LIDs
+                    No Extra Special-District Taxes
                   </h2>
                   <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
                     <p className="text-lg leading-relaxed text-[#141210] mb-4">
-                      <strong className="text-[#1C1917]">Important:</strong> Sun City Summerlin has no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts). This means your HOA fee is the only monthly community fee you'll pay.
+                      <strong className="text-[#1C1917]">Important:</strong> Sun City Summerlin has no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts). That means your HOA fee is the only monthly community fee you&apos;ll pay—no extra special-district taxes on top.
                     </p>
                     <p className="text-lg leading-relaxed text-[#141210]">
-                      Some newer communities add SIDs or LIDs to fund infrastructure improvements, which can add $50-200+ per month to your costs. At Sun City Summerlin, all infrastructure was paid for during development, so you won't face these additional fees.
+                      Some newer communities add those special-district taxes to pay for roads and utilities, which can add $50–200+ per month. At Sun City Summerlin, that infrastructure was paid during development, so you won&apos;t face those extra charges.
                     </p>
                   </div>
                 </section>

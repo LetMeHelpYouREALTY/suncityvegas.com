@@ -79,7 +79,7 @@ export const services: Service[] = [
     category: "real-estate-agent",
     metaTitle: "Sun City Summerlin Home Appraisals & Valuations | Las Vegas 55+",
     metaDescription:
-      "Market-driven Sun City Summerlin appraisals and CMAs for refinance, sale, or tax appeal. Recent nearby sales analyzed by Dr. Jan Duffy. Las Vegas 55+ valuations. Call (702) 718-0043.",
+      "Market-driven Sun City Summerlin appraisals and home-value comparisons for refinance, sale, or tax appeal. Recent nearby sales analyzed by Dr. Jan Duffy. Las Vegas 55+ valuations. Call (702) 718-0043.",
     h1: "Sun City Summerlin Appraisals & Property Valuations",
     answer:
       "Dr. Jan Duffy prepares market-driven Sun City Summerlin property valuations using recent nearby sales in Las Vegas 89134. Use the report for listing, refinance conversations, or tax-appeal support. Typical turnaround is 48 hours for a written pricing report.",
