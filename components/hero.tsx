@@ -20,7 +20,7 @@ export default function Hero() {
           blurDataURL={blurDataURL}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/45 via-black/35 to-black/55" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
@@ -28,7 +28,7 @@ export default function Hero() {
           <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
             Dr. Jan Duffy · Sun City Summerlin Specialist
           </p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
             Sun City Summerlin Homes for Sale
           </h1>
           <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic mb-4 md:mb-6 text-[#C9A962] leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">

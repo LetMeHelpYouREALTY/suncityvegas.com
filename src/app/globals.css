@@ -70,7 +70,8 @@
   
   h1, h2, h3, h4, h5, h6 {
     font-family: var(--font-playfair), ui-serif, Georgia, "Times New Roman", serif;
-    @apply font-semibold tracking-wide text-[#141210];
+    /* Inherit color so heroes can use text-white; body supplies dark default */
+    @apply font-semibold tracking-wide;
   }
   /* Explicit font-size for h1 so we don't rely on deprecated UA rules (H1UserAgentFontSizeInSection) */
   h1 {

@@ -49,25 +49,29 @@ export default function PageHero({
           blurDataURL={DEFAULT_BLUR}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/50 via-black/40 to-black/60" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 relative z-10">
-        <div className={`max-w-4xl ${alignClass}`}>
+        <div className={`max-w-4xl text-white ${alignClass}`}>
           {eyebrow ? (
-            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
               {eyebrow}
             </p>
           ) : null}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 font-playfair leading-tight drop-shadow-[0_2px_8px_rgba(0,0,0,0.7)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 font-playfair leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
             {title}
           </h1>
           {subtitle ? (
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 leading-relaxed drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
               {subtitle}
             </p>
           ) : null}
-          {children ? <div className="mt-6 md:mt-8">{children}</div> : null}
+          {children ? (
+            <div className="mt-6 md:mt-8 text-white [&_a]:text-[#C9A962] [&_a:hover]:text-white">
+              {children}
+            </div>
+          ) : null}
         </div>
       </div>
     </section>
