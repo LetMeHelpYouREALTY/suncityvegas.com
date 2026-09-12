@@ -17,9 +17,9 @@ export type PageHeroProps = {
 };
 
 /**
- * Full-bleed luxury page hero — matches homepage visual treatment.
- * Contrast (WCAG AA): darken photo + soft text scrim + explicit white type.
- * No gold/card box on the image — champagne is eyebrow accent only.
+ * Full-bleed luxury page hero.
+ * Contrast: cool opaque dark panel (not a translucent gold-tinted box) + white type.
+ * Champagne is accent only — never large body copy on the hero.
  */
 export default function PageHero({
   title,
@@ -51,17 +51,18 @@ export default function PageHero({
           sizes="100vw"
         />
         <div
-          className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/55 to-black/75"
+          className="absolute inset-0 bg-gradient-to-b from-black/70 via-black/60 to-black/80"
           aria-hidden="true"
         />
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 relative z-10">
+        {/* Opaque cool panel — avoids warm photo bleed that looked like a gold box */}
         <div
-          className={`max-w-4xl text-white ${alignClass} px-4 py-6 sm:px-8 sm:py-8 md:px-10 md:py-10 bg-black/45 [box-shadow:0_0_80px_48px_rgba(0,0,0,0.45)]`}
+          className={`max-w-4xl text-white ${alignClass} px-5 py-7 sm:px-8 sm:py-9 md:px-10 md:py-10 rounded-sm bg-[#0c0a09]/90`}
         >
           {eyebrow ? (
-            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold">
+            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#E8D5A3] mb-4 font-semibold">
               {eyebrow}
             </p>
           ) : null}
@@ -74,7 +75,7 @@ export default function PageHero({
             </p>
           ) : null}
           {children ? (
-            <div className="mt-6 md:mt-8 text-white [&_a]:text-[#C9A962] [&_a:hover]:text-white">
+            <div className="mt-6 md:mt-8 text-white [&_a]:text-[#E8D5A3] [&_a:hover]:text-white [&_.text-\[\#C9A962\]]:text-[#E8D5A3]">
               {children}
             </div>
           ) : null}
