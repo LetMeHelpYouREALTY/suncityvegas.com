@@ -18,7 +18,8 @@ export type PageHeroProps = {
 
 /**
  * Full-bleed luxury page hero — matches homepage visual treatment.
- * Use on every interior page so the first viewport has a dominant image.
+ * Contrast (WCAG AA): darken photo + soft text scrim + explicit white type.
+ * No gold/card box on the image — champagne is eyebrow accent only.
  */
 export default function PageHero({
   title,
@@ -49,21 +50,26 @@ export default function PageHero({
           blurDataURL={DEFAULT_BLUR}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+        <div
+          className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/55 to-black/75"
+          aria-hidden="true"
+        />
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 relative z-10">
-        <div className={`max-w-4xl text-white ${alignClass}`}>
+        <div
+          className={`max-w-4xl text-white ${alignClass} px-4 py-6 sm:px-8 sm:py-8 md:px-10 md:py-10 bg-black/45 [box-shadow:0_0_80px_48px_rgba(0,0,0,0.45)]`}
+        >
           {eyebrow ? (
-            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
+            <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold">
               {eyebrow}
             </p>
           ) : null}
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 font-playfair leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 font-playfair leading-tight text-white">
             {title}
           </h1>
           {subtitle ? (
-            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 leading-relaxed drop-shadow-[0_2px_6px_rgba(0,0,0,0.85)]">
+            <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-100 leading-relaxed">
               {subtitle}
             </p>
           ) : null}

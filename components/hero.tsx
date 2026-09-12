@@ -20,26 +20,30 @@ export default function Hero() {
           blurDataURL={blurDataURL}
           sizes="100vw"
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/50 to-black/70" />
+        <div
+          className="absolute inset-0 bg-gradient-to-b from-black/65 via-black/55 to-black/75"
+          aria-hidden="true"
+        />
       </div>
 
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
-        <div className="max-w-4xl mx-auto text-center">
-          <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+        {/* Soft dark scrim (WCAG) — fades into photo; not a gold/card box */}
+        <div className="max-w-4xl mx-auto text-center text-white px-4 py-6 sm:px-8 sm:py-8 md:px-10 md:py-10 bg-black/45 [box-shadow:0_0_80px_48px_rgba(0,0,0,0.45)]">
+          <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold">
             Dr. Jan Duffy · Sun City Summerlin Specialist
           </p>
-          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight text-white drop-shadow-[0_2px_10px_rgba(0,0,0,0.85)]">
+          <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-3 md:mb-4 font-playfair leading-tight text-white">
             Sun City Summerlin Homes for Sale
           </h1>
-          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic mb-4 md:mb-6 text-[#C9A962] leading-tight drop-shadow-[0_2px_6px_rgba(0,0,0,0.7)]">
+          <p className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light italic mb-4 md:mb-6 text-[#C9A962] leading-tight">
             Las Vegas&apos; Premier 55+ Community
           </p>
-          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gray-100 leading-relaxed px-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+          <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gray-100 leading-relaxed px-2">
             Local help for buyers and sellers inside the gates—golf-course homes,
             Red Rock views, HOA guidance, and 55+ move planning in ZIP 89134.
           </p>
           <div className="mb-6 md:mb-8">
-            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
+            <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white">
               Homes from $300K–$800K+ · 7,779 Residences · Guard-Gated
             </p>
           </div>
@@ -60,7 +64,7 @@ export default function Hero() {
               <Link href="/homes-for-sale">Browse Available Homes</Link>
             </Button>
           </div>
-          <div className="mt-8 text-sm text-gray-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
+          <div className="mt-8 text-sm text-gray-200">
             <a href="tel:+17027180043" className="hover:text-[#C9A962] transition-colors">
               Call Dr. Jan Duffy: (702) 718-0043
             </a>
