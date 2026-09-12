@@ -231,6 +231,20 @@ export default function FAQAccordion({
                             <p className="text-text-dark leading-relaxed">
                               {faq.answer}
                             </p>
+                            {faq.links?.length ? (
+                              <ul className="mt-4 space-y-2">
+                                {faq.links.map((link) => (
+                                  <li key={link.href}>
+                                    <a
+                                      href={link.href}
+                                      className="text-[#1C1917] font-medium underline underline-offset-2 hover:text-[#C9A962] min-h-[44px] inline-flex items-center"
+                                    >
+                                      {link.label}
+                                    </a>
+                                  </li>
+                                ))}
+                              </ul>
+                            ) : null}
                           </div>
                         </div>
                       </div>

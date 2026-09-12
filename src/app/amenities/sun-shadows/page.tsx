@@ -109,13 +109,25 @@ export default function SunShadowsPage() {
                 </h2>
                 <div className="prose prose-lg max-w-none text-[#141210] space-y-4">
                   <p>
-                    Sun Shadows Community Center is one of four world-class recreation centers serving Sun City Summerlin residents. This facility is particularly known for its exceptional aquatic amenities, featuring one of the community's most impressive pool facilities.
+                    Sun Shadows Community Center is one of four world-class recreation centers serving{" "}
+                    <Link href="/community" className="text-[#1C1917] font-semibold underline underline-offset-2 hover:text-[#C9A962]">
+                      Sun City Summerlin
+                    </Link>{" "}
+                    residents. This facility is particularly known for its exceptional aquatic amenities, featuring one of the community&apos;s most impressive pool facilities.
                   </p>
                   <p>
-                    The center serves as a hub for water-based activities, fitness classes, and social gatherings. Its design emphasizes both active recreation and relaxation, making it a favorite destination for residents who love swimming, water aerobics, or simply enjoying time in and around the pool.
+                    The center serves as a hub for water-based activities, fitness classes, and social gatherings. Its design emphasizes both active recreation and relaxation, making it a favorite destination for residents who love swimming, water aerobics, or simply enjoying time in and around the pool. Compare it with the other{" "}
+                    <Link href="/amenities" className="text-[#1C1917] font-semibold underline underline-offset-2 hover:text-[#C9A962]">
+                      Sun City Summerlin amenity centers
+                    </Link>
+                    .
                   </p>
                   <p>
-                    Sun Shadows complements the other recreation centers by offering specialized facilities that enhance the overall amenity package available to all Sun City Summerlin residents. Whether you're a serious swimmer, enjoy water fitness, or prefer to relax in the spa, this center has something for you.
+                    Sun Shadows complements the other recreation centers by offering specialized facilities that enhance the overall amenity package available to all Sun City Summerlin residents. Whether you&apos;re a serious swimmer, enjoy water fitness, or prefer to relax in the spa, this center has something for you—and{" "}
+                    <Link href="/homes-for-sale" className="text-[#1C1917] font-semibold underline underline-offset-2 hover:text-[#C9A962]">
+                      homes for sale near Sun Shadows
+                    </Link>{" "}
+                    often list proximity to this pool as a highlight.
                   </p>
                 </div>
               </ScrollAnimation>
@@ -495,7 +507,19 @@ export default function SunShadowsPage() {
                   Ready to Experience Sun Shadows?
                 </h2>
                 <p className="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
-                  Schedule a tour with Dr. Jan Duffy to see all four community centers, including Sun Shadows' Olympic-sized pool. Get a firsthand look at the amenities and homes available in Sun City Summerlin.
+                  Schedule a tour with{" "}
+                  <Link href="/about" className="text-[#C9A962] underline underline-offset-2 hover:text-white">
+                    Dr. Jan Duffy
+                  </Link>{" "}
+                  to see all four community centers, including Sun Shadows&apos; Olympic-sized pool. Browse{" "}
+                  <Link href="/homes-for-sale" className="text-[#C9A962] underline underline-offset-2 hover:text-white">
+                    current Sun City Summerlin homes for sale
+                  </Link>{" "}
+                  or review{" "}
+                  <Link href="/services" className="text-[#C9A962] underline underline-offset-2 hover:text-white">
+                    buyer and seller services
+                  </Link>{" "}
+                  before you tour.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a
@@ -505,6 +529,14 @@ export default function SunShadowsPage() {
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043
                   </a>
+                  <Button
+                    asChild
+                    variant="outline"
+                    size="lg"
+                    className="border-white text-white hover:bg-white/10 min-h-[48px] px-6"
+                  >
+                    <Link href="/homes-for-sale">View Homes for Sale</Link>
+                  </Button>
                   <Button
                     asChild
                     variant="outline"

@@ -183,6 +183,38 @@ export default function FAQPage() {
           </div>
         </section>
 
+        {/* Internal link hub — pass equity from this externally linked page */}
+        <section className="bg-[#F7F6F4] py-12 md:py-16">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-4 font-playfair text-center">
+              Explore Sun City Summerlin
+            </h2>
+            <p className="text-center text-[#141210] mb-8">
+              Continue from this community FAQ into listings, amenities, and next steps with Dr. Jan Duffy.
+            </p>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+              {[
+                { href: "/homes-for-sale", label: "Sun City Summerlin homes for sale" },
+                { href: "/amenities", label: "Recreation centers and amenities" },
+                { href: "/amenities/sun-shadows", label: "Sun Shadows Community Center" },
+                { href: "/selling", label: "Selling a home in Sun City Summerlin" },
+                { href: "/services", label: "Real estate services for 55+ buyers and sellers" },
+                { href: "/about", label: "About Dr. Jan Duffy" },
+                { href: "/resources/moving-guide", label: "Moving guide for Sun City Summerlin" },
+                { href: "/contact", label: "Contact and schedule a tour" },
+              ].map((item) => (
+                <a
+                  key={item.href}
+                  href={item.href}
+                  className="min-h-[48px] flex items-center rounded-md border border-[#B8A078]/40 bg-white px-4 py-3 text-[#1C1917] font-medium hover:border-[#1C1917] hover:bg-[#1C1917] hover:text-white transition-colors"
+                >
+                  {item.label}
+                </a>
+              ))}
+            </div>
+          </div>
+        </section>
+
         {/* Contact CTA */}
         <section className="bg-[#1C1917] py-16">
           <div className="max-w-4xl mx-auto px-4 text-center">

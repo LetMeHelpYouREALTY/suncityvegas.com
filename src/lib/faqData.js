@@ -8,6 +8,10 @@ export const faqData = [
       {
         question: "What is Sun City Summerlin?",
         answer: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, developed by Del Webb between 1989 and 2002. Located in the Summerlin area with stunning Red Rock Canyon views, it features 7,779 homes on approximately 2,400 acres.",
+        links: [
+          { href: "/homes-for-sale", label: "Browse Sun City Summerlin homes for sale" },
+          { href: "/community", label: "Explore the community overview" },
+        ],
       },
       {
         question: "Is Sun City Summerlin a gated community?",
@@ -50,6 +54,10 @@ export const faqData = [
       {
         question: "What are the monthly HOA fees?",
         answer: "The HOA assessment is approximately $165 per month. This includes access to all three recreation centers, pools, fitness facilities, tennis courts, and community amenities. There are no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts).",
+        links: [
+          { href: "/blog/sun-city-summerlin-hoa-fees", label: "Read the HOA fees guide" },
+          { href: "/amenities", label: "See recreation centers and amenities" },
+        ],
       },
       {
         question: "What does the HOA fee cover?",
@@ -67,6 +75,11 @@ export const faqData = [
       {
         question: "What amenities are included at Sun City Summerlin?",
         answer: "Sun City Summerlin features 3 recreation centers totaling over 125,000 sq ft: Mountain Shadows (45,000 sq ft), Desert Vista (48,000 sq ft), and Pinnacle (34,000 sq ft). Amenities include multiple pools and spas, fitness centers, tennis courts, pickleball courts, bocce ball, billiards, arts & crafts rooms, ballrooms, and much more.",
+        links: [
+          { href: "/amenities/sun-shadows", label: "Sun Shadows Community Center details" },
+          { href: "/amenities/golf", label: "Golf courses in Sun City Summerlin" },
+          { href: "/homes-for-sale", label: "Homes for sale near the amenity centers" },
+        ],
       },
       {
         question: "How many golf courses are there?",
