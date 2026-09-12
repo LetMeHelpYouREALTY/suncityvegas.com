@@ -11,7 +11,7 @@ const homepageFaqs = [
   {
     question: "What real estate services does Dr. Jan Duffy offer in Sun City Summerlin?",
     answer:
-      "Licensed buyer and seller representation, HOA navigation, VA-loan coordination, 55+ relocation, luxury marketing, CMAs, staging, and photography for Sun City Summerlin and northwest Las Vegas.",
+      "Help buying or selling a home, reviewing HOA rules, coordinating VA loans, relocating at 55+, marketing your listing, comparing recent sales for pricing, staging, and photography—focused on Sun City Summerlin and northwest Las Vegas.",
   },
   {
     question: "Who is the real estate agent for Sun City Summerlin 55+ homes?",
@@ -21,7 +21,7 @@ const homepageFaqs = [
   {
     question: "Do you help 55+ buyers with HOA rules and VA loans?",
     answer:
-      "Yes. HOA Navigation covers fees, age verification, and assessments. Veterans Housing Benefits covers VA occupancy and COE timing with your lender.",
+      "Yes. We explain HOA fees, the 55+ age rules, and any assessments. For veterans, we help with VA loan timing and Certificate of Eligibility paperwork with your lender.",
   },
   {
     question: "Can out-of-state retirees buy in Sun City Summerlin remotely?",
@@ -72,7 +72,7 @@ export default function ServicesAeoSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <p className="text-sm font-semibold tracking-wide text-[#1C1917] uppercase mb-3 text-center">
-            SEO · GEO · AEO
+            Buying, Selling & Relocation
           </p>
           <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold text-[#1C1917] mb-4 text-center font-playfair">
             Sun City Summerlin Real Estate Services | Las Vegas 55+
@@ -103,9 +103,6 @@ export default function ServicesAeoSection() {
                 <div key={category.id}>
                   <h3 className="text-xl md:text-2xl font-bold text-[#1C1917] mb-2 font-playfair">
                     {category.label}
-                    <span className="ml-2 text-sm font-semibold text-[#141210]/70">
-                      ({category.gbpRole} category)
-                    </span>
                   </h3>
                   <p className="text-[#141210] mb-6">{category.summary}</p>
                   <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

@@ -35,8 +35,8 @@ export default function Hero() {
             Las Vegas&apos; Premier 55+ Community
           </p>
           <p className="text-base sm:text-lg md:text-xl lg:text-2xl mb-6 md:mb-8 text-gray-100 leading-relaxed px-2 drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
-            Hyper-local buyer and seller representation inside the gates—golf-course lots,
-            Red Rock views, HOA navigation, and 55+ move planning from ZIP 89134.
+            Local help for buyers and sellers inside the gates—golf-course homes,
+            Red Rock views, HOA guidance, and 55+ move planning in ZIP 89134.
           </p>
           <div className="mb-6 md:mb-8">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">

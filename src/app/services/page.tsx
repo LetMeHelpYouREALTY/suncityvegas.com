@@ -19,7 +19,7 @@ const PAGE_URL = "https://www.suncityvegas.com/services";
 export const metadata: Metadata = {
   title: "Real Estate Services | Sun City Summerlin 55+ | Las Vegas",
   description:
-    "Sun City Summerlin 55+ real estate services in Las Vegas: buyer and seller representation, HOA navigation, VA benefits, relocation, staging, and CMAs. Dr. Jan Duffy. Call (702) 718-0043.",
+    "Sun City Summerlin 55+ real estate services in Las Vegas: help buying and selling, HOA guidance, VA benefits, relocation, staging, and home-value comparisons. Dr. Jan Duffy. Call (702) 718-0043.",
   alternates: {
     canonical: PAGE_URL,
   },
@@ -89,7 +89,7 @@ export default function ServicesIndexPage() {
       />
       <main id="main-content" className="pt-16 md:pt-20">
         <PageHero
-          eyebrow="Hyper-Local 55+ Realtor"
+          eyebrow="Your Sun City Summerlin 55+ Realtor"
           title="Real Estate Services | Sun City Summerlin 55+ | Las Vegas"
           subtitle="Dr. Jan Duffy provides licensed real estate agent, agency, retirement-community, and consulting services for 55+ buyers and sellers in Sun City Summerlin and northwest Las Vegas."
           imageSrc={pageHeroImages.services.src}
@@ -108,7 +108,7 @@ export default function ServicesIndexPage() {
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">
             <p className="text-center text-[#141210] max-w-3xl mx-auto text-base md:text-lg">
-              Buyer agency, seller representation, HOA review, VA guidance, and 55+ relocation—hyper-local help inside Sun City Summerlin gates.
+              Help for buyers and sellers, HOA review, VA guidance, and 55+ relocation—local support inside Sun City Summerlin gates.
             </p>
           </div>
         </section>
@@ -129,7 +129,7 @@ export default function ServicesIndexPage() {
               <div className="container mx-auto px-4">
                 <div className="max-w-6xl mx-auto">
                   <p className="text-sm font-semibold text-[#1C1917] mb-2">
-                    {category.gbpRole} Google Business category
+                    {category.label} services
                   </p>
                   <h2 className="text-2xl md:text-3xl font-bold text-[#1C1917] mb-3 font-playfair">
                     {category.label}

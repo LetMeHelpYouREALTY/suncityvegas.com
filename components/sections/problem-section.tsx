@@ -18,7 +18,7 @@ export default function ProblemSection() {
               </p>
               <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-text-dark leading-relaxed mt-4 md:mt-6 font-semibold px-2">
                 You want retirement in Sun City Summerlin to feel like a reward—with a
-                hyper-local realtor who already knows the villages, HOAs, and comps.
+                local realtor who already knows the villages, HOA rules, and recent nearby sales.
               </p>
             </div>
           </ScrollAnimation>

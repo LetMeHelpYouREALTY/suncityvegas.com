@@ -40,7 +40,7 @@ export default function AboutAgentSection() {
                   <p className="text-base md:text-lg text-[#141210] leading-relaxed">
                     She knows which villages deliver Red Rock views, which lots carry golf
                     premiums, and how HOA age verification and reserves affect your offer. From
-                    CMAs to closing coordination, the work stays hyper-local.
+                    Home-value reports to closing day, the work stays focused on this community.
                   </p>
                   <p className="text-base md:text-lg text-[#141210] leading-relaxed font-semibold">
                     When you work with her, you get honest guidance—not a generic Las Vegas sales

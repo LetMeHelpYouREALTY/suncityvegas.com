@@ -73,7 +73,7 @@ export default function HomeValuePage() {
       <main className="pt-16 md:pt-20">
                 <PageHero
           title="Sun City Summerlin Home Value Estimate"
-          subtitle="Get a hyper-local CMA-backed estimate for your 89134 home—golf-course lots, single-story plans, and Del Webb comps from Dr. Jan Duffy."
+          subtitle="Get a local estimate for your 89134 home based on recent sales—golf-course lots, single-story plans, and similar Del Webb homes—from Dr. Jan Duffy."
           imageSrc={pageHeroImages["home-value"].src}
           imageAlt={pageHeroImages["home-value"].alt}
         />

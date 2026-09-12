@@ -38,7 +38,7 @@ const Testimonials = () => {
       <div className="container">
         <SectionTitle
           title="What Sun City Summerlin Clients Say"
-          paragraph="Hyper-local buyer and seller feedback from Las Vegas 55+ moves with Dr. Jan Duffy."
+          paragraph="Real feedback from Las Vegas 55+ buyers and sellers who worked with Dr. Jan Duffy."
           center
         />
 

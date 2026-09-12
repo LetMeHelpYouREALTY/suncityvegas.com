@@ -13,7 +13,7 @@ export default function HomesForSaleWidget() {
               Homes for Sale in Sun City Summerlin
             </h2>
             <p className="text-lg text-[#141210]">
-              View current listings updated daily from the MLS
+              View current homes for sale, updated daily
             </p>
           </div>
 

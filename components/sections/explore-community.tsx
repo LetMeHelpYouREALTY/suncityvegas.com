@@ -65,7 +65,7 @@ export default function ExploreCommunitySection() {
               Explore Sun City Summerlin
             </h2>
             <p className="text-lg md:text-xl text-gray-600 max-w-2xl mx-auto">
-              Hyper-local guidance for Las Vegas&apos; flagship 55+ community—homes, amenities,
+              Local guidance for Las Vegas&apos; flagship 55+ community—homes, amenities,
               lifestyle, and realtor services tied to ZIP 89134.
             </p>
           </div>

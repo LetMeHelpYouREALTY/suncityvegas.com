@@ -224,7 +224,7 @@ export default function MortgageCalculator() {
               </p>
               {includeTaxes && (
                 <p className="text-sm mt-3 opacity-90">
-                  Includes ~$165/mo HOA • No SIDs or LIDs
+                  Includes ~$165/mo HOA — no extra special-district taxes
                 </p>
               )}
             </div>

@@ -41,7 +41,7 @@ const AboutSectionTwo = () => {
                   Concierge buyer & seller support
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  CMAs, staging guidance, HOA document review, and closing
+                  Pricing reports, staging guidance, HOA document review, and closing
                   coordination tailored to 55+ moves inside the gates.
                 </p>
               </div>

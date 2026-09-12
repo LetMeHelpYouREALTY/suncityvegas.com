@@ -36,7 +36,7 @@ export default function ValuePropsSection() {
       icon: <CheckCircle className="w-8 h-8 text-[#1C1917]" />,
       title: "World-Class Amenities",
       description:
-        "Four championship courses, three rec centers (125,000+ sq ft), pools, tennis, pickleball, and 80+ clubs—priced into every CMA.",
+        "Four championship courses, three rec centers (125,000+ sq ft), pools, tennis, pickleball, and 80+ clubs—reflected in every home-value comparison.",
     },
     {
       icon: <DollarSign className="w-8 h-8 text-[#1C1917]" />,
@@ -48,7 +48,7 @@ export default function ValuePropsSection() {
       icon: <Users className="w-8 h-8 text-[#1C1917]" />,
       title: "Active, Social Lifestyle",
       description:
-        "Everyone here chose this life on purpose. Year-round golf, clubs, and neighbors who show up—supported by hyper-local realtor guidance.",
+        "Everyone here chose this life on purpose. Year-round golf, clubs, and neighbors who show up—supported by a local realtor who knows this community.",
     },
   ];
 
@@ -60,7 +60,7 @@ export default function ValuePropsSection() {
             Why Buyers Choose Sun City Summerlin
           </h2>
           <p className="text-base md:text-lg text-[#141210]">
-            Hyper-local advantages inside Las Vegas&apos; premier Del Webb 55+ community—translated
+            Neighborhood advantages inside Las Vegas&apos; premier Del Webb 55+ community—explained
             into pricing, village selection, and offer strategy.
           </p>
         </div>

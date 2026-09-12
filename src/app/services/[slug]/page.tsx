@@ -160,7 +160,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       />
       <main id="main-content" className="pt-16 md:pt-20">
         <PageHero
-          eyebrow={`${category.label} · ${category.gbpRole} category`}
+          eyebrow={category.label}
           title={service.h1}
           imageSrc={pageHeroImages.services.src}
           imageAlt={pageHeroImages.services.alt}

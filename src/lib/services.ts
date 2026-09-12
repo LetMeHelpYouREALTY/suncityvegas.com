@@ -79,15 +79,15 @@ export const services: Service[] = [
     category: "real-estate-agent",
     metaTitle: "Sun City Summerlin Home Appraisals & Valuations | Las Vegas 55+",
     metaDescription:
-      "Market-driven Sun City Summerlin appraisals and CMAs for refinance, sale, or tax appeal. Neighborhood comps from Dr. Jan Duffy. Las Vegas 55+ valuations. Call (702) 718-0043.",
+      "Market-driven Sun City Summerlin appraisals and CMAs for refinance, sale, or tax appeal. Recent nearby sales analyzed by Dr. Jan Duffy. Las Vegas 55+ valuations. Call (702) 718-0043.",
     h1: "Sun City Summerlin Appraisals & Property Valuations",
     answer:
-      "Dr. Jan Duffy prepares market-driven Sun City Summerlin property valuations using neighborhood-specific comps in Las Vegas 89134. Use the report for listing, refinance conversations, or tax-appeal support. Typical turnaround is 48 hours for a written CMA.",
+      "Dr. Jan Duffy prepares market-driven Sun City Summerlin property valuations using recent nearby sales in Las Vegas 89134. Use the report for listing, refinance conversations, or tax-appeal support. Typical turnaround is 48 hours for a written pricing report.",
     description:
-      "Centennial Hills and Summerlin property value experts. Get accurate, market-driven valuations for refinancing, selling, or tax appeals. Reports focus on neighborhood-specific comps in Sun City Summerlin and nearby 55+ inventory. This is a licensed REALTOR® comparative market analysis, not a state-certified appraisal. Need a licensed appraisal for a lender? We coordinate that next step.",
+      "Centennial Hills and Summerlin property value experts. Get accurate, market-driven valuations for refinancing, selling, or tax appeals. Reports focus on recent nearby sales in Sun City Summerlin and nearby 55+ inventory. This is a licensed REALTOR® comparative market analysis, not a state-certified appraisal. Need a licensed appraisal for a lender? We coordinate that next step.",
     highlights: [
-      "Neighborhood comps for Sun City Summerlin and Summerlin",
-      "Written CMA typically within 48 hours",
+      "Recent nearby sales in Sun City Summerlin and Summerlin",
+      "Written pricing report typically within 48 hours",
       "Pricing support for listing, refinance talks, or tax appeal",
       "Serving Las Vegas 55+ inventory since 2013",
     ],
@@ -96,12 +96,12 @@ export const services: Service[] = [
       {
         question: "Do you provide a certified appraisal in Sun City Summerlin?",
         answer:
-          "Dr. Jan Duffy provides a REALTOR® comparative market analysis using recent Sun City Summerlin and Las Vegas comps. Lenders that require a state-certified appraisal are referred to a licensed appraiser.",
+          "Dr. Jan Duffy provides a REALTOR® comparative market analysis using recent Sun City Summerlin and Las Vegas recent sales. Lenders that require a state-certified appraisal are referred to a licensed appraiser.",
       },
       {
         question: "How fast can I get a Sun City Summerlin home valuation?",
         answer:
-          "Most written CMAs are delivered within 48 hours after we confirm the address and access to listing history.",
+          "Most written pricing reports are delivered within 48 hours after we confirm the address and access to listing history.",
       },
     ],
     relatedSlugs: ["comparative-market-analysis", "sellers-agent-services", "property-buying-sales"],
@@ -117,7 +117,7 @@ export const services: Service[] = [
     answer:
       "Dr. Jan Duffy represents 55+ buyers in Sun City Summerlin, Las Vegas. Representation includes golf-community guidance, HOA evaluation, single-level home search, and Sun City-specific neighborhood tours.",
     description:
-      "Sun City Summerlin buyer representation for 55+ homebuyers. Search focuses on accessible, low-maintenance properties. Includes golf-community expert guidance, HOA evaluation, and Sun City-specific neighborhood tours. Offer strategy is built from current comps, not guesswork.",
+      "Sun City Summerlin buyer representation for 55+ homebuyers. Search focuses on accessible, low-maintenance properties. Includes golf-community expert guidance, HOA evaluation, and Sun City-specific neighborhood tours. Offer strategy is built from current nearby sales, not guesswork.",
     highlights: [
       "Dedicated buyer representation in Sun City Summerlin",
       "HOA documents and fee review before you write",
@@ -195,10 +195,10 @@ export const services: Service[] = [
       {
         question: "What counts as luxury in Sun City Summerlin?",
         answer:
-          "Typically larger Retreat-series plans, golf-course or Red Rock view lots, and fully updated interiors. Price bands move—ask for a current CMA.",
+          "Typically larger Retreat-series plans, golf-course or Red Rock view lots, and fully updated interiors. Price bands move—ask for a current pricing report.",
       },
       {
-        question: "Do you market luxury listings beyond the MLS?",
+        question: "Do you market luxury listings beyond the main listing websites?",
         answer:
           "Yes. Photography, 3D tours, and targeted campaigns reach qualified 55+ buyers in Las Vegas and out of state.",
       },
@@ -317,9 +317,9 @@ export const services: Service[] = [
     description:
       "Sun City Summerlin and Kyle Canyon listing specialists. Marketing includes professional photography, strategic pricing, and outreach to qualified buyers. Staging consultation, 3D virtual tours, and closing coordination are part of the listing plan. Free market analysis included.",
     highlights: [
-      "Strategic pricing from current 55+ comps",
+      "Strategic pricing from current 55+ home sales",
       "Photography, staging consult, and tour package",
-      "MLS plus targeted 55+ buyer outreach",
+      "Listing websites plus outreach to 55+ buyers",
       "Dedicated closing coordination",
     ],
     areas: AREAS_CORE,
@@ -327,12 +327,12 @@ export const services: Service[] = [
       {
         question: "How do you price a Sun City Summerlin listing?",
         answer:
-          "We pull recent solds by village, golf vs. interior lot, and update level. You get a written CMA before we discuss list price.",
+          "We pull recent solds by village, golf vs. interior lot, and update level. You get a written pricing report before we discuss list price.",
       },
       {
         question: "Is a market analysis really free?",
         answer:
-          "Yes. Call (702) 718-0043 or use the home-value page. No listing agreement is required to receive the CMA.",
+          "Yes. Call (702) 718-0043 or use the home-value page. No listing agreement is required to receive the pricing report.",
       },
     ],
     relatedSlugs: ["home-staging", "real-estate-marketing", "appraisals"],
@@ -445,7 +445,7 @@ export const services: Service[] = [
       "Luxury home marketing for Sun City Summerlin listings. Photography, virtual tours, and 55+ buyer campaigns by Dr. Jan Duffy. Call (702) 718-0043.",
     h1: "Luxury Home Marketing in Sun City Summerlin",
     answer:
-      "Dr. Jan Duffy markets luxury Sun City Summerlin listings with professional photography, virtual tours, and campaigns aimed at qualified 55+ buyers. Pricing and positioning are set from current golf-course and view-lot comps.",
+      "Dr. Jan Duffy markets luxury Sun City Summerlin listings with professional photography, virtual tours, and campaigns aimed at qualified 55+ buyers. Pricing and positioning are set from current golf-course and view-lot recent sales.",
     description:
       "Luxury home marketing for Sun City Summerlin and Summerlin listings. The plan includes photography, 3D or video tours, copy that names lot, view, and square footage, and distribution to qualified active-adult buyers. Free consultation on pricing and positioning.",
     highlights: [
@@ -459,12 +459,12 @@ export const services: Service[] = [
       {
         question: "What is included in luxury marketing?",
         answer:
-          "Professional photos, a tour when the property warrants it, MLS exposure, and targeted outreach. Staging consult is included on request.",
+          "Professional photos, a tour when the property warrants it, listing-website exposure, and targeted outreach. Staging consult is included on request.",
       },
       {
         question: "How is this different from a standard listing?",
         answer:
-          "More media, tighter price positioning, and outreach beyond the MLS to 55+ and out-of-state buyers.",
+          "More media, tighter price positioning, and outreach beyond listing websites to 55+ and out-of-state buyers.",
       },
     ],
     relatedSlugs: ["luxury-property-buying-sales", "real-estate-photography", "real-estate-marketing"],
@@ -704,16 +704,16 @@ export const services: Service[] = [
     slug: "comparative-market-analysis",
     name: "Comparative real estate market analysis",
     category: "real-estate-consultant",
-    metaTitle: "Comparative Market Analysis | Sun City Summerlin | Las Vegas CMA",
+    metaTitle: "Home Value Comparison | Sun City Summerlin | Las Vegas Pricing Report",
     metaDescription:
-      "CMA for Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. 55+ comps from Dr. Jan Duffy. Call (702) 718-0043.",
+      "Home value comparison for Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. recent 55+ home sales from Dr. Jan Duffy. Call (702) 718-0043.",
     h1: "Comparative Market Analysis | Sun City Summerlin & Northwest Las Vegas",
     answer:
       "Dr. Jan Duffy prepares comparative market analyses for Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Reports use solds, actives, and days-on-market—not a national average.",
     description:
-      "Comparative real estate market analysis in Centennial Hills, Sun City Summerlin, Providence, Skye Canyon, and Kyle Canyon. We pull 55+ and nearby comps, then explain list-vs-sold gaps. Use the CMA to price a listing or to write an offer.",
+      "Comparative real estate market analysis in Centennial Hills, Sun City Summerlin, Providence, Skye Canyon, and Kyle Canyon. We pull 55+ and nearby recent sales, then explain list-vs-sold gaps. Use the report to price a listing or to write an offer.",
     highlights: [
-      "Sold, pending, and active comps",
+      "Sold, pending, and currently listed homes",
       "Village and lot-type adjustments",
       "Offer or list-price recommendation",
       "Written report you can keep",
@@ -721,12 +721,12 @@ export const services: Service[] = [
     areas: AREAS_CORE,
     faqs: [
       {
-        question: "Is a CMA the same as an appraisal?",
+        question: "Is a pricing report the same as an appraisal?",
         answer:
-          "No. A CMA is a REALTOR® pricing tool. An appraisal is a licensed valuation, usually for a lender.",
+          "No. A pricing report (sometimes called a CMA) is a REALTOR® tool based on recent sales. An appraisal is a licensed valuation, usually required by a lender.",
       },
       {
-        question: "Which areas does your CMA cover?",
+        question: "Which areas does your pricing report cover?",
         answer:
           "Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, Kyle Canyon, and nearby Las Vegas 55+ inventory.",
       },
@@ -874,11 +874,11 @@ export const services: Service[] = [
       "Listing marketing for Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Photos, copy, and 55+ distribution. Call (702) 718-0043.",
     h1: "Real Estate Marketing for Sun City Summerlin Listings",
     answer:
-      "Dr. Jan Duffy markets listings across Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. The plan covers photography, property-specific copy, MLS, and outreach to 55+ and out-of-state buyers.",
+      "Dr. Jan Duffy markets listings across Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. The plan covers photography, property-specific copy, listing websites, and outreach to 55+ and out-of-state buyers.",
     description:
       "Real estate marketing in Centennial Hills, Sun City Summerlin, Providence, Skye Canyon, and Kyle Canyon. 55+ Sun City listings get golf, rec-center, and lot-type detail in the copy. Nearby listings get view, square footage, and commute facts—not generic adjectives.",
     highlights: [
-      "MLS plus targeted 55+ distribution",
+      "Listing websites plus targeted 55+ distribution",
       "Property-specific listing copy",
       "Photo and tour coordination",
       "Weekly seller reporting",
@@ -888,7 +888,7 @@ export const services: Service[] = [
       {
         question: "Where do you advertise Sun City listings?",
         answer:
-          "MLS/IDX, this site, RealScout, and targeted campaigns. Off-MLS is only used if you request it in writing.",
+          "Major home-search websites, this site, and targeted campaigns. Private (off-market) marketing is only used if you ask for it in writing.",
       },
       {
         question: "Do you use paid ads?",
@@ -914,7 +914,7 @@ export const services: Service[] = [
       "Interior and exterior stills",
       "Patio, golf, and view context when present",
       "Scheduled after staging",
-      "MLS-ready edits",
+      "Listing-ready updates",
     ],
     areas: AREAS_CORE,
     faqs: [
@@ -940,7 +940,7 @@ export const services: Service[] = [
       "Real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Dr. Jan Duffy, BHHS Nevada. Call (702) 718-0043.",
     h1: "Real Estate Sales | Sun City Summerlin and Las Vegas 55+",
     answer:
-      "Dr. Jan Duffy handles real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Representation covers listing, buyer agency, negotiation, and closing with Berkshire Hathaway HomeServices Nevada Properties.",
+      "Dr. Jan Duffy handles real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Representation covers listing, buyer representation, negotiation, and closing with Berkshire Hathaway HomeServices Nevada Properties.",
     description:
       "Real estate sales across northwest Las Vegas with a 55+ focus in Sun City Summerlin. Transactions include resales, luxury listings, and relocating buyers. License S.0197614.LLC.",
     highlights: [

@@ -267,7 +267,7 @@ export default async function HomesForSalePage() {
                   <p className="text-2xl font-semibold text-[#1C1917] mb-2">
                     {communityInfo.hoaFee}
                   </p>
-                  <p className="text-[#141210]">{communityInfo.sidLid === 'None' ? 'No SIDs or LIDs' : communityInfo.sidLid}</p>
+                  <p className="text-[#141210]">{communityInfo.sidLid === 'None' ? 'No extra special-district taxes' : communityInfo.sidLid}</p>
                 </div>
               </div>
             </div>
