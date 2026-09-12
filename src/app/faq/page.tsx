@@ -195,6 +195,7 @@ export default function FAQPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {[
                 { href: "/homes-for-sale", label: "Sun City Summerlin homes for sale" },
+                { href: "/home-value", label: "Free home value estimate" },
                 { href: "/amenities", label: "Recreation centers and amenities" },
                 { href: "/amenities/sun-shadows", label: "Sun Shadows Community Center" },
                 { href: "/selling", label: "Selling a home in Sun City Summerlin" },
@@ -224,19 +225,25 @@ export default function FAQPage() {
             <p className="text-white/90 mb-8">
               Dr. Jan Duffy is here to help you find your perfect home in Sun City Summerlin.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <div className="flex flex-col sm:flex-row flex-wrap gap-4 justify-center">
+              <Link
+                href="/homes-for-sale"
+                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#1C1917] font-semibold rounded-lg hover:bg-gray-100 transition-colors min-h-[48px] touch-manipulation"
+              >
+                Browse Homes for Sale
+              </Link>
+              <Link
+                href="/home-value"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors min-h-[48px] touch-manipulation"
+              >
+                Free Home Value
+              </Link>
               <a
                 href="tel:7027180043"
-                className="inline-flex items-center justify-center px-8 py-4 bg-white text-[#1C1917] font-semibold rounded-lg hover:bg-gray-100 transition-colors min-h-[48px] touch-manipulation"
+                className="inline-flex items-center justify-center px-8 py-4 border-2 border-[#C9A962] text-[#C9A962] font-semibold rounded-lg hover:bg-[#C9A962]/10 transition-colors min-h-[48px] touch-manipulation"
               >
                 Call (702) 718-0043
               </a>
-              <Link
-                href="/contact"
-                className="inline-flex items-center justify-center px-8 py-4 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition-colors min-h-[48px] touch-manipulation"
-              >
-                Schedule a Tour
-              </Link>
             </div>
           </div>
         </section>

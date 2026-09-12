@@ -139,6 +139,10 @@ export const faqData = [
       {
         question: "Are there Sun City Summerlin home rentals or Del Webb Sun City Summerlin rentals?",
         answer: "Sun City Summerlin is primarily an owner-occupied 55+ community; rentals exist but inventory is limited. If you're looking for Sun City Summerlin home rentals or a short-term lease before buying, contact Dr. Jan Duffy at (702) 718-0043—she can help you find available lease listings or discuss buying as an alternative.",
+        links: [
+          { href: "/homes-for-sale", label: "Browse homes for sale instead of renting" },
+          { href: "/contact", label: "Ask about limited lease options" },
+        ],
       },
     ],
   },
@@ -161,18 +165,35 @@ export const faqData = [
       {
         question: "What is the price range for homes in Sun City Summerlin?",
         answer: "Homes in Sun City Summerlin typically range from approximately $300,000 to $800,000+, depending on size, location, upgrades, and views. Some premium properties with golf course or mountain views may be priced higher.",
+        links: [
+          { href: "/homes-for-sale", label: "See current Sun City Summerlin homes for sale" },
+          { href: "/home-value", label: "Get a free home value estimate" },
+        ],
       },
       {
         question: "Are these new construction or resale homes?",
         answer: "Sun City Summerlin was completed in 2002, so all homes available are resale properties. Many homes have been updated and well-maintained by their owners.",
+        links: [
+          { href: "/homes-for-sale", label: "Browse resale homes for sale" },
+          { href: "/floor-plans", label: "Compare popular floor plans" },
+        ],
       },
       {
         question: "Why should I work with Dr. Jan Duffy?",
         answer: "Dr. Jan Duffy specializes exclusively in Sun City Summerlin and knows the community inside and out. She can help you find the perfect home, negotiate the best price, and navigate the entire buying process with expertise.",
+        links: [
+          { href: "/about", label: "Meet Dr. Jan Duffy" },
+          { href: "/selling", label: "Seller representation in Sun City Summerlin" },
+          { href: "/resources/first-time-buyers", label: "First-time buyer guide" },
+        ],
       },
       {
         question: "Will I need homeowner's insurance?",
         answer: "If you have a mortgage, homeowner's insurance is required. Even if paying cash, homeowner's insurance is highly recommended to protect your investment.",
+        links: [
+          { href: "/contact", label: "Ask Jan about local coverage tips" },
+          { href: "/homes-for-sale", label: "Start shopping homes for sale" },
+        ],
       },
     ],
   },

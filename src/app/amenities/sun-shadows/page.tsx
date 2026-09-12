@@ -81,7 +81,7 @@ export default function SunShadowsPage() {
           imageSrc={pageHeroImages["amenities/sun-shadows"].src}
           imageAlt={pageHeroImages["amenities/sun-shadows"].alt}
         >
-          <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base">
+          <div className="flex flex-wrap justify-center gap-4 text-sm md:text-base mb-6">
                   <div className="flex items-center gap-2 bg-white/20 px-4 py-2 rounded-full">
                     <MapPin className="w-4 h-4" />
                     <span>Olympic-Sized Pool</span>
@@ -95,6 +95,14 @@ export default function SunShadowsPage() {
                     <span>All Residents Welcome</span>
                   </div>
                 </div>
+          <div className="flex flex-col sm:flex-row flex-wrap gap-3 justify-center">
+            <Button asChild size="lg" className="bg-[#C9A962] hover:bg-[#C9A962]/90 text-[#141210] min-h-[48px]">
+              <Link href="/homes-for-sale">View Homes for Sale</Link>
+            </Button>
+            <Button asChild variant="outline" size="lg" className="border-white text-white hover:bg-white/10 min-h-[48px]">
+              <Link href="/home-value">Get a Free Home Value</Link>
+            </Button>
+          </div>
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun Shadows" />

@@ -417,21 +417,28 @@ export default function MovingGuidePage() {
                   Dr. Jan Duffy can help you navigate the moving process and answer any questions about relocating to Sun City Summerlin.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                  <a
-                    href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
+                  <Button
+                    asChild
+                    size="lg"
+                    className="bg-[#C9A962] text-[#141210] hover:bg-[#C9A962]/90 min-h-[48px] px-6"
                   >
-                    <Phone className="w-5 h-5" />
-                    Call/Text: (702) 718-0043
-                  </a>
+                    <Link href="/homes-for-sale">Browse Homes for Sale</Link>
+                  </Button>
                   <Button
                     asChild
                     variant="outline"
                     size="lg"
                     className="border-white text-white hover:bg-white/10 min-h-[48px] px-6"
                   >
-                    <Link href="/contact">Schedule Consultation</Link>
+                    <Link href="/home-value">Selling? Get a Free Home Value</Link>
                   </Button>
+                  <a
+                    href="tel:7027180043"
+                    className="flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#C9A962] text-[#C9A962] rounded-md font-semibold hover:bg-[#C9A962]/10 transition-colors min-h-[48px] touch-manipulation"
+                  >
+                    <Phone className="w-5 h-5" />
+                    Call/Text: (702) 718-0043
+                  </a>
                 </div>
               </ScrollAnimation>
             </div>
