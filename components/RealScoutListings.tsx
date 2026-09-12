@@ -1,6 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
+import Link from 'next/link';
 import { Home, RefreshCw, ExternalLink } from 'lucide-react';
 
 type RealScoutListingsProps = {
@@ -89,20 +90,28 @@ export default function RealScoutListings({
           {/* RealScout Widget Container */}
           <div className="bg-white rounded-lg shadow-lg border border-[#B8A078]/20 overflow-hidden">
             {/* Widget Header */}
-            <div className="bg-[#1C1917] text-white px-6 py-4 flex items-center justify-between">
+            <div className="bg-[#1C1917] text-white px-6 py-4 flex flex-wrap items-center justify-between gap-3">
               <div className="flex items-center gap-3">
                 <Home className="w-5 h-5" />
                 <span className="font-semibold">Sun City Summerlin Active Listings</span>
               </div>
-              <a 
-                href="https://drjanduffy.realscout.com/onboarding"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="flex items-center gap-2 text-sm bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-md transition-colors"
-              >
-                <ExternalLink className="w-4 h-4" />
-                Full Search
-              </a>
+              <div className="flex flex-wrap items-center gap-2">
+                <Link
+                  href="/homes-for-sale"
+                  className="flex items-center gap-2 text-sm bg-[#C9A962] text-[#141210] hover:bg-[#C9A962]/90 px-3 py-1.5 rounded-md transition-colors font-semibold min-h-[44px]"
+                >
+                  Homes for Sale
+                </Link>
+                <a 
+                  href="https://drjanduffy.realscout.com/onboarding"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-sm bg-white/20 hover:bg-white/30 px-3 py-1.5 rounded-md transition-colors min-h-[44px]"
+                >
+                  <ExternalLink className="w-4 h-4" />
+                  Full Search
+                </a>
+              </div>
             </div>
             
             {/* Loading State */}

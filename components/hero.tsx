@@ -59,6 +59,14 @@ export default function Hero() {
             >
               <Link href="/homes-for-sale">Browse Available Homes</Link>
             </Button>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-2 border-white/80 text-white hover:bg-white/10 w-full sm:w-auto sm:min-w-[200px] min-h-[48px] text-base md:text-lg px-6 py-4"
+            >
+              <Link href="/home-value">Get a Free Home Value</Link>
+            </Button>
           </div>
           <div className="mt-8 text-sm text-gray-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
             <a href="tel:+17027180043" className="hover:text-[#C9A962] transition-colors">

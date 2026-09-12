@@ -405,9 +405,16 @@ export default function FirstTimeBuyersPage() {
                   Dr. Jan Duffy specializes in helping first-time buyers find their perfect home in Sun City Summerlin. With over 30 years of experience, she'll guide you through every step of the process.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="bg-[#C9A962] text-[#141210] hover:bg-[#C9A962]/90 min-h-[48px] px-6"
+                  >
+                    <Link href="/homes-for-sale">Browse Homes for Sale</Link>
+                  </Button>
                   <a
                     href="tel:7027180043"
-                    className="flex items-center justify-center gap-2 px-8 py-4 bg-[#C9A962] text-[#141210] rounded-md font-semibold hover:bg-[#C9A962]/90 transition-colors min-h-[48px] touch-manipulation"
+                    className="flex items-center justify-center gap-2 px-8 py-4 border-2 border-white text-white rounded-md font-semibold hover:bg-white/10 transition-colors min-h-[48px] touch-manipulation"
                   >
                     <Phone className="w-5 h-5" />
                     Call/Text: (702) 718-0043
