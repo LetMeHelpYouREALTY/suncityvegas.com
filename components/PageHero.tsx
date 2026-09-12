@@ -37,13 +37,14 @@ export default function PageHero({
     <section
       className={`relative min-h-[420px] md:min-h-[520px] lg:min-h-[600px] flex items-center justify-center bg-[#141210] text-white overflow-hidden ${className}`}
     >
-      <div className="absolute inset-0 z-0">
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <Image
           src={imageSrc}
           alt={imageAlt}
           fill
           priority={priority}
-          className="object-cover"
+          className="object-cover object-center"
+          style={{ objectFit: "cover", objectPosition: "center" }}
           placeholder="blur"
           blurDataURL={DEFAULT_BLUR}
           sizes="100vw"

@@ -7,8 +7,9 @@ export const DEFAULT_PAGE_HERO = "/images/hero/hero-bg.jpg";
 
 export const pageHeroImages = {
   about: {
-    src: "/images/explore/about-agent.jpg",
-    alt: "Dr. Jan Duffy, Sun City Summerlin REALTOR® in Las Vegas",
+    // Landscape only — never use the 180×180 headshot here (it stretches in wide heroes)
+    src: "/images/about/about-image.jpg",
+    alt: "Dr. Jan Duffy advising clients on Sun City Summerlin homes in Las Vegas",
   },
   services: {
     src: "/images/explore/contact.jpg",
@@ -119,12 +120,12 @@ export const pageHeroImages = {
     alt: "Frequently asked questions about Sun City Summerlin",
   },
   testimonials: {
-    src: "/images/explore/about-agent.jpg",
-    alt: "Client testimonials for Dr. Jan Duffy Sun City Summerlin",
+    src: "/images/about/about-image-2.jpg",
+    alt: "Happy Sun City Summerlin homeowners with Dr. Jan Duffy in Las Vegas",
   },
   review: {
-    src: "/images/explore/about-agent.jpg",
-    alt: "Leave a Google review for Dr. Jan Duffy",
+    src: "/images/about/about-image-2.jpg",
+    alt: "Leave a Google review for Dr. Jan Duffy, Sun City Summerlin REALTOR®",
   },
   about_fallback: {
     src: "/images/hero/hero-bg.jpg",
