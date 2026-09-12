@@ -53,7 +53,7 @@ export async function generateMetadata({
     "Sun City Summerlin guide",
     "Sun City Summerlin community guide",
     "55+ community Las Vegas",
-    "active adult community Nevada",
+    "55+ active adult community Nevada",
     "retire in Las Vegas",
     "Sun City Summerlin amenities",
     "Sun City Summerlin HOA fees",
@@ -375,7 +375,7 @@ export default async function FlyerPage({
             <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
               {flyer.category}
             </span>
-            <span className="inline-block px-4 py-2 bg-[#C9A962]/80 text-white text-sm font-semibold rounded-full">
+            <span className="inline-block px-4 py-2 bg-[#C9A962] text-[#141210] text-sm font-semibold rounded-full">
               Free Download
             </span>
             {flyer.pages ? (
