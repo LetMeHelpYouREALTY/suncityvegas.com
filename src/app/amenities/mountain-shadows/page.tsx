@@ -15,7 +15,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Mountain Shadows Community Center | Sun City Summerlin Amenities",
   description:
-    "Explore Mountain Shadows Community Center in Sun City Summerlin. Features 45,000 sq ft fitness center, indoor pool, racquetball courts, arts & crafts studios, and extensive amenities for active adults.",
+    "Explore Mountain Shadows Community Center in Sun City Summerlin, Las Vegas. 45,000 sq ft fitness, indoor pool, racquetball, and arts studios in this 55+ community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/amenities/mountain-shadows",
   },

@@ -10,6 +10,7 @@ import MortgageCalculator from "@components/MortgageCalculator";
 import RealScoutListings from "@components/RealScoutListings";
 import { getCommunityInfo } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 
 export const metadata: Metadata = {
   title: "Sun City Summerlin Las Vegas NV 89134 Current Homes for Sale | Del Webb Summerlin",
@@ -274,6 +275,7 @@ export default async function HomesForSalePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Tour Sun City Summerlin homes from this Google Maps pin" />
       <Footer />
     </>
   );

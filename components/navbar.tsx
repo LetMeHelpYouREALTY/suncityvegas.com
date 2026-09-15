@@ -6,6 +6,7 @@ import { usePathname } from "next/navigation";
 import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
+import { siteConfig } from "@/lib/site-config";
 
 // Main navigation links (6-8 links ideal for sitelinks)
 const mainNavLinks = [
@@ -187,12 +188,12 @@ export default function Navbar() {
           {/* Desktop CTA & Phone */}
           <div className="hidden lg:flex items-center gap-3 xl:gap-4">
             <a
-              href="tel:7027180043"
-              className="flex items-center gap-2 text-sm xl:text-base text-[#141210] hover:text-[#1C1917] transition-colors"
-              aria-label="Call (702) 718-0043"
+              href={siteConfig.phoneHref}
+              className="flex items-center gap-2 text-sm xl:text-base text-[#141210] hover:text-[#1C1917] transition-colors min-h-[44px]"
+              aria-label={`Call ${siteConfig.phoneDisplay}`}
             >
               <Phone className="w-4 h-4" />
-              <span className="font-medium">(702) 718-0043</span>
+              <span className="font-medium">{siteConfig.phoneDisplay}</span>
             </a>
             <Button
               asChild
@@ -241,11 +242,12 @@ export default function Navbar() {
               ))}
               <div className="mt-2 pt-2 border-t border-[#B8A078]/20">
                 <a
-                  href="tel:7027180043"
+                  href={siteConfig.phoneHref}
                   className="flex items-center gap-2 text-[#141210] hover:text-[#1C1917] transition-colors px-4 py-3 rounded-md min-h-[48px] touch-manipulation"
+                  aria-label={`Call ${siteConfig.phoneDisplay}`}
                 >
                   <Phone className="w-4 h-4" />
-                  <span className="font-medium">(702) 718-0043</span>
+                  <span className="font-medium">{siteConfig.phoneDisplay}</span>
                 </a>
                 <Button
                   asChild

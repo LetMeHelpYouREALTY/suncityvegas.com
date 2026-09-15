@@ -9,12 +9,13 @@ import ScheduleTour from "@components/ScheduleTour";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 import { Phone, DollarSign, TrendingUp, Clock, Shield, FileText, CheckCircle2 } from "lucide-react";
 
 export const metadata: Metadata = {
   title: "Sell Your Sun City Summerlin Home | Expert Real Estate Services | Dr. Jan Duffy",
   description:
-    "Sell your Sun City Summerlin home with confidence. Expert pricing, marketing, and negotiation from Dr. Jan Duffy, your local Sun City specialist. Free home valuation. Call (702) 718-0043",
+    "Sell your Sun City Summerlin home in Las Vegas with Dr. Jan Duffy. Pricing, marketing, and negotiation for this 55+ community. Free valuation. Call (702) 718-0043.",
   alternates: {
     canonical: "https://www.suncityvegas.com/selling",
   },
@@ -278,6 +279,7 @@ export default function SellingPage() {
 
         {/* Schedule Tour Section */}
         <ScheduleTour />
+        <LocalVisitSection heading="List your Sun City Summerlin home from this Maps pin" />
       </main>
       <Footer />
     </>

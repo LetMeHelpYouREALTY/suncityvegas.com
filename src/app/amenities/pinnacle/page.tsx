@@ -14,7 +14,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Pinnacle Community Center | Sun City Summerlin Amenities",
   description:
-    "Explore Pinnacle Community Center in Sun City Summerlin. Features 34,000 sq ft fitness center, pool & spa, tennis courts, bocce ball courts, card rooms, and versatile multi-purpose spaces.",
+    "Explore Pinnacle Community Center in Sun City Summerlin, Las Vegas. 34,000 sq ft fitness, pool, tennis, and bocce in this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/amenities/pinnacle",
   },

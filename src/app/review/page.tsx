@@ -9,6 +9,7 @@ import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import CopyReviewLink from "@/components/CopyReviewLink";
 import { siteConfig } from "@/lib/site-config";
+import LocalVisitSection from "@components/LocalVisitSection";
 
 export const metadata: Metadata = {
   title: "Leave a Google Review | Dr. Jan Duffy | Sun City Summerlin",
@@ -195,6 +196,7 @@ export default function ReviewPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Leave a Google review from this Maps location" />
       <Footer />
     </>
   );

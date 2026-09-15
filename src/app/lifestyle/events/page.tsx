@@ -13,7 +13,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Events & Activities | Year-Round Calendar",
   description:
-    "Discover year-round events and activities at Sun City Summerlin. From holiday celebrations to concerts, socials to educational seminars, there's always something happening.",
+    "Year-round events at Sun City Summerlin in Las Vegas: concerts, holiday gatherings, and socials in this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/lifestyle/events",
   },

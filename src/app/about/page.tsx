@@ -12,6 +12,7 @@ import { Quote } from "lucide-react";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 
 export const metadata: Metadata = {
   title: "About Dr. Jan Duffy REALTOR® | Sun City Summerlin Specialist",
@@ -339,6 +340,7 @@ export default function AboutPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Meet Dr. Jan Duffy in Sun City Summerlin" />
       <Footer />
     </>
   );

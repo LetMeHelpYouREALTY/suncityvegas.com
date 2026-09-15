@@ -7,6 +7,7 @@ import PageHero from "@components/PageHero";
 import FAQAccordion from '@components/FAQAccordion';
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 import { getAllQuestions } from '@/lib/faqData';
 import Link from 'next/link';
 
@@ -241,6 +242,7 @@ export default function FAQPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Ask Dr. Jan Duffy at the Sun City Summerlin Google pin" />
       <Footer />
     </>
   );

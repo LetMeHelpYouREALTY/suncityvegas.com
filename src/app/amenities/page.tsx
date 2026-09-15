@@ -10,6 +10,8 @@ import ScrollAnimation from "@components/scroll-animation";
 import { getAmenities, getRecreationCenters, getGolfCourses } from "@/lib/communityData";
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import GoogleMapEmbed from "@components/GoogleMapEmbed";
+import LocalVisitSection from "@components/LocalVisitSection";
 import {
   Activity,
   Users,
@@ -17,7 +19,6 @@ import {
   CheckCircle2,
   ArrowRight,
   MapPin,
-  ExternalLink,
 } from "lucide-react";
 
 export const metadata: Metadata = {
@@ -134,52 +135,16 @@ const amenities = [
 const blurDataURL =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
-// Amenity map: Google Maps Embed API (search mode). Set NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY to show the map.
-const AMENITY_MAP_SEARCH = "restaurants parks golf schools near 9406 Del Webb Boulevard Las Vegas NV 89134";
-const AMENITY_MAP_SEARCH_URL = `https://www.google.com/maps/search/${encodeURIComponent(AMENITY_MAP_SEARCH)}`;
+const AMENITY_MAP_SEARCH =
+  "golf courses recreation centers parks shopping dining near 9406 Del Webb Boulevard Las Vegas NV 89134";
 
 function AmenityMapEmbed() {
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY;
-  const embedUrl =
-    apiKey &&
-    `https://www.google.com/maps/embed/v1/search?key=${apiKey}&q=${encodeURIComponent(AMENITY_MAP_SEARCH)}`;
-
-  if (embedUrl) {
-    return (
-      <div className="rounded-lg overflow-hidden shadow-lg border border-[#E8E4E0] h-[400px] md:h-[500px]">
-        <iframe
-          src={embedUrl}
-          width="100%"
-          height="100%"
-          className="border-0 w-full h-full block"
-          loading="lazy"
-          title="Nearby amenities map — restaurants, parks, golf, schools near Sun City Summerlin"
-          allowFullScreen
-        />
-      </div>
-    );
-  }
-
   return (
-    <div className="rounded-lg border-2 border-dashed border-[#1C1917]/30 bg-[#F7F6F4] p-8 md:p-12 text-center">
-      <p className="text-[#141210] mb-4">
-        View nearby restaurants, parks, golf, and schools on Google Maps.
-      </p>
-      <a
-        href={AMENITY_MAP_SEARCH_URL}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="inline-flex items-center gap-2 bg-[#1C1917] hover:bg-[#1C1917]/90 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-      >
-        Open amenity map on Google Maps
-        <ExternalLink className="w-4 h-4" aria-hidden />
-      </a>
-      <p className="mt-4 text-sm text-[#141210]/70">
-        To show the map on this page, set{" "}
-        <code className="bg-white/80 px-1 rounded">NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY</code> in your
-        environment. Maps Embed API is free with unlimited usage.
-      </p>
-    </div>
+    <GoogleMapEmbed
+      query={AMENITY_MAP_SEARCH}
+      title="Golf, recreation centers, parks, shopping, and dining near Sun City Summerlin in Las Vegas"
+      heightClassName="h-[400px] md:h-[500px]"
+    />
   );
 }
 
@@ -411,6 +376,7 @@ export default function AmenitiesPage() {
             </div>
           </div>
         </section>
+        <LocalVisitSection heading="Map and hours for Sun City Summerlin amenities" />
       </main>
       <Footer />
     </>

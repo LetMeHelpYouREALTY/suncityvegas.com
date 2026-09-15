@@ -13,7 +13,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Clubs & Organizations | 80+ Active Groups",
   description:
-    "Join 80+ clubs and organizations at Sun City Summerlin. From arts and crafts to sports, hobbies to social groups, find your community and stay active in retirement.",
+    "Join 80+ clubs at Sun City Summerlin in Las Vegas. Arts, sports, hobbies, and social groups in this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/lifestyle/clubs",
   },

@@ -7,6 +7,14 @@ const nextConfig = {
         hostname: "cdn.sanity.io",
         port: "",
       },
+      {
+        protocol: "https",
+        hostname: "imagedelivery.net",
+      },
+      {
+        protocol: "https",
+        hostname: "images.suncityvegas.com",
+      },
     ],
   },
   async redirects() {

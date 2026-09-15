@@ -16,7 +16,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Golf Courses | Palm Valley, Highland Falls, Eagle Crest",
   description:
-    "Explore three championship golf courses at Sun City Summerlin designed by Billy Casper & Greg Nash. Palm Valley and Highland Falls are 18-hole championship courses, while Eagle Crest is an executive course perfect for quick rounds.",
+    "Explore three championship golf courses at Sun City Summerlin in Las Vegas, designed by Billy Casper & Greg Nash. Palm Valley, Highland Falls, and Eagle Crest in this 55+ community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/amenities/golf",
   },

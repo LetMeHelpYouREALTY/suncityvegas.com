@@ -15,6 +15,7 @@ import {
 } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
 import { pageHeroImages } from "@/lib/page-heroes";
+import { ensureLocalKeywords } from "@/lib/seo";
 
 type ServicePageProps = {
   params: Promise<{ slug: string }>;
@@ -32,22 +33,32 @@ export async function generateMetadata({ params }: ServicePageProps): Promise<Me
   }
 
   const url = `https://www.suncityvegas.com/services/${service.slug}`;
+  const description = ensureLocalKeywords(service.metaDescription);
   return {
     title: service.metaTitle,
-    description: service.metaDescription,
+    description,
     alternates: { canonical: url },
     openGraph: {
       title: service.metaTitle,
-      description: service.metaDescription,
+      description,
       url,
       siteName: siteConfig.siteName,
       locale: "en_US",
       type: "website",
+      images: [
+        {
+          url: `https://www.suncityvegas.com${pageHeroImages.services.src}`,
+          width: 1200,
+          height: 630,
+          alt: pageHeroImages.services.alt,
+        },
+      ],
     },
     twitter: {
       card: "summary_large_image",
       title: service.metaTitle,
-      description: service.metaDescription,
+      description,
+      images: [`https://www.suncityvegas.com${pageHeroImages.services.src}`],
     },
   };
 }

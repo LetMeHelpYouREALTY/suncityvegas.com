@@ -4,7 +4,8 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Page Not Found | Sun City Summerlin | Dr. Jan Duffy",
   description:
-    "The page you requested was not found. Browse Sun City Summerlin homes, amenities, and realtor services with Dr. Jan Duffy.",
+    "The page you requested was not found. Browse Sun City Summerlin 55+ homes in Las Vegas, amenities, and realtor services with Dr. Jan Duffy.",
+  robots: { index: false, follow: true },
 };
 
 export default function ErrorPage() {

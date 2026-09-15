@@ -9,10 +9,11 @@ import { Button } from "@components/ui/button";
 
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
   description:
-    "Get a free, instant home value estimate for your property. Dr. Jan Duffy provides accurate home valuations for Sun City Summerlin and Las Vegas area homes.",
+    "Get a free home value estimate for Sun City Summerlin and Las Vegas 55+ homes. Dr. Jan Duffy provides local pricing guidance. Call (702) 718-0043.",
   alternates: {
     canonical: "https://www.suncityvegas.com/home-value",
   },
@@ -270,6 +271,7 @@ export default function HomeValuePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Get a home value with Dr. Jan Duffy in Las Vegas" />
       <Footer />
     </>
   );

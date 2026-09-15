@@ -11,7 +11,10 @@ import ScheduleTour from "@components/ScheduleTour";
 import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
+import GoogleMapEmbed from "@components/GoogleMapEmbed";
+import FaqJsonLd from "@components/FaqJsonLd";
 import { pageHeroImages } from "@/lib/page-heroes";
+import { contactFaqs } from "@/lib/faqData";
 export const metadata: Metadata = {
   title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
   description:
@@ -54,10 +57,6 @@ function getDirectionsUrl(origin: string, travelmode: "driving" | "walking" | "t
 }
 
 function DirectionsSection() {
-  const apiKey = process.env.NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY;
-  const baseParams = `key=${apiKey}&origin=${encodeURIComponent(DIRECTIONS_ORIGIN_STRIP)}&destination=${encodeURIComponent(DIRECTIONS_DESTINATION)}`;
-  const embedUrlDriving = apiKey && `https://www.google.com/maps/embed/v1/directions?${baseParams}&mode=driving`;
-
   return (
     <section className="py-12 md:py-16 bg-[#F7F6F4]" id="directions">
       <div className="container mx-auto px-4">
@@ -137,37 +136,10 @@ function DirectionsSection() {
             </div>
           </div>
 
-          {/* Embedded directions map (when API key is set) */}
-          {embedUrlDriving ? (
-            <div className="rounded-lg overflow-hidden shadow-lg border border-[#E8E4E0] h-[400px] md:h-[450px]">
-              <iframe
-                src={embedUrlDriving}
-                width="100%"
-                height="100%"
-                className="border-0 w-full h-full block"
-                loading="lazy"
-                title="Directions to Sun City Summerlin from the Las Vegas Strip by car"
-                allowFullScreen
-                referrerPolicy="no-referrer-when-downgrade"
-              />
-            </div>
-          ) : (
-            <div className="rounded-lg border-2 border-dashed border-[#1C1917]/30 bg-white p-6 md:p-8 text-center">
-              <p className="text-[#141210] mb-4">
-                Use the links above to get directions on Google Maps. To show the map on this page, set{" "}
-                <code className="bg-[#F7F6F4] px-1.5 py-0.5 rounded text-sm">NEXT_PUBLIC_GOOGLE_MAPS_EMBED_API_KEY</code> in your environment.
-              </p>
-              <a
-                href={getDirectionsUrl(DIRECTIONS_ORIGIN_STRIP, "driving")}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#1C1917] hover:bg-[#1C1917]/90 text-white font-semibold px-6 py-3 rounded-lg transition-colors"
-              >
-                Open directions in Google Maps
-                <ExternalLink className="w-4 h-4" aria-hidden />
-              </a>
-            </div>
-          )}
+          <GoogleMapEmbed
+            title="Google Map pin for Dr. Jan Duffy at 9406 Del Webb Boulevard, Las Vegas, NV 89134"
+            heightClassName="h-[400px] md:h-[450px]"
+          />
 
           <p className="mt-4 text-sm text-[#141210]/70 text-center">
             Destination: {DIRECTIONS_DESTINATION} (Sun City Summerlin)
@@ -197,6 +169,7 @@ export default function ContactPage() {
           __html: JSON.stringify(contactWebPageSchema).replace(/</g, "\\u003c"),
         }}
       />
+      <FaqJsonLd faqs={contactFaqs} />
       <Navbar />
       <Breadcrumbs
         items={[

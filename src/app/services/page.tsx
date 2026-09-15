@@ -13,6 +13,7 @@ import {
 } from "@/lib/services";
 import { siteConfig } from "@/lib/site-config";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 
 const PAGE_URL = "https://www.suncityvegas.com/services";
 
@@ -180,6 +181,7 @@ export default function ServicesIndexPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Real estate services at 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

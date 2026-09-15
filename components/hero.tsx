@@ -1,7 +1,9 @@
 import Link from "next/link";
-import Image from "next/image";
 import { Button } from "./ui/button";
 import ScheduleTour from "./ScheduleTour";
+import CdnImage from "@components/CdnImage";
+import GbpActions from "@components/GbpActions";
+import { siteConfig } from "@/lib/site-config";
 
 const blurDataURL =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
@@ -10,7 +12,7 @@ export default function Hero() {
   return (
     <section className="relative min-h-[500px] md:min-h-[600px] lg:min-h-[700px] flex items-center justify-center bg-[#141210] text-white overflow-hidden">
       <div className="absolute inset-0 z-0">
-        <Image
+        <CdnImage
           src="/images/hero/hero-bg.jpg"
           alt="Sun City Summerlin golf fairway with Red Rock Canyon mountain views in Las Vegas"
           fill
@@ -61,12 +63,15 @@ export default function Hero() {
             </Button>
           </div>
           <div className="mt-8 text-sm text-gray-200 drop-shadow-[0_1px_2px_rgba(0,0,0,0.7)]">
-            <a href="tel:+17027180043" className="hover:text-[#C9A962] transition-colors">
-              Call Dr. Jan Duffy: (702) 718-0043
+            <a href={siteConfig.phoneHref} className="hover:text-[#C9A962] transition-colors">
+              Call {siteConfig.agent.name}: {siteConfig.phoneDisplay}
             </a>
             <span className="mx-2">·</span>
-            <span>9406 Del Webb Boulevard, Las Vegas, NV 89134</span>
+            <span>{siteConfig.address}</span>
+            <span className="mx-2">·</span>
+            <span>{siteConfig.hoursDisplay}</span>
           </div>
+          <GbpActions variant="dark" className="mt-6 justify-center" />
         </div>
       </div>
     </section>

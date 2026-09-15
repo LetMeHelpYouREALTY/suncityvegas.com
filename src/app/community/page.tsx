@@ -11,6 +11,7 @@ import RealScoutListings from "@components/RealScoutListings";
 import { MapPin, Calendar, Home, Users, Activity, Award } from "lucide-react";
 import { getGolfCourses, getRecreationCenters } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 
 export const metadata: Metadata = {
   title: "Sun City Summerlin Community Guide | Las Vegas 55+ Active Adult Community",
@@ -427,6 +428,7 @@ export default function CommunityPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Sun City Summerlin on Google Maps" />
       <Footer />
     </>
   );

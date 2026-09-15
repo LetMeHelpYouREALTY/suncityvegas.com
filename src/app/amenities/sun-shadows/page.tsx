@@ -15,7 +15,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun Shadows Community Center | Sun City Summerlin Pool & Spa",
   description:
-    "Explore Sun Shadows Community Center in Sun City Summerlin. Features Olympic-size indoor heated pool, indoor spa, aerobics studio, bocce ball courts, and meeting spaces for active adults.",
+    "Explore Sun Shadows Community Center in Sun City Summerlin, Las Vegas. Olympic indoor pool, spa, aerobics, and bocce in this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/amenities/sun-shadows",
   },

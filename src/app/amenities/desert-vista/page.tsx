@@ -14,7 +14,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Desert Vista Community Center | Sun City Summerlin's Largest Facility",
   description:
-    "Explore Desert Vista Community Center, the largest recreation center in Sun City Summerlin at 48,000 sq ft. Features grand ballroom, fitness center, pool & spa, tennis, pickleball courts, and more.",
+    "Explore Desert Vista Community Center, the largest recreation center in Sun City Summerlin at 48,000 sq ft. Grand ballroom, fitness, pool, tennis, and pickleball in Las Vegas' 55+ community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/amenities/desert-vista",
   },

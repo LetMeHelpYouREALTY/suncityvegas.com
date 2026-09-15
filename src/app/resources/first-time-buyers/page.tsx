@@ -13,7 +13,7 @@ import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "First-Time Buyer Guide for Sun City Summerlin: Sun City Summerlin 55+ Community",
   description:
-    "Complete guide for first-time homebuyers considering Sun City Summerlin. Learn about the buying process, financing, inspections, and what to expect in a 55+ active adult community.",
+    "Complete guide for first-time homebuyers considering Sun City Summerlin in Las Vegas. Buying process, financing, and inspections in this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/resources/first-time-buyers",
   },

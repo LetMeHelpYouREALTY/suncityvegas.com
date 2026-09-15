@@ -11,14 +11,14 @@ import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
-  title: "Restaurants Near Sun City Summerlin | Dining Guide (2025)",
+  title: "Restaurants Near Sun City Summerlin | Dining Guide (2026)",
   description:
-    "Discover the best restaurants near Sun City Summerlin. From fine dining to casual eateries, explore dining options in Summerlin and Las Vegas just minutes from the community.",
+    "Dining near Sun City Summerlin in Las Vegas. Summerlin restaurants minutes from this 55+ active adult community. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/lifestyle/restaurants",
   },
   openGraph: {
-    title: "Restaurants Near Sun City Summerlin | Dining Guide (2025)",
+    title: "Restaurants Near Sun City Summerlin | Dining Guide (2026)",
     description:
       "Complete guide to restaurants and dining near Sun City Summerlin in Summerlin and Las Vegas.",
     url: "https://www.suncityvegas.com/lifestyle/restaurants",

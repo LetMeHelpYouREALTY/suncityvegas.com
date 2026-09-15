@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Phone, Mail, MapPin, Youtube, Calendar, Instagram, Linkedin, Facebook, ExternalLink } from "lucide-react";
+import { Phone, Mail, MapPin, Youtube, Calendar, Instagram, Linkedin, Facebook, ExternalLink, Navigation, Star } from "lucide-react";
+import { siteConfig } from "@/lib/site-config";
 
 export default function Footer() {
   return (
@@ -9,10 +10,10 @@ export default function Footer() {
           {/* Site Info */}
           <div>
             <h3 className="text-2xl font-bold mb-4 font-playfair text-[#C9A962]">
-              Sun City Summerlin 55+ Real Estate
+              {siteConfig.community} 55+ Real Estate
             </h3>
             <p className="text-gray-300 mb-4">
-              Homes by Dr. Jan Duffy. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Over 25 years helping retirees find the perfect home.
+              Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Over 25 years helping retirees find the perfect home.
             </p>
             <div className="mt-4 text-sm text-gray-400">
               Equal Housing Opportunity
@@ -156,23 +157,23 @@ export default function Footer() {
 
           {/* Contact Info (GBP-aligned: phone, SMS, email, address) */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-[#B8A078]">Contact Dr. Jan Duffy</h4>
+            <h4 className="text-lg font-semibold mb-4 text-[#B8A078]">Contact {siteConfig.agent.name}</h4>
             <ul className="space-y-3">
               <li>
                 <a
-                  href="tel:+17027180043"
+                  href={siteConfig.phoneHref}
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
-                  aria-label="Call (702) 718-0043"
+                  aria-label={`Call ${siteConfig.phoneDisplay}`}
                 >
                   <Phone className="w-4 h-4" />
-                  (702) 718-0043
+                  {siteConfig.phoneDisplay}
                 </a>
               </li>
               <li>
                 <a
-                  href="sms:+17027180043"
+                  href={siteConfig.phoneSmsHref}
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
-                  aria-label="Text (702) 718-0043"
+                  aria-label={`Text ${siteConfig.phoneDisplay}`}
                 >
                   <Phone className="w-4 h-4" />
                   Text / Chat
@@ -180,24 +181,48 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:DrDuffySells@SunCityVegas.com"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  href={`mailto:${siteConfig.agent.email}`}
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                 >
                   <Mail className="w-4 h-4" />
-                  DrDuffySells@SunCityVegas.com
+                  {siteConfig.agent.email}
                 </a>
               </li>
               <li>
                 <div className="flex items-start gap-2 text-gray-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <span>
-                    9406 Del Webb Boulevard
+                    {siteConfig.streetAddress}
                     <br />
-                    Las Vegas, NV 89134
+                    {siteConfig.city}, {siteConfig.state} {siteConfig.zip}
                     <br />
-                    Daily 6:00 AM–9:00 PM
+                    {siteConfig.hoursDisplay}
                   </span>
                 </div>
+              </li>
+              <li>
+                <a
+                  href={siteConfig.google.directionsUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
+                  aria-label={`Get directions to ${siteConfig.address}`}
+                >
+                  <Navigation className="w-4 h-4" />
+                  Get Directions
+                </a>
+              </li>
+              <li>
+                <a
+                  href={siteConfig.google.reviewUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
+                  aria-label="View Google reviews for Dr. Jan Duffy"
+                >
+                  <Star className="w-4 h-4" />
+                  View Google Reviews
+                </a>
               </li>
             </ul>
           </div>
@@ -268,7 +293,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/@DrDuffy"
+                  href={siteConfig.social.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -286,7 +311,7 @@ export default function Footer() {
             <ul className="space-y-2">
               <li>
                 <a
-                  href="https://www.facebook.com/DrJanDuffyRealtorCentennialHills/"
+                  href={siteConfig.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -298,7 +323,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/drjanduffy/"
+                  href={siteConfig.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -310,7 +335,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.youtube.com/@DrDuffy"
+                  href={siteConfig.social.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -322,7 +347,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.linkedin.com/company/lvrmembers/"
+                  href={siteConfig.social.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -334,7 +359,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.pinterest.com/bhhsluxury/"
+                  href={siteConfig.social.pinterest}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -346,7 +371,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://www.tiktok.com/@dr.janduffy"
+                  href={siteConfig.social.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -358,7 +383,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://x.com/drjanduffy"
+                  href={siteConfig.social.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
@@ -427,7 +452,7 @@ export default function Footer() {
             Berkshire Hathaway HomeServices Nevada Properties | License S.0197614.LLC
           </p>
           <p className="mt-2">
-            <a href="tel:+17027180043" className="text-[#C9A962] hover:underline" aria-label="Call (702) 718-0043">(702) 718-0043</a>
+            <a href={siteConfig.phoneHref} className="text-[#C9A962] hover:underline" aria-label={`Call ${siteConfig.phoneDisplay}`}>{siteConfig.phoneDisplay}</a>
           </p>
         </div>
       </div>

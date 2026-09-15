@@ -10,6 +10,7 @@ import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
 import { getDistances, getClubs } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 import {
   Users,
   Calendar,
@@ -388,6 +389,7 @@ export default function LifestylePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Live the 55+ lifestyle at Sun City Summerlin" />
       <Footer />
     </>
   );

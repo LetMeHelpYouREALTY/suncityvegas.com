@@ -28,6 +28,7 @@ import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import GoogleMapEmbed from "@components/GoogleMapEmbed";
 export async function generateStaticParams() {
   const flyers = getAllFlyers();
   return flyers.map((flyer) => ({
@@ -489,18 +490,10 @@ export default async function FlyerPage({
 
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Map Embed */}
-                <div className="rounded-lg overflow-hidden shadow-lg border border-[#B8A078]/20 h-[400px]">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12934.123456789!2d-115.2936!3d36.2088!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c1d1b5555555%3A0x1234567890abcdef!2sSun%20City%20Summerlin!5e0!3m2!1sen!2sus!4v1234567890"
-                    width="100%"
-                    height="100%"
-                    style={{ border: 0 }}
-                    allowFullScreen
-                    loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
-                    title="Sun City Summerlin Location Map"
-                  />
-                </div>
+                <GoogleMapEmbed
+                  title="Google Map of Sun City Summerlin at 9406 Del Webb Boulevard, Las Vegas, NV 89134"
+                  heightClassName="h-[400px]"
+                />
 
                 {/* Nearby Attractions */}
                 <div>

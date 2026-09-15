@@ -6,6 +6,7 @@ import PageHero from "@components/PageHero";
 import ScheduleTour from '@components/ScheduleTour';
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
+import LocalVisitSection from "@components/LocalVisitSection";
 import { Phone, Calendar, Clock, MapPin } from 'lucide-react';
 
 export const metadata: Metadata = {
@@ -149,6 +150,7 @@ export default function SchedulePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Start your tour at 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

@@ -15,6 +15,10 @@ import ExploreCommunitySection from "@components/sections/explore-community";
 import FeaturedListingSection from "@components/sections/featured-listing";
 import MarketStatsSection from "@components/sections/market-stats";
 import ServicesAeoSection from "@components/sections/services-aeo";
+import LocalVisitSection from "@components/LocalVisitSection";
+import FaqJsonLd from "@components/FaqJsonLd";
+import ReviewJsonLd from "@components/ReviewJsonLd";
+import { homepageFaqs } from "@/lib/faqData";
 
 // Below-the-fold sections: lazy-load to improve LCP and reduce initial JS (PageSpeed / Core Web Vitals)
 const MarketInsights = dynamic(() => import("@/components/MarketInsights"), { ssr: true });
@@ -95,8 +99,11 @@ export default function Home() {
         <MortgageCalculator />
         <QuickFAQ />
         <AboutAgentSection />
+        <LocalVisitSection heading="Find Dr. Jan Duffy on Google Maps" />
         <FinalCTASection />
       </main>
+      <FaqJsonLd faqs={homepageFaqs} />
+      <ReviewJsonLd />
       <Footer />
     </>
   );

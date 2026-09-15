@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import Script from "next/script";
 import { Outfit, Cormorant_Garamond } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import "./globals.css";
 import CalendlyButton from "@components/CalendlyButton";
 import SchemaMarkup from "@components/SchemaMarkup";
@@ -136,7 +138,7 @@ export default function RootLayout({
     description: siteConfig.siteDescription,
     image: `${baseUrl}${siteConfig.agent.photo}`,
     url: `${baseUrl}/`,
-    telephone: "+1-702-718-0043",
+    telephone: siteConfig.phoneE164,
     email: siteConfig.agent.email,
     foundingDate: siteConfig.agent.openingDate,
     address: {
@@ -172,9 +174,10 @@ export default function RootLayout({
     ],
     geo: {
       "@type": "GeoCoordinates",
-      latitude: "36.2108",
-      longitude: "-115.2950",
+      latitude: siteConfig.geo.latitude,
+      longitude: siteConfig.geo.longitude,
     },
+    hasMap: siteConfig.google.mapsUrl,
     openingHoursSpecification: [
       {
         "@type": "OpeningHoursSpecification",
@@ -373,6 +376,8 @@ export default function RootLayout({
           Skip to main content
         </a>
         {children}
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );

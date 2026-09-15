@@ -13,7 +13,7 @@ export default function SchemaMarkup() {
     alternateName: ['Sun City Vegas Real Estate', 'Homes by Dr. Jan Duffy'],
     url: baseUrl,
     logo: `${baseUrl}/images/logo/logo.jpg`,
-    telephone: '+1-702-718-0043',
+    telephone: siteConfig.phoneE164,
     email: siteConfig.agent.email,
     foundingDate: siteConfig.agent.openingDate,
     address: {
@@ -63,64 +63,6 @@ export default function SchemaMarkup() {
     },
   };
 
-  // RealEstateAgent Schema (GBP-aligned)
-  const realEstateAgentSchema = {
-    '@context': 'https://schema.org',
-    '@type': 'RealEstateAgent',
-    name: siteConfig.siteName,
-    url: baseUrl,
-    image: `${baseUrl}${siteConfig.agent.photo}`,
-    telephone: '+1-702-718-0043',
-    email: siteConfig.agent.email,
-    address: {
-      '@type': 'PostalAddress',
-      streetAddress: '9406 Del Webb Boulevard',
-      addressLocality: 'Las Vegas',
-      addressRegion: 'NV',
-      postalCode: '89134',
-      addressCountry: 'US',
-    },
-    areaServed: [
-      {
-        '@type': 'Place',
-        name: 'Sun City Summerlin',
-        address: {
-          '@type': 'PostalAddress',
-          addressLocality: 'Las Vegas',
-          addressRegion: 'NV',
-        },
-      },
-      {
-        '@type': 'City',
-        name: 'Las Vegas',
-        addressRegion: 'NV',
-      },
-      {
-        '@type': 'City',
-        name: 'Summerlin',
-        addressRegion: 'NV',
-      },
-    ],
-    priceRange: '$300,000-$800,000+',
-    worksFor: {
-      '@type': 'Organization',
-      name: siteConfig.siteName,
-    },
-    memberOf: {
-      '@type': 'Organization',
-      name: 'Berkshire Hathaway HomeServices Nevada Properties',
-    },
-    hasCredential: {
-      '@type': 'EducationalOccupationalCredential',
-      credentialCategory: 'Real Estate License',
-      credentialNumber: 'S.0197614.LLC',
-      recognizedBy: {
-        '@type': 'Organization',
-        name: 'Nevada Real Estate Division',
-      },
-    },
-  };
-
   return (
     <>
       <Script
@@ -135,13 +77,6 @@ export default function SchemaMarkup() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{
           __html: JSON.stringify(websiteSchema).replace(/</g, '\\u003c'),
-        }}
-      />
-      <Script
-        id="realestateagent-schema"
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{
-          __html: JSON.stringify(realEstateAgentSchema).replace(/</g, '\\u003c'),
         }}
       />
     </>

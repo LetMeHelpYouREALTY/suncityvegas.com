@@ -41,6 +41,7 @@ export const siteConfig = {
   },
   
   // Business Hours (matching GBP)
+  hoursDisplay: "Daily 6:00 AM–9:00 PM",
   businessHours: {
     sunday: { open: "06:00", close: "21:00" },
     monday: { open: "06:00", close: "21:00" },
@@ -49,6 +50,10 @@ export const siteConfig = {
     thursday: { open: "06:00", close: "21:00" },
     friday: { open: "06:00", close: "21:00" },
     saturday: { open: "06:00", close: "21:00" }
+  },
+  geo: {
+    latitude: "36.2108",
+    longitude: "-115.2950",
   },
   
   // Theme Colors (Luxury ink + champagne)
@@ -72,6 +77,8 @@ export const siteConfig = {
     reviewUrl: "https://g.page/r/CVIgC-30nTd3EAI/review",
     placeId: "ChIJg9rkzmSVyIARUiAL7fSdN3c",
     mapsUrl: "https://maps.google.com/?cid=8597648921043141138",
+    directionsUrl:
+      "https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Boulevard%2C+Las+Vegas%2C+NV+89134",
   },
 
   // Social Links (matching GBP)

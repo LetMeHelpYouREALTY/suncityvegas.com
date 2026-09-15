@@ -178,6 +178,47 @@ export const faqData = [
   },
 ];
 
+export const homepageFaqs = [
+  {
+    question: "What are the age requirements to live in Sun City Summerlin?",
+    answer:
+      "At least one resident in each home must be 55 years of age or older. This complies with the Housing for Older Persons Act of 1995 (HOPA).",
+  },
+  {
+    question: "What are the monthly HOA fees?",
+    answer:
+      "The HOA assessment is approximately $165 per month. This includes access to all three recreation centers, pools, fitness facilities, tennis courts, and community amenities. There are no SIDs (Special Improvement Districts) or LIDs (Local Improvement Districts).",
+  },
+  {
+    question: "Are pets allowed at Sun City Summerlin?",
+    answer:
+      "Yes! Sun City Summerlin welcomes pets. The community has pet-friendly policies and residents enjoy walking their dogs throughout the community's landscaped streets and paths.",
+  },
+  {
+    question: "Is Sun City Summerlin a gated community?",
+    answer:
+      "Yes, Sun City Summerlin is a guard-gated community with 24/7 security at all entrances.",
+  },
+];
+
+export const contactFaqs = [
+  {
+    question: "How do I schedule a Sun City Summerlin tour with Dr. Jan Duffy?",
+    answer:
+      "Call (702) 718-0043, book a 15-minute consultation online, or use the contact form. Tours start at 9406 Del Webb Boulevard, Las Vegas, NV 89134.",
+  },
+  {
+    question: "What are the office hours?",
+    answer:
+      "Dr. Jan Duffy is available daily from 6:00 AM to 9:00 PM, matching the Google Business Profile hours.",
+  },
+  {
+    question: "Where is the office on Google Maps?",
+    answer:
+      "Search Dr. Jan Duffy Sun City Summerlin at 9406 Del Webb Boulevard, Las Vegas, NV 89134, or use Get Directions from this site.",
+  },
+];
+
 // Helper function to get all questions flattened (useful for search/filtering)
 export const getAllQuestions = () => {
   return faqData.flatMap((category) =>
