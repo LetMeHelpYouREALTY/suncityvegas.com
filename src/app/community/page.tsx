@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -108,7 +108,7 @@ export default function CommunityPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                    <Image
+                    <CdnImage
                       src="/images/hero/community-sign.jpg"
                       alt="Sun City Summerlin community entrance"
                       fill

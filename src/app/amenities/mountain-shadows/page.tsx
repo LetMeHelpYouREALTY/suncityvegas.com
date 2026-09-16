@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
@@ -135,7 +135,7 @@ export default function MountainShadowsPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/mountain-shadows-fitness.jpg"
                       alt="Mountain Shadows fitness center with modern equipment"
                       fill
@@ -207,7 +207,7 @@ export default function MountainShadowsPage() {
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/mountain-shadows-pool.jpg"
                       alt="Mountain Shadows indoor pool and spa area"
                       fill

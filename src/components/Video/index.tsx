@@ -1,7 +1,7 @@
 "use client";
 
 import VideoModal from "@/components/video-modal";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
@@ -24,7 +24,7 @@ export default function Video() {
             <div className="w-full px-4">
               <div className="mx-auto max-w-[770px] overflow-hidden rounded-md">
                 <div className="relative aspect-77/40 items-center justify-center">
-                  <Image
+                  <CdnImage
                     src="/images/video/image.jpg"
                     alt="Resort-style pool and Red Rock views at Sun City Summerlin in Las Vegas"
                     className="object-cover"

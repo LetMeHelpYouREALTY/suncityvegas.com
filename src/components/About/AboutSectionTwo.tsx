@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 
 const AboutSectionTwo = () => {
   return (
@@ -10,13 +10,13 @@ const AboutSectionTwo = () => {
               className="relative mx-auto mb-12 aspect-25/24 max-w-[500px] text-center lg:m-0"
               data-wow-delay=".15s"
             >
-              <Image
+              <CdnImage
                 src="/images/about/about-image-2.jpg"
                 alt="Spacious golf-course home exterior in Sun City Summerlin, Las Vegas"
                 fill
                 className="rounded-lg object-cover drop-shadow-three dark:hidden dark:drop-shadow-none"
               />
-              <Image
+              <CdnImage
                 src="/images/about/about-image-2.jpg"
                 alt="Spacious golf-course home exterior in Sun City Summerlin, Las Vegas"
                 fill

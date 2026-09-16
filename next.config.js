@@ -8,6 +8,8 @@ const nextConfig = {
         port: "",
       },
       {
+        // Cloudflare hosted Images (imagedelivery.net/{hash}/{id}/{variant})
+        // Do not use zone /cdn-cgi/image on www — DNS is gray-cloud / Vercel.
         protocol: "https",
         hostname: "imagedelivery.net",
       },

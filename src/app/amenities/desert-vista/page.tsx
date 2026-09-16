@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
@@ -134,7 +134,7 @@ export default function DesertVistaPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/desert-vista-ballroom.jpg"
                       alt="Grand ballroom at Desert Vista with dance floor and stage"
                       fill

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
@@ -120,7 +120,7 @@ export default function GolfPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/highland-falls-mountain-view.jpg"
                       alt="Highland Falls Golf Course with mountain views"
                       fill
@@ -219,7 +219,7 @@ export default function GolfPage() {
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4] order-1 lg:order-2">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/palm-valley-fairway.jpg"
                       alt="Palm Valley Golf Course fairway with palm trees"
                       fill
@@ -247,7 +247,7 @@ export default function GolfPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/eagle-crest-executive.jpg"
                       alt="Eagle Crest executive golf course"
                       fill
@@ -413,7 +413,7 @@ export default function GolfPage() {
                   </ScrollAnimation>
                   <ScrollAnimation delay={200}>
                     <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                      <Image
+                      <CdnImage
                         src="/images/amenities/golf-course-home.jpg"
                         alt="Golf course home with views of Sun City Summerlin golf course"
                         fill

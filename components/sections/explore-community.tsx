@@ -1,5 +1,5 @@
 import Link from "next/link";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import { Home, Sparkles, Users, HelpCircle, Phone, Briefcase } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -80,7 +80,7 @@ export default function ExploreCommunitySection() {
                   className="group relative block bg-white rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-all duration-300 border border-[#B8A078]/20"
                 >
                   <div className="relative aspect-[4/3] overflow-hidden">
-                    <Image
+                    <CdnImage
                       src={card.image}
                       alt={`${card.title} in Sun City Summerlin, Las Vegas`}
                       fill

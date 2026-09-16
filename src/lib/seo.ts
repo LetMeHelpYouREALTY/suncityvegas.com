@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { siteConfig } from "@/lib/site-config";
-import { cfImage } from "@/lib/cf-image";
+import { cfAbsoluteImage, cfImage } from "@/lib/cf-image";
 
 const BASE = `https://www.${siteConfig.domain}`;
 
@@ -38,7 +38,7 @@ export function pageMetadata({
 }: PageMetaInput): Metadata {
   const desc = ensureLocalKeywords(description);
   const canonical = path === "/" ? `${BASE}/` : `${BASE}${path}`;
-  const ogImage = image.startsWith("http") ? image : `${BASE}${image}`;
+  const ogImage = cfAbsoluteImage(image, BASE);
 
   return {
     title,

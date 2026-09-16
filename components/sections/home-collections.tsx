@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Link from "next/link";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import ScrollAnimation from "../scroll-animation";
 
 const blurDataURL =
@@ -25,7 +25,7 @@ function CollectionCard({
     <ScrollAnimation delay={delay}>
       <div className="bg-white p-6 md:p-8 rounded-lg shadow-two hover:shadow-three transition-shadow h-full flex flex-col">
         <div className="relative h-48 md:h-56 rounded-lg mb-4 md:mb-6 overflow-hidden bg-[#F7F6F4]">
-          <Image
+          <CdnImage
             src={imagePath}
             alt={`${title} exterior in Sun City Summerlin, Las Vegas`}
             fill

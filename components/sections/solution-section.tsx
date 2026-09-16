@@ -1,5 +1,5 @@
 import ScrollAnimation from "../scroll-animation";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 
 const blurDataURL =
@@ -13,7 +13,7 @@ export default function SolutionSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <ScrollAnimation>
               <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
-                <Image
+                <CdnImage
                   src="/images/hero/community-entrance.jpg"
                   alt="Sun City Summerlin community entrance landscaping near Red Rock Canyon, Las Vegas"
                   fill

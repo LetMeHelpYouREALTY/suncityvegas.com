@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import SectionTitle from "../Common/SectionTitle";
 
 const checkIcon = (
@@ -48,13 +48,13 @@ const AboutSectionOne = () => {
 
             <div className="w-full px-4 lg:w-1/2">
               <div className="relative mx-auto aspect-25/24 max-w-[500px] lg:mr-0">
-                <Image
+                <CdnImage
                   src="/images/about/about-image.jpg"
                   alt="Sun City Summerlin courtyard home with desert landscaping in Las Vegas"
                   fill
                   className="mx-auto max-w-full rounded-lg object-cover drop-shadow-three dark:hidden dark:drop-shadow-none lg:mr-0"
                 />
-                <Image
+                <CdnImage
                   src="/images/about/about-image.jpg"
                   alt="Sun City Summerlin courtyard home with desert landscaping in Las Vegas"
                   fill

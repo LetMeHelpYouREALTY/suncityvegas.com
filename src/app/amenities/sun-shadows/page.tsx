@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
@@ -147,7 +147,7 @@ export default function SunShadowsPage() {
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/sun-shadows-olympic-pool.jpg"
                       alt="Olympic-sized indoor heated pool at Sun Shadows"
                       fill
@@ -217,7 +217,7 @@ export default function SunShadowsPage() {
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/sun-shadows-spa.jpg"
                       alt="Indoor spa at Sun Shadows Community Center"
                       fill
@@ -245,7 +245,7 @@ export default function SunShadowsPage() {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 items-center">
                 <ScrollAnimation delay={100}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-white">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/sun-shadows-aerobics.jpg"
                       alt="Aerobics studio at Sun Shadows Community Center"
                       fill
@@ -317,7 +317,7 @@ export default function SunShadowsPage() {
                 </ScrollAnimation>
                 <ScrollAnimation delay={200}>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                    <Image
+                    <CdnImage
                       src="/images/amenities/sun-shadows-bocce.jpg"
                       alt="Lighted bocce ball courts at Sun Shadows"
                       fill

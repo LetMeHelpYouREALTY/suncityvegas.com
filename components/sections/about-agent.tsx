@@ -1,6 +1,6 @@
 import { Button } from "../ui/button";
 import Link from "next/link";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import ScrollAnimation from "../scroll-animation";
 
 const blurDataURL =
@@ -14,7 +14,7 @@ export default function AboutAgentSection() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-12 items-center">
             <ScrollAnimation>
               <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
-                <Image
+                <CdnImage
                   src="/images/about/dr-jan-duffy.jpg"
                   alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas"
                   fill

@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -158,9 +158,9 @@ function AmenityCard({
   const CardContent = (
     <div className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow overflow-hidden">
       <div className="relative h-48 bg-[#F7F6F4]">
-        <Image
+        <CdnImage
           src={amenity.image}
-          alt={amenity.name}
+          alt={`${amenity.name} at Sun City Summerlin 55+ community in Las Vegas`}
           fill
           className="object-cover"
           placeholder="blur"

@@ -1,5 +1,6 @@
 import Script from 'next/script';
 import { siteConfig } from '@/lib/site-config';
+import { cfAbsoluteImage } from '@/lib/cf-image';
 
 export default function SchemaMarkup() {
   const baseUrl = `https://www.${siteConfig.domain}`;
@@ -12,7 +13,7 @@ export default function SchemaMarkup() {
     name: siteConfig.siteName,
     alternateName: ['Sun City Vegas Real Estate', 'Homes by Dr. Jan Duffy'],
     url: baseUrl,
-    logo: `${baseUrl}/images/logo/logo.jpg`,
+    logo: cfAbsoluteImage('/images/logo/logo.jpg', baseUrl),
     telephone: siteConfig.phoneE164,
     email: siteConfig.agent.email,
     foundingDate: siteConfig.agent.openingDate,
@@ -58,7 +59,7 @@ export default function SchemaMarkup() {
       name: siteConfig.siteName,
       logo: {
         '@type': 'ImageObject',
-        url: `${baseUrl}/images/logo/logo.jpg`,
+        url: cfAbsoluteImage('/images/logo/logo.jpg', baseUrl),
       },
     },
   };

@@ -1,13 +1,26 @@
 import Image, { type ImageProps } from "next/image";
-import { cfImage } from "@/lib/cf-image";
-
-type CdnImageProps = Omit<ImageProps, "src"> & {
-  src: string;
-};
+import { cfImage, isCloudflareImageUrl } from "@/lib/cf-image";
 
 /**
- * next/image wrapper: Cloudflare Images when mapped, git /public/images otherwise.
+ * next/image wrapper: Cloudflare hosted Images when mapped, git /public/images otherwise.
+ * Hosted Images already negotiates AVIF/WebP, so CF URLs skip Vercel optimization.
  */
-export default function CdnImage({ src, alt, ...props }: CdnImageProps) {
-  return <Image src={cfImage(src)} alt={alt} {...props} />;
+export default function CdnImage({
+  src,
+  alt,
+  unoptimized,
+  ...props
+}: ImageProps) {
+  const resolved = typeof src === "string" ? cfImage(src) : src;
+  const fromCf =
+    typeof resolved === "string" && isCloudflareImageUrl(resolved);
+
+  return (
+    <Image
+      {...props}
+      src={resolved}
+      alt={alt}
+      unoptimized={Boolean(fromCf || unoptimized)}
+    />
+  );
 }

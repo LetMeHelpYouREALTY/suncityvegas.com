@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
@@ -117,7 +117,7 @@ export default function AboutPage() {
                 {/* Image */}
                 <ScrollAnimation>
                   <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
-                    <Image
+                    <CdnImage
                       src="/images/agent/dr-jan-duffy.jpg"
                       alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin"
                       fill

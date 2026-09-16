@@ -1,4 +1,4 @@
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import { Button } from "../ui/button";
 import ScrollAnimation from "../scroll-animation";
@@ -42,7 +42,7 @@ export default function FeaturedListingSection() {
             {/* Image */}
             <ScrollAnimation>
               <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg bg-[#F7F6F4]">
-                <Image
+                <CdnImage
                   src={featuredListing.image}
                   alt={`Featured home at ${featuredListing.address}`}
                   fill

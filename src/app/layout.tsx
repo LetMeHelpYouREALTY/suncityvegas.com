@@ -8,6 +8,7 @@ import CalendlyButton from "@components/CalendlyButton";
 import SchemaMarkup from "@components/SchemaMarkup";
 import { siteConfig } from "@/lib/site-config";
 import { services } from "@/lib/services";
+import { cfAbsoluteImage } from "@/lib/cf-image";
 
 /** Refined sans for body — luxury editorial feel without Inter defaults */
 const inter = Outfit({
@@ -80,7 +81,7 @@ export const metadata: Metadata = {
       "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Call (702) 718-0043.",
     images: [
       {
-        url: "/images/hero/hero-bg.jpg",
+        url: cfAbsoluteImage("/images/hero/hero-bg.jpg"),
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin community with mountain views",
@@ -93,7 +94,7 @@ export const metadata: Metadata = {
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
       "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—over 25 years in active adult communities. Call (702) 718-0043.",
-    images: ["/images/hero/hero-bg.jpg"],
+    images: [cfAbsoluteImage("/images/hero/hero-bg.jpg")],
     creator: "@drjanduffy",
   },
   robots: {
@@ -136,7 +137,7 @@ export default function RootLayout({
     name: siteConfig.siteName,
     alternateName: ["Sun City Vegas Real Estate", "Homes by Dr. Jan Duffy"],
     description: siteConfig.siteDescription,
-    image: `${baseUrl}${siteConfig.agent.photo}`,
+    image: cfAbsoluteImage(siteConfig.agent.photo, baseUrl),
     url: `${baseUrl}/`,
     telephone: siteConfig.phoneE164,
     email: siteConfig.agent.email,
@@ -294,7 +295,7 @@ export default function RootLayout({
       longitude: "-115.2950",
     },
     url: "https://www.suncityvegas.com/",
-    image: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",
+    image: cfAbsoluteImage("/images/hero/hero-bg.jpg"),
     amenityFeature: [
       { "@type": "LocationFeatureSpecification", name: "Golf Courses", value: "4" },
       { "@type": "LocationFeatureSpecification", name: "Recreation Centers", value: "3" },

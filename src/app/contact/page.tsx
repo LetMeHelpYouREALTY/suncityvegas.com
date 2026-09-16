@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
@@ -216,7 +216,7 @@ export default function ContactPage() {
                   <div>
                     {/* Image */}
                     <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#F7F6F4] mb-6">
-                      <Image
+                      <CdnImage
                         src="/images/agent/dr-jan-duffy.jpg"
                         alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin"
                         fill

@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
@@ -56,16 +56,16 @@ const Header = () => {
                   sticky ? "py-5 lg:py-2" : "py-8"
                 } `}
               >
-                <Image
+                <CdnImage
                   src="/images/logo/logo.jpg"
-                  alt="logo"
+                  alt="Dr. Jan Duffy Sun City Summerlin 55+ real estate, Las Vegas"
                   width={140}
                   height={30}
                   className="w-full dark:hidden"
                 />
-                <Image
+                <CdnImage
                   src="/images/logo/logo.jpg"
-                  alt="logo"
+                  alt="Dr. Jan Duffy Sun City Summerlin 55+ real estate, Las Vegas"
                   width={140}
                   height={30}
                   className="hidden w-full dark:block"

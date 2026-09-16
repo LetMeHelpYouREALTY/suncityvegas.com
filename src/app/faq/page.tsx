@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
+import CdnImage from '@components/CdnImage';
 import Navbar from '@components/navbar';
 import Footer from '@components/footer';
 import Breadcrumbs from '@components/Breadcrumbs';
@@ -122,7 +122,7 @@ export default function FAQPage() {
               <div className="lg:col-span-1 space-y-6">
                 {/* Golf Course Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                  <Image
+                  <CdnImage
                     src="/images/amenities/resort-pool.jpeg"
                     alt="Sun City Summerlin championship golf courses"
                     fill
@@ -138,7 +138,7 @@ export default function FAQPage() {
 
                 {/* Recreation Center Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                  <Image
+                  <CdnImage
                     src="/images/amenities/clubhouse.jpeg"
                     alt="Sun City Summerlin recreation centers"
                     fill
@@ -154,7 +154,7 @@ export default function FAQPage() {
 
                 {/* Pool Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
-                  <Image
+                  <CdnImage
                     src="/images/amenities/resort-pool.jpeg"
                     alt="Sun City Summerlin pool and spa"
                     fill

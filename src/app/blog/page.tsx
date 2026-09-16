@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
@@ -208,7 +208,7 @@ function BlogCard({
       <article className="bg-white rounded-lg shadow-two hover:shadow-three transition-shadow overflow-hidden h-full flex flex-col">
         <Link href={`/blog/${post.slug}`}>
           <div className="relative h-48 bg-[#F7F6F4]">
-            <Image
+            <CdnImage
               src={post.image}
               alt={post.title}
               fill

@@ -1,5 +1,5 @@
 import type { Listing } from "@/types/listing";
-import Image from "next/image";
+import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import { Bed, Bath, Square, MapPin } from "lucide-react";
 import { Button } from "@components/ui/button";
@@ -48,7 +48,7 @@ function ListingCard({ listing }: { listing: Listing }) {
       {/* Image */}
       <div className="relative w-full h-64 bg-bg-light">
         {listing.imageUrl ? (
-          <Image
+          <CdnImage
             src={listing.imageUrl}
             alt={`${listing.address} - ${listing.bedrooms} bed, ${listing.bathrooms} bath`}
             fill
