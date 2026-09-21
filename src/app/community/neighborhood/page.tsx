@@ -20,11 +20,10 @@ import {
 export const metadata: Metadata = {
   title: "Explore Sun City Summerlin Neighborhood | Local Highlights & Map",
   description:
-    "Discover what the neighborhood offers—restaurants, schools, parks, healthcare, and shopping near Sun City Summerlin. Use our local-knowledge map to explore the area with Dr. Jan Duffy.",
+    "Discover restaurants, parks, healthcare, and shopping near Sun City Summerlin. Use our local-knowledge map to explore ZIP 89134 with Dr. Jan Duffy.",
   keywords: [
     "Sun City Summerlin neighborhood",
     "restaurants near Sun City Summerlin",
-    "schools Summerlin",
     "parks near Sun City Summerlin",
     "Summerlin healthcare",
     "Downtown Summerlin",
@@ -36,14 +35,14 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Explore Sun City Summerlin Neighborhood | Local Highlights & Map",
     description:
-      "Discover restaurants, schools, parks, healthcare, and shopping near Sun City Summerlin. Local knowledge to help you explore the area.",
+      "Discover restaurants, parks, healthcare, and shopping near Sun City Summerlin. Local knowledge to help you explore ZIP 89134.",
     url: "https://www.suncityvegas.com/community/neighborhood",
     siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
     locale: "en_US",
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",
+        url: "https://www.suncityvegas.com/images/blog/neighborhoods-hero.jpg",
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin neighborhood and local area",
@@ -53,8 +52,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Explore Sun City Summerlin Neighborhood | Local Highlights",
-    description: "Restaurants, schools, parks, healthcare, and shopping near Sun City Summerlin.",
-    images: ["https://www.suncityvegas.com/images/hero/hero-bg.jpg"],
+    description: "Restaurants, parks, healthcare, and shopping near Sun City Summerlin.",
+    images: ["https://www.suncityvegas.com/images/blog/neighborhoods-hero.jpg"],
   },
 };
 
@@ -73,11 +72,11 @@ const highlights = [
   },
   {
     icon: GraduationCap,
-    title: "Schools & Education",
+    title: "Colleges nearby",
     description:
-      "The Summerlin area is served by the Clark County School District, with highly rated schools nearby. Though Sun City Summerlin is 55+, many residents have grandchildren who visit—and local schools are a short drive away.",
+      "UNLV and the College of Southern Nevada are a 20–30 minute drive from Sun City Summerlin in ZIP 89134.",
     link: null,
-    items: ["Clark County School District", "Nearby elementary, middle, and high schools", "UNLV and CSN within 20–30 min"],
+    items: ["University of Nevada, Las Vegas", "College of Southern Nevada", "20–30 minute commute"],
   },
   {
     icon: TreePine,
@@ -120,7 +119,7 @@ export default function NeighborhoodPage() {
 
                 <PageHero
           title="Explore the Neighborhood"
-          subtitle="Get to know Sun City Summerlin with local knowledge. Discover restaurants, schools, parks, healthcare, and shopping—so you can see what the area really offers."
+          subtitle="Get to know ZIP 89134 with local knowledge. Restaurants, parks, healthcare, and shopping near Sun City Summerlin."
           imageSrc={pageHeroImages["community/neighborhood"].src}
           imageAlt={pageHeroImages["community/neighborhood"].alt}
         >
@@ -176,7 +175,7 @@ export default function NeighborhoodPage() {
                   What the Neighborhood Offers
                 </h2>
                 <p className="text-lg text-[#141210] text-center mb-12 max-w-2xl mx-auto">
-                  Local knowledge to help you explore restaurants, schools, parks, healthcare, and shopping near Sun City Summerlin.
+                  Local knowledge to help you explore restaurants, parks, healthcare, and shopping near Sun City Summerlin.
                 </p>
               </ScrollAnimation>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10">

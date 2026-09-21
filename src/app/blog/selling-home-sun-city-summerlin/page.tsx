@@ -78,8 +78,8 @@ export default function SellingHomeSunCitySummerlinPage() {
       <main className="pt-16 md:pt-20">
         <PageHero
           title="Selling a Home in Sun City Summerlin: Timing, Pricing, and Updates That Actually Pay Off (2026)"
-          imageSrc="/images/hero/hero-bg.jpg"
-          imageAlt="Selling a Home in Sun City Summerlin: Timing, Pricing, and Updates That Actually Pay Off (2026) — Sun City Summerlin Las Vegas 55+ community"
+          imageSrc="/images/blog/selling-home-hero.jpg"
+          imageAlt="Selling a staged single-story home in Sun City Summerlin, Las Vegas"
           align="left"
         >
           <div className="flex flex-wrap items-center gap-4 text-gray-100">

@@ -123,8 +123,8 @@ export default function FAQPage() {
                 {/* Golf Course Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                   <CdnImage
-                    src="/images/amenities/resort-pool.jpeg"
-                    alt="Sun City Summerlin championship golf courses"
+                    src="/images/faq/golf-courses.jpg"
+                    alt="Four championship golf courses at Sun City Summerlin in Las Vegas"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -139,8 +139,8 @@ export default function FAQPage() {
                 {/* Recreation Center Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                   <CdnImage
-                    src="/images/amenities/clubhouse.jpeg"
-                    alt="Sun City Summerlin recreation centers"
+                    src="/images/faq/rec-center.jpg"
+                    alt="Recreation centers at Sun City Summerlin 55+ community in Las Vegas"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 33vw"
@@ -155,8 +155,8 @@ export default function FAQPage() {
                 {/* Pool Image */}
                 <div className="relative aspect-[4/3] rounded-lg overflow-hidden shadow-lg">
                   <CdnImage
-                    src="/images/amenities/resort-pool.jpeg"
-                    alt="Sun City Summerlin pool and spa"
+                    src="/images/faq/resort-pool.jpg"
+                    alt="Resort pool and spa at Sun City Summerlin recreation centers in Las Vegas"
                     fill
                     className="object-cover"
                     sizes="(max-width: 1024px) 100vw, 33vw"

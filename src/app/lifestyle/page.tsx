@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/amenities/event-lawn-club.jpeg",
+        url: "https://www.suncityvegas.com/images/lifestyle/community-gathering.jpg",
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin community lifestyle",
@@ -50,7 +50,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Active Adult Lifestyle | Sun City Summerlin | 80+ Clubs & Activities",
     description: "Vibrant community life at Las Vegas' premier 55+ community.",
-    images: ["https://www.suncityvegas.com/images/amenities/event-lawn-club.jpeg"],
+    images: ["https://www.suncityvegas.com/images/lifestyle/community-gathering.jpg"],
   },
 };
 
@@ -185,8 +185,8 @@ export default function LifestylePage() {
                 <ScrollAnimation>
                   <div className="relative aspect-square rounded-lg overflow-hidden shadow-three bg-[#F7F6F4]">
                     <CdnImage
-                      src="/images/amenities/event-lawn-club.jpeg"
-                      alt="Community events and gatherings at Sun City Summerlin"
+                      src="/images/lifestyle/community-gathering.jpg"
+                      alt="Active adults gathering in Sun City Summerlin, Las Vegas 55+ community"
                       fill
                       className="object-cover"
                       placeholder="blur"

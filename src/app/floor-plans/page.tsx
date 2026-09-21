@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/hero/community-sign.jpg",
+        url: "https://www.suncityvegas.com/images/blog/floor-plans-hero.jpg",
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin home styles",
@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Home Styles & Sizes | Sun City Summerlin | 1,000-3,500+ Sq Ft Resale Homes",
     description: "Explore the variety of single-story homes in Las Vegas' premier 55+ community.",
-    images: ["https://www.suncityvegas.com/images/hero/community-sign.jpg"],
+    images: ["https://www.suncityvegas.com/images/blog/floor-plans-hero.jpg"],
   },
 };
 

@@ -78,8 +78,8 @@ export default function What55BuyersSpendPage() {
       <main className="pt-16 md:pt-20">
         <PageHero
           title="What 55+ Buyers Actually Spend Each Month in Sun City Summerlin (2026)"
-          imageSrc="/images/hero/hero-bg.jpg"
-          imageAlt="What 55+ Buyers Actually Spend Each Month in Sun City Summerlin (2026) — Sun City Summerlin Las Vegas 55+ community"
+          imageSrc="/images/blog/monthly-budget-hero.jpg"
+          imageAlt="Monthly housing costs for 55+ buyers in Sun City Summerlin, Las Vegas"
           align="left"
         >
           <div className="flex flex-wrap items-center gap-4 text-gray-100">

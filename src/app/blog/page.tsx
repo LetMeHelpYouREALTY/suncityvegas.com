@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",
+        url: "https://www.suncityvegas.com/images/heroes/blog-hero.jpg",
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin blog",
@@ -38,14 +38,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Blog | Sun City Summerlin | Dr. Jan Duffy",
     description: "Community news and insights about Las Vegas' premier 55+ community.",
-    images: ["https://www.suncityvegas.com/images/hero/hero-bg.jpg"],
+    images: ["https://www.suncityvegas.com/images/heroes/blog-hero.jpg"],
   },
 };
 
-// Use existing hero image until blog-specific images are in public/images/blog/
-const BLOG_CARD_IMAGE = "/images/hero/hero-bg.jpg";
-
-// Sample blog posts - replace with actual content from CMS or API
 const blogPosts = [
   {
     slug: "pros-and-cons-sun-city-summerlin",
@@ -53,7 +49,7 @@ const blogPosts = [
     excerpt:
       "An honest look at Sun City Summerlin pros and cons from Dr. Jan Duffy, a 30-year Las Vegas real estate expert. What you need to know before buying a home in this 55+ community.",
     date: "2026-01-27",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/pros-cons-hero.jpg",
     category: "Pillar Guide",
   },
   {
@@ -71,7 +67,7 @@ const blogPosts = [
     excerpt:
       "Compare Sun City Summerlin and Sun City Anthem, two of Las Vegas' premier 55+ communities. Learn the differences in location, amenities, home prices, HOA fees, and lifestyle.",
     date: "2025-01-26",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/comparison-hero.jpg",
     category: "Community Comparison",
   },
   {
@@ -80,7 +76,7 @@ const blogPosts = [
     excerpt:
       "Compare Sun City Summerlin to Aliante, Siena, and other Las Vegas 55+ communities. Location, amenities, HOA fees, and lifestyle from Dr. Jan Duffy.",
     date: "2026-01-27",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/vs-other-55-hero.jpg",
     category: "Pillar Guide",
   },
   {
@@ -89,7 +85,7 @@ const blogPosts = [
     excerpt:
       "Real monthly costs for 55+ buyers: HOA fees, utilities, property taxes, and more. Budget accurately with Dr. Jan Duffy.",
     date: "2026-01-27",
-    image: "/images/blog/hoa-fees-hero.jpg",
+    image: "/images/blog/monthly-budget-hero.jpg",
     category: "Pillar Guide",
   },
   {
@@ -98,7 +94,7 @@ const blogPosts = [
     excerpt:
       "When to sell, how to price, and which updates actually pay off. Expert selling advice from Dr. Jan Duffy.",
     date: "2026-01-27",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/selling-home-hero.jpg",
     category: "Pillar Guide",
   },
   {
@@ -107,7 +103,7 @@ const blogPosts = [
     excerpt:
       "Explore Sun City Summerlin floor plans from 1,200 to 3,500+ sq ft. Learn about single-story designs, popular models, and find the perfect home layout for your 55+ lifestyle.",
     date: "2025-01-26",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/floor-plans-hero.jpg",
     category: "Home Guide",
   },
   {
@@ -125,7 +121,7 @@ const blogPosts = [
     excerpt:
       "Is Sun City Summerlin safe? Learn about crime rates, security measures, guard-gated access, and why this 55+ community is one of Las Vegas' safest neighborhoods.",
     date: "2025-01-26",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/safety-hero.jpg",
     category: "Safety Guide",
   },
   {
@@ -143,7 +139,7 @@ const blogPosts = [
     excerpt:
       "Discover what makes Sun City Summerlin Las Vegas' premier 55+ community. From 4 golf courses to 3 recreation centers, learn why so many active adults choose to call this place home.",
     date: "2024-01-15",
-    image: "/images/blog/blog-01.jpg",
+    image: "/images/blog/welcome.jpg",
     category: "Community",
   },
   {
@@ -152,7 +148,7 @@ const blogPosts = [
     excerpt:
       "Explore the four championship golf courses at Sun City Summerlin: Highland Falls, Palm Valley, Eagle Crest, and Stonebridge. Each offers unique challenges with stunning Red Rock views.",
     date: "2024-01-10",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/golf-courses-hero.jpg",
     category: "Golf",
   },
   {
@@ -161,7 +157,7 @@ const blogPosts = [
     excerpt:
       "Nevada's lack of state income tax is a major draw for retirees. Discover how moving to Nevada can help your retirement dollars stretch further.",
     date: "2024-01-05",
-    image: "/images/blog/blog-03.jpg",
+    image: "/images/blog/taxes.jpg",
     category: "Lifestyle",
   },
   {
@@ -170,7 +166,7 @@ const blogPosts = [
     excerpt:
       "From golf leagues to book clubs, discover the wide variety of clubs and activities available at Sun City Summerlin. There's truly something for everyone.",
     date: "2023-12-20",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/clubs-activities-hero.jpg",
     category: "Lifestyle",
   },
   {
@@ -179,7 +175,7 @@ const blogPosts = [
     excerpt:
       "Explore the three world-class recreation centers: Mountain Shadows, Desert Vista, and Pinnacle. Together they offer over 125,000 sq ft of amenities.",
     date: "2023-12-15",
-    image: "/images/blog/post-02.jpg",
+    image: "/images/blog/recreation-centers-hero.jpg",
     category: "Amenities",
   },
   {
@@ -188,7 +184,7 @@ const blogPosts = [
     excerpt:
       "Hear from residents about why they chose Sun City Summerlin. Learn what they love about the community, the lifestyle, and their neighbors.",
     date: "2023-12-10",
-    image: BLOG_CARD_IMAGE,
+    image: "/images/blog/why-choose-hero.jpg",
     category: "Community",
   },
 ];

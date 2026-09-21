@@ -1,5 +1,5 @@
 /**
- * Hero image paths for interior pages.
+ * Hero image paths for interior pages — unique photo per H1.
  * Fallback: /images/hero/hero-bg.jpg
  */
 
@@ -12,16 +12,16 @@ export const pageHeroImages = {
     alt: "Dr. Jan Duffy advising clients on Sun City Summerlin homes in Las Vegas",
   },
   services: {
-    src: "/images/explore/contact.jpg",
-    alt: "Sun City Summerlin real estate services consultation in Las Vegas 89134",
+    src: "/images/heroes/services-hero.jpg",
+    alt: "Real estate services consultation for Sun City Summerlin 55+ homes in Las Vegas",
   },
   contact: {
     src: "/images/explore/contact.jpg",
-    alt: "Sun City Summerlin clubhouse contact and tour meeting location",
+    alt: "Sun City Summerlin clubhouse contact and tour meeting location in Las Vegas",
   },
   schedule: {
-    src: "/images/explore/contact.jpg",
-    alt: "Schedule a Sun City Summerlin home tour with Dr. Jan Duffy",
+    src: "/images/heroes/schedule-hero.jpg",
+    alt: "Schedule a private home tour in Sun City Summerlin, Las Vegas 55+ community",
   },
   "homes-for-sale": {
     src: "/images/explore/homes-for-sale.jpg",
@@ -29,31 +29,31 @@ export const pageHeroImages = {
   },
   "home-value": {
     src: "/images/homes/mid-size.jpg",
-    alt: "Sun City Summerlin home exterior for free home value estimate",
+    alt: "Sun City Summerlin home exterior for a free home value estimate in Las Vegas",
   },
   selling: {
-    src: "/images/homes/spacious.jpg",
-    alt: "Luxury Sun City Summerlin home ready for sale in Las Vegas",
+    src: "/images/heroes/selling-hero.jpg",
+    alt: "Staged single-story Sun City Summerlin home ready for sale in Las Vegas",
   },
   community: {
     src: "/images/hero/community-entrance.jpg",
-    alt: "Sun City Summerlin community entrance with mountain views",
+    alt: "Sun City Summerlin community entrance with Red Rock mountain views",
   },
   "community/neighborhood": {
     src: "/images/blog/neighborhoods-hero.jpg",
-    alt: "Sun City Summerlin neighborhood streets and residences",
+    alt: "Sun City Summerlin neighborhood streets and residences in Las Vegas 89134",
   },
   "community/history": {
     src: "/images/community/history-hero.jpg",
     alt: "Historic Sun City Summerlin Del Webb community in Las Vegas",
   },
   amenities: {
-    src: "/images/amenities/golf-hero.jpg",
-    alt: "Sun City Summerlin golf and amenity lifestyle in Las Vegas",
+    src: "/images/amenities/amenities-overview-hero.jpg",
+    alt: "Golf, recreation centers, and clubs at Sun City Summerlin in Las Vegas",
   },
   "amenities/golf": {
     src: "/images/amenities/golf-hero.jpg",
-    alt: "Golf courses at Sun City Summerlin Las Vegas",
+    alt: "Golf courses at Sun City Summerlin Las Vegas 55+ community",
   },
   "amenities/desert-vista": {
     src: "/images/amenities/desert-vista-hero.jpg",
@@ -88,12 +88,12 @@ export const pageHeroImages = {
     alt: "Dining near Sun City Summerlin in Summerlin Las Vegas",
   },
   blog: {
-    src: "/images/hero/hero-bg.jpg",
-    alt: "Sun City Summerlin real estate insights and market blog",
+    src: "/images/heroes/blog-hero.jpg",
+    alt: "Sun City Summerlin real estate insights and 55+ living blog in Las Vegas",
   },
   resources: {
-    src: "/images/resources/moving-guide-hero.jpg",
-    alt: "Sun City Summerlin buyer and seller resources",
+    src: "/images/resources/resources-hero.jpg",
+    alt: "Buyer and seller resources for Sun City Summerlin in Las Vegas",
   },
   "resources/market-insights": {
     src: "/images/resources/market-insights-hero.jpg",
@@ -112,19 +112,19 @@ export const pageHeroImages = {
     alt: "Sun City Summerlin home styles and floor plans",
   },
   flyers: {
-    src: "/images/hero/community-sign.jpg",
-    alt: "Sun City Summerlin free guides and flyers",
+    src: "/images/heroes/flyers-hero.jpg",
+    alt: "Sun City Summerlin community flyers and brochures for Las Vegas 55+ buyers",
   },
   faq: {
     src: "/images/explore/faq.jpg",
     alt: "Frequently asked questions about Sun City Summerlin",
   },
   testimonials: {
-    src: "/images/about/about-image-2.jpg",
-    alt: "Happy Sun City Summerlin homeowners with Dr. Jan Duffy in Las Vegas",
+    src: "/images/heroes/testimonials-hero.jpg",
+    alt: "Happy Sun City Summerlin homeowners in Las Vegas 55+ community",
   },
   review: {
-    src: "/images/about/about-image-2.jpg",
+    src: "/images/heroes/review-hero.jpg",
     alt: "Leave a Google review for Dr. Jan Duffy, Sun City Summerlin REALTOR®",
   },
   about_fallback: {

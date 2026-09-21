@@ -78,8 +78,8 @@ export default function SunCityVsOther55CommunitiesPage() {
       <main className="pt-16 md:pt-20">
         <PageHero
           title="Sun City Summerlin vs Other Las Vegas 55+ Communities (2026)"
-          imageSrc="/images/hero/hero-bg.jpg"
-          imageAlt="Sun City Summerlin vs Other Las Vegas 55+ Communities (2026) — Sun City Summerlin Las Vegas 55+ community"
+          imageSrc="/images/blog/vs-other-55-hero.jpg"
+          imageAlt="Sun City Summerlin compared with other Las Vegas 55+ communities"
           align="left"
         >
           <div className="flex flex-wrap items-center gap-4 text-gray-100">

@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",
+        url: "https://www.suncityvegas.com/images/hero/community-entrance.jpg",
         width: 1200,
         height: 630,
         alt: "Sun City Summerlin community overview",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin Community Guide | Las Vegas 55+ Community",
     description: "Complete guide to Las Vegas' premier 55+ active adult community.",
-    images: ["https://www.suncityvegas.com/images/hero/hero-bg.jpg"],
+    images: ["https://www.suncityvegas.com/images/hero/community-entrance.jpg"],
   },
 };
 

@@ -47,7 +47,7 @@ const blogPosts: Record<
     excerpt:
       "Explore the four championship golf courses at Sun City Summerlin.",
     date: "2024-01-10",
-    image: "/images/blog/single-story.jpg",
+    image: "/images/blog/golf-courses-hero.jpg",
     category: "Golf",
     content: `
       <p>Sun City Summerlin is a golfer's paradise with four championship courses right in the community.</p>
@@ -94,7 +94,7 @@ const blogPosts: Record<
     excerpt:
       "Discover the wide variety of clubs and activities available at Sun City Summerlin.",
     date: "2023-12-20",
-    image: "/images/blog/clubs.jpg",
+    image: "/images/blog/clubs-activities-hero.jpg",
     category: "Lifestyle",
     content: `
       <p>One of the best parts of living in a 55+ community is the built-in social network. At Sun City Summerlin, there are over 80 clubs and activities to choose from.</p>
@@ -116,7 +116,7 @@ const blogPosts: Record<
     excerpt:
       "Explore the three world-class recreation centers at Sun City Summerlin.",
     date: "2023-12-15",
-    image: "/images/blog/floor-plans.jpg",
+    image: "/images/blog/recreation-centers-hero.jpg",
     category: "Amenities",
     content: `
       <p>Sun City Summerlin offers three recreation centers totaling over 125,000 square feet of amenities. Here's what each one offers.</p>
@@ -141,7 +141,7 @@ const blogPosts: Record<
     excerpt:
       "Hear from residents about why they chose Sun City Summerlin.",
     date: "2023-12-10",
-    image: "/images/blog/first-year.jpg",
+    image: "/images/blog/why-choose-hero.jpg",
     category: "Community",
     content: `
       <p>We spoke with several residents about why they chose Sun City Summerlin. Here's what they had to say.</p>
