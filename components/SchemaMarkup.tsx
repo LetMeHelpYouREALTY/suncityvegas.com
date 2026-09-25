@@ -19,7 +19,7 @@ export default function SchemaMarkup() {
     foundingDate: siteConfig.agent.openingDate,
     address: {
       '@type': 'PostalAddress',
-      streetAddress: '9406 Del Webb Boulevard',
+      streetAddress: '9406 Del Webb Blvd',
       addressLocality: 'Las Vegas',
       addressRegion: 'NV',
       postalCode: '89134',

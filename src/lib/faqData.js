@@ -205,7 +205,7 @@ export const contactFaqs = [
   {
     question: "How do I schedule a Sun City Summerlin tour with Dr. Jan Duffy?",
     answer:
-      "Call (702) 718-0043, book a 15-minute consultation online, or use the contact form. Tours start at 9406 Del Webb Boulevard, Las Vegas, NV 89134.",
+      "Call (702) 718-0043, book a 15-minute consultation online, or use the contact form. Tours start at 9406 Del Webb Blvd, Las Vegas, NV 89134.",
   },
   {
     question: "What are the office hours?",
@@ -215,7 +215,7 @@ export const contactFaqs = [
   {
     question: "Where is the office on Google Maps?",
     answer:
-      "Search Dr. Jan Duffy Sun City Summerlin at 9406 Del Webb Boulevard, Las Vegas, NV 89134, or use Get Directions from this site.",
+      "Search Dr. Jan Duffy Sun City Summerlin at 9406 Del Webb Blvd, Las Vegas, NV 89134, or use Get Directions from this site.",
   },
 ];
 

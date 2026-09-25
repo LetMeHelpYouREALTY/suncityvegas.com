@@ -134,7 +134,7 @@ export const services: Service[] = [
       {
         question: "Will you tour homes with me in Las Vegas?",
         answer:
-          "Yes. Schedule a private tour at 9406 Del Webb Boulevard or call (702) 718-0043. Online appointments are available; walk-ins are welcome during business hours.",
+          "Yes. Schedule a private tour at 9406 Del Webb Blvd or call (702) 718-0043. Online appointments are available; walk-ins are welcome during business hours.",
       },
     ],
     relatedSlugs: ["home-buying-sales", "hoa-navigation", "new-construction-sales-leasing"],

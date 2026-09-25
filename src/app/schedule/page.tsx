@@ -84,7 +84,7 @@ export default function SchedulePage() {
                   <h3 className="font-semibold text-[#1C1917] mb-2">Location</h3>
                   <p className="text-[#141210]">Sun City Summerlin</p>
                   <p className="text-sm text-gray-600 mt-1">
-                    9406 Del Webb Boulevard, Las Vegas, NV 89134
+                    9406 Del Webb Blvd, Las Vegas, NV 89134
                   </p>
                 </div>
                 <div className="text-center p-6 bg-[#F7F6F4] rounded-lg">
@@ -150,7 +150,7 @@ export default function SchedulePage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Start your tour at 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Start your tour at 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

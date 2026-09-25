@@ -181,7 +181,7 @@ export default function ServicesIndexPage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Real estate services at 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Real estate services at 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

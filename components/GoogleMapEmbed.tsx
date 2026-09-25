@@ -13,7 +13,7 @@ type GoogleMapEmbedProps = {
  * Uses the public maps output=embed URL pointed at the canonical NAP.
  */
 export default function GoogleMapEmbed({
-  title = "Google Map of Dr. Jan Duffy at Sun City Summerlin, 9406 Del Webb Boulevard, Las Vegas, NV 89134",
+  title = "Google Map of Dr. Jan Duffy at Sun City Summerlin, 9406 Del Webb Blvd, Las Vegas, NV 89134",
   query,
   className,
   heightClassName = "h-[360px] md:h-[420px]",

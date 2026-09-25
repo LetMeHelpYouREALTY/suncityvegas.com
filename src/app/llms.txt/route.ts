@@ -15,7 +15,7 @@ Dr. Jan Duffy is a Nevada-licensed REALTOR® (S.0197614.LLC) with Berkshire Hath
 - **License:** Nevada S.0197614.LLC
 - **Phone:** (702) 718-0043
 - **SMS:** sms:+17027180043
-- **Address:** 9406 Del Webb Boulevard, Las Vegas, NV 89134
+- **Address:** 9406 Del Webb Blvd, Las Vegas, NV 89134
 - **Hours:** Daily 8:00 AM–8:00 PM
 - **Website:** ${baseUrl}
 ## Services

@@ -135,7 +135,7 @@ export default function FlyersPage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Pick up community guides at 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Pick up community guides at 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

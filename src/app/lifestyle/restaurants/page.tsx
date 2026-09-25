@@ -313,7 +313,7 @@ export default function RestaurantsPage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Start at 9406 Del Webb Boulevard, then dine nearby" />
+      <LocalVisitSection heading="Start at 9406 Del Webb Blvd, then dine nearby" />
       <Footer />
     </>
   );

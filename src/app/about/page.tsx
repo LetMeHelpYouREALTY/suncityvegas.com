@@ -254,7 +254,7 @@ export default function AboutPage() {
                   <MapPin className="w-8 h-8 text-[#1C1917] mx-auto mb-4" />
                   <h3 className="font-semibold text-[#1C1917] mb-2">Location</h3>
                   <p className="text-[#141210] text-sm">
-                    9406 Del Webb Boulevard
+                    9406 Del Webb Blvd
                     <br />
                     Las Vegas, NV 89134
                   </p>

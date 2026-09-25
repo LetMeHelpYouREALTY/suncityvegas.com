@@ -10,8 +10,8 @@ export const siteConfig = {
   city: "Las Vegas",
   state: "NV",
   zip: "89134",
-  address: "9406 Del Webb Boulevard, Las Vegas, NV 89134",
-  streetAddress: "9406 Del Webb Boulevard",
+  address: "9406 Del Webb Blvd, Las Vegas, NV 89134",
+  streetAddress: "9406 Del Webb Blvd",
 
   // Canonical NAP (use for display and tel: links) – matches GBP
   phoneDisplay: "(702) 718-0043",

@@ -144,7 +144,7 @@ export default function RootLayout({
     foundingDate: siteConfig.agent.openingDate,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Boulevard",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: siteConfig.city,
       addressRegion: siteConfig.state,
       postalCode: siteConfig.zip,
@@ -267,7 +267,7 @@ export default function RootLayout({
     description: "Del Webb's premier 55+ active adult community in Las Vegas, Nevada featuring 4 golf courses, 3 recreation centers, and 80+ clubs and activities.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Boulevard",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: "Las Vegas",
       addressRegion: "NV",
       postalCode: "89134",

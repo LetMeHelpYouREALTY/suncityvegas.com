@@ -585,7 +585,7 @@ export default function MountainShadowsPage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Tour Mountain Shadows from 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Tour Mountain Shadows from 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

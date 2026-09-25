@@ -93,7 +93,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
       telephone: "+1-702-718-0043",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "9406 Del Webb Boulevard",
+        streetAddress: "9406 Del Webb Blvd",
         addressLocality: "Las Vegas",
         addressRegion: "NV",
         postalCode: "89134",
@@ -300,7 +300,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
                 <MapPin className="w-6 h-6 text-[#1C1917] mb-3" aria-hidden />
                 <h3 className="font-semibold text-[#1C1917] mb-2">Office</h3>
                 <p className="text-[#141210]">
-                  9406 Del Webb Boulevard
+                  9406 Del Webb Blvd
                   <br />
                   Las Vegas, NV 89134
                 </p>
@@ -333,7 +333,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Discuss this service at 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Discuss this service at 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

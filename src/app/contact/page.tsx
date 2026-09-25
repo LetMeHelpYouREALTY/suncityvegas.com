@@ -49,7 +49,7 @@ export const metadata: Metadata = {
 };
 
 // Directions: Google Maps Embed API (directions mode). Destination = Sun City Summerlin (NAP).
-const DIRECTIONS_DESTINATION = "9406 Del Webb Boulevard, Las Vegas, NV 89134";
+const DIRECTIONS_DESTINATION = "9406 Del Webb Blvd, Las Vegas, NV 89134";
 const DIRECTIONS_ORIGIN_STRIP = "Las Vegas Strip, Las Vegas, NV";
 const DIRECTIONS_ORIGIN_AIRPORT = "Harry Reid International Airport, Las Vegas, NV";
 
@@ -138,7 +138,7 @@ function DirectionsSection() {
           </div>
 
           <GoogleMapEmbed
-            title="Google Map pin for Dr. Jan Duffy at 9406 Del Webb Boulevard, Las Vegas, NV 89134"
+            title="Google Map pin for Dr. Jan Duffy at 9406 Del Webb Blvd, Las Vegas, NV 89134"
             heightClassName="h-[400px] md:h-[450px]"
           />
 
@@ -284,7 +284,7 @@ export default function ContactPage() {
                             Sun City Summerlin
                           </h3>
                           <p className="text-[#141210]">
-                            9406 Del Webb Boulevard
+                            9406 Del Webb Blvd
                             <br />
                             Las Vegas, NV 89134
                           </p>
@@ -364,7 +364,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <LocalVisitSection heading="Call, map, and tour from 9406 Del Webb Boulevard" />
+      <LocalVisitSection heading="Call, map, and tour from 9406 Del Webb Blvd" />
       <Footer />
     </>
   );

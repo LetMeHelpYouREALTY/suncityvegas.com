@@ -156,7 +156,7 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
       email: "DrDuffySells@SunCityVegas.com",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "9406 Del Webb Boulevard",
+        streetAddress: "9406 Del Webb Blvd",
         addressLocality: "Las Vegas",
         addressRegion: "NV",
         postalCode: "89134",
@@ -216,7 +216,7 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
       description: "Las Vegas' premier 55+ active adult community featuring 4 golf courses, 3 recreation centers, and 80+ clubs.",
       address: {
         "@type": "PostalAddress",
-        streetAddress: "9406 Del Webb Boulevard",
+        streetAddress: "9406 Del Webb Blvd",
         addressLocality: "Las Vegas",
         addressRegion: "NV",
         postalCode: "89134",
@@ -492,7 +492,7 @@ export default async function FlyerPage({
               <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                 {/* Map Embed */}
                 <GoogleMapEmbed
-                  title="Google Map of Sun City Summerlin at 9406 Del Webb Boulevard, Las Vegas, NV 89134"
+                  title="Google Map of Sun City Summerlin at 9406 Del Webb Blvd, Las Vegas, NV 89134"
                   heightClassName="h-[400px]"
                 />
 
@@ -518,7 +518,7 @@ export default async function FlyerPage({
                     <p className="text-sm text-[#141210] flex items-start gap-2">
                       <MapPin className="w-4 h-4 mt-0.5 text-[#1C1917] flex-shrink-0" />
                       <span>
-                        <strong>Address:</strong> 9406 Del Webb Boulevard, Las Vegas, NV 89134
+                        <strong>Address:</strong> 9406 Del Webb Blvd, Las Vegas, NV 89134
                       </span>
                     </p>
                   </div>
@@ -613,7 +613,7 @@ export default async function FlyerPage({
                       </div>
                       <div>
                         <p className="text-sm text-[#141210]/70">Meeting Location</p>
-                        <p className="font-semibold text-[#1C1917]">9406 Del Webb Boulevard, Las Vegas, NV 89134</p>
+                        <p className="font-semibold text-[#1C1917]">9406 Del Webb Blvd, Las Vegas, NV 89134</p>
                       </div>
                     </div>
                   </div>

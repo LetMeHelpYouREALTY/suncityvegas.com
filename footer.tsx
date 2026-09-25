@@ -101,7 +101,7 @@ export default function Footer() {
                 <div className="flex items-start gap-2 text-gray-300">
                   <MapPin className="w-4 h-4 mt-1 flex-shrink-0" />
                   <span>
-                    9406 Del Webb Boulevard
+                    9406 Del Webb Blvd
                     <br />
                     Las Vegas, NV 89134
                   </span>
