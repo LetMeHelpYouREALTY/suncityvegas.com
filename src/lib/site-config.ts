@@ -41,15 +41,15 @@ export const siteConfig = {
   },
   
   // Business Hours (matching GBP)
-  hoursDisplay: "Daily 6:00 AM–9:00 PM",
+  hoursDisplay: "Daily 8:00 AM–8:00 PM",
   businessHours: {
-    sunday: { open: "06:00", close: "21:00" },
-    monday: { open: "06:00", close: "21:00" },
-    tuesday: { open: "06:00", close: "21:00" },
-    wednesday: { open: "06:00", close: "21:00" },
-    thursday: { open: "06:00", close: "21:00" },
-    friday: { open: "06:00", close: "21:00" },
-    saturday: { open: "06:00", close: "21:00" }
+    sunday: { open: "08:00", close: "20:00" },
+    monday: { open: "08:00", close: "20:00" },
+    tuesday: { open: "08:00", close: "20:00" },
+    wednesday: { open: "08:00", close: "20:00" },
+    thursday: { open: "08:00", close: "20:00" },
+    friday: { open: "08:00", close: "20:00" },
+    saturday: { open: "08:00", close: "20:00" }
   },
   geo: {
     latitude: "36.2108",

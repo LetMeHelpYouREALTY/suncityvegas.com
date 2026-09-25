@@ -83,7 +83,7 @@ export default function ServicesAeoSection() {
           >
             Dr. Jan Duffy is the licensed real estate agent for Sun City Summerlin 55+ homes in
             Las Vegas, NV 89134. Services cover buying, selling, HOA review, VA benefits,
-            relocation, luxury marketing, and market analysis. Office hours are 6:00 AM–9:00 PM
+            relocation, luxury marketing, and market analysis. Office hours are 8:00 AM–8:00 PM
             daily at 9406 Del Webb Boulevard. Call{" "}
             <a href="tel:+17027180043" className="text-[#1C1917] font-semibold hover:underline">
               (702) 718-0043

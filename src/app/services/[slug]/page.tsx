@@ -316,9 +316,9 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
               <div className="bg-[#F7F6F4] rounded-lg p-6">
                 <Clock className="w-6 h-6 text-[#1C1917] mb-3" aria-hidden />
                 <h3 className="font-semibold text-[#1C1917] mb-2">Hours</h3>
-                <p className="text-[#141210]">Daily 6:00 AM–9:00 PM</p>
+                <p className="text-[#141210]">Daily 8:00 AM–8:00 PM</p>
                 <p className="text-sm text-[#141210] mt-2">
-                  Closed July 3–4, 2026. Appointment not required.
+                  Appointment not required.
                 </p>
               </div>
             </div>

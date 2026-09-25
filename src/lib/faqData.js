@@ -210,7 +210,7 @@ export const contactFaqs = [
   {
     question: "What are the office hours?",
     answer:
-      "Dr. Jan Duffy is available daily from 6:00 AM to 9:00 PM, matching the Google Business Profile hours.",
+      "Dr. Jan Duffy is available daily from 8:00 AM to 8:00 PM, matching the Google Business Profile hours.",
   },
   {
     question: "Where is the office on Google Maps?",

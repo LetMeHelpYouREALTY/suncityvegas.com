@@ -183,8 +183,8 @@ export default function RootLayout({
       {
         "@type": "OpeningHoursSpecification",
         dayOfWeek: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-        opens: "06:00",
-        closes: "21:00",
+        opens: "08:00",
+        closes: "20:00",
       },
     ],
     accessibilityFeature: ["WheelchairAccessibleEntrance", "WheelchairAccessibleSeating", "WheelchairAccessibleRestroom", "WheelchairAccessibleParking"],
@@ -215,22 +215,6 @@ export default function RootLayout({
       siteConfig.social.pinterest,
       siteConfig.social.tiktok,
       siteConfig.social.twitter,
-    ],
-    specialOpeningHoursSpecification: [
-      {
-        "@type": "OpeningHoursSpecification",
-        validFrom: "2026-07-03",
-        validThrough: "2026-07-03",
-        opens: "00:00",
-        closes: "00:00",
-      },
-      {
-        "@type": "OpeningHoursSpecification",
-        validFrom: "2026-07-04",
-        validThrough: "2026-07-04",
-        opens: "00:00",
-        closes: "00:00",
-      },
     ],
     aggregateRating: {
       "@type": "AggregateRating",

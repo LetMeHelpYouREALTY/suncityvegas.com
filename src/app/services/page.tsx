@@ -97,7 +97,7 @@ export default function ServicesIndexPage() {
           imageAlt={pageHeroImages.services.alt}
         >
           <p className="text-base text-gray-100">
-            {siteConfig.address} · Daily 6:00 AM–9:00 PM ·{" "}
+            {siteConfig.address} · Daily 8:00 AM–8:00 PM ·{" "}
             <a href="tel:+17027180043" className="underline hover:text-[#C9A962]">
               (702) 718-0043
             </a>

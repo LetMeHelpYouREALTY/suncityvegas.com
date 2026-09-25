@@ -19,7 +19,7 @@
 - **Business Name:** "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy"
 - **Business Description:** Updated to match GBP description
 - **Opening Date:** September 20, 2013
-- **Business Hours:** 6:00 AM - 9:00 PM, all days
+- **Business Hours:** 8:00 AM - 8:00 PM, all days
 - **Status:** ✅ All updated in schema markup and site config
 
 ### 4. Social Media Links

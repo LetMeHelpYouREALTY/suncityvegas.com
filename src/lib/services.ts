@@ -959,7 +959,7 @@ export const services: Service[] = [
       {
         question: "How do I start a sale?",
         answer:
-          "Call or text (702) 718-0043, or book at suncityvegas.com/contact. Hours are 6:00 AM–9:00 PM daily.",
+          "Call or text (702) 718-0043, or book at suncityvegas.com/contact. Hours are 8:00 AM–8:00 PM daily.",
       },
     ],
     relatedSlugs: ["sellers-agent-services", "home-buying-sales", "property-buying-sales"],
