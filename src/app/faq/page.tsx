@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: 'https://www.suncityvegas.com/images/amenities/resort-pool.jpeg',
+        url: 'https://www.suncityvegas.com/images/explore/faq.jpg',
         width: 1200,
         height: 630,
-        alt: 'Sun City Summerlin FAQ',
+        alt: 'Frequently asked questions about Sun City Summerlin 55+ homes in Las Vegas',
       },
     ],
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Frequently Asked Questions | Sun City Summerlin | Dr. Jan Duffy',
     description: 'Find answers to frequently asked questions about Sun City Summerlin 55+ community.',
-    images: ['https://www.suncityvegas.com/images/amenities/resort-pool.jpeg'],
+    images: ['https://www.suncityvegas.com/images/explore/faq.jpg'],
   },
 };
 
@@ -172,7 +172,7 @@ export default function FAQPage() {
                 <div className="bg-[#F7F6F4] p-6 rounded-lg shadow-lg">
                   <h3 className="text-lg font-bold text-[#1C1917] mb-4 font-playfair">Quick Facts</h3>
                   <ul className="space-y-2 text-[#141210]">
-                    <li><strong>Homes:</strong> 7,779</li>
+                    <li><strong>Homes:</strong> 7,781</li>
                     <li><strong>Built:</strong> 1989-2002</li>
                     <li><strong>HOA Fee:</strong> ~$165/month</li>
                     <li><strong>Clubs:</strong> 80+</li>

@@ -31,7 +31,7 @@ export default function SolutionSection() {
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4 md:space-y-6">
                   <p className="text-base sm:text-lg md:text-xl text-[#141210] leading-relaxed px-2">
-                    Sun City Summerlin is Las Vegas&apos; premier 55+ community: 7,779 homes, four
+                    Sun City Summerlin is Las Vegas&apos; premier 55+ community: 7,781 homes, four
                     championship golf courses, and three recreation centers—built for people who
                     want to live, not just exist.
                   </p>

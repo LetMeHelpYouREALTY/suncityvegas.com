@@ -202,7 +202,7 @@ export default function AboutPage() {
                   Sun City Summerlin is Las Vegas&apos; premier 55+ active adult community, 
                   developed by Del Webb between 1989 and 2002. Nestled against the 
                   stunning Red Rock Canyon, this guard-gated community spans 2,400 acres 
-                  and is home to 7,779 residences.
+                  and is home to 7,781 residences.
                 </p>
                 <p>
                   The community features <strong>4 championship golf courses</strong> including 

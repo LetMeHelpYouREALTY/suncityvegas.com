@@ -11,7 +11,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title="Our Latest Blogs"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Sun City Summerlin 55+ market notes, HOA details, and relocation guides for Las Vegas buyers working with Dr. Jan Duffy."
           center
         />
 

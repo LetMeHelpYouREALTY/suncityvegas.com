@@ -36,10 +36,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/amenities/resort-pool.jpeg",
+        url: "https://www.suncityvegas.com/images/explore/homes-for-sale.jpg",
         width: 1200,
         height: 630,
-        alt: "Sun City Summerlin Del Webb homes for sale",
+        alt: "Homes for sale in Sun City Summerlin Las Vegas 55+ community",
       },
     ],
   },
@@ -47,7 +47,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin Las Vegas NV 89134 Homes for Sale | Del Webb Summerlin",
     description: "Current homes for sale in Sun City Summerlin 55+ community, Las Vegas NV 89134. Del Webb Summerlin.",
-    images: ["https://www.suncityvegas.com/images/amenities/resort-pool.jpeg"],
+    images: ["https://www.suncityvegas.com/images/explore/homes-for-sale.jpg"],
   },
 };
 

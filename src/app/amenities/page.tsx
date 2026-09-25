@@ -38,10 +38,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/amenities/resort-pool.jpeg",
+        url: "https://www.suncityvegas.com/images/amenities/amenities-overview-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Sun City Summerlin resort-style amenities",
+        alt: "Golf, recreation centers, and clubs at Sun City Summerlin in Las Vegas",
       },
     ],
   },
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Amenities | Sun City Summerlin | 4 Golf Courses & 3 Rec Centers",
     description: "World-class amenities at Las Vegas' premier 55+ community.",
-    images: ["https://www.suncityvegas.com/images/amenities/resort-pool.jpeg"],
+    images: ["https://www.suncityvegas.com/images/amenities/amenities-overview-hero.jpg"],
   },
 };
 
@@ -285,7 +285,7 @@ export default function AmenitiesPage() {
                 </h2>
               </div>
               <p className="text-[#141210] text-center mb-8 max-w-2xl mx-auto">
-                Explore restaurants, parks, golf, schools, and more near Sun City Summerlin. Use the map to see what&apos;s around the community.
+                Explore restaurants, parks, golf, and shopping near Sun City Summerlin. Use the map to see what&apos;s around ZIP 89134.
               </p>
               <AmenityMapEmbed />
             </div>

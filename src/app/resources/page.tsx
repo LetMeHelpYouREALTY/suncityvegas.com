@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { BookOpen, TrendingUp, Truck, Home, ArrowRight } from "lucide-react";
@@ -145,6 +146,7 @@ export default function ResourcesPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Get buyer and seller guides in Sun City Summerlin" />
       <Footer />
     </>
   );

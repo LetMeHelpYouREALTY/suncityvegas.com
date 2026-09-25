@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -56,7 +57,7 @@ const faqSchema = {
       name: "Which is better: Sun City Summerlin or Sun City Anthem?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "The better choice depends on your priorities. Sun City Summerlin offers more amenities (3 rec centers vs 2, 3 golf courses vs 2), lower HOA fees (~$165 vs ~$200), and a more established community. Sun City Anthem has newer homes (built 1998-2008 vs 1989-2002) and is located in Henderson. If you prioritize amenities and value, Sun City Summerlin is better. If you want newer construction, Sun City Anthem may be preferable.",
+        text: "The better choice depends on your priorities. Sun City Summerlin offers more amenities (3 rec centers vs 2, 3 golf courses vs 2), lower HOA fees (~$165 vs ~$200), and a 1989–2002 Del Webb build-out. Sun City Anthem has newer homes (built 1998-2008 vs 1989-2002) and is located in Henderson. If you prioritize amenities and value, Sun City Summerlin is better. If you want newer construction, Sun City Anthem may be preferable.",
       },
     },
     {
@@ -455,7 +456,7 @@ export default function ComparisonPage() {
                         Which is better: Sun City Summerlin or Sun City Anthem?
                       </summary>
                       <p className="mt-4 text-[#141210] leading-relaxed">
-                        The better choice depends on your priorities. Sun City Summerlin offers more amenities (3 rec centers vs 2, 3 golf courses vs 2), lower HOA fees (~$165 vs ~$200), and a more established community. Sun City Anthem has newer homes (built 1998-2008 vs 1989-2002) and is located in Henderson. If you prioritize amenities and value, Sun City Summerlin is better. If you want newer construction, Sun City Anthem may be preferable.
+                        The better choice depends on your priorities. Sun City Summerlin offers more amenities (3 rec centers vs 2, 3 golf courses vs 2), lower HOA fees (~$165 vs ~$200), and a 1989–2002 Del Webb build-out. Sun City Anthem has newer homes (built 1998-2008 vs 1989-2002) and is located in Henderson. If you prioritize amenities and value, Sun City Summerlin is better. If you want newer construction, Sun City Anthem may be preferable.
                       </p>
                     </details>
 
@@ -568,6 +569,7 @@ export default function ComparisonPage() {
           }}
         />
       </main>
+      <LocalVisitSection heading="Compare Summerlin vs Anthem from this Google pin" />
       <Footer />
     </>
   );

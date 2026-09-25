@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
@@ -12,13 +13,13 @@ import { services } from "@/lib/services";
 export const metadata: Metadata = {
   title: "Sitemap | Sun City Summerlin | Site Navigation | Las Vegas",
   description:
-    "Complete sitemap of Sun City Summerlin website. Find all pages including homes for sale, amenities, lifestyle, and more.",
+    "Sitemap of Sun City Summerlin, Las Vegas' 55+ active adult community. Find homes for sale, amenities, lifestyle, and Dr. Jan Duffy contact pages.",
   alternates: {
     canonical: "https://www.suncityvegas.com/sitemap-page",
   },
   openGraph: {
     title: "Sitemap | Sun City Summerlin",
-    description: "Complete navigation guide to all pages on Sun City Summerlin website.",
+    description: "Sitemap of Sun City Summerlin 55+ pages in Las Vegas—homes, amenities, lifestyle, and Dr. Jan Duffy contact.",
     url: "https://www.suncityvegas.com/sitemap-page",
     siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
     locale: "en_US",
@@ -221,6 +222,7 @@ export default function SitemapPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Visit Dr. Jan Duffy at Sun City Summerlin" />
       <Footer />
     </>
   );

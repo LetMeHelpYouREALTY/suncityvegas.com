@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -32,9 +33,9 @@ const blogPosts: Record<
       <p>Sun City Summerlin represents the gold standard in active adult living. Located in the Summerlin area of Las Vegas with stunning Red Rock Canyon views, this gated 55+ community offers everything you've been looking for in your retirement years.</p>
       
       <h2>What Makes It Special</h2>
-      <p>With 7,779 single-family residences, 4 championship golf courses, and 3 recreation centers totaling over 125,000 square feet, Sun City Summerlin is designed specifically for active adults. Every detail, from the homes to the amenities, is crafted with your lifestyle in mind.</p>
+      <p>With 7,781 single-family residences, 4 championship golf courses, and 3 recreation centers totaling over 125,000 square feet, Sun City Summerlin is designed specifically for active adults. Every detail, from the homes to the amenities, is crafted with your lifestyle in mind.</p>
       
-      <p>The community is fully established with mature landscaping and all amenities operational. The pools are open year-round. The fitness centers are ready. The golf courses await your next round.</p>
+      <p>The 1989–2002 Del Webb build-out now has mature landscaping and all amenities operational. The pools are open year-round. The fitness centers are ready. The golf courses await your next round.</p>
       
       <h2>A Community That Gets It</h2>
       <p>What sets Sun City Summerlin apart isn't just the homes or amenities—it's the people. Everyone here chose this life on purpose. They're active, social, and ready to make the most of their retirement years.</p>
@@ -355,6 +356,7 @@ export default function BlogPostPage({
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Tour Sun City Summerlin after this article" />
       <Footer />
     </>
   );

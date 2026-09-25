@@ -7,7 +7,7 @@ export const faqData = [
     questions: [
       {
         question: "What is Sun City Summerlin?",
-        answer: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, developed by Del Webb between 1989 and 2002. Located in the Summerlin area with stunning Red Rock Canyon views, it features 7,779 homes on approximately 2,400 acres.",
+        answer: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, developed by Del Webb between 1989 and 2002. Located in the Summerlin area with stunning Red Rock Canyon views, it features 7,781 homes on approximately 2,400 acres.",
         links: [
           { href: "/homes-for-sale", label: "Browse Sun City Summerlin homes for sale" },
           { href: "/community", label: "Explore the community overview" },
@@ -19,11 +19,11 @@ export const faqData = [
       },
       {
         question: "How many homes are in Sun City Summerlin?",
-        answer: "The community includes 7,779 homes ranging from approximately 1,200 to 2,800+ square feet in various configurations including single-story and some two-story options.",
+        answer: "The community includes 7,781 homes ranging from approximately 1,200 to 2,800+ square feet in various configurations including single-story and some two-story options.",
       },
       {
         question: "When was Sun City Summerlin built?",
-        answer: "Construction began in 1989, with the first homeowners moving in that same year. The community was completed in 2002, making it a well-established neighborhood with mature landscaping.",
+        answer: "Construction began in 1989, with the first homeowners moving in that same year. The community was completed in 2002. The 1989–2002 build-out now has mature trees and landscaping.",
       },
     ],
   },

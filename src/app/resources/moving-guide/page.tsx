@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -438,6 +439,7 @@ export default function MovingGuidePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Plan your move at 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

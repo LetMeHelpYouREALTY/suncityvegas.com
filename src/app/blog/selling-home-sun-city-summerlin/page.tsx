@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import YouTubeEmbed from "@components/YouTubeEmbed";
@@ -176,6 +177,7 @@ export default function SellingHomeSunCitySummerlinPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="List your Sun City Summerlin home from this Maps pin" />
       <Footer />
       <Script
         id="article-schema"

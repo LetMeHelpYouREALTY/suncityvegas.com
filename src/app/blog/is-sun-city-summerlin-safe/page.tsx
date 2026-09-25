@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -13,14 +14,14 @@ import RealScoutListings from "@components/RealScoutListings";
 export const metadata: Metadata = {
   title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
   description:
-    "Is Sun City Summerlin safe? Learn about crime rates, security measures, guard-gated access, and why this 55+ community is one of Las Vegas' safest neighborhoods.",
+    "Guard-gated 55+ living in Sun City Summerlin: 24/7 staffed entries and rec-path lighting in Las Vegas ZIP 89134. Dr. Jan Duffy.",
   alternates: {
     canonical: "https://www.suncityvegas.com/blog/is-sun-city-summerlin-safe",
   },
   openGraph: {
     title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
     description:
-      "Complete guide to safety and security at Sun City Summerlin, including crime rates and security measures.",
+      "Guard-gated entries, lighting, and 55+ access rules at Sun City Summerlin in Las Vegas.",
     url: "https://www.suncityvegas.com/blog/is-sun-city-summerlin-safe",
     siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
     locale: "en_US",
@@ -56,7 +57,7 @@ const faqSchema = {
       name: "Is Sun City Summerlin safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Sun City Summerlin is considered one of the safest neighborhoods in Las Vegas. The community features 24/7 guard-gated security at all entrances, low crime rates, active neighborhood watch programs, and a 55+ age-restricted community that naturally reduces certain types of crime.",
+        text: "Sun City Summerlin has 24/7 staffed gates at every entrance, visitor check-in, neighborhood watch, and 55+ occupancy rules. Walk rec paths and golf carts after dark on lit streets.",
       },
     },
     {
@@ -69,10 +70,10 @@ const faqSchema = {
     },
     {
       "@type": "Question",
-      name: "What are the crime rates in Sun City Summerlin?",
+      name: "Does Sun City Summerlin publish crime rates?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sun City Summerlin has significantly lower crime rates than the Las Vegas metro area average. Violent crime is extremely rare, and property crime rates are well below city and national averages. The 55+ age restriction and guard-gated security contribute to the low crime rates.",
+        text: "This site does not publish crime statistics. We describe the housing features buyers can verify: 24/7 staffed gates, visitor check-in, lit streets and rec-campus walks, and 55+ occupancy rules. Ask Dr. Jan Duffy for current HOA security details before you buy.",
       },
     },
   ],
@@ -145,10 +146,10 @@ export default function SafetyPage() {
               <ScrollAnimation>
                 <div className="prose prose-lg max-w-none text-[#141210] mb-12">
                   <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
-                    Safety is one of the top concerns for retirees considering a move. The good news? Sun City Summerlin is considered one of the safest neighborhoods in Las Vegas.
+                    Buyers often ask about gates, lighting, and after-dark walking. Sun City Summerlin uses 24/7 staffed entries and lit rec paths inside ZIP 89134.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    With 24/7 guard-gated security, low crime rates, and an active community, Sun City Summerlin provides peace of mind for residents. This guide covers everything you need to know about safety and security in the community.
+                    This guide covers staffed gates, visitor check-in, lighting, and 55+ occupancy rules—not crime-rate rankings.
                   </p>
                 </div>
               </ScrollAnimation>
@@ -164,7 +165,7 @@ export default function SafetyPage() {
                       </h2>
                     </div>
                     <p className="text-xl md:text-2xl leading-relaxed">
-                      Sun City Summerlin is one of Las Vegas' safest neighborhoods, with 24/7 guard-gated security, low crime rates, and an active community that looks out for one another.
+                      Sun City Summerlin uses 24/7 staffed gates, visitor check-in, and lit streets. Neighbors and HOA patrols cover the rec campuses.
                     </p>
                   </div>
                 </section>
@@ -192,7 +193,7 @@ export default function SafetyPage() {
                         Neighborhood Watch
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        Active neighborhood watch programs encourage residents to look out for one another. The close-knit community means neighbors know each other and notice anything out of the ordinary.
+                        Neighborhood watch programs encourage residents to report unusual activity to security or the HOA. Clubs and rec centers give neighbors regular ways to meet.
                       </p>
                     </div>
                     <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#B8A078]">
@@ -200,7 +201,7 @@ export default function SafetyPage() {
                         Well-Lit Streets
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        All streets and common areas are well-lit, making the community safe for evening walks and reducing opportunities for crime. The HOA maintains excellent lighting throughout.
+                        Streets and rec-campus walks are lit for evening walking and golf-cart use. The HOA maintains lighting throughout common areas.
                       </p>
                     </div>
                     <div className="bg-[#F7F6F4] rounded-lg p-6 border-l-4 border-[#57534E]">
@@ -215,33 +216,33 @@ export default function SafetyPage() {
                 </section>
               </ScrollAnimation>
 
-              {/* Crime Rates */}
+              {/* Gates, lighting, occupancy */}
               <ScrollAnimation delay={300}>
                 <section className="mb-16">
                   <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
-                    Crime Rates
+                    Gates, Lighting, and Occupancy Rules
                   </h2>
                   <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8 mb-6">
                     <p className="text-lg font-semibold text-[#1C1917] mb-4">
-                      Sun City Summerlin has significantly lower crime rates than the Las Vegas metro area average.
+                      This guide describes housing features you can verify on a tour. We do not publish crime statistics.
                     </p>
                     <div className="space-y-4 text-[#141210]">
                       <div>
-                        <h3 className="font-bold text-lg mb-2">Violent Crime</h3>
+                        <h3 className="font-bold text-lg mb-2">Staffed Gates</h3>
                         <p className="leading-relaxed">
-                          Violent crime is extremely rare in Sun City Summerlin. The 55+ age restriction, guard-gated security, and active community all contribute to this low rate.
+                          All community entrances are staffed 24/7. Visitors check in before entering. Ask the HOA how guest passes work before you buy.
                         </p>
                       </div>
                       <div>
-                        <h3 className="font-bold text-lg mb-2">Property Crime</h3>
+                        <h3 className="font-bold text-lg mb-2">Lighting and Patrols</h3>
                         <p className="leading-relaxed">
-                          Property crime rates are well below city and national averages. The guard-gated security and neighborhood watch programs help prevent theft and vandalism.
+                          Streets and rec-campus walks are lit. Security patrols and neighborhood watch programs operate inside the gates.
                         </p>
                       </div>
                       <div>
-                        <h3 className="font-bold text-lg mb-2">Overall Safety</h3>
+                        <h3 className="font-bold text-lg mb-2">Evening Use</h3>
                         <p className="leading-relaxed">
-                          Sun City Summerlin consistently ranks as one of the safest neighborhoods in Las Vegas. Residents report feeling safe walking, exercising, and enjoying the community at all hours.
+                          Residents walk rec paths, use golf carts, and visit fitness rooms after dark on lit streets inside the gates.
                         </p>
                       </div>
                     </div>
@@ -261,7 +262,7 @@ export default function SafetyPage() {
                         1. Guard-Gated Security
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        The 24/7 guard-gated security is the most visible safety feature. All visitors must check in, and security personnel monitor all entrances. This controlled access is a major deterrent to crime.
+                        The 24/7 guard-gated entries are the most visible security feature. All visitors must check in, and security personnel monitor all entrances.
                       </p>
                     </div>
                     <div className="bg-white border-l-4 border-[#1C1917] rounded-lg p-6">
@@ -269,7 +270,7 @@ export default function SafetyPage() {
                         2. 55+ Age Restriction
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        The age restriction means the community is populated by mature, responsible adults. This naturally reduces certain types of crime that are more common in communities with younger populations.
+                        Occupancy rules require at least one resident age 55 or older. That is a housing rule, not a crime statistic.
                       </p>
                     </div>
                     <div className="bg-white border-l-4 border-[#B8A078] rounded-lg p-6">
@@ -277,7 +278,7 @@ export default function SafetyPage() {
                         3. Active Community
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        With 80+ clubs and year-round activities, there are always people out and about. This "eyes on the street" effect naturally deters crime. Neighbors know each other and look out for one another.
+                        With 80+ clubs and year-round activities, rec campuses stay in use throughout the day. Neighbors meet through clubs, golf, and fitness rooms.
                       </p>
                     </div>
                     <div className="bg-white border-l-4 border-[#57534E] rounded-lg p-6">
@@ -285,7 +286,7 @@ export default function SafetyPage() {
                         4. Well-Maintained Infrastructure
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        Well-lit streets, maintained landscaping, and clean common areas all contribute to safety. The HOA's commitment to maintenance shows that the community is cared for and monitored.
+                        Well-lit streets, maintained landscaping, and HOA-managed common areas are part of the monthly assessment. Tour at dusk to see lighting on the streets you would use.
                       </p>
                     </div>
                     <div className="bg-white border-l-4 border-[#1C1917] rounded-lg p-6">
@@ -293,7 +294,7 @@ export default function SafetyPage() {
                         5. Location in Summerlin
                       </h3>
                       <p className="text-[#141210] leading-relaxed">
-                        Sun City Summerlin is located in Summerlin, one of Las Vegas' most prestigious and safest master-planned communities. The surrounding area is also low-crime, adding an extra layer of safety.
+                        Sun City Summerlin sits in Summerlin, a master-planned area of Las Vegas. The Del Webb gates are staffed around the clock.
                       </p>
                     </div>
                   </div>
@@ -308,7 +309,7 @@ export default function SafetyPage() {
                   </h2>
                   <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
                     <p className="text-lg text-[#141210] leading-relaxed mb-6">
-                      While Sun City Summerlin is very safe, it's always wise to practice good personal safety habits:
+                      Guard-gated living still benefits from ordinary household habits:
                     </p>
                     <ul className="space-y-3 text-[#141210]">
                       <li className="flex items-start gap-2">
@@ -352,7 +353,7 @@ export default function SafetyPage() {
                         Is Sun City Summerlin safe?
                       </summary>
                       <p className="mt-4 text-[#141210] leading-relaxed">
-                        Yes, Sun City Summerlin is considered one of the safest neighborhoods in Las Vegas. The community features 24/7 guard-gated security at all entrances, low crime rates, active neighborhood watch programs, and a 55+ age-restricted community that naturally reduces certain types of crime.
+                        Sun City Summerlin has 24/7 staffed gates at every entrance, visitor check-in, neighborhood watch, and 55+ occupancy rules. Walk rec paths and golf carts after dark on lit streets.
                       </p>
                     </details>
 
@@ -367,10 +368,10 @@ export default function SafetyPage() {
 
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
                       <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
-                        What are the crime rates in Sun City Summerlin?
+                        Does Sun City Summerlin publish crime rates?
                       </summary>
                       <p className="mt-4 text-[#141210] leading-relaxed">
-                        Sun City Summerlin has significantly lower crime rates than the Las Vegas metro area average. Violent crime is extremely rare, and property crime rates are well below city and national averages. The 55+ age restriction and guard-gated security contribute to the low crime rates.
+                        This site does not publish crime statistics. We describe the housing features buyers can verify: 24/7 staffed gates, visitor check-in, lit streets and rec-campus walks, and 55+ occupancy rules. Ask Dr. Jan Duffy for current HOA security details before you buy.
                       </p>
                     </details>
 
@@ -433,10 +434,10 @@ export default function SafetyPage() {
               <div className="max-w-4xl mx-auto text-center">
                 <ScrollAnimation>
                   <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 font-playfair">
-                    Experience Sun City Summerlin's Safety Firsthand
+                    See the Gates and Rec Campuses in Person
                   </h2>
                   <p className="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
-                    Schedule a tour with Dr. Jan Duffy to see the guard-gated security, explore the community, and learn more about safety and security at Sun City Summerlin.
+                    Schedule a tour with Dr. Jan Duffy to walk the staffed entries, rec paths, and lighting at Sun City Summerlin in Las Vegas.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                     <a
@@ -474,6 +475,7 @@ export default function SafetyPage() {
           }}
         />
       </main>
+      <LocalVisitSection heading="See the staffed gates at Sun City Summerlin" />
       <Footer />
     </>
   );

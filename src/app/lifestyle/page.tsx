@@ -170,7 +170,7 @@ export default function LifestylePage() {
                 <p className="text-[#141210]">Rec Centers</p>
               </div>
               <div className="p-4">
-                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">7,779</p>
+                <p className="text-3xl md:text-4xl font-bold text-[#1C1917]">7,781</p>
                 <p className="text-[#141210]">Homes</p>
               </div>
             </div>

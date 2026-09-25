@@ -81,7 +81,7 @@ export default function HomeCollectionsSection() {
           Find Your Perfect Home Size
         </h2>
         <p className="text-center text-base md:text-lg text-[#141210] mb-8 md:mb-12 max-w-2xl mx-auto px-4">
-          With 7,779 homes built 1989–2002, Sun City Summerlin offers rare variety. Nearly all
+          With 7,781 homes built 1989–2002, Sun City Summerlin offers rare variety. Nearly all
           are single-story with attached garages—Dr. Duffy matches plan, village, and lot to your
           next chapter.
         </p>

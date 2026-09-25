@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -584,6 +585,7 @@ export default function FloorPlansPage() {
           }}
         />
       </main>
+      <LocalVisitSection heading="Walk single-story floor plans in Sun City Summerlin" />
       <Footer />
     </>
   );

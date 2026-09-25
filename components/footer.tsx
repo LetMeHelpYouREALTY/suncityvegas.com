@@ -15,7 +15,15 @@ export default function Footer() {
             <p className="text-gray-300 mb-4">
               Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Over 25 years helping retirees find the perfect home.
             </p>
-            <div className="mt-4 text-sm text-gray-400">
+            <div className="mt-4 text-sm text-gray-400 flex items-center gap-2">
+              <svg
+                viewBox="0 0 24 24"
+                className="h-6 w-6 flex-shrink-0"
+                aria-hidden="true"
+                fill="currentColor"
+              >
+                <path d="M12 3 2 10.5V21h7v-6h6v6h7V10.5L12 3z" />
+              </svg>
               Equal Housing Opportunity
             </div>
           </div>
@@ -27,7 +35,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Home
                 </Link>
@@ -35,7 +43,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/services"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Services
                 </Link>
@@ -43,7 +51,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/homes-for-sale"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Homes for Sale
                 </Link>
@@ -51,7 +59,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/amenities"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Amenities
                 </Link>
@@ -59,7 +67,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/lifestyle"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Lifestyle
                 </Link>
@@ -67,7 +75,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/community"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Community
                 </Link>
@@ -75,7 +83,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/community/neighborhood"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Explore Neighborhood
                 </Link>
@@ -83,7 +91,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/selling"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Selling
                 </Link>
@@ -91,7 +99,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/home-value"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Home Value
                 </Link>
@@ -99,7 +107,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/about"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   About Dr. Jan
                 </Link>
@@ -107,7 +115,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/blog"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Blog
                 </Link>
@@ -115,7 +123,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/faq"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   FAQ
                 </Link>
@@ -123,7 +131,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/contact"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Contact
                 </Link>
@@ -131,7 +139,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/schedule"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Schedule a Tour
                 </Link>
@@ -139,7 +147,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/testimonials"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Testimonials
                 </Link>
@@ -147,7 +155,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/review"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Leave a Google Review
                 </Link>
@@ -234,7 +242,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/resources"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   All Resources
                 </Link>
@@ -242,7 +250,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/resources/market-insights"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Market Insights
                 </Link>
@@ -250,7 +258,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/resources/moving-guide"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Moving Guide
                 </Link>
@@ -258,7 +266,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/resources/first-time-buyers"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   First-Time Buyers
                 </Link>
@@ -268,7 +276,7 @@ export default function Footer() {
                   href="https://calendly.com/drjanduffy"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                 >
                   <Calendar className="w-4 h-4" />
                   Schedule a Tour
@@ -277,7 +285,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/homes-for-sale"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                 >
                   <span className="w-4 h-4">🏠</span>
                   Browse Homes
@@ -286,7 +294,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/testimonials"
-                  className="text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Testimonials
                 </Link>
@@ -296,7 +304,7 @@ export default function Footer() {
                   href={siteConfig.social.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                 >
                   <Youtube className="w-4 h-4" />
                   YouTube
@@ -314,7 +322,7 @@ export default function Footer() {
                   href={siteConfig.social.facebook}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="Facebook"
                 >
                   <Facebook className="w-4 h-4" />
@@ -326,7 +334,7 @@ export default function Footer() {
                   href={siteConfig.social.instagram}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="Instagram"
                 >
                   <Instagram className="w-4 h-4" />
@@ -338,7 +346,7 @@ export default function Footer() {
                   href={siteConfig.social.youtube}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="YouTube"
                 >
                   <Youtube className="w-4 h-4" />
@@ -350,7 +358,7 @@ export default function Footer() {
                   href={siteConfig.social.linkedin}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="LinkedIn"
                 >
                   <Linkedin className="w-4 h-4" />
@@ -362,7 +370,7 @@ export default function Footer() {
                   href={siteConfig.social.pinterest}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="Pinterest"
                 >
                   <ExternalLink className="w-4 h-4" />
@@ -374,7 +382,7 @@ export default function Footer() {
                   href={siteConfig.social.tiktok}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="TikTok"
                 >
                   <ExternalLink className="w-4 h-4" />
@@ -386,7 +394,7 @@ export default function Footer() {
                   href={siteConfig.social.twitter}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors"
+                  className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"
                   aria-label="X (Twitter)"
                 >
                   <ExternalLink className="w-4 h-4" />
@@ -410,7 +418,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/privacy"
-                  className="hover:text-[#C9A962] transition-colors"
+                  className="hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Privacy Policy
                 </Link>
@@ -418,7 +426,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/terms"
-                  className="hover:text-[#C9A962] transition-colors"
+                  className="hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Terms of Service
                 </Link>
@@ -426,7 +434,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/accessibility"
-                  className="hover:text-[#C9A962] transition-colors"
+                  className="hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Accessibility
                 </Link>
@@ -434,7 +442,7 @@ export default function Footer() {
               <li>
                 <Link
                   href="/sitemap-page"
-                  className="hover:text-[#C9A962] transition-colors"
+                  className="hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
                   Sitemap
                 </Link>

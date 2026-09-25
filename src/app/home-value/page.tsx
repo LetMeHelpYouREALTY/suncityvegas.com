@@ -27,10 +27,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/amenities/resort-pool.jpeg",
+        url: "https://www.suncityvegas.com/images/homes/mid-size.jpg",
         width: 1200,
         height: 630,
-        alt: "Sun City Summerlin home value estimate",
+        alt: "Sun City Summerlin home exterior for a free home value estimate in Las Vegas",
       },
     ],
   },
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Free Home Value Estimate | Sun City Summerlin | Dr. Jan Duffy",
     description: "Get a free, instant home value estimate for your property.",
-    images: ["https://www.suncityvegas.com/images/amenities/resort-pool.jpeg"],
+    images: ["https://www.suncityvegas.com/images/homes/mid-size.jpg"],
   },
 };
 

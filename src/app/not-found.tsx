@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import { Button } from "@components/ui/button";
 import { Home, Search } from "lucide-react";
 
@@ -99,6 +100,7 @@ export default function NotFound() {
           </div>
         </div>
       </main>
+      <LocalVisitSection heading="Call or map Sun City Summerlin with Dr. Jan Duffy" />
       <Footer />
     </>
   );

@@ -3,6 +3,7 @@ import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import ScrollAnimation from "@components/scroll-animation";
@@ -32,10 +33,10 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: "https://www.suncityvegas.com/images/agent/dr-jan-duffy.jpg",
+        url: "https://www.suncityvegas.com/images/explore/contact.jpg",
         width: 1200,
         height: 630,
-        alt: "Dr. Jan Duffy, REALTOR®",
+        alt: "Sun City Summerlin clubhouse contact and tour meeting location in Las Vegas",
       },
     ],
   },
@@ -43,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Contact & Schedule a Tour | Sun City Summerlin | Dr. Jan Duffy",
     description: "Schedule a tour of Sun City Summerlin 55+ community in Las Vegas.",
-    images: ["https://www.suncityvegas.com/images/agent/dr-jan-duffy.jpg"],
+    images: ["https://www.suncityvegas.com/images/explore/contact.jpg"],
   },
 };
 
@@ -363,6 +364,7 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Call, map, and tour from 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

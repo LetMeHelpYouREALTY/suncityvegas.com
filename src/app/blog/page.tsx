@@ -3,6 +3,7 @@ import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import ScrollAnimation from "@components/scroll-animation";
@@ -119,7 +120,7 @@ const blogPosts = [
     slug: "is-sun-city-summerlin-safe",
     title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
     excerpt:
-      "Is Sun City Summerlin safe? Learn about crime rates, security measures, guard-gated access, and why this 55+ community is one of Las Vegas' safest neighborhoods.",
+      "Guard-gated 55+ living in Sun City Summerlin: 24/7 staffed entries and rec-path lighting in Las Vegas ZIP 89134. Dr. Jan Duffy.",
     date: "2025-01-26",
     image: "/images/blog/safety-hero.jpg",
     category: "Safety Guide",
@@ -303,6 +304,7 @@ export default function BlogPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Read, then tour Sun City Summerlin with Dr. Jan Duffy" />
       <Footer />
     </>
   );

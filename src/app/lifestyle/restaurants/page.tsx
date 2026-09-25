@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -253,8 +254,8 @@ export default function RestaurantsPage() {
                     description: "Local cafes perfect for breakfast, lunch, or coffee",
                   },
                   {
-                    name: "Family Restaurants",
-                    description: "Casual family-friendly dining options",
+                    name: "Casual restaurants",
+                    description: "Sit-down dining for breakfast, lunch, or dinner near ZIP 89134",
                   },
                   {
                     name: "Fast Casual",
@@ -312,6 +313,7 @@ export default function RestaurantsPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Start at 9406 Del Webb Boulevard, then dine nearby" />
       <Footer />
     </>
   );

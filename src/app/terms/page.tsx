@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
@@ -11,7 +12,7 @@ import { FileText, Calendar } from "lucide-react";
 export const metadata: Metadata = {
   title: "Terms of Service | Sun City Summerlin | Website Usage Terms",
   description:
-    "Terms of service for Sun City Summerlin website. Read our terms and conditions for using this real estate website and contacting Dr. Jan Duffy.",
+    "Terms of service for the Sun City Summerlin 55+ real estate website in Las Vegas. Usage terms for contacting Dr. Jan Duffy about active adult homes.",
   alternates: {
     canonical: "https://www.suncityvegas.com/terms",
   },
@@ -40,7 +41,7 @@ const termsWebPageSchema = {
   "@id": "https://www.suncityvegas.com/terms",
   name: "Terms of Service | Sun City Summerlin | Website Usage Terms",
   description:
-    "Terms of service for Sun City Summerlin website. Read our terms and conditions for using this real estate website and contacting Dr. Jan Duffy.",
+    "Terms of service for the Sun City Summerlin 55+ real estate website in Las Vegas. Usage terms for contacting Dr. Jan Duffy about active adult homes.",
   url: "https://www.suncityvegas.com/terms",
 };
 
@@ -296,6 +297,7 @@ export default function TermsPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Visit Dr. Jan Duffy at Sun City Summerlin" />
       <Footer />
     </>
   );

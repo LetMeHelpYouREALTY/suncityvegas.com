@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -150,19 +151,19 @@ export default function HistoryPage() {
                     year: "1995-1999",
                     title: "Expansion",
                     description:
-                      "The community continues to grow with additional phases. More recreation centers are completed, golf courses open, and the community becomes fully established. Home styles evolve with the times while maintaining the single-story ranch design.",
+                      "The community continues to grow with additional phases. More recreation centers are completed, golf courses open, and home styles stay single-story ranch. Home styles evolve with the times while maintaining the single-story ranch design.",
                   },
                   {
                     year: "1999-2002",
                     title: "Final Phases",
                     description:
-                      "The final phases of development are completed. The community reaches its full size of 7,781 homes. All amenities are operational, and Sun City Summerlin is a fully mature, established community.",
+                      "The final phases of development are completed. The community reaches its full size of 7,781 homes. All amenities are operational, and Sun City Summerlin is fully built-out.",
                   },
                   {
                     year: "2002-Present",
                     title: "Mature Community",
                     description:
-                      "Sun City Summerlin continues to thrive as an established community. Homes are well-maintained, amenities are updated, and the community remains one of Las Vegas' most desirable 55+ communities. The HOA and residents work together to maintain the high standards set by Del Webb.",
+                      "Sun City Summerlin continues as a completed 7,781-home Del Webb community. Homes are well-maintained, amenities are updated, and the HOA and residents work together to keep the 1989–2002 build-out in good repair.",
                   },
                 ].map((milestone, index) => (
                   <ScrollAnimation key={milestone.year} delay={index * 100}>
@@ -202,7 +203,7 @@ export default function HistoryPage() {
                     Population Growth
                   </h3>
                   <p className="text-[#141210] leading-relaxed">
-                    From the first residents in 1989 to today's thriving community of over 7,781 homes, Sun City Summerlin has grown into one of the largest and most established 55+ communities in Las Vegas.
+                    From the first residents in 1989 to today's 7,781 homes, Sun City Summerlin is one of the largest 55+ Del Webb communities in Las Vegas.
                   </p>
                 </div>
                 <div className="bg-white rounded-lg p-6 shadow-md">
@@ -229,7 +230,7 @@ export default function HistoryPage() {
                     Established Reputation
                   </h3>
                   <p className="text-[#141210] leading-relaxed">
-                    Sun City Summerlin has established itself as one of Las Vegas' premier 55+ communities, known for its amenities, location, and active lifestyle.
+                    Sun City Summerlin has become one of Las Vegas' premier 55+ communities, known for golf, rec centers, Red Rock views, and an active-adult calendar.
                   </p>
                 </div>
               </div>
@@ -254,7 +255,7 @@ export default function HistoryPage() {
                   What makes Sun City Summerlin special isn't just its history—it's how that history has created a community that continues to thrive. The quality construction, thoughtful planning, and comprehensive amenities that Del Webb built have stood the test of time.
                 </p>
                 <p className="text-lg md:text-xl leading-relaxed">
-                  Residents today enjoy the benefits of living in an established, mature community with all amenities operational, proven infrastructure, and a strong sense of community that has developed over more than three decades.
+                  Residents today use four golf courses, three recreation centers, and 80+ clubs in a 1989–2002 Del Webb build-out of 7,781 homes. Amenities, streets, and HOA services have operated for more than three decades.
                 </p>
               </div>
             </div>
@@ -294,6 +295,7 @@ export default function HistoryPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Walk the 1989–2002 Del Webb build-out at this pin" />
       <Footer />
     </>
   );

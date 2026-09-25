@@ -27,8 +27,8 @@ const Footer = () => {
                   />
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer lobortis.
+                  Dr. Jan Duffy, REALTOR® — Sun City Summerlin 55+ specialist.
+                  9406 Del Webb Boulevard, Las Vegas, NV 89134. Call (702) 718-0043.
                 </p>
                 <div className="flex items-center">
                   <a
@@ -125,10 +125,10 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/homes-for-sale"
+                      className="mb-4 inline-block min-h-[44px] text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Pricing
+                      Homes for Sale
                     </Link>
                   </li>
                   <li>
@@ -151,26 +151,26 @@ const Footer = () => {
                 <ul>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/terms"
+                      className="mb-4 inline-block min-h-[44px] text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      TOS
+                      Terms of Service
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/privacy"
+                      className="mb-4 inline-block min-h-[44px] text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Privacy Policy
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/accessibility"
+                      className="mb-4 inline-block min-h-[44px] text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
-                      Refund Policy
+                      Accessibility
                     </Link>
                   </li>
                 </ul>
@@ -193,8 +193,8 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="/"
-                      className="mb-4 inline-block text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
+                      href="/terms"
+                      className="mb-4 inline-block min-h-[44px] text-base text-body-color duration-300 hover:text-primary dark:text-body-color-dark dark:hover:text-primary"
                     >
                       Terms of Use
                     </Link>

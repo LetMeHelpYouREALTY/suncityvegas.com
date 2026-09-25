@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
@@ -302,6 +303,7 @@ export default function AccessibilityPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Visit Dr. Jan Duffy at Sun City Summerlin" />
       <Footer />
     </>
   );

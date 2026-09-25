@@ -28,7 +28,7 @@ export default function ValuePropsSection() {
   const values = [
     {
       icon: <Home className="w-8 h-8 text-[#1C1917]" />,
-      title: "7,779 Homes to Choose From",
+      title: "7,781 Homes to Choose From",
       description:
         "Las Vegas' largest 55+ community offers village-level variety. Dr. Duffy matches plan, lot, and golf proximity—not just list price.",
     },

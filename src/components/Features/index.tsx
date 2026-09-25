@@ -9,7 +9,7 @@ const Features = () => {
         <div className="container">
           <SectionTitle
             title="Main Features"
-            paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+            paragraph="Buyer, seller, and relocation service for Sun City Summerlin 55+ homes in Las Vegas ZIP 89134, led by Dr. Jan Duffy."
             center
           />
 

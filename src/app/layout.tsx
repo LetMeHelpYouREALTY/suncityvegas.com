@@ -302,7 +302,7 @@ export default function RootLayout({
       { "@type": "LocationFeatureSpecification", name: "Clubs & Activities", value: "80+" },
       { "@type": "LocationFeatureSpecification", name: "Swimming Pools", value: "Multiple" },
       { "@type": "LocationFeatureSpecification", name: "Age Restriction", value: "55+" },
-      { "@type": "LocationFeatureSpecification", name: "Total Homes", value: "7,779" },
+      { "@type": "LocationFeatureSpecification", name: "Total Homes", value: "7,781" },
     ],
   };
 

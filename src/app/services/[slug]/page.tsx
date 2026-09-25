@@ -3,6 +3,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
@@ -332,6 +333,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Discuss this service at 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

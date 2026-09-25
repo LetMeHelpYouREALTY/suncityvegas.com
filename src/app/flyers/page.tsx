@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import Link from "next/link";
@@ -134,6 +135,7 @@ export default function FlyersPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Pick up community guides at 9406 Del Webb Boulevard" />
       <Footer />
     </>
   );

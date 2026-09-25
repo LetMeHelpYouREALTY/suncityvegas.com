@@ -16,7 +16,7 @@ import LocalVisitSection from "@components/LocalVisitSection";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Community Guide | Las Vegas 55+ Active Adult Community",
   description:
-    "Complete guide to Sun City Summerlin, Las Vegas' premier 55+ community. History, amenities, golf courses, recreation centers, clubs, HOA info, and location details. 7,779 homes built 1989-2002.",
+    "Complete guide to Sun City Summerlin, Las Vegas' premier 55+ community. History, amenities, golf courses, recreation centers, clubs, HOA info, and location details. 7,781 homes built 1989-2002.",
   alternates: {
     canonical: "https://www.suncityvegas.com/community",
   },
@@ -126,7 +126,7 @@ export default function CommunityPage() {
                     </h2>
                     <div className="prose prose-lg max-w-none space-y-4 text-[#141210]">
                       <p>
-                        Sun City Summerlin was developed by Del Webb Corporation in 1989, making it one of the nation's premiere active adult communities. Organized in the City of Las Vegas, this well-established 55+ resort community offers magnificent views of the surrounding mountains and the Las Vegas Strip.
+                        Sun City Summerlin was developed by Del Webb Corporation in 1989, making it one of the nation's premiere active adult communities. Organized in the City of Las Vegas, this 55+ Del Webb community (1989–2002, 7,781 homes) offers views of the surrounding mountains and the Las Vegas Strip.
                       </p>
                       <p>
                         The community spans over 2,400 acres in the prestigious Summerlin master-planned community on the western edge of Las Vegas. Located mere minutes from the glamorous action of downtown Las Vegas and the fabled Strip, Sun City Summerlin boasts tree-lined streets, great shopping, top-notch restaurants, and award-winning resorts, casinos, and spas.

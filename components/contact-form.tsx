@@ -135,7 +135,7 @@ export default function ContactForm() {
               type="tel"
               id="phone"
               className="w-full px-4 py-3 border-2 border-gray-200 rounded-md focus:outline-none focus:border-primary transition-colors text-base"
-              placeholder="(702) 555-1234"
+              placeholder="(702) 000-0000"
               aria-invalid={errors.phone ? "true" : "false"}
               aria-describedby={errors.phone ? "phone-error" : undefined}
             />

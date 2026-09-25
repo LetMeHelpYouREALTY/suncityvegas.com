@@ -53,10 +53,10 @@ export const metadata: Metadata = {
     siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     images: [
       {
-        url: "/images/amenities/resort-pool.jpeg",
+        url: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",
         width: 1200,
         height: 630,
-        alt: "Sun City Summerlin Del Webb golf course community with mountain views",
+        alt: "Sun City Summerlin Del Webb 55+ golf course community with mountain views in Las Vegas",
       },
     ],
   },
@@ -65,7 +65,7 @@ export const metadata: Metadata = {
     title: "Sun City Summerlin Homes for Sale | Las Vegas 55+ Community | Dr. Jan Duffy",
     description:
       "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. Buyer, seller, and relocation services. Call (702) 718-0043.",
-    images: ["/images/amenities/resort-pool.jpeg"],
+    images: ["/images/hero/hero-bg.jpg"],
   },
 };
 

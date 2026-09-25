@@ -42,7 +42,7 @@ export default function Hero() {
           </p>
           <div className="mb-6 md:mb-8">
             <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
-              Homes from $300K–$800K+ · 7,779 Residences · Guard-Gated
+              Homes from $300K–$800K+ · 7,781 Residences · Guard-Gated
             </p>
           </div>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch sm:items-center px-4">

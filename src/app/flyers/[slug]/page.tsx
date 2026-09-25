@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import Link from "next/link";
@@ -238,7 +239,7 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
       ],
       numberOfAvailableAccommodationUnits: {
         "@type": "QuantitativeValue",
-        value: 7779,
+        value: 7781,
         unitText: "homes",
       },
     },
@@ -277,7 +278,7 @@ function generateSchemaMarkup(flyer: NonNullable<ReturnType<typeof getFlyerBySlu
           name: "What is Sun City Summerlin?",
           acceptedAnswer: {
             "@type": "Answer",
-            text: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, built by Del Webb starting in 1989. It features 7,779 homes, 4 golf courses, 3 recreation centers, and 80+ social clubs.",
+            text: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, built by Del Webb starting in 1989. It features 7,781 homes, 4 golf courses, 3 recreation centers, and 80+ social clubs.",
           },
         },
         {
@@ -329,7 +330,7 @@ export default async function FlyerPage({
   const communityHighlights = [
     { icon: CircleDot, label: "4 Golf Courses", description: "Highland Falls, Palm Valley, Eagle Crest, Starbright Par 3" },
     { icon: Users, label: "80+ Social Clubs", description: "From pickleball to pottery, there's something for everyone" },
-    { icon: Home, label: "7,779 Homes", description: "Single-family homes from 1,000-3,000+ sq ft" },
+    { icon: Home, label: "7,781 Homes", description: "Single-family homes from 1,000-3,000+ sq ft" },
     { icon: DollarSign, label: "No State Income Tax", description: "Nevada tax benefits for retirees" },
     { icon: Heart, label: "Active Lifestyle", description: "Fitness centers, pools, tennis, and more" },
     { icon: Sun, label: "300+ Sunny Days", description: "Perfect Las Vegas weather year-round" },
@@ -376,7 +377,7 @@ export default async function FlyerPage({
             <span className="inline-block px-4 py-2 bg-white/20 text-white text-sm font-semibold rounded-full">
               {flyer.category}
             </span>
-            <span className="inline-block px-4 py-2 bg-[#C9A962]/80 text-white text-sm font-semibold rounded-full">
+            <span className="inline-block px-4 py-2 bg-[#C9A962] text-[#141210] text-sm font-semibold rounded-full">
               Free Download
             </span>
             {flyer.pages ? (
@@ -654,7 +655,7 @@ export default async function FlyerPage({
                 {[
                   {
                     q: "What is Sun City Summerlin?",
-                    a: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, built by Del Webb starting in 1989. It features 7,779 homes, 4 golf courses, 3 recreation centers, and 80+ social clubs. Located in the Summerlin master-planned community, it offers an unparalleled retirement lifestyle.",
+                    a: "Sun City Summerlin is Las Vegas' premier 55+ active adult community, built by Del Webb starting in 1989. It features 7,781 homes, 4 golf courses, 3 recreation centers, and 80+ social clubs. Located in the Summerlin master-planned community, it offers an unparalleled retirement lifestyle.",
                   },
                   {
                     q: "What are the HOA fees at Sun City Summerlin?",
@@ -746,6 +747,7 @@ export default async function FlyerPage({
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Visit Dr. Jan Duffy after you download this guide" />
       <Footer />
     </>
   );

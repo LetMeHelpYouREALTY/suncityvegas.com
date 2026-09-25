@@ -3,6 +3,7 @@ import CdnImage from "@components/CdnImage";
 import Link from "next/link";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -430,6 +431,7 @@ export default function PinnaclePage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="Tour Pinnacle Community Center in Las Vegas 89134" />
       <Footer />
     </>
   );

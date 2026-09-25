@@ -12,7 +12,7 @@ const Pricing = () => {
       <div className="container">
         <SectionTitle
           title="Simple and Affordable Pricing"
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Dr. Jan Duffy represents Sun City Summerlin 55+ buyers and sellers in Las Vegas. Call (702) 718-0043 to tour homes."
           center
           width="665px"
         />
@@ -62,7 +62,7 @@ const Pricing = () => {
             packageName="Lite"
             price={isMonthly ? "40" : "120"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Sun City Summerlin 55+ buyer and seller representation in Las Vegas ZIP 89134."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -75,7 +75,7 @@ const Pricing = () => {
             packageName="Basic"
             price={isMonthly ? "399" : "789"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Sun City Summerlin 55+ buyer and seller representation in Las Vegas ZIP 89134."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />
@@ -88,7 +88,7 @@ const Pricing = () => {
             packageName="Plus"
             price={isMonthly ? "589" : "999"}
             duration={isMonthly ? "mo" : "yr"}
-            subtitle="Lorem ipsum dolor sit amet adiscing elit Mauris egestas enim."
+            subtitle="Sun City Summerlin 55+ buyer and seller representation in Las Vegas ZIP 89134."
           >
             <OfferList text="All UI Components" status="active" />
             <OfferList text="Use with Unlimited Projects" status="active" />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
@@ -112,7 +113,7 @@ export default function HomeStylesPage() {
       <main className="pt-16 md:pt-20">
                 <PageHero
           title="Home Styles at Sun City Summerlin"
-          subtitle="With 7,779 homes built between 1989-2002, Sun City Summerlin offers incredible variety. From cozy 1,000 sq ft retreats to spacious 3,000+ sq ft residences."
+          subtitle="With 7,781 homes built between 1989-2002, Sun City Summerlin offers incredible variety. From cozy 1,000 sq ft retreats to spacious 3,000+ sq ft residences."
           imageSrc={pageHeroImages["floor-plans"].src}
           imageAlt={pageHeroImages["floor-plans"].alt}
         />
@@ -127,7 +128,7 @@ export default function HomeStylesPage() {
               <div className="grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
                 <div className="p-4">
                   <Building className="w-8 h-8 text-[#1C1917] mx-auto mb-2" />
-                  <p className="text-2xl font-bold text-[#1C1917]">7,779</p>
+                  <p className="text-2xl font-bold text-[#1C1917]">7,781</p>
                   <p className="text-sm text-[#141210]">Total Homes</p>
                 </div>
                 <div className="p-4">
@@ -255,6 +256,7 @@ export default function HomeStylesPage() {
           </div>
         </section>
       </main>
+      <LocalVisitSection heading="See home styles at Sun City Summerlin in person" />
       <Footer />
     </>
   );

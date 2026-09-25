@@ -3,6 +3,7 @@ import Link from "next/link";
 import Script from "next/script";
 import Navbar from "@components/navbar";
 import Footer from "@components/footer";
+import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import YouTubeEmbed from "@components/YouTubeEmbed";
@@ -93,7 +94,7 @@ const faqSchema = {
       name: "Is Sun City Summerlin safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Yes, Sun City Summerlin is very safe. The community is guard-gated with 24/7 security at all entrances. The 55+ age restriction, combined with the guard-gated access, creates a secure environment. The community is located in Summerlin, which is consistently ranked as one of the safest areas in Las Vegas.",
+        text: "Sun City Summerlin is guard-gated with 24/7 staffed entries. Streets and rec-campus walks are lit. 55+ occupancy rules apply. Ask Dr. Jan Duffy for current HOA security details before you buy.",
       },
     },
     {
@@ -212,7 +213,7 @@ export default function ProsConsPage() {
                     After helping over 500 families find homes in Las Vegas over 30 years, I've learned that Sun City Summerlin isn't right for everyone. Here's my honest assessment of who thrives here—and who might be happier elsewhere.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    Sun City Summerlin is Las Vegas' largest and most established 55+ community, with 7,781 homes built by Del Webb from 1989 to 2002. It's a place where active adults come to live their best retirement years, surrounded by world-class amenities and like-minded neighbors.
+                    Sun City Summerlin is Las Vegas' largest 55+ Del Webb community, with 7,781 homes built from 1989 to 2002. Active adults use four golf courses, three recreation centers, and 80+ clubs on site.
                   </p>
                   <p className="text-lg leading-relaxed">
                     But like any major life decision, buying a home here comes with trade-offs. In this comprehensive guide, I'll give you the unvarnished truth about what makes Sun City Summerlin special—and what you should know before making the move.
@@ -429,7 +430,7 @@ export default function ProsConsPage() {
                         9. Guard-Gated Security
                       </h3>
                       <p className="text-lg leading-relaxed text-[#141210]">
-                        Guard-gated entrances with 24/7 security provide peace of mind. The 55+ age restriction, combined with guard-gated access, creates a secure environment. The community is located in Summerlin, which is consistently ranked as one of the safest areas in Las Vegas.
+                        Guard-gated entrances with 24/7 staffed security are part of the HOA package. Streets and rec-campus walks are lit. Occupancy rules require at least one resident age 55 or older.
                       </p>
                     </div>
 
@@ -619,7 +620,7 @@ export default function ProsConsPage() {
                       After 30 years helping people find homes in Las Vegas, I can say this: Sun City Summerlin delivers exceptional value for active adults who want a vibrant, amenity-rich lifestyle. The pros significantly outweigh the cons for most buyers.
                     </p>
                     <p className="text-lg md:text-xl leading-relaxed mb-6">
-                      The key is knowing what you're getting. It's an established community with older homes but world-class amenities. If you prioritize lifestyle over having the newest construction, Sun City Summerlin is hard to beat.
+                      The key is knowing what you're getting. Homes date to 1989–2002, with rec campuses and golf already built. If you prioritize lifestyle over newest construction, Sun City Summerlin is hard to beat.
                     </p>
                     <p className="text-lg md:text-xl leading-relaxed">
                       The community has matured beautifully. The landscaping is established. The amenities are proven. The social scene is vibrant. And the location in Summerlin means you're in one of Las Vegas' most desirable areas.
@@ -676,7 +677,7 @@ export default function ProsConsPage() {
                         Is Sun City Summerlin safe?
                       </summary>
                       <p className="mt-4 text-[#141210] leading-relaxed">
-                        Yes, Sun City Summerlin is very safe. The community is guard-gated with 24/7 security at all entrances. The 55+ age restriction, combined with the guard-gated access, creates a secure environment. The community is located in Summerlin, which is consistently ranked as one of the safest areas in Las Vegas.
+                        Sun City Summerlin is guard-gated with 24/7 staffed entries. Streets and rec-campus walks are lit. 55+ occupancy rules apply. Ask Dr. Jan Duffy for current HOA security details before you buy.
                       </p>
                     </details>
 
@@ -850,6 +851,7 @@ export default function ProsConsPage() {
           }}
         />
       </main>
+      <LocalVisitSection heading="See Sun City Summerlin in person before you decide" />
       <Footer />
     </>
   );
