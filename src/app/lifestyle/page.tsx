@@ -11,6 +11,7 @@ import RealScoutListings from "@components/RealScoutListings";
 import { getDistances, getClubs } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
+import NearbyAmenitiesSection from "@components/sections/nearby-amenities-section";
 import {
   Users,
   Calendar,
@@ -373,6 +374,10 @@ export default function LifestylePage() {
             </div>
           </div>
         </section>
+        <NearbyAmenitiesSection
+          heading="Life near Sun City Summerlin"
+          subheading="Dining, fitness, and errands outside the gates complement on-site clubs and recreation. Filter the map by category or read the full nearby amenities guide."
+        />
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

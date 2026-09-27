@@ -7,6 +7,7 @@ import SolutionSection from "@components/sections/solution-section";
 import ValuePropsSection from "@components/sections/value-props";
 import TestimonialSection from "@components/sections/testimonial";
 import AmenitiesPreviewSection from "@components/sections/amenities-preview";
+import NearbyAmenitiesSection from "@components/sections/nearby-amenities-section";
 import HomeCollectionsSection from "@components/sections/home-collections";
 import AboutAgentSection from "@components/sections/about-agent";
 import Footer from "@components/footer";
@@ -92,6 +93,7 @@ export default function Home() {
         <ValuePropsSection />
         <TestimonialSection />
         <AmenitiesPreviewSection />
+        <NearbyAmenitiesSection />
         <HomeCollectionsSection />
         <FlyersSection />
         <VirtualTours />

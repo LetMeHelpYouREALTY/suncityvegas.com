@@ -66,6 +66,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/nearby-amenities"
+                  className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
+                >
+                  Nearby Amenities
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/lifestyle"
                   className="text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
                 >
