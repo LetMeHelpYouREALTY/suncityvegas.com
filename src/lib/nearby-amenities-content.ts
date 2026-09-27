@@ -9,7 +9,7 @@ export type NearbyAmenitiesFaq = {
 export const nearbyAmenitiesFaqs: NearbyAmenitiesFaq[] = [
   {
     question: `What grocery stores are near ${siteConfig.community}?`,
-    answer: `Whole Foods Market at Downtown Summerlin (1775 Village Center Circle), Albertsons on North Buffalo Drive, and Smith's Food and Drug on West Charleston Boulevard are common grocery runs from ${siteConfig.community} in ZIP ${siteConfig.zip}.`,
+    answer: `Whole Foods Market at 2475 S Town Center Drive (Downtown Summerlin), Albertsons at 1650 N Buffalo Drive, and Smith's Food and Drug at 9851 W Charleston Boulevard are common grocery runs from ${siteConfig.community} in ZIP ${siteConfig.zip}.`,
   },
   {
     question: `How far is ${siteConfig.community} from the Las Vegas Strip?`,
@@ -20,7 +20,7 @@ export const nearbyAmenitiesFaqs: NearbyAmenitiesFaq[] = [
     answer: `Yes. Summerlin Hospital Medical Center on Town Center Drive and Centennial Hills Hospital on North Durango Drive serve northwest Las Vegas, including ${siteConfig.community} residents.`,
   },
   {
-    question: `Where do residents shop and dine outside the gates?`,
+    question: `Where do residents shop and dine outside the community?`,
     answer: `Downtown Summerlin and Tivoli Village are the primary open-air shopping and dining hubs within a short drive of ${siteConfig.community}.`,
   },
   {
@@ -33,7 +33,7 @@ export const nearbyAmenitiesFaqs: NearbyAmenitiesFaq[] = [
   },
   {
     question: `Do I need to leave ${siteConfig.community} for golf and fitness?`,
-    answer: `No. Sun City Summerlin includes four golf courses and three recreation centers with pools, fitness, and courts; the map also shows additional golf, parks, and gyms nearby.`,
+    answer: `No. Sun City Summerlin includes three 18-hole courses (Highland Falls, Palm Valley, Eagle Crest) and four community centers (Mountain Shadows, Desert Vista, Pinnacle, Sun Shadows) with pools, fitness, and courts; the map also shows additional golf, parks, and gyms nearby.`,
   },
 ];
 
@@ -46,12 +46,12 @@ export const nearbyAmenitiesWrittenSections = [
   {
     id: "golf-parks",
     title: "Golf, parks & recreation",
-    body: `Inside the gates, Highland Falls, Palm Valley, Eagle Crest, and Stonebridge golf courses plus Mountain Shadows, Desert Vista, and Pinnacle recreation centers define daily life. Outside the community, Red Rock Canyon National Conservation Area offers trail access and a visitor center at 1000 Scenic Loop Drive. Neighborhood parks throughout Summerlin supplement the on-site amenity package.`,
+    body: `Inside the community, three 18-hole courses—Highland Falls, Palm Valley, and Eagle Crest—and four community centers (Mountain Shadows, Desert Vista, Pinnacle, and Sun Shadows) define daily life. Outside the community, Red Rock Canyon National Conservation Area offers trail access and a visitor center at 1000 Scenic Loop Drive. Neighborhood parks throughout Summerlin supplement the on-site amenity package.`,
   },
   {
     id: "dining-shopping",
     title: "Dining & shopping",
-    body: `Downtown Summerlin (1980 Festival Plaza Drive) and Tivoli Village (400 South Rampart Boulevard) combine national retailers, local boutiques, and restaurant rows a short drive from ${siteConfig.address}. Whole Foods Market at 1775 Village Center Circle sits in the same Summerlin West corridor.`,
+    body: `Downtown Summerlin (1980 Festival Plaza Drive) and Tivoli Village (400 South Rampart Boulevard) combine national retailers, local boutiques, and restaurant rows a short drive from ${siteConfig.address}. Whole Foods Market at 2475 S Town Center Drive sits in the same Summerlin West corridor.`,
   },
   {
     id: "commute",

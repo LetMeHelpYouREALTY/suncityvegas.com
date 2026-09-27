@@ -21,12 +21,14 @@ export type CuratedNearbyPlace = {
   postalCode: string;
   categories: AmenityCategoryId[];
   schemaType: NearbyPlaceSchemaType;
+  /** Official page used to verify name and street address */
+  sourceUrl: string;
   note?: string;
 };
 
 /**
- * Verified off-community destinations commonly used by Sun City Summerlin residents.
- * Addresses from published business / facility listings (no invented ratings or drive times).
+ * Hyperlocal destinations verified against primary business / facility sources.
+ * No invented ratings or drive times.
  */
 export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
   {
@@ -38,6 +40,8 @@ export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
     postalCode: "89144",
     categories: ["healthcare"],
     schemaType: "Hospital",
+    sourceUrl:
+      "https://www.dignityhealth.org/las-vegas/locations/summerlin-hospital-medical-center",
   },
   {
     id: "centennial-hills-hospital",
@@ -48,36 +52,42 @@ export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
     postalCode: "89149",
     categories: ["healthcare"],
     schemaType: "Hospital",
+    sourceUrl:
+      "https://www.dignityhealth.org/las-vegas/locations/centennial-hills-hospital-medical-center",
   },
   {
-    id: "whole-foods-downtown-summerlin",
+    id: "whole-foods-summerlin",
     name: "Whole Foods Market",
-    streetAddress: "1775 Village Center Circle",
+    streetAddress: "2475 S Town Center Drive",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
-    postalCode: "89134",
+    postalCode: "89135",
     categories: ["grocery"],
     schemaType: "GroceryStore",
+    sourceUrl: "https://www.wholefoodsmarket.com/stores/summerlin",
   },
   {
     id: "albertsons-buffalo",
     name: "Albertsons",
-    streetAddress: "1907 North Buffalo Drive",
+    streetAddress: "1650 N Buffalo Drive",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89128",
     categories: ["grocery"],
     schemaType: "Supermarket",
+    sourceUrl:
+      "https://local.albertsons.com/nv/las-vegas/1650-n-buffalo-dr.html",
   },
   {
     id: "smiths-charleston",
     name: "Smith's Food and Drug",
-    streetAddress: "9739 West Charleston Boulevard",
+    streetAddress: "9851 W Charleston Boulevard",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89117",
     categories: ["grocery"],
     schemaType: "Supermarket",
+    sourceUrl: "https://www.smithsfoodanddrug.com/stores/grocery/nv/las-vegas/charleston/68751",
   },
   {
     id: "downtown-summerlin",
@@ -89,6 +99,7 @@ export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
     categories: ["shopping", "restaurants"],
     schemaType: "ShoppingCenter",
     note: "Open-air shopping, dining, and services in Summerlin West.",
+    sourceUrl: "https://www.downtownsummerlin.com/",
   },
   {
     id: "tivoli-village",
@@ -99,6 +110,7 @@ export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
     postalCode: "89145",
     categories: ["shopping", "restaurants"],
     schemaType: "ShoppingCenter",
+    sourceUrl: "https://tivolivillage.com/",
   },
   {
     id: "red-rock-canyon",
@@ -109,28 +121,32 @@ export const CURATED_NEARBY_PLACES: CuratedNearbyPlace[] = [
     postalCode: "89161",
     categories: ["parks", "recreation"],
     schemaType: "Park",
+    sourceUrl: "https://www.nps.gov/redr/planyourvisit/basicinfo.htm",
   },
   {
     id: "highland-falls",
-    name: "Highland Falls Golf Course",
-    streetAddress: "9406 Del Webb Boulevard",
+    name: "Highland Falls Golf Club",
+    streetAddress: "10201 Sun City Boulevard",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89134",
     categories: ["golf"],
     schemaType: "GolfCourse",
-    note: "Championship course inside Sun City Summerlin.",
+    note: "18-hole course at Golf Summerlin inside Sun City Summerlin.",
+    sourceUrl: "https://www.golfsummerlin.com/highland_falls/",
   },
   {
-    id: "mountain-shadows-rec",
-    name: "Mountain Shadows Recreation Center",
-    streetAddress: "9600 Del Webb Boulevard",
+    id: "mountain-shadows-cc",
+    name: "Mountain Shadows Community Center",
+    streetAddress: "9107 Del Webb Boulevard",
     addressLocality: "Las Vegas",
     addressRegion: "NV",
     postalCode: "89134",
     categories: ["recreation", "fitness"],
     schemaType: "SportsActivityLocation",
-    note: "One of three Sun City Summerlin recreation centers.",
+    note: "One of four Sun City Summerlin community centers.",
+    sourceUrl:
+      "https://suncitysummerlin.com/Explore/Amenities/Mountain_Shadows",
   },
 ];
 

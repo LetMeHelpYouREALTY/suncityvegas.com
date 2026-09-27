@@ -1,7 +1,6 @@
 import { siteConfig } from "@/lib/site-config";
 import {
   CURATED_NEARBY_PLACES,
-  formatPlaceAddress,
   type CuratedNearbyPlace,
 } from "@/lib/nearby-places-data";
 import { COMMUNITY_MAP_CENTER } from "@/lib/amenity-map-config";
@@ -40,9 +39,9 @@ export function buildCommunityPlaceSchema() {
   return {
     "@context": "https://schema.org",
     "@type": "Place",
-    "@id": `${baseUrl}/nearby-amenities#community`,
+    "@id": `${baseUrl}/#community`,
     name: siteConfig.community,
-    description: `${siteConfig.community} is a guard-gated Del Webb 55+ active adult community in ${siteConfig.city}, Nevada.`,
+    description: `${siteConfig.community} is a Del Webb 55+ active adult community in ${siteConfig.city}, Nevada.`,
     address: {
       "@type": "PostalAddress",
       streetAddress: siteConfig.streetAddress,
@@ -64,8 +63,6 @@ export function buildNearbyAgentSchemaSnippet() {
     "@context": "https://schema.org",
     "@type": "RealEstateAgent",
     "@id": `${baseUrl}/#agent`,
-    name: siteConfig.agent.name,
-    telephone: siteConfig.phoneE164,
     areaServed: {
       "@type": "Place",
       name: siteConfig.community,
@@ -88,7 +85,7 @@ export function buildNearbyAmenitiesWebPageSchema() {
     description: `Interactive map and guide to healthcare, golf, grocery, parks, and shopping near ${siteConfig.community} in ${siteConfig.city}, Nevada.`,
     url: `${baseUrl}/nearby-amenities`,
     about: {
-      "@id": `${baseUrl}/nearby-amenities#community`,
+      "@id": `${baseUrl}/#community`,
     },
   };
 }
