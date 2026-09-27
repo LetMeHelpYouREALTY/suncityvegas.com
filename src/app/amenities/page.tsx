@@ -10,7 +10,7 @@ import ScrollAnimation from "@components/scroll-animation";
 import { getAmenities, getRecreationCenters, getGolfCourses } from "@/lib/communityData";
 import RealScoutListings from "@components/RealScoutListings";
 import { pageHeroImages } from "@/lib/page-heroes";
-import GoogleMapEmbed from "@components/GoogleMapEmbed";
+import AmenityMapClient from "@components/AmenityMapClient";
 import LocalVisitSection from "@components/LocalVisitSection";
 import {
   Activity,
@@ -135,18 +135,7 @@ const amenities = [
 const blurDataURL =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
 
-const AMENITY_MAP_SEARCH =
-  "golf courses recreation centers parks shopping dining near 9406 Del Webb Boulevard Las Vegas NV 89134";
-
-function AmenityMapEmbed() {
-  return (
-    <GoogleMapEmbed
-      query={AMENITY_MAP_SEARCH}
-      title="Golf, recreation centers, parks, shopping, and dining near Sun City Summerlin in Las Vegas"
-      heightClassName="h-[400px] md:h-[500px]"
-    />
-  );
-}
+const AmenityMap = AmenityMapClient;
 
 function AmenityCard({
   amenity,
@@ -285,9 +274,13 @@ export default function AmenitiesPage() {
                 </h2>
               </div>
               <p className="text-[#141210] text-center mb-8 max-w-2xl mx-auto">
-                Explore restaurants, parks, golf, and shopping near Sun City Summerlin. Use the map to see what&apos;s around ZIP 89134.
+                Explore healthcare, golf, grocery, and shopping near Sun City Summerlin. For the full hyperlocal guide and FAQs, visit{" "}
+                <Link href="/nearby-amenities" className="text-[#1C1917] font-semibold underline">
+                  nearby amenities
+                </Link>
+                .
               </p>
-              <AmenityMapEmbed />
+              <AmenityMap heightClassName="h-[400px] md:h-[500px]" showStaticList />
             </div>
           </div>
         </section>
