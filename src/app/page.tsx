@@ -31,7 +31,7 @@ const FinalCTASection = dynamic(() => import("@components/sections/final-cta"), 
 
 // Homepage metadata - optimized for SEO and target keywords (Del Webb, 55+ community homes for sale)
 export const metadata: Metadata = {
-  title: "Sun City Summerlin 55+ Community Homes for Sale | Del Webb Las Vegas Summerlin | Dr. Jan Duffy",
+  title: "Sun City Summerlin 55+ Homes for Sale | Las Vegas",
   description:
     "Sun City Summerlin 55+ community homes for sale in Las Vegas, NV 89134. Buyer, seller, HOA, VA, and relocation services from Dr. Jan Duffy. Call (702) 718-0043.",
   keywords: [
