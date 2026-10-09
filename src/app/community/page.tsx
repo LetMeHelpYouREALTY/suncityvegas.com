@@ -12,6 +12,7 @@ import { MapPin, Calendar, Home, Users, Activity, Award } from "lucide-react";
 import { getGolfCourses, getRecreationCenters } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
+import NearbyAmenitiesSection from "@components/sections/nearby-amenities-section";
 
 export const metadata: Metadata = {
   title: "Sun City Summerlin Community Guide | Las Vegas 55+ Active Adult Community",
@@ -403,6 +404,11 @@ export default function CommunityPage() {
             </div>
           </div>
         </section>
+
+        <NearbyAmenitiesSection
+          heading="What's nearby Sun City Summerlin"
+          subheading="Healthcare, grocery, Summerlin shopping, and Red Rock Canyon—all within an easy drive of this 55+ community. Open the full nearby amenities guide for maps, FAQs, and drive-time context."
+        />
 
         {/* CTA Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-[#1C1917] text-white">
