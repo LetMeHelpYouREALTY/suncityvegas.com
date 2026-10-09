@@ -3,6 +3,7 @@ import { Button } from "./ui/button";
 import ScheduleTour from "./ScheduleTour";
 import CdnImage from "@components/CdnImage";
 import GbpActions from "@components/GbpActions";
+import AgentMark from "@components/AgentMark";
 import { siteConfig } from "@/lib/site-config";
 
 const blurDataURL =
@@ -28,6 +29,9 @@ export default function Hero() {
 
       <div className="container mx-auto px-4 py-16 md:py-24 lg:py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
+          <div className="mb-4 flex justify-center">
+            <AgentMark size="hero" />
+          </div>
           <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
             Dr. Jan Duffy · Sun City Summerlin Specialist
           </p>

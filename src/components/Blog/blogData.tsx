@@ -9,7 +9,7 @@ const blogData: Blog[] = [
     image: "/images/blog/neighborhoods-hero.jpg",
     author: {
       name: "Dr. Jan Duffy",
-      image: "/images/agent/dr-jan-duffy.jpg",
+      image: "/images/agent/dr-jan-duffy-mark.png",
       designation: "Sun City Summerlin Realtor",
     },
     tags: ["neighborhoods"],
@@ -23,7 +23,7 @@ const blogData: Blog[] = [
     image: "/images/blog/california-relocation-hero.jpg",
     author: {
       name: "Dr. Jan Duffy",
-      image: "/images/agent/dr-jan-duffy.jpg",
+      image: "/images/agent/dr-jan-duffy-mark.png",
       designation: "Sun City Summerlin Realtor",
     },
     tags: ["relocation"],
@@ -37,7 +37,7 @@ const blogData: Blog[] = [
     image: "/images/blog/hoa-fees-hero.jpg",
     author: {
       name: "Dr. Jan Duffy",
-      image: "/images/agent/dr-jan-duffy.jpg",
+      image: "/images/agent/dr-jan-duffy-mark.png",
       designation: "Sun City Summerlin Realtor",
     },
     tags: ["hoa"],

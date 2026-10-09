@@ -1,5 +1,6 @@
 import type { ReactNode } from "react";
 import CdnImage from "@components/CdnImage";
+import AgentMark from "@components/AgentMark";
 
 const DEFAULT_BLUR =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
@@ -55,6 +56,9 @@ export default function PageHero({
 
       <div className="container mx-auto px-4 py-16 md:py-20 lg:py-24 relative z-10">
         <div className={`max-w-4xl ${alignClass}`}>
+          <div className={`mb-4 flex ${align === "left" ? "justify-start" : "justify-center"}`}>
+            <AgentMark size="hero" />
+          </div>
           {eyebrow ? (
             <p className="text-sm md:text-base uppercase tracking-[0.2em] text-[#C9A962] mb-4 font-semibold drop-shadow-[0_2px_4px_rgba(0,0,0,0.7)]">
               {eyebrow}

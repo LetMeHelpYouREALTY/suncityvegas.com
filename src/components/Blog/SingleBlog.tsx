@@ -32,7 +32,7 @@ const SingleBlog = ({ blog }: { blog: Blog }) => {
             <div className="border-body-color/10 mr-5 flex items-center border-r pr-5 xl:mr-3 xl:pr-3 2xl:mr-5 2xl:pr-5 dark:border-white/10">
               <div className="mr-4">
                 <div className="relative h-10 w-10 overflow-hidden rounded-full">
-                  <CdnImage src={author.image} alt={`Author ${author.name}`} fill />
+                  <CdnImage src={author.image} alt={`Author ${author.name}, Sun City Summerlin REALTOR`} fill className="object-contain" />
                 </div>
               </div>
               <div className="w-full">

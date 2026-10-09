@@ -1,5 +1,6 @@
 import Link from "next/link";
 import CdnImage from "@components/CdnImage";
+import AgentMark from "@components/AgentMark";
 import { Home, Sparkles, Users, HelpCircle, Phone, Briefcase } from "lucide-react";
 import { Button } from "../ui/button";
 
@@ -89,9 +90,13 @@ export default function ExploreCommunitySection() {
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-transparent" />
                     <div className="absolute top-4 left-4">
-                      <div className="bg-white/90 backdrop-blur-sm rounded-full p-3">
-                        <Icon className="w-6 h-6 text-[#1C1917]" aria-hidden />
-                      </div>
+                      {card.href === "/about" ? (
+                        <AgentMark size="nav" />
+                      ) : (
+                        <div className="bg-white/90 backdrop-blur-sm rounded-full p-3">
+                          <Icon className="w-6 h-6 text-[#1C1917]" aria-hidden />
+                        </div>
+                      )}
                     </div>
                     {card.primary && (
                       <div className="absolute top-4 right-4">

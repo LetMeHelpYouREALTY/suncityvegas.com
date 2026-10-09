@@ -29,7 +29,7 @@ export const siteConfig = {
       professional: "(702) 718-0043"
     },
     email: "DrDuffySells@SunCityVegas.com",
-    photo: "/images/agent/dr-jan-duffy.jpg",
+    photo: "/images/agent/dr-jan-duffy-mark.png",
     openingDate: "2013-09-20"
   },
   

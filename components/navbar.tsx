@@ -7,6 +7,7 @@ import { Menu, X, Phone, ChevronDown } from "lucide-react";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import { siteConfig } from "@/lib/site-config";
+import AgentMark from "@components/AgentMark";
 
 // Main navigation links (6-8 links ideal for sitelinks)
 const mainNavLinks = [
@@ -109,10 +110,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link
             href="/"
-            className="text-lg sm:text-xl md:text-2xl font-bold text-[#1C1917] font-playfair"
+            className="flex items-center gap-2 sm:gap-3 min-h-[44px] text-lg sm:text-xl md:text-2xl font-bold text-[#1C1917] font-playfair"
             aria-label="Sun City Summerlin Home"
           >
-            Sun City Summerlin
+            <AgentMark size="nav" />
+            <span>Sun City Summerlin</span>
           </Link>
 
           {/* Desktop Navigation */}

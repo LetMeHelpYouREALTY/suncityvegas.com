@@ -4,6 +4,7 @@ import { useState, useEffect, useRef } from "react";
 import { Phone, Calendar } from "lucide-react";
 import CalendlyInline from "../CalendlyInline";
 import ScrollAnimation from "../scroll-animation";
+import AgentMark from "@components/AgentMark";
 
 /** Defer Calendly script/embed until section is in view or user clicks (avoids loading ~1.7MB Calendly+Stripe on initial paint). */
 export default function FinalCTASection() {
@@ -35,6 +36,9 @@ export default function FinalCTASection() {
             {/* Left Column - CTA Text */}
             <ScrollAnimation>
               <div className="text-center lg:text-left">
+                <div className="mb-4 flex justify-center lg:justify-start">
+                  <AgentMark size="hero" />
+                </div>
                 <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 font-playfair text-[#1C1917]">
                   Ready to See It For Yourself?
                 </h2>

@@ -2,6 +2,7 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import CdnImage from "@components/CdnImage";
 import ScrollAnimation from "../scroll-animation";
+import { siteConfig } from "@/lib/site-config";
 
 const blurDataURL =
   "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAAIAAoDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAhEAACAQMDBQAAAAAAAAAAAAABAgMABAUGIWEREiMxUf/EABUBAQEAAAAAAAAAAAAAAAAAAAMF/8QAGhEAAgIDAAAAAAAAAAAAAAAAAAECEgMRkf/aAAwDAQACEQMRAD8AltJagyeH0AthI5xdrLcNM91BF5pX2HaH9bcfaSXWGaRmknyJckliyjqTzSlT54b6bk+h0R//2Q==";
@@ -15,10 +16,10 @@ export default function AboutAgentSection() {
             <ScrollAnimation>
               <div className="relative aspect-square max-w-md mx-auto lg:mx-0">
                 <CdnImage
-                  src="/images/about/dr-jan-duffy.jpg"
+                  src={siteConfig.agent.photo}
                   alt="Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas"
                   fill
-                  className="object-cover rounded-lg shadow-three"
+                  className="object-contain rounded-lg shadow-three"
                   placeholder="blur"
                   blurDataURL={blurDataURL}
                   sizes="(max-width: 768px) 100vw, 50vw"
