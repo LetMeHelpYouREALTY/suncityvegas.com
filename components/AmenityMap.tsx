@@ -13,17 +13,13 @@ import {
 } from "@/lib/amenity-map-config";
 import { searchCategoryAtCommunity } from "@/lib/amenity-places-search";
 import {
-  formatPlaceAddress,
-  getCuratedPlacesByCategory,
-  googleMapsDirectionsUrl,
-} from "@/lib/nearby-places-data";
-import {
   loadGoogleMaps,
   mapsAuthFailed,
 } from "@/lib/google-maps-loader";
-import { MapPin, Navigation } from "lucide-react";
+import { MapPin } from "lucide-react";
+import CuratedPlaceList from "@components/CuratedPlaceList";
 
-type AmenityMapProps = {
+export type AmenityMapProps = {
   className?: string;
   /** Reserve map height to prevent CLS */
   heightClassName?: string;
@@ -100,50 +96,6 @@ function createInfoWindowElement(data: MapMarker): HTMLElement {
   return wrap;
 }
 
-function StaticPlaceList({ categoryId }: { categoryId: AmenityCategoryId }) {
-  const places = getCuratedPlacesByCategory(categoryId);
-  const community = buildCommunityMarker();
-
-  return (
-    <ul className="mt-4 space-y-3" aria-label="Nearby places list">
-      <li className="rounded-lg border border-[#E8E4E0] bg-white p-4">
-        <p className="font-semibold text-[#1C1917]">{community.title}</p>
-        <p className="text-sm text-[#141210] mt-1">{community.address}</p>
-        <a
-          href={community.directionsUrl}
-          className="inline-flex items-center gap-1 text-sm font-medium text-[#1C1917] mt-2 min-h-[44px]"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Navigation className="w-4 h-4" aria-hidden />
-          Directions
-        </a>
-      </li>
-      {places.map((place) => (
-        <li
-          key={place.id}
-          className="rounded-lg border border-[#E8E4E0] bg-white p-4"
-        >
-          <p className="font-semibold text-[#1C1917]">{place.name}</p>
-          <p className="text-sm text-[#141210] mt-1">{formatPlaceAddress(place)}</p>
-          {place.note ? (
-            <p className="text-sm text-[#57534E] mt-1">{place.note}</p>
-          ) : null}
-          <a
-            href={googleMapsDirectionsUrl(place)}
-            className="inline-flex items-center gap-1 text-sm font-medium text-[#1C1917] mt-2 min-h-[44px]"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Navigation className="w-4 h-4" aria-hidden />
-            Directions
-          </a>
-        </li>
-      ))}
-    </ul>
-  );
-}
-
 function placesToMarkers(places: google.maps.places.Place[]): MapMarker[] {
   const communityMarker = buildCommunityMarker();
   const results: MapMarker[] = [communityMarker];
@@ -191,6 +143,7 @@ export default function AmenityMap({
     apiKey ? "idle" : "fallback"
   );
   const [placesFetchFailed, setPlacesFetchFailed] = useState(false);
+  const [liveSearch, setLiveSearch] = useState(false);
   const [statusMessage, setStatusMessage] = useState<string | null>(null);
 
   const clearMarkers = useCallback(() => {
@@ -316,7 +269,13 @@ export default function AmenityMap({
 
   useEffect(() => {
     const map = mapInstanceRef.current;
-    if (!map || mode !== "interactive") return;
+    if (!map || mode !== "interactive" || liveSearch) return;
+    renderMarkers(map, [buildCommunityMarker()]);
+  }, [liveSearch, mode, renderMarkers]);
+
+  useEffect(() => {
+    const map = mapInstanceRef.current;
+    if (!map || mode !== "interactive" || !liveSearch) return;
 
     let cancelled = false;
     setPlacesFetchFailed(false);
@@ -336,13 +295,17 @@ export default function AmenityMap({
     return () => {
       cancelled = true;
     };
-  }, [activeCategory, mode, renderMarkers]);
+  }, [activeCategory, liveSearch, mode, renderMarkers]);
 
   const embedSrc = `https://www.google.com/maps?q=${COMMUNITY_MAP_CENTER.lat},${COMMUNITY_MAP_CENTER.lng}&z=${COMMUNITY_MAP_ZOOM}&output=embed`;
 
   const showList =
     showStaticList &&
-    (mode === "fallback" || !apiKey || mapsAuthFailed || placesFetchFailed);
+    (!liveSearch ||
+      mode === "fallback" ||
+      !apiKey ||
+      mapsAuthFailed ||
+      placesFetchFailed);
 
   return (
     <div ref={containerRef} className={cn("w-full", className)}>
@@ -362,7 +325,10 @@ export default function AmenityMap({
               type="button"
               aria-pressed={selected ? "true" : "false"}
               aria-label={`Show ${cat.label} near ${siteConfig.community}`}
-              onClick={() => setActiveCategory(cat.id)}
+              onClick={() => {
+                setActiveCategory(cat.id);
+                setLiveSearch(true);
+              }}
               className={cn(
                 "min-h-[44px] px-4 py-2 rounded-full text-sm font-medium border transition-colors",
                 selected
@@ -413,7 +379,7 @@ export default function AmenityMap({
         ) : null}
       </div>
 
-      {showList ? <StaticPlaceList categoryId={activeCategory} /> : null}
+      {showList ? <CuratedPlaceList categoryId={activeCategory} /> : null}
     </div>
   );
 }
