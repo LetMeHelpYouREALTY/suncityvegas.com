@@ -16,7 +16,8 @@ export default function Hero() {
           src="/images/hero/hero-bg.jpg"
           alt="Sun City Summerlin golf fairway with Red Rock Canyon mountain views in Las Vegas"
           fill
-          priority
+          preload
+          fetchPriority="high"
           className="object-cover"
           placeholder="blur"
           blurDataURL={blurDataURL}

@@ -42,7 +42,8 @@ export default function PageHero({
           src={imageSrc}
           alt={imageAlt}
           fill
-          priority={priority}
+          preload={priority}
+          fetchPriority={priority ? "high" : "auto"}
           className="object-cover object-center"
           style={{ objectFit: "cover", objectPosition: "center" }}
           placeholder="blur"
