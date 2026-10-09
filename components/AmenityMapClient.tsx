@@ -1,25 +1,29 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useEffect, useState, type ComponentProps } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { cn } from "@/lib/utils";
-import { VISIBLE_AMENITY_CATEGORIES } from "@/lib/amenity-map-config";
+import type { AmenityMapProps } from "@components/AmenityMap";
+import {
+  VISIBLE_AMENITY_CATEGORIES,
+  type AmenityCategoryId,
+} from "@/lib/amenity-map-config";
+import CuratedPlaceList from "@components/CuratedPlaceList";
 
 const DEFAULT_MAP_HEIGHT = "h-[400px] md:h-[480px]";
 
-const AmenityMap = dynamic(() => import("@components/AmenityMap"), {
-  ssr: false,
-  loading: () => null,
-});
-
 function AmenityMapSkeleton({
   heightClassName = DEFAULT_MAP_HEIGHT,
+  categoryId = "healthcare",
+  showList = true,
 }: {
   heightClassName?: string;
+  categoryId?: AmenityCategoryId;
+  showList?: boolean;
 }) {
   return (
-    <div className="w-full" aria-hidden>
-      <div className="flex flex-wrap gap-2 mb-4">
+    <div className="w-full">
+      <div className="flex flex-wrap gap-2 mb-4" aria-hidden>
         {VISIBLE_AMENITY_CATEGORIES.map((cat) => (
           <div
             key={cat.id}
@@ -34,30 +38,58 @@ function AmenityMapSkeleton({
           "rounded-lg bg-[#E8E4E0] animate-pulse border border-[#E8E4E0]",
           heightClassName
         )}
+        aria-hidden
       />
-      <div className="mt-4 space-y-3">
-        <div className="h-24 rounded-lg bg-[#E8E4E0] animate-pulse" />
-        <div className="h-24 rounded-lg bg-[#E8E4E0] animate-pulse" />
-      </div>
+      {showList ? <CuratedPlaceList categoryId={categoryId} /> : null}
     </div>
   );
 }
 
-type AmenityMapClientProps = ComponentProps<typeof AmenityMap>;
+type AmenityMapClientProps = AmenityMapProps;
 
 export default function AmenityMapClient({
   heightClassName,
+  defaultCategory = "healthcare",
+  showStaticList = true,
   ...props
 }: AmenityMapClientProps) {
   const [mounted, setMounted] = useState(false);
+
+  const AmenityMap = useMemo(
+    () =>
+      dynamic(() => import("@components/AmenityMap"), {
+        ssr: false,
+        loading: () => (
+          <AmenityMapSkeleton
+            heightClassName={heightClassName}
+            categoryId={defaultCategory}
+            showList={showStaticList}
+          />
+        ),
+      }),
+    [defaultCategory, heightClassName, showStaticList]
+  );
 
   useEffect(() => {
     setMounted(true);
   }, []);
 
   if (!mounted) {
-    return <AmenityMapSkeleton heightClassName={heightClassName} />;
+    return (
+      <AmenityMapSkeleton
+        heightClassName={heightClassName}
+        categoryId={defaultCategory}
+        showList={showStaticList}
+      />
+    );
   }
 
-  return <AmenityMap heightClassName={heightClassName} {...props} />;
+  return (
+    <AmenityMap
+      heightClassName={heightClassName}
+      defaultCategory={defaultCategory}
+      showStaticList={showStaticList}
+      {...props}
+    />
+  );
 }
