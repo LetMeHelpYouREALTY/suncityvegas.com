@@ -399,6 +399,7 @@ export default function RootLayout({
         {children}
         <Analytics />
         <SpeedInsights />
+        <Script src="/ads-conversions.js" strategy="afterInteractive" />
       </body>
     </html>
   );
