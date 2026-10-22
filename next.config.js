@@ -50,11 +50,11 @@ const nextConfig = {
             value: [
               "default-src 'self'",
               "script-src 'self' 'unsafe-inline' 'unsafe-eval' blob: https://em.realscout.com https://www.realscout.com https://assets.calendly.com https://www.googletagmanager.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://www.google.com https://maps.googleapis.com https://*.googleapis.com https://*.gstatic.com",
-              "connect-src 'self' https://em.realscout.com https://www.realscout.com https://assets.calendly.com https://calendly.com https://www.google-analytics.com https://www.googletagmanager.com https://maps.googleapis.com https://places.googleapis.com https://*.googleapis.com https://*.gstatic.com https://*.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net",
+              "connect-src 'self' https://em.realscout.com https://www.realscout.com https://assets.calendly.com https://calendly.com https://www.google-analytics.com https://www.googletagmanager.com https://maps.googleapis.com https://places.googleapis.com https://*.googleapis.com https://*.gstatic.com https://*.google.com https://www.googleadservices.com https://googleads.g.doubleclick.net https://td.doubleclick.net",
               "style-src 'self' 'unsafe-inline' https://assets.calendly.com https://fonts.googleapis.com",
               "img-src 'self' data: blob: https:",
               "font-src 'self' data: https://fonts.gstatic.com",
-              "frame-src 'self' https://em.realscout.com https://www.realscout.com https://calendly.com https://www.youtube.com https://youtube.com https://my.matterport.com https://www.google.com https://maps.google.com https://*.google.com https://storage.googleapis.com",
+              "frame-src 'self' https://em.realscout.com https://www.realscout.com https://calendly.com https://www.youtube.com https://youtube.com https://my.matterport.com https://www.google.com https://maps.google.com https://*.google.com https://storage.googleapis.com https://googleads.g.doubleclick.net https://www.googleadservices.com https://td.doubleclick.net",
               "worker-src 'self' blob:",
               "frame-ancestors 'self'",
             ].join('; '),
