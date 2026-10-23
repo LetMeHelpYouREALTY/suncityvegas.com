@@ -10,6 +10,7 @@ import { Phone, Users, Heart, Music, Palette, Camera, BookOpen, Gamepad2 } from 
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Clubs & Organizations | 80+ Active Groups",
@@ -133,6 +134,7 @@ export default function ClubsPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Clubs" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

@@ -9,6 +9,7 @@ import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import { getAmenities, getRecreationCenters, getGolfCourses } from "@/lib/communityData";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import AmenityMapClient from "@components/AmenityMapClient";
 import LocalVisitSection from "@components/LocalVisitSection";
@@ -228,6 +229,7 @@ export default function AmenitiesPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Amenities" />
+        <CalendlyAfterListings />
 
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">

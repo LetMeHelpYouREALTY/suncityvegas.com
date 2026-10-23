@@ -2,6 +2,8 @@
 
 import { useState, useEffect, useCallback } from 'react';
 import { Calendar, X } from 'lucide-react';
+import { usePathname } from 'next/navigation';
+import { calendlyUrlFor } from '@/lib/calendly';
 
 type CalendlyButtonProps = {
   url?: string;
@@ -11,9 +13,11 @@ type CalendlyButtonProps = {
 const CALENDLY_SCRIPT = 'https://assets.calendly.com/assets/external/widget.js';
 
 export default function CalendlyButton({
-  url = 'https://calendly.com/drjanduffy/appointment',
+  url: urlProp,
   text = 'Schedule My Tour',
 }: CalendlyButtonProps) {
+  const pathname = usePathname() || '/';
+  const url = urlProp ?? calendlyUrlFor(pathname, 'floating-button');
   const [isVisible, setIsVisible] = useState(false);
   const [isDismissed, setIsDismissed] = useState(false);
 

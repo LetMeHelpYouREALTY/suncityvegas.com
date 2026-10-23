@@ -10,6 +10,7 @@ import { Button } from "@components/ui/button";
 import { Phone, Calendar, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import Script from "next/script";
 
 /** Replace with your YouTube video ID (from youtube.com/watch?v=VIDEO_ID) */
@@ -94,6 +95,7 @@ export default function What55BuyersSpendPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | What 55 Buyers Spend Sun City Summerlin" />
+        <CalendlyAfterListings />
 
 
         <section className="py-8 md:py-12 bg-white">

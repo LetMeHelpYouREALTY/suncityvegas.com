@@ -11,6 +11,7 @@ import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Pinnacle Community Center | Sun City Summerlin Amenities",
@@ -98,6 +99,7 @@ export default function PinnaclePage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Pinnacle" />
+        <CalendlyAfterListings />
 
         {/* Overview Section */}
         <section className="py-12 md:py-16 bg-white">

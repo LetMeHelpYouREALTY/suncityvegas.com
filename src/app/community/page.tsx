@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { MapPin, Calendar, Home, Users, Activity, Award } from "lucide-react";
 import { getGolfCourses, getRecreationCenters } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
@@ -100,6 +101,7 @@ export default function CommunityPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Community" />
+        <CalendlyAfterListings />
 
 
         {/* History Section */}

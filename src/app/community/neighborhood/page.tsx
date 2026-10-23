@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import {
   MapPin,
@@ -137,6 +138,7 @@ export default function NeighborhoodPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Neighborhood" />
+        <CalendlyAfterListings />
 
 
         {/* Map */}

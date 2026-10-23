@@ -12,6 +12,7 @@ import { Phone, MapPin, Clock, Users, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Mountain Shadows Community Center | Sun City Summerlin Amenities",
@@ -99,6 +100,7 @@ export default function MountainShadowsPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Mountain Shadows" />
+        <CalendlyAfterListings />
 
         {/* Overview Section */}
         <section className="py-12 md:py-16 bg-white">

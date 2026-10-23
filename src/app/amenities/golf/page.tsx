@@ -13,6 +13,7 @@ import { getGolfCourses } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Golf Courses | Palm Valley, Highland Falls, Eagle Crest",
@@ -87,6 +88,7 @@ export default function GolfPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Golf" />
+        <CalendlyAfterListings />
 
         {/* Introduction */}
         <section className="py-12 md:py-16 bg-white">

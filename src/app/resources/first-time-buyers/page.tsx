@@ -10,6 +10,7 @@ import { Phone, ArrowRight, Check, Home, DollarSign, FileText, Shield, Users, Tr
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "First-Time Buyer Guide for Sun City Summerlin: Sun City Summerlin 55+ Community",
@@ -58,6 +59,7 @@ export default function FirstTimeBuyersPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | First Time Buyers" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

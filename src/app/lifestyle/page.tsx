@@ -8,6 +8,7 @@ import Link from "next/link";
 import ScrollAnimation from "@components/scroll-animation";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { getDistances, getClubs } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
@@ -152,6 +153,7 @@ export default function LifestylePage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Lifestyle" />
+        <CalendlyAfterListings />
 
 
         {/* Quick Stats */}

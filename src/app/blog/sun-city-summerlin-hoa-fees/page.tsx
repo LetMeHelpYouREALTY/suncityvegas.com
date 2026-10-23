@@ -12,6 +12,7 @@ import { getCommunityInfo } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin HOA Fees 2025: Complete Breakdown | HOA Sun City Del Webb",
   description:
@@ -154,6 +155,7 @@ export default function HOAFeesPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun City Summerlin Hoa Fees" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}

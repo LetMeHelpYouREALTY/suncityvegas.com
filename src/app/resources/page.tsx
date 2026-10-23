@@ -9,6 +9,7 @@ import { BookOpen, TrendingUp, Truck, Home, ArrowRight } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Resources | Guides, Market Insights & Moving Tips",
@@ -87,6 +88,7 @@ export default function ResourcesPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Resources" />
+        <CalendlyAfterListings />
 
 
         {/* Resource cards */}

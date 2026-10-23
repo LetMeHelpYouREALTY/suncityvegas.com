@@ -10,6 +10,7 @@ import { Phone, Calendar, Building, Users, MapPin } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin History | Del Webb in Summerlin 1989-2002",
@@ -65,6 +66,7 @@ export default function HistoryPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | History" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

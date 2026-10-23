@@ -8,6 +8,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import ScrollAnimation from "@components/scroll-animation";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import { Calendar, ArrowRight } from "lucide-react";
 
@@ -270,6 +271,7 @@ export default function BlogPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Blog" />
+        <CalendlyAfterListings />
 
 
         {/* Blog Posts Grid */}

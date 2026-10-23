@@ -11,6 +11,7 @@ import { Home, Maximize2, Calendar, Building } from "lucide-react";
 import MortgageCalculator from "@components/MortgageCalculator";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 
 export const metadata: Metadata = {
@@ -119,6 +120,7 @@ export default function HomeStylesPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Floor Plans" />
+        <CalendlyAfterListings />
 
 
         {/* Community Stats */}

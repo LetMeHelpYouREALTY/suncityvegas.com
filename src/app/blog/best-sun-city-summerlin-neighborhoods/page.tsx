@@ -11,6 +11,7 @@ import { Phone, Calendar, ArrowRight, MapPin, Home, Star } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
   title: "Best Neighborhoods in Sun City Summerlin: Complete Guide (2025)",
   description:
@@ -136,6 +137,7 @@ export default function BestNeighborhoodsPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Best Sun City Summerlin Neighborhoods" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}

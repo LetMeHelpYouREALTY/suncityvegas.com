@@ -1,6 +1,8 @@
 'use client';
 
+import { usePathname } from 'next/navigation';
 import { useEffect, useRef } from 'react';
+import { tagCalendlyUrl } from '@/lib/calendly';
 
 type CalendlyInlineProps = {
   url: string;
@@ -9,11 +11,12 @@ type CalendlyInlineProps = {
 };
 
 export default function CalendlyInline({ 
-  url = 'https://calendly.com/drjanduffy/showing',
+  url: rawUrl = 'https://calendly.com/drjanduffy/showing',
   height = '700px',
   className = ''
 }: CalendlyInlineProps) {
   const widgetRef = useRef<HTMLDivElement>(null);
+  const url = tagCalendlyUrl(rawUrl, 'inline', usePathname() || '/');
 
   useEffect(() => {
     if (!widgetRef.current) return;

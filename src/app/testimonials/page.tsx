@@ -5,6 +5,7 @@ import Breadcrumbs from '@components/Breadcrumbs';
 import PageHero from "@components/PageHero";
 import ScrollAnimation from '@components/scroll-animation';
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import ReviewJsonLd from "@components/ReviewJsonLd";
 import LocalVisitSection from "@components/LocalVisitSection";
@@ -80,6 +81,7 @@ export default function TestimonialsPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Testimonials" />
+        <CalendlyAfterListings />
 
 
         {/* Testimonials Grid */}

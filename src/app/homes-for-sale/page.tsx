@@ -8,6 +8,7 @@ import { Button } from "@components/ui/button";
 import Link from "next/link";
 import MortgageCalculator from "@components/MortgageCalculator";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { getCommunityInfo } from "@/lib/communityData";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
@@ -107,6 +108,7 @@ export default async function HomesForSalePage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Homes For Sale" />
+        <CalendlyAfterListings />
 
         {/* CTA Cards Section */}
         <section className="py-12 md:py-16 bg-[#F7F6F4]">

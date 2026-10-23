@@ -11,6 +11,7 @@ import { Phone, Calendar, ArrowRight, Shield, Lock, Users } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
   title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
   description:
@@ -136,6 +137,7 @@ export default function SafetyPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Is Sun City Summerlin Safe" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}

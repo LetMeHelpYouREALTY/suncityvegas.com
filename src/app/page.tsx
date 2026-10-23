@@ -12,6 +12,7 @@ import HomeCollectionsSection from "@components/sections/home-collections";
 import AboutAgentSection from "@components/sections/about-agent";
 import Footer from "@components/footer";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import ExploreCommunitySection from "@components/sections/explore-community";
 import FeaturedListingSection from "@components/sections/featured-listing";
 import MarketStatsSection from "@components/sections/market-stats";
@@ -78,6 +79,7 @@ export default function Home() {
         <Hero />
 
         <RealScoutListings h2Text="Browse Homes for Sale in Sun City Summerlin | Las Vegas 55+ Community" />
+        <CalendlyAfterListings />
 
         {/* Featured Listing Section - Enable in component when listing is available */}
         <FeaturedListingSection />

@@ -11,6 +11,7 @@ import { Phone, Calendar, ArrowRight, Check, X } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
   title: "Sun City Summerlin vs Sun City Anthem: Which is Better? (2025)",
   description:
@@ -136,6 +137,7 @@ export default function ComparisonPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sun City Summerlin Vs Sun City Anthem" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}

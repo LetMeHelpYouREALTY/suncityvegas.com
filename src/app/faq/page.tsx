@@ -6,6 +6,7 @@ import Breadcrumbs from '@components/Breadcrumbs';
 import PageHero from "@components/PageHero";
 import FAQAccordion from '@components/FAQAccordion';
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
 import { getAllQuestions } from '@/lib/faqData';
@@ -107,6 +108,7 @@ export default function FAQPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Faq" />
+        <CalendlyAfterListings />
 
 
         {/* FAQ Content */}

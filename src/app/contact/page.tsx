@@ -12,6 +12,7 @@ import ScheduleTour from "@components/ScheduleTour";
 import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import GoogleMapEmbed from "@components/GoogleMapEmbed";
 import FaqJsonLd from "@components/FaqJsonLd";
 import { pageHeroImages } from "@/lib/page-heroes";
@@ -187,6 +188,7 @@ export default function ContactPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Contact" />
+        <CalendlyAfterListings />
 
 
         {/* Contact Section */}
