@@ -32,6 +32,12 @@ const nextConfig = {
         destination: '/floor-plans/haven',
         permanent: true,
       },
+      // Renamed for fair housing: guides describe features, never rate safety
+      {
+        source: '/blog/is-sun-city-summerlin-safe',
+        destination: '/blog/sun-city-summerlin-gates-and-security',
+        permanent: true,
+      },
       // Catch-all for any other /units/* routes
       {
         source: '/units/:path*',

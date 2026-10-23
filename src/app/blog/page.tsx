@@ -118,13 +118,13 @@ const blogPosts = [
     category: "Relocation Guide",
   },
   {
-    slug: "is-sun-city-summerlin-safe",
-    title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
+    slug: "sun-city-summerlin-gates-and-security",
+    title: "Sun City Summerlin Gates and Security Features (2025)",
     excerpt:
       "Guard-gated 55+ living in Sun City Summerlin: 24/7 staffed entries and rec-path lighting in Las Vegas ZIP 89134. Dr. Jan Duffy.",
     date: "2025-01-26",
     image: "/images/blog/safety-hero.jpg",
-    category: "Safety Guide",
+    category: "Community Guide",
   },
   {
     slug: "best-sun-city-summerlin-neighborhoods",
