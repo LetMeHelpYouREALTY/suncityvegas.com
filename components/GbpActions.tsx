@@ -43,7 +43,7 @@ export default function GbpActions({
         target="_blank"
         rel="noopener noreferrer"
         className={cn(linkBase, secondaryClass)}
-        aria-label="Get directions to 9406 Del Webb Boulevard, Las Vegas, NV 89134"
+        aria-label="Get directions to 9406 Del Webb Blvd, Las Vegas, NV 89134"
       >
         <Navigation className="w-4 h-4" aria-hidden />
         Get Directions

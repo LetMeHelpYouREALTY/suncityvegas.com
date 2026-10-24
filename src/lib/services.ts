@@ -43,7 +43,7 @@ export const SERVICE_CATEGORIES: {
     label: "Real estate agency",
     gbpRole: "Additional",
     summary:
-      "Full-service listing, marketing, and transaction support through Berkshire Hathaway HomeServices Nevada Properties.",
+      "Full-service listing, marketing, and transaction support from Dr. Jan Duffy, in real estate since 1983.",
   },
   {
     id: "retirement-community",
@@ -89,7 +89,7 @@ export const services: Service[] = [
       "Recent nearby sales in Sun City Summerlin and Summerlin",
       "Written pricing report typically within 48 hours",
       "Pricing support for listing, refinance talks, or tax appeal",
-      "Serving Las Vegas 55+ inventory since 2013",
+      "In real estate since 1983",
     ],
     areas: AREAS_CORE,
     faqs: [
@@ -134,7 +134,7 @@ export const services: Service[] = [
       {
         question: "Will you tour homes with me in Las Vegas?",
         answer:
-          "Yes. Schedule a private tour at 9406 Del Webb Boulevard or call (702) 718-0043. Online appointments are available; walk-ins are welcome during business hours.",
+          "Yes. Schedule a private tour at 9406 Del Webb Blvd or call (702) 718-0043. Online appointments are available; walk-ins are welcome during business hours.",
       },
     ],
     relatedSlugs: ["home-buying-sales", "hoa-navigation", "new-construction-sales-leasing"],
@@ -855,7 +855,7 @@ export const services: Service[] = [
       {
         question: "Are you a mortgage broker?",
         answer:
-          "No. Dr. Duffy is a licensed REALTOR® (S.0197614.LLC). Lenders you are introduced to are separate licensed companies.",
+          "No. Dr. Duffy is a licensed REALTOR®. Lenders you are introduced to are separate licensed companies.",
       },
       {
         question: "Can I pay cash in Sun City Summerlin?",
@@ -937,24 +937,23 @@ export const services: Service[] = [
     category: "real-estate-consultant",
     metaTitle: "Real Estate Sales | Sun City Summerlin 55+ | Las Vegas REALTOR®",
     metaDescription:
-      "Real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Dr. Jan Duffy, BHHS Nevada. Call (702) 718-0043.",
+      "Real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Dr. Jan Duffy, REALTOR®. Call (702) 718-0043.",
     h1: "Real Estate Sales | Sun City Summerlin and Las Vegas 55+",
     answer:
-      "Dr. Jan Duffy handles real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Representation covers listing, buyer representation, negotiation, and closing with Berkshire Hathaway HomeServices Nevada Properties.",
+      "Dr. Jan Duffy handles real estate sales in Sun City Summerlin, Centennial Hills, Providence, Skye Canyon, and Kyle Canyon. Representation covers listing, buyer representation, negotiation, and closing.",
     description:
-      "Real estate sales across northwest Las Vegas with a 55+ focus in Sun City Summerlin. Transactions include resales, luxury listings, and relocating buyers. License S.0197614.LLC.",
+      "Real estate sales across northwest Las Vegas with a 55+ focus in Sun City Summerlin. Transactions include resales, luxury listings, and relocating buyers.",
     highlights: [
       "Full-cycle sales representation",
       "55+ Sun City Summerlin focus",
       "Northwest Las Vegas coverage",
-      "BHHS Nevada Properties brokerage",
     ],
     areas: AREAS_CORE,
     faqs: [
       {
-        question: "Who is the listing brokerage?",
+        question: "Who handles my listing?",
         answer:
-          "Berkshire Hathaway HomeServices Nevada Properties. Dr. Jan Duffy, license S.0197614.LLC.",
+          "Dr. Jan Duffy, REALTOR®, in real estate since 1983, handles your listing from pricing through closing.",
       },
       {
         question: "How do I start a sale?",

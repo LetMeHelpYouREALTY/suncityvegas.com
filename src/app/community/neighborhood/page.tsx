@@ -148,7 +148,7 @@ export default function NeighborhoodPage() {
                   Sun City Summerlin &amp; Surrounding Area
                 </h2>
                 <p className="text-[#141210] text-center mb-8 max-w-2xl mx-auto">
-                  Use the map to explore the community and nearby highlights. Centered on Sun City Summerlin—9406 Del Webb Boulevard, Las Vegas, NV 89134.
+                  Use the map to explore the community and nearby highlights. Centered on Sun City Summerlin—9406 Del Webb Blvd, Las Vegas, NV 89134.
                 </p>
               </ScrollAnimation>
               <ScrollAnimation delay={100}>
@@ -229,7 +229,7 @@ export default function NeighborhoodPage() {
                   See it in person
                 </h2>
                 <p className="text-lg text-[#141210] mb-6">
-                  Get a personalized neighborhood tour with Dr. Jan Duffy. Over 25 years of experience in Sun City Summerlin and active adult communities—so you can explore with someone who knows the area inside and out.
+                  Get a personalized neighborhood tour with Dr. Jan Duffy. In real estate since 1983, with deep experience in Sun City Summerlin and active adult communities—so you can explore with someone who knows the area inside and out.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center">
                   <Button asChild size="lg" className="bg-[#1C1917] hover:bg-[#1C1917]/90 min-h-[44px]">

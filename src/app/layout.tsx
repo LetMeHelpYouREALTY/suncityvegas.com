@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Sun City Summerlin | Dr. Jan Duffy",
   },
   description:
-    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Dr. Duffy has helped countless retirees discover the perfect home. Call (702) 718-0043.",
+    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, in real estate since 1983. Dr. Duffy has helped countless retirees discover the perfect home. Call (702) 718-0043.",
   keywords: [
     "Sun City Summerlin",
     "Sun City Summerlin homes for sale",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Call (702) 718-0043.",
+      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, in real estate since 1983. Call (702) 718-0043.",
     images: [
       {
         url: cfAbsoluteImage("/images/hero/hero-bg.jpg"),
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—over 25 years in active adult communities. Call (702) 718-0043.",
+      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—in real estate since 1983. Call (702) 718-0043.",
     images: [cfAbsoluteImage("/images/hero/hero-bg.jpg")],
     creator: "@drjanduffy",
   },
@@ -144,7 +144,7 @@ export default function RootLayout({
     foundingDate: siteConfig.agent.openingDate,
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Boulevard",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: siteConfig.city,
       addressRegion: siteConfig.state,
       postalCode: siteConfig.zip,
@@ -216,11 +216,6 @@ export default function RootLayout({
       siteConfig.social.tiktok,
       siteConfig.social.twitter,
     ],
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "5",
-      reviewCount: "127",
-    },
     hasOfferCatalog: {
       "@type": "OfferCatalog",
       name: "Real Estate Services",
@@ -267,7 +262,7 @@ export default function RootLayout({
     description: "Del Webb's premier 55+ active adult community in Las Vegas, Nevada featuring 4 golf courses, 3 recreation centers, and 80+ clubs and activities.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "9406 Del Webb Boulevard",
+      streetAddress: "9406 Del Webb Blvd",
       addressLocality: "Las Vegas",
       addressRegion: "NV",
       postalCode: "89134",

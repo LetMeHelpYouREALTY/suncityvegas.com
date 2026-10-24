@@ -228,7 +228,7 @@ export default function TermsPage() {
                   <p className="text-[#141210] mb-2">
                     Berkshire Hathaway HomeServices Nevada Properties
                   </p>
-                  <p className="text-[#141210] mb-2">9406 Del Webb Boulevard</p>
+                  <p className="text-[#141210] mb-2">9406 Del Webb Blvd</p>
                   <p className="text-[#141210] mb-2">Las Vegas, NV 89134</p>
                   <p className="text-[#141210] mb-2">
                     Phone: <a href="tel:7027180043" className="text-[#1C1917] hover:text-[#57534E]">(702) 718-0043</a>

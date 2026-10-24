@@ -17,7 +17,7 @@ import LocalVisitSection from "@components/LocalVisitSection";
 export const metadata: Metadata = {
   title: "About Dr. Jan Duffy REALTOR® | Sun City Summerlin Specialist",
   description:
-    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent with Berkshire Hathaway HomeServices helping you find your perfect active adult home.",
+    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent helping you find your perfect active adult home.",
   alternates: {
     canonical: "https://www.suncityvegas.com/about",
   },
@@ -60,7 +60,7 @@ const specialties = [
     icon: <Award className="w-6 h-6" />,
     title: "Licensed REALTOR®",
     description:
-      "Licensed professional (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties, committed to ethical service.",
+      "Licensed REALTOR® in real estate since 1983, committed to ethical service.",
   },
   {
     icon: <Users className="w-6 h-6" />,
@@ -76,7 +76,7 @@ const aboutWebPageSchema = {
   "@id": "https://www.suncityvegas.com/about",
   name: "About Dr. Jan Duffy REALTOR® | Sun City Summerlin Specialist",
   description:
-    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent with Berkshire Hathaway HomeServices.",
+    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent in real estate since 1983.",
   url: "https://www.suncityvegas.com/about",
 };
 
@@ -138,8 +138,7 @@ export default function AboutPage() {
                     </h2>
                     <div className="prose prose-lg max-w-none space-y-4">
                       <p className="text-base md:text-lg text-[#141210] leading-relaxed">
-                        Dr. Jan Duffy is an independent REALTOR® with Berkshire Hathaway
-                        HomeServices who specializes exclusively in Sun City Summerlin,
+                        Dr. Jan Duffy is a Top 1% Las Vegas REALTOR®, in real estate since 1983, who specializes exclusively in Sun City Summerlin,
                         Las Vegas&apos; premier 55+ active adult community.
                       </p>
                       <p className="text-base md:text-lg text-[#141210] leading-relaxed">
@@ -254,7 +253,7 @@ export default function AboutPage() {
                   <MapPin className="w-8 h-8 text-[#1C1917] mx-auto mb-4" />
                   <h3 className="font-semibold text-[#1C1917] mb-2">Location</h3>
                   <p className="text-[#141210] text-sm">
-                    9406 Del Webb Boulevard
+                    9406 Del Webb Blvd
                     <br />
                     Las Vegas, NV 89134
                   </p>
@@ -300,30 +299,6 @@ export default function AboutPage() {
           </div>
         </section>
 
-        {/* License & Brokerage */}
-        <section className="py-12 md:py-16 bg-[#F7F6F4]">
-          <div className="container mx-auto px-4">
-            <div className="max-w-4xl mx-auto text-center">
-              <div className="bg-white p-6 md:p-8 rounded-lg">
-                <h3 className="text-xl font-bold text-[#1C1917] mb-4 font-playfair">
-                  License & Brokerage Information
-                </h3>
-                <div className="space-y-2 text-[#141210]">
-                  <p>
-                    <strong>License:</strong> S.0197614.LLC
-                  </p>
-                  <p>
-                    <strong>Brokerage:</strong> Berkshire Hathaway HomeServices
-                    Nevada Properties
-                  </p>
-                  <p className="text-sm text-gray-600 mt-4">
-                    Equal Housing Opportunity
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
         {/* CTA Section */}
         <section className="py-12 md:py-16 bg-[#1C1917] text-white">
           <div className="container mx-auto px-4">

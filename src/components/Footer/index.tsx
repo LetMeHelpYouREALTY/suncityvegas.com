@@ -28,7 +28,7 @@ const Footer = () => {
                 </Link>
                 <p className="mb-9 text-base leading-relaxed text-body-color dark:text-body-color-dark">
                   Dr. Jan Duffy, REALTOR® — Sun City Summerlin 55+ specialist.
-                  9406 Del Webb Boulevard, Las Vegas, NV 89134. Call (702) 718-0043.
+                  9406 Del Webb Blvd, Las Vegas, NV 89134. Call (702) 718-0043.
                 </p>
                 <div className="flex items-center">
                   <a

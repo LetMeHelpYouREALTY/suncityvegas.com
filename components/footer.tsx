@@ -15,7 +15,7 @@ export default function Footer() {
               {siteConfig.community} 55+ Real Estate
             </h3>
             <p className="text-gray-300 mb-4">
-              Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Over 25 years helping retirees find the perfect home.
+              Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Helping retirees find the perfect home, in real estate since 1983.
             </p>
             <div className="mt-4 text-sm text-gray-400 flex items-center gap-2">
               <svg
@@ -419,13 +419,6 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4 text-[#B8A078]">Information</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <strong>License:</strong> S.0197614.LLC
-              </li>
-              <li>
-                <strong>Brokerage:</strong> Berkshire Hathaway HomeServices
-                Nevada Properties
-              </li>
-              <li>
                 <Link
                   href="/privacy"
                   className="hover:text-[#C9A962] transition-colors min-h-[44px] inline-flex items-center"
@@ -467,7 +460,7 @@ export default function Footer() {
             © 2026 Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy. All rights reserved.
           </p>
           <p className="mt-2">
-            Berkshire Hathaway HomeServices Nevada Properties | License S.0197614.LLC
+            Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
           <p className="mt-2">
             <a href={siteConfig.phoneHref} className="text-[#C9A962] hover:underline" aria-label={`Call ${siteConfig.phoneDisplay}`}>{siteConfig.phoneDisplay}</a>

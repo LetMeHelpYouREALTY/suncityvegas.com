@@ -48,7 +48,7 @@ export const communityInfo: CommunityInfo = {
   name: 'Sun City Summerlin',
   developer: 'Del Webb',
   type: '55+ Active Adult Community',
-  address: '9406 Del Webb Boulevard',
+  address: '9406 Del Webb Blvd',
   city: 'Las Vegas',
   state: 'NV',
   zip: '89134',

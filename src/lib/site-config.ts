@@ -3,15 +3,15 @@ export const siteConfig = {
   domain: "suncityvegas.com",
   siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
   siteTitle: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-  siteDescription: "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with over 25 years of experience in active adult communities. Dr. Duffy has helped countless retirees discover the perfect home to suit their lifestyle and needs. Sun City Summerlin offers a variety of beautiful options. This vibrant community is designed specifically for active adults, featuring world-class amenities such as golf courses, fitness centers, pools, walking trails, and social clubs. Dr. Duffy provides expert guidance and personalized service every step of the way, ensuring your transition into this exciting new chapter is seamless and stress-free. Start your journey toward a fulfilling and active retirement today!",
+  siteDescription: "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, in real estate since 1983. Dr. Duffy has helped countless retirees discover the perfect home to suit their lifestyle and needs. Sun City Summerlin offers a variety of beautiful options. This vibrant community is designed specifically for active adults, featuring world-class amenities such as golf courses, fitness centers, pools, walking trails, and social clubs. Dr. Duffy provides expert guidance and personalized service every step of the way, ensuring your transition into this exciting new chapter is seamless and stress-free. Start your journey toward a fulfilling and active retirement today!",
   
   // Location
   community: "Sun City Summerlin",
   city: "Las Vegas",
   state: "NV",
   zip: "89134",
-  address: "9406 Del Webb Boulevard, Las Vegas, NV 89134",
-  streetAddress: "9406 Del Webb Boulevard",
+  address: "9406 Del Webb Blvd, Las Vegas, NV 89134",
+  streetAddress: "9406 Del Webb Blvd",
 
   // Canonical NAP (use for display and tel: links) – matches GBP
   phoneDisplay: "(702) 718-0043",

@@ -403,7 +403,7 @@ export default function FirstTimeBuyersPage() {
                   Ready to Buy Your First Home?
                 </h2>
                 <p className="text-lg md:text-xl text-gray-100 mb-8 leading-relaxed">
-                  Dr. Jan Duffy specializes in helping first-time buyers find their perfect home in Sun City Summerlin. With over 30 years of experience, she'll guide you through every step of the process.
+                  Dr. Jan Duffy specializes in helping first-time buyers find their perfect home in Sun City Summerlin. In real estate since 1983, she'll guide you through every step of the process.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
                   <a

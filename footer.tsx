@@ -115,13 +115,6 @@ export default function Footer() {
             <h4 className="text-lg font-semibold mb-4">Information</h4>
             <ul className="space-y-2 text-sm text-gray-300">
               <li>
-                <strong>License:</strong> S.0197614.LLC
-              </li>
-              <li>
-                <strong>Brokerage:</strong> Berkshire Hathaway HomeServices
-                Nevada Properties
-              </li>
-              <li>
                 <Link
                   href="/privacy"
                   className="hover:text-white transition-colors"
@@ -148,8 +141,7 @@ export default function Footer() {
             reserved.
           </p>
           <p className="mt-2">
-            Dr. Jan Duffy, REALTOR® | Berkshire Hathaway HomeServices Nevada
-            Properties
+            Berkshire Hathaway HomeServices Nevada Properties since September 2008 · License S.0197614.LLC
           </p>
         </div>
       </div>

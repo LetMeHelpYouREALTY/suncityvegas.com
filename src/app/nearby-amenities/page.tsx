@@ -144,9 +144,8 @@ export default function NearbyAmenitiesPage() {
               Your hyperlocal {siteConfig.community} REALTOR®
             </h2>
             <p className="text-gray-100 mb-4">
-              {siteConfig.agent.name}, {siteConfig.agent.title} —{" "}
-              {siteConfig.brokerage.name}. Nevada license{" "}
-              {siteConfig.agent.license}. Same phone and address as our Google
+              {siteConfig.agent.name}, {siteConfig.agent.title}, in real estate
+              since 1983. Same phone and address as our Google
               Business Profile: {siteConfig.phoneDisplay}, {siteConfig.address}.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">

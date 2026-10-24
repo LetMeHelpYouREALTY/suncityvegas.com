@@ -2,7 +2,7 @@ import { siteConfig } from "@/lib/site-config";
 
 /**
  * Map center for Sun City Summerlin — aligned with GBP NAP at
- * 9406 Del Webb Boulevard, Las Vegas, NV 89134 (siteConfig.geo).
+ * 9406 Del Webb Blvd, Las Vegas, NV 89134 (siteConfig.geo).
  */
 export const COMMUNITY_MAP_CENTER = {
   lat: Number.parseFloat(siteConfig.geo.latitude),
