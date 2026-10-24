@@ -8,6 +8,7 @@ import { Home, TrendingUp, Calculator } from "lucide-react";
 import { Button } from "@components/ui/button";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
 export const metadata: Metadata = {
@@ -80,6 +81,7 @@ export default function HomeValuePage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Home Value" />
+        <CalendlyAfterListings />
 
 
         {/* Home Value Widget Section */}

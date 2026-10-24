@@ -6,6 +6,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Privacy Policy | Sun City Summerlin | Dr. Jan Duffy",
@@ -55,6 +56,7 @@ export default function PrivacyPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Privacy" />
+        <CalendlyAfterListings />
 
         <section className="py-12 md:py-16 lg:py-20 bg-white">
           <div className="container mx-auto px-4">

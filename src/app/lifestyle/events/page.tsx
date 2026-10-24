@@ -10,6 +10,7 @@ import { Phone, Calendar, Music, UtensilsCrossed, Gift, Sparkles } from "lucide-
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Sun City Summerlin Events & Activities | Year-Round Calendar",
@@ -115,6 +116,7 @@ export default function EventsPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Events" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

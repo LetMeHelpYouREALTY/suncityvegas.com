@@ -11,18 +11,19 @@ import { Phone, Calendar, ArrowRight, Shield, Lock, Users } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
-  title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
+  title: "Sun City Summerlin Gates and Security Features (2025)",
   description:
     "Guard-gated 55+ living in Sun City Summerlin: 24/7 staffed entries and rec-path lighting in Las Vegas ZIP 89134. Dr. Jan Duffy.",
   alternates: {
-    canonical: "https://www.suncityvegas.com/blog/is-sun-city-summerlin-safe",
+    canonical: "https://www.suncityvegas.com/blog/sun-city-summerlin-gates-and-security",
   },
   openGraph: {
-    title: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
+    title: "Sun City Summerlin Gates and Security Features (2025)",
     description:
       "Guard-gated entries, lighting, and 55+ access rules at Sun City Summerlin in Las Vegas.",
-    url: "https://www.suncityvegas.com/blog/is-sun-city-summerlin-safe",
+    url: "https://www.suncityvegas.com/blog/sun-city-summerlin-gates-and-security",
     siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
     locale: "en_US",
     type: "article",
@@ -34,14 +35,14 @@ export const metadata: Metadata = {
         url: "https://www.suncityvegas.com/images/blog/safety-hero.jpg",
         width: 1200,
         height: 630,
-        alt: "Sun City Summerlin security and safety",
+        alt: "Sun City Summerlin guard-gated entrance",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Is Sun City Summerlin Safe? Complete Safety Guide",
-    description: "Learn about safety and security at Sun City Summerlin.",
+    title: "Sun City Summerlin Gates and Security Features",
+    description: "Staffed gates, visitor check-in, lighting, and HOA patrols at Sun City Summerlin.",
     images: ["https://www.suncityvegas.com/images/blog/safety-hero.jpg"],
   },
 };
@@ -54,10 +55,10 @@ const faqSchema = {
   mainEntity: [
     {
       "@type": "Question",
-      name: "Is Sun City Summerlin safe?",
+      name: "Will Dr. Jan Duffy tell me whether Sun City Summerlin is safe?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Sun City Summerlin has 24/7 staffed gates at every entrance, visitor check-in, neighborhood watch, and 55+ occupancy rules. Walk rec paths and golf carts after dark on lit streets.",
+        text: "No. Fair housing rules keep agents from rating any neighborhood as safe or unsafe, and what feels secure differs for every buyer. Dr. Jan Duffy shares the features you can check yourself: 24/7 staffed gates, visitor check-in, lit streets, and HOA patrols. Las Vegas Metropolitan Police publishes public crime data you can review directly.",
       },
     },
     {
@@ -83,8 +84,8 @@ const faqSchema = {
 const articleSchema = {
   "@context": "https://schema.org",
   "@type": "Article",
-  headline: "Is Sun City Summerlin Safe? Complete Safety Guide (2025)",
-  description: "Complete guide to safety and security at Sun City Summerlin.",
+  headline: "Sun City Summerlin Gates and Security Features (2025)",
+  description: "Guide to staffed gates, visitor check-in, lighting, and HOA patrols at Sun City Summerlin.",
   datePublished: "2025-01-26T00:00:00Z",
   dateModified: "2025-01-26T00:00:00Z",
   author: {
@@ -103,11 +104,11 @@ const articleSchema = {
   image: "https://www.suncityvegas.com/images/blog/safety-hero.jpg",
   mainEntityOfPage: {
     "@type": "WebPage",
-    "@id": "https://www.suncityvegas.com/blog/is-sun-city-summerlin-safe",
+    "@id": "https://www.suncityvegas.com/blog/sun-city-summerlin-gates-and-security",
   },
 };
 
-export default function SafetyPage() {
+export default function GatesAndSecurityPage() {
   return (
     <>
       <Navbar />
@@ -115,12 +116,12 @@ export default function SafetyPage() {
         items={[
           { label: "Sun City Summerlin", href: "/" },
           { label: "Blog", href: "/blog" },
-          { label: "Is Sun City Summerlin Safe?", href: "/blog/is-sun-city-summerlin-safe" },
+          { label: "Gates and Security", href: "/blog/sun-city-summerlin-gates-and-security" },
         ]}
       />
       <main className="pt-16 md:pt-20">
         <PageHero
-          title="Is Sun City Summerlin Safe? Complete Safety Guide"
+          title="Sun City Summerlin Gates and Security Features"
           imageSrc="/images/blog/safety-hero.jpg"
           imageAlt="Sun City Summerlin guard-gated security entrance"
           align="left"
@@ -135,7 +136,8 @@ export default function SafetyPage() {
           </div>
         </PageHero>
 
-        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Is Sun City Summerlin Safe" />
+        <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Gates and Security" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}
@@ -161,7 +163,7 @@ export default function SafetyPage() {
                     <div className="flex items-center gap-4 mb-6">
                       <Shield className="w-12 h-12 text-[#C9A962]" />
                       <h2 className="text-3xl md:text-4xl font-bold font-playfair">
-                        Yes, Sun City Summerlin is Safe
+                        Gate and Security Features at a Glance
                       </h2>
                     </div>
                     <p className="text-xl md:text-2xl leading-relaxed">
@@ -250,11 +252,11 @@ export default function SafetyPage() {
                 </section>
               </ScrollAnimation>
 
-              {/* Why It's Safe */}
+              {/* Features to verify */}
               <ScrollAnimation delay={400}>
                 <section className="mb-16">
                   <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
-                    Why Sun City Summerlin is Safe
+                    Features You Can Verify on a Tour
                   </h2>
                   <div className="space-y-6">
                     <div className="bg-white border-l-4 border-[#57534E] rounded-lg p-6">
@@ -301,11 +303,11 @@ export default function SafetyPage() {
                 </section>
               </ScrollAnimation>
 
-              {/* Personal Safety Tips */}
+              {/* Home security habits */}
               <ScrollAnimation delay={500}>
                 <section className="mb-16">
                   <h2 className="text-3xl md:text-4xl font-bold text-[#1C1917] mb-6 font-playfair">
-                    Personal Safety Tips
+                    Everyday Home Security Habits
                   </h2>
                   <div className="bg-[#F7F6F4] rounded-lg p-6 md:p-8">
                     <p className="text-lg text-[#141210] leading-relaxed mb-6">
@@ -350,10 +352,10 @@ export default function SafetyPage() {
                   <div className="space-y-4">
                     <details className="bg-white border border-gray-200 rounded-lg p-6">
                       <summary className="font-bold text-lg text-[#1C1917] cursor-pointer font-playfair">
-                        Is Sun City Summerlin safe?
+                        Will Dr. Jan Duffy tell me whether Sun City Summerlin is safe?
                       </summary>
                       <p className="mt-4 text-[#141210] leading-relaxed">
-                        Sun City Summerlin has 24/7 staffed gates at every entrance, visitor check-in, neighborhood watch, and 55+ occupancy rules. Walk rec paths and golf carts after dark on lit streets.
+                        No. Fair housing rules keep agents from rating any neighborhood as safe or unsafe, and what feels secure differs for every buyer. Dr. Jan Duffy shares the features you can check yourself: 24/7 staffed gates, visitor check-in, lit streets, and HOA patrols. Las Vegas Metropolitan Police publishes public crime data you can review directly.
                       </p>
                     </details>
 
@@ -402,7 +404,7 @@ export default function SafetyPage() {
                         Pros and Cons of Sun City Summerlin
                       </h3>
                       <p className="text-[#141210] mb-4">
-                        Learn more about what makes Sun City Summerlin special, including safety and security.
+                        Learn more about what makes Sun City Summerlin special, including gates, HOA services, and clubs.
                       </p>
                       <span className="text-[#1C1917] font-semibold flex items-center gap-2">
                         Read More <ArrowRight className="w-4 h-4" />

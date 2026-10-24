@@ -11,6 +11,7 @@ import { getAllTestimonials } from "@/lib/old-site-data";
 import { Quote } from "lucide-react";
 import ScheduleTour from "@components/ScheduleTour";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
 
@@ -107,6 +108,7 @@ export default function AboutPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | About" />
+        <CalendlyAfterListings />
 
 
         {/* About Section */}

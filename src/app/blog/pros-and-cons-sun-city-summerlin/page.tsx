@@ -13,6 +13,7 @@ import { getCommunityInfo } from "@/lib/communityData";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 /** Replace with your YouTube video ID (from youtube.com/watch?v=VIDEO_ID) */
 const YOUTUBE_VIDEO_ID = "";
 
@@ -168,6 +169,7 @@ export default function ProsConsPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Pros And Cons Sun City Summerlin" />
+        <CalendlyAfterListings />
 
 
         {/* Video + Summary + CTA links (pillar template) */}

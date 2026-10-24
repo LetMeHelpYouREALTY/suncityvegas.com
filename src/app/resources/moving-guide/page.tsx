@@ -10,6 +10,7 @@ import { Phone, Calendar, ArrowRight, Check, Truck, FileText, Home, MapPin, Tren
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Moving to Sun City Summerlin: Complete Relocation Guide (2026)",
@@ -58,6 +59,7 @@ export default function MovingGuidePage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Moving Guide" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

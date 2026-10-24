@@ -283,7 +283,7 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="https://calendly.com/drjanduffy"
+                  href="https://calendly.com/drjanduffy/showing?hide_gdpr_banner=1&utm_source=suncityvegas.com&utm_medium=footer&utm_campaign=footer"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-2 text-gray-300 hover:text-[#C9A962] transition-colors min-h-[44px]"

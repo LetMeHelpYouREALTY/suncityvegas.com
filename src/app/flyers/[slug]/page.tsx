@@ -28,6 +28,7 @@ import { getAllFlyers, getFlyerBySlug } from "@/lib/flyers";
 import CalendlyInline from "@components/CalendlyInline";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import GoogleMapEmbed from "@components/GoogleMapEmbed";
 export async function generateStaticParams() {
@@ -408,6 +409,7 @@ export default async function FlyerPage({
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${flyer.title}`}
         />
+        <CalendlyAfterListings />
 
 
         {/* Community Highlights Grid */}

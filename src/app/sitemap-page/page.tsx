@@ -5,6 +5,7 @@ import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 import Link from "next/link";
 import { FileText, Home, Phone, HelpCircle, Shield, Users } from "lucide-react";
@@ -135,6 +136,7 @@ export default function SitemapPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Sitemap Page" />
+        <CalendlyAfterListings />
 
 
         {/* Sitemap Content */}

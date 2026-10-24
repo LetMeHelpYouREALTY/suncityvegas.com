@@ -8,6 +8,7 @@ import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { Calendar, ArrowLeft, ArrowRight } from "lucide-react";
 import { DEFAULT_PAGE_HERO } from "@/lib/page-heroes";
 
@@ -280,6 +281,7 @@ export default function BlogPostPage({
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${post.title}`}
         />
+        <CalendlyAfterListings />
 
         {/* Article Content */}
         <article className="py-12 md:py-16 bg-white">

@@ -8,6 +8,7 @@ import Link from "next/link";
 import { FileText, Download } from "lucide-react";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import { getAllFlyers } from "@/lib/flyers";
 
@@ -49,6 +50,7 @@ export default function FlyersPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Flyers" />
+        <CalendlyAfterListings />
 
 
         {/* Flyers Grid */}

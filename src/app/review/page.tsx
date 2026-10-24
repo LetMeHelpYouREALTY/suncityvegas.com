@@ -6,6 +6,7 @@ import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import CopyReviewLink from "@/components/CopyReviewLink";
 import { siteConfig } from "@/lib/site-config";
@@ -57,6 +58,7 @@ export default function ReviewPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Review" />
+        <CalendlyAfterListings />
 
 
         <section className="bg-[#F7F6F4] py-12 md:py-16">

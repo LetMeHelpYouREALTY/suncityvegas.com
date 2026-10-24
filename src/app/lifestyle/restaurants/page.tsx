@@ -10,6 +10,7 @@ import { Phone, UtensilsCrossed, MapPin, Clock, Star } from "lucide-react";
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 export const metadata: Metadata = {
   title: "Restaurants Near Sun City Summerlin | Dining Guide (2026)",
@@ -88,6 +89,7 @@ export default function RestaurantsPage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Restaurants" />
+        <CalendlyAfterListings />
 
 
         {/* Introduction */}

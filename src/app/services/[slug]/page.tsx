@@ -7,6 +7,7 @@ import LocalVisitSection from "@components/LocalVisitSection";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { CheckCircle2, MapPin, Phone, Clock, ArrowRight } from "lucide-react";
 import {
   getAllServiceSlugs,
@@ -189,6 +190,7 @@ export default async function ServiceDetailPage({ params }: ServicePageProps) {
         <RealScoutListings
           h2Text={`Homes for Sale in Sun City Summerlin | ${service.name}`}
         />
+        <CalendlyAfterListings />
 
 
         <section className="py-12 md:py-16 bg-white">

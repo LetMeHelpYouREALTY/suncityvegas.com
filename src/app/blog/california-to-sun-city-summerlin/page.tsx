@@ -11,6 +11,7 @@ import { Phone, Calendar, ArrowRight, MapPin, DollarSign, Home } from "lucide-re
 import ScrollAnimation from "@components/scroll-animation";
 
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 export const metadata: Metadata = {
   title: "Moving from California to Sun City Summerlin: Complete Relocation Guide (2025)",
   description:
@@ -136,6 +137,7 @@ export default function CaliforniaRelocationPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | California To Sun City Summerlin" />
+        <CalendlyAfterListings />
 
 
         {/* Article Content */}

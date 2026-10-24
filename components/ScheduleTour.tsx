@@ -2,7 +2,8 @@
 
 import { useEffect } from 'react';
 import { Calendar } from 'lucide-react';
-import { oldSiteData } from '@/lib/fetchOldSiteData';
+import { usePathname } from 'next/navigation';
+import { calendlyUrlFor } from '@/lib/calendly';
 import { Button } from './ui/button';
 
 type ScheduleTourProps = {
@@ -18,7 +19,8 @@ export default function ScheduleTour({
   size = 'lg',
   className = '',
 }: ScheduleTourProps) {
-  const calendlyUrl = oldSiteData.integrations.calendly;
+  const pathname = usePathname() || '/';
+  const calendlyUrl = calendlyUrlFor(pathname, inline ? 'inline' : 'button');
 
   useEffect(() => {
     // Load Calendly widget script

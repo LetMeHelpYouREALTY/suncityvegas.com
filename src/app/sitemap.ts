@@ -9,7 +9,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "pros-and-cons-sun-city-summerlin",
     "best-sun-city-summerlin-neighborhoods",
     "california-to-sun-city-summerlin",
-    "is-sun-city-summerlin-safe",
+    "sun-city-summerlin-gates-and-security",
     "sun-city-summerlin-floor-plans",
     "sun-city-summerlin-hoa-fees",
     "sun-city-summerlin-vs-sun-city-anthem",

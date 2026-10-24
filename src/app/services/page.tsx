@@ -5,6 +5,7 @@ import Footer from "@components/footer";
 import Breadcrumbs from "@components/Breadcrumbs";
 import PageHero from "@components/PageHero";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { ArrowRight, Phone } from "lucide-react";
 import {
   SERVICE_CATEGORIES,
@@ -105,6 +106,7 @@ export default function ServicesIndexPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Services" />
+        <CalendlyAfterListings />
 
         <section className="bg-[#F7F6F4] py-8 md:py-10">
           <div className="container mx-auto px-4">

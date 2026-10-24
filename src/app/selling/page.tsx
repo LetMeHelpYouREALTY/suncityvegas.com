@@ -8,6 +8,7 @@ import ScrollAnimation from "@components/scroll-animation";
 import ScheduleTour from "@components/ScheduleTour";
 import { Button } from "@components/ui/button";
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
 import { Phone, DollarSign, TrendingUp, Clock, Shield, FileText, CheckCircle2 } from "lucide-react";
@@ -133,6 +134,7 @@ export default function SellingPage() {
         </PageHero>
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Selling" />
+        <CalendlyAfterListings />
 
         {/* Services Section */}
         <section className="py-12 md:py-16 lg:py-20 bg-white">

@@ -5,6 +5,7 @@ import Breadcrumbs from '@components/Breadcrumbs';
 import PageHero from "@components/PageHero";
 import ScheduleTour from '@components/ScheduleTour';
 import RealScoutListings from "@components/RealScoutListings";
+import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
 import LocalVisitSection from "@components/LocalVisitSection";
 import { Phone, Calendar, Clock, MapPin } from 'lucide-react';
@@ -67,6 +68,7 @@ export default function SchedulePage() {
         />
 
         <RealScoutListings h2Text="Homes for Sale in Sun City Summerlin | Schedule" />
+        <CalendlyAfterListings />
 
 
         {/* Quick Info Section */}
