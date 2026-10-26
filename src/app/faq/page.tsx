@@ -13,9 +13,9 @@ import { getAllQuestions } from '@/lib/faqData';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'FAQ | Sun City Summerlin | Del Webb Las Vegas | Dr. Jan Duffy',
+  title: { absolute: 'Sun City Summerlin FAQ: Age Rules, HOA Dues & Rentals' },
   description:
-    'FAQs about Sun City Summerlin and Del Webb Las Vegas Summerlin: HOA fees, Sun City Summerlin home rentals, 55+ requirements, amenities, and more.',
+    "Straight answers on Sun City Summerlin's 55+ age rules, guest stays, HOA dues and rentals in Las Vegas 89134, from an agent who sells there.",
   keywords: [
     'Sun City Summerlin FAQ',
     'Sun City Summerlin home rentals',
@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     canonical: 'https://www.suncityvegas.com/faq',
   },
   openGraph: {
-    title: 'FAQ | Sun City Summerlin | Del Webb Las Vegas | Dr. Jan Duffy',
+    title: 'Sun City Summerlin FAQ: Age Rules, HOA Dues & Rentals',
     description:
       'Answers about Sun City Summerlin, Del Webb Las Vegas Summerlin, HOA fees, rentals, and 55+ community life.',
     url: 'https://www.suncityvegas.com/faq',
