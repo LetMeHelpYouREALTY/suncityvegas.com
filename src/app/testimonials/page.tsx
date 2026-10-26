@@ -7,7 +7,6 @@ import ScrollAnimation from '@components/scroll-animation';
 import RealScoutListings from "@components/RealScoutListings";
 import CalendlyAfterListings from "@components/CalendlyAfterListings";
 import { pageHeroImages } from "@/lib/page-heroes";
-import ReviewJsonLd from "@components/ReviewJsonLd";
 import LocalVisitSection from "@components/LocalVisitSection";
 import { getAllTestimonials } from '@/lib/old-site-data';
 import { Quote } from 'lucide-react';
@@ -139,7 +138,6 @@ export default function TestimonialsPage() {
         </section>
       </main>
       <LocalVisitSection heading="Clients find Dr. Jan Duffy on Google Maps" />
-      <ReviewJsonLd />
       <Footer />
     </>
   );
