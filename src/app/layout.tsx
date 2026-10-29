@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     template: "%s | Sun City Summerlin | Dr. Jan Duffy",
   },
   description:
-    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, in real estate since 1983. Dr. Duffy has helped countless retirees discover the perfect home. Call (702) 718-0043.",
+    "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas. Dr. Duffy has helped countless retirees discover the perfect home. Call (702) 718-0043.",
   keywords: [
     "Sun City Summerlin",
     "Sun City Summerlin homes for sale",
@@ -78,7 +78,7 @@ export const metadata: Metadata = {
     siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, in real estate since 1983. Call (702) 718-0043.",
+      "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas. Call (702) 718-0043.",
     images: [
       {
         url: cfAbsoluteImage("/images/hero/hero-bg.jpg"),
@@ -93,7 +93,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
     description:
-      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—in real estate since 1983. Call (702) 718-0043.",
+      "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—licensed since 2008 · 35 years in Las Vegas. Call (702) 718-0043.",
     images: [cfAbsoluteImage("/images/hero/hero-bg.jpg")],
     creator: "@drjanduffy",
   },

@@ -151,7 +151,7 @@ export default function ComparisonPage() {
                     Both Sun City Summerlin and Sun City Anthem are premier 55+ communities in Las Vegas, but they offer different experiences. Here's my honest comparison to help you decide which is the right fit.
                   </p>
                   <p className="text-lg leading-relaxed">
-                    As a real estate agent in real estate since 1983 who has worked with both communities, I've seen what draws people to each. This comprehensive comparison covers location, amenities, home prices, HOA fees, and lifestyle differences.
+                    As a real estate agent licensed since 2008 · 35 years in Las Vegas who has worked with both communities, I've seen what draws people to each. This comprehensive comparison covers location, amenities, home prices, HOA fees, and lifestyle differences.
                   </p>
                 </div>
               </ScrollAnimation>

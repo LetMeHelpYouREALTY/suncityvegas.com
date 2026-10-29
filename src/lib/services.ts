@@ -43,7 +43,7 @@ export const SERVICE_CATEGORIES: {
     label: "Real estate agency",
     gbpRole: "Additional",
     summary:
-      "Full-service listing, marketing, and transaction support from Dr. Jan Duffy, in real estate since 1983.",
+      "Full-service listing, marketing, and transaction support from Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas.",
   },
   {
     id: "retirement-community",
@@ -89,7 +89,7 @@ export const services: Service[] = [
       "Recent nearby sales in Sun City Summerlin and Summerlin",
       "Written pricing report typically within 48 hours",
       "Pricing support for listing, refinance talks, or tax appeal",
-      "In real estate since 1983",
+      "Licensed since 2008 · 35 years in Las Vegas",
     ],
     areas: AREAS_CORE,
     faqs: [
@@ -953,7 +953,7 @@ export const services: Service[] = [
       {
         question: "Who handles my listing?",
         answer:
-          "Dr. Jan Duffy, REALTOR®, in real estate since 1983, handles your listing from pricing through closing.",
+          "Dr. Jan Duffy, REALTOR®, licensed since 2008 · 35 years in Las Vegas, handles your listing from pricing through closing.",
       },
       {
         question: "How do I start a sale?",

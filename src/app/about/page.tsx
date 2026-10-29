@@ -61,7 +61,7 @@ const specialties = [
     icon: <Award className="w-6 h-6" />,
     title: "Licensed REALTOR®",
     description:
-      "Licensed REALTOR® in real estate since 1983, committed to ethical service.",
+      "Licensed REALTOR® licensed since 2008 · 35 years in Las Vegas, committed to ethical service.",
   },
   {
     icon: <Users className="w-6 h-6" />,
@@ -77,7 +77,7 @@ const aboutWebPageSchema = {
   "@id": "https://www.suncityvegas.com/about",
   name: "About Dr. Jan Duffy REALTOR® | Sun City Summerlin Specialist",
   description:
-    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent in real estate since 1983.",
+    "Meet Dr. Jan Duffy, REALTOR® specializing in Sun City Summerlin, Las Vegas' premier 55+ community. Licensed agent licensed since 2008 · 35 years in Las Vegas.",
   url: "https://www.suncityvegas.com/about",
 };
 
@@ -140,7 +140,7 @@ export default function AboutPage() {
                     </h2>
                     <div className="prose prose-lg max-w-none space-y-4">
                       <p className="text-base md:text-lg text-[#141210] leading-relaxed">
-                        Dr. Jan Duffy is a Top 1% Las Vegas REALTOR®, in real estate since 1983, who specializes exclusively in Sun City Summerlin,
+                        Dr. Jan Duffy is a Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas, who specializes exclusively in Sun City Summerlin,
                         Las Vegas&apos; premier 55+ active adult community.
                       </p>
                       <p className="text-base md:text-lg text-[#141210] leading-relaxed">

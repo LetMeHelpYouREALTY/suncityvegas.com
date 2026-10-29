@@ -41,7 +41,7 @@ const exploreCards = [
   {
     title: "About Dr. Jan Duffy",
     description:
-      "Your on-site Sun City Summerlin specialist—in real estate since 1983, helping 55+ buyers and sellers inside the gates.",
+      "Your on-site Sun City Summerlin specialist—licensed since 2008 · 35 years in Las Vegas, helping 55+ buyers and sellers inside the gates.",
     href: "/about",
     icon: Users,
     image: "/images/explore/about-agent.jpg",

@@ -133,7 +133,7 @@ export default async function MarketInsightsPage() {
                     Get Personalized Insights
                   </h3>
                   <p className="text-[#141210] leading-relaxed">
-                    For personalized market insights specific to Sun City Summerlin, contact Dr. Jan Duffy. In real estate since 1983, she can help you understand how current market conditions affect your specific situation.
+                    For personalized market insights specific to Sun City Summerlin, contact Dr. Jan Duffy. Licensed since 2008 · 35 years in Las Vegas, she can help you understand how current market conditions affect your specific situation.
                   </p>
                 </div>
               </div>

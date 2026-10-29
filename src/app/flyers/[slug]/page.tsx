@@ -622,7 +622,7 @@ export default async function FlyerPage({
 
                   <div className="p-4 bg-[#F7F6F4] rounded-lg border border-[#B8A078]/20">
                     <p className="text-sm text-[#141210]">
-                      <strong>Dr. Jan Duffy</strong> is a Sun City Summerlin specialist, in real estate since 1983.
+                      <strong>Dr. Jan Duffy</strong> is a Sun City Summerlin specialist, licensed since 2008 · 35 years in Las Vegas.
                     </p>
                   </div>
                 </div>

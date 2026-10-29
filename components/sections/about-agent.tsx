@@ -34,7 +34,7 @@ export default function AboutAgentSection() {
                 </h2>
                 <div className="prose prose-lg max-w-none space-y-4">
                   <p className="text-base md:text-lg text-[#141210] leading-relaxed">
-                    Dr. Jan Duffy is a Top 1% Las Vegas REALTOR®, in real estate since 1983, who specializes in Sun City Summerlin and nearby 55+
+                    Dr. Jan Duffy is a Las Vegas REALTOR®, licensed since 2008 · 35 years in Las Vegas, who specializes in Sun City Summerlin and nearby 55+
                     inventory across Summerlin and Centennial Hills.
                   </p>
                   <p className="text-base md:text-lg text-[#141210] leading-relaxed">
