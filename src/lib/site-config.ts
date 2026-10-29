@@ -76,7 +76,9 @@ export const siteConfig = {
   google: {
     reviewUrl: "https://g.page/r/CVIgC-30nTd3EAI/review",
     placeId: "ChIJg9rkzmSVyIARUiAL7fSdN3c",
-    mapsUrl: "https://maps.google.com/?cid=8597648921043141138",
+    // CID matches placeId and the g.page review link above (all resolve to the same GBP).
+    cid: "8590508489507020882",
+    mapsUrl: "https://maps.google.com/?cid=8590508489507020882",
     directionsUrl:
       "https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Boulevard%2C+Las+Vegas%2C+NV+89134",
   },

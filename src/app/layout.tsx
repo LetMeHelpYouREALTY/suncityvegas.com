@@ -208,6 +208,7 @@ export default function RootLayout({
     paymentAccepted: "Cash, Check, Credit Card, Financing",
     currenciesAccepted: "USD",
     sameAs: [
+      siteConfig.google.mapsUrl,
       siteConfig.social.facebook,
       siteConfig.social.instagram,
       siteConfig.social.linkedin,
