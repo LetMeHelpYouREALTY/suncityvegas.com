@@ -18,10 +18,10 @@ export default function GoogleMapEmbed({
   className,
   heightClassName = "h-[360px] md:h-[420px]",
 }: GoogleMapEmbedProps) {
-  const q =
-    query ||
-    `${siteConfig.agent.name} ${siteConfig.community} ${siteConfig.address}`;
-  const src = `https://www.google.com/maps?q=${encodeURIComponent(q)}&z=15&output=embed`;
+  // Default pins the GBP listing itself (by CID) so the embed and the profile are one entity.
+  const src = query
+    ? `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=15&output=embed`
+    : `https://maps.google.com/maps?cid=${siteConfig.google.cid}&output=embed`;
 
   return (
     <div
