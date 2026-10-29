@@ -16,7 +16,7 @@ const homepageFaqs = [
   {
     question: "Who is the real estate agent for Sun City Summerlin 55+ homes?",
     answer:
-      "Dr. Jan Duffy, REALTOR®, in real estate since 1983. Office: 9406 Del Webb Blvd, Las Vegas, NV 89134. Call (702) 718-0043.",
+      "Dr. Jan Duffy, REALTOR®, licensed since 2008 · 35 years in Las Vegas. Office: 9406 Del Webb Blvd, Las Vegas, NV 89134. Call (702) 718-0043.",
   },
   {
     question: "Do you help 55+ buyers with HOA rules and VA loans?",

@@ -15,7 +15,7 @@ export default function Footer() {
               {siteConfig.community} 55+ Real Estate
             </h3>
             <p className="text-gray-300 mb-4">
-              Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Helping retirees find the perfect home, in real estate since 1983.
+              Homes by {siteConfig.agent.name}. Las Vegas&apos; premier 55+ active adult community—4 golf courses, 3 recreation centers, 80+ clubs. Helping retirees find the perfect home, licensed since 2008 · 35 years in Las Vegas.
             </p>
             <div className="mt-4 text-sm text-gray-400 flex items-center gap-2">
               <svg

@@ -212,7 +212,7 @@ export default function ProsConsPage() {
               <ScrollAnimation>
                 <div className="prose prose-lg max-w-none text-[#141210] mb-12">
                   <p className="text-xl md:text-2xl font-semibold text-[#1C1917] leading-relaxed mb-6">
-                    After helping 500+ families find homes in Las Vegas, in real estate since 1983, I've learned that Sun City Summerlin isn't right for everyone. Here's my honest assessment of who thrives here—and who might be happier elsewhere.
+                    After helping 500+ families find homes in Las Vegas, licensed since 2008 · 35 years in Las Vegas, I've learned that Sun City Summerlin isn't right for everyone. Here's my honest assessment of who thrives here—and who might be happier elsewhere.
                   </p>
                   <p className="text-lg leading-relaxed">
                     Sun City Summerlin is Las Vegas' largest 55+ Del Webb community, with 7,781 homes built from 1989 to 2002. Active adults use four golf courses, three recreation centers, and 80+ clubs on site.
@@ -619,7 +619,7 @@ export default function ProsConsPage() {
                   </h2>
                   <div className="bg-gradient-to-r from-[#1C1917] to-[#57534E] text-white rounded-lg p-8 md:p-12">
                     <p className="text-xl md:text-2xl leading-relaxed mb-6 font-semibold">
-                      In real estate since 1983, helping people find homes in Las Vegas, I can say this: Sun City Summerlin delivers exceptional value for active adults who want a vibrant, amenity-rich lifestyle. The pros significantly outweigh the cons for most buyers.
+                      Licensed since 2008 · 35 years in Las Vegas, helping people find homes in Las Vegas, I can say this: Sun City Summerlin delivers exceptional value for active adults who want a vibrant, amenity-rich lifestyle. The pros significantly outweigh the cons for most buyers.
                     </p>
                     <p className="text-lg md:text-xl leading-relaxed mb-6">
                       The key is knowing what you're getting. Homes date to 1989–2002, with rec campuses and golf already built. If you prioritize lifestyle over newest construction, Sun City Summerlin is hard to beat.
