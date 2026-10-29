@@ -493,7 +493,7 @@ export default function ProsConsPage() {
                         At least one resident must be 55+. Grandkids can visit but can't live with you long-term. This isn't ideal if you need multigenerational living or want to have adult children or grandchildren as permanent residents.
                       </p>
                       <p className="text-lg leading-relaxed text-[#141210]">
-                        However, for many buyers, this is actually a pro—it ensures the community maintains its active adult character and that amenities are designed for your lifestyle, not for families with young children.
+                        However, for many buyers, this is actually a pro—it ensures the community maintains its active adult character and that amenities are designed for your lifestyle, not for buyers who want more bedrooms.
                       </p>
                     </div>
 

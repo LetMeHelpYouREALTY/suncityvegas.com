@@ -285,7 +285,7 @@ export default function MountainShadowsPage() {
                   <div className="bg-white rounded-lg p-6 shadow-md">
                     <h3 className="text-xl font-bold text-[#1C1917] mb-3 font-playfair">Mini Golf Course</h3>
                     <p className="text-[#141210] mb-4">
-                      9-hole mini golf course for fun, casual play. Great for families visiting or residents looking for a relaxed activity.
+                      9-hole mini golf course for fun, casual play. Great for buyers visiting or residents looking for a relaxed activity.
                     </p>
                   </div>
                 </ScrollAnimation>
