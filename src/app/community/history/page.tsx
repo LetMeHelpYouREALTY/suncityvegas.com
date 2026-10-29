@@ -163,7 +163,7 @@ export default function HistoryPage() {
                   },
                   {
                     year: "2002-Present",
-                    title: "Mature Community",
+                    title: "Older Community",
                     description:
                       "Sun City Summerlin continues as a completed 7,781-home Del Webb community. Homes are well-maintained, amenities are updated, and the HOA and residents work together to keep the 1989–2002 build-out in good repair.",
                   },
