@@ -76,7 +76,7 @@ export const siteConfig = {
   google: {
     reviewUrl: "https://g.page/r/CVIgC-30nTd3EAI/review",
     placeId: "ChIJg9rkzmSVyIARUiAL7fSdN3c",
-    mapsUrl: "https://maps.google.com/?cid=8597648921043141138",
+    mapsUrl: "https://www.google.com/maps/search/?api=1&query=Sun+City+Summerlin+55%2B+Real+Estate+%7C+Homes+by+Dr.+Jan+Duffy&query_place_id=ChIJg9rkzmSVyIARUiAL7fSdN3c",
     directionsUrl:
       "https://www.google.com/maps/dir/?api=1&destination=9406+Del+Webb+Boulevard%2C+Las+Vegas%2C+NV+89134",
   },
