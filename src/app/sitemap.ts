@@ -16,6 +16,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "sun-city-summerlin-vs-other-55-communities",
     "what-55-buyers-spend-sun-city-summerlin",
     "selling-home-sun-city-summerlin",
+    // Posts served by src/app/blog/[slug]/page.tsx
+    "welcome-to-sun-city-summerlin",
+    "golf-courses-at-sun-city-summerlin",
+    "nevada-tax-benefits-for-retirees",
+    "80-clubs-and-activities",
+    "recreation-centers-guide",
+    "why-sun-city-summerlin",
   ];
 
   const amenitySlugs = ["mountain-shadows", "sun-shadows", "desert-vista", "pinnacle", "golf"];
@@ -147,12 +154,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 0.6,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "yearly",
-      priority: 0.3,
     },
     {
       url: `${baseUrl}/accessibility`,
