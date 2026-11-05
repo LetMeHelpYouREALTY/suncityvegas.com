@@ -28,7 +28,7 @@ const playfair = Cormorant_Garamond({
 export const metadata: Metadata = {
   metadataBase: new URL("https://www.suncityvegas.com"),
   title: {
-    default: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    default: "Sun City Summerlin 55+ Real Estate",
     template: "%s | Sun City Summerlin | Dr. Jan Duffy",
   },
   description:
@@ -75,8 +75,8 @@ export const metadata: Metadata = {
     type: "website",
     locale: "en_US",
     url: "https://www.suncityvegas.com/",
-    siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
-    title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
+    title: "Sun City Summerlin 55+ Real Estate",
     description:
       "Find your dream 55+ retirement home in Sun City Summerlin, Las Vegas, with Dr. Jan Duffy, licensed since 2008 · 35 years in Las Vegas. Call (702) 718-0043.",
     images: [
@@ -91,7 +91,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    title: "Sun City Summerlin 55+ Real Estate",
     description:
       "Find your dream 55+ retirement home in Sun City Summerlin. Dr. Jan Duffy—licensed since 2008 · 35 years in Las Vegas. Call (702) 718-0043.",
     images: [cfAbsoluteImage("/images/hero/hero-bg.jpg")],

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Your trusted REALTOR® specializing in Sun City Summerlin and Las Vegas 55+ communities.",
     url: "https://www.suncityvegas.com/about",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

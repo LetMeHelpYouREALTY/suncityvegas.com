@@ -51,7 +51,7 @@ export const metadata: Metadata = {
     description:
       "Find your dream home in Sun City Summerlin, Las Vegas' premier 55+ community. Buyer, seller, and relocation services. Call (702) 718-0043.",
     url: "https://www.suncityvegas.com/",
-    siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     images: [
       {
         url: "https://www.suncityvegas.com/images/hero/hero-bg.jpg",

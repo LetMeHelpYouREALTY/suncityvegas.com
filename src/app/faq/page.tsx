@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       'Answers about Sun City Summerlin, Del Webb Las Vegas Summerlin, HOA fees, rentals, and 55+ community life.',
     url: 'https://www.suncityvegas.com/faq',
-    siteName: 'Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy',
+    siteName: 'Sun City Summerlin 55+ Real Estate',
     locale: 'en_US',
     type: 'website',
     images: [

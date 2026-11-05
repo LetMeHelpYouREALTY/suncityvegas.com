@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to moving to Sun City Summerlin, including timeline, utilities, and tips for a smooth transition.",
     url: "https://www.suncityvegas.com/resources/moving-guide",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

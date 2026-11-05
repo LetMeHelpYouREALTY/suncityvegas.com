@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     description:
       "World-class amenities: 4 golf courses, 3 rec centers, 80+ clubs, pools, tennis, pickleball at Sun City Summerlin.",
     url: "https://www.suncityvegas.com/amenities",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

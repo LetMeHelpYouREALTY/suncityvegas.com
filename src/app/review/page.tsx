@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Share your Sun City Summerlin experience. One tap opens Google Reviews for Dr. Jan Duffy.",
     url: "https://www.suncityvegas.com/review",
-    siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

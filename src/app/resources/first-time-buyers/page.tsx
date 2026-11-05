@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide for first-time homebuyers considering Sun City Summerlin, including buying process and financing.",
     url: "https://www.suncityvegas.com/resources/first-time-buyers",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

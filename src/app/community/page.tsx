@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to Sun City Summerlin: history, amenities, golf courses, recreation centers, and lifestyle.",
     url: "https://www.suncityvegas.com/community",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

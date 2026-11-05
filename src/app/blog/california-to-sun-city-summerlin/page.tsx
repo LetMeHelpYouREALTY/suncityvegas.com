@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide for Californians relocating to Sun City Summerlin, including taxes, cost of living, and lifestyle benefits.",
     url: "https://www.suncityvegas.com/blog/california-to-sun-city-summerlin",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

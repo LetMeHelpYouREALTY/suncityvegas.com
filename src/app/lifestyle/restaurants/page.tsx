@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to restaurants and dining near Sun City Summerlin in Summerlin and Las Vegas.",
     url: "https://www.suncityvegas.com/lifestyle/restaurants",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

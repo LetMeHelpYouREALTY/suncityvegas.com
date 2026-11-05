@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Guard-gated entries, lighting, and 55+ access rules at Sun City Summerlin in Las Vegas.",
     url: "https://www.suncityvegas.com/blog/sun-city-summerlin-gates-and-security",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

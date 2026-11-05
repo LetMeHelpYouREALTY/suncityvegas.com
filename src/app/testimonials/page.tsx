@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       'Client reviews and testimonials about finding homes in Sun City Summerlin 55+ community.',
     url: 'https://www.suncityvegas.com/testimonials',
-    siteName: 'Sun City Summerlin Homes for Sale | Dr. Jan Duffy',
+    siteName: 'Sun City Summerlin 55+ Real Estate',
     locale: 'en_US',
     type: 'website',
     images: [

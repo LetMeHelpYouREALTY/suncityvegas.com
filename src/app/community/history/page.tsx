@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     description:
       "The history of Sun City Summerlin—Del Webb Las Vegas Summerlin from 1989 to today's thriving 55+ community.",
     url: "https://www.suncityvegas.com/community/history",
-    siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

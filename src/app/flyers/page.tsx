@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Download printable flyers and brochures about Sun City Summerlin 55+ community.",
     url: "https://www.suncityvegas.com/flyers",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

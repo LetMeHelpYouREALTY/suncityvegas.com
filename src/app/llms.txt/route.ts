@@ -7,11 +7,11 @@ export async function GET() {
   const serviceLines = services
     .map((service) => `- [${service.name}](${baseUrl}/services/${service.slug}): ${service.answer}`)
     .join("\n");
-  const content = `# Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy
+  const content = `# Sun City Summerlin 55+ Real Estate
 > 55+ active adult real estate in Sun City Summerlin, Las Vegas, NV 89134
 ## About
 Dr. Jan Duffy is a Nevada-licensed REALTOR® (S.0197614.LLC) with Berkshire Hathaway HomeServices Nevada Properties. Primary Google Business category: Real estate agent. Additional categories: Real estate agency, Retirement community, Real estate consultant.
-- **Business:** Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy
+- **Business:** Sun City Summerlin 55+ Real Estate
 - **License:** Nevada S.0197614.LLC
 - **Phone:** (702) 718-0043
 - **SMS:** sms:+17027180043

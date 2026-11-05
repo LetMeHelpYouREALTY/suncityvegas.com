@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Latest real estate market insights, mortgage rates, and housing trends for Las Vegas and Sun City Summerlin.",
     url: "https://www.suncityvegas.com/resources/market-insights",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

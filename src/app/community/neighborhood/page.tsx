@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description:
       "Discover restaurants, parks, healthcare, and shopping near Sun City Summerlin. Local knowledge to help you explore ZIP 89134.",
     url: "https://www.suncityvegas.com/community/neighborhood",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

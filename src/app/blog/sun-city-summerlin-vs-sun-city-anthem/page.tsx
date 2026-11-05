@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Side-by-side comparison of two premier 55+ communities in Las Vegas to help you find the right fit.",
     url: "https://www.suncityvegas.com/blog/sun-city-summerlin-vs-sun-city-anthem",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

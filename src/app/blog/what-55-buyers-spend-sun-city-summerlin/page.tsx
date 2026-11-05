@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       "HOA, utilities, taxes, and total monthly costs for Sun City Summerlin 55+ buyers. No surprises—plan your budget with real numbers.",
     url: "https://www.suncityvegas.com/blog/what-55-buyers-spend-sun-city-summerlin",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2026-01-27T00:00:00Z",

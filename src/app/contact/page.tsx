@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "Schedule a tour of Sun City Summerlin, Las Vegas' premier 55+ community. Call (702) 718-0043.",
     url: "https://www.suncityvegas.com/contact",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [
