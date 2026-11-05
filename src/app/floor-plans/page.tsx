@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Explore the variety of single-story home styles at Sun City Summerlin, Las Vegas' premier 55+ community.",
     url: "https://www.suncityvegas.com/floor-plans",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

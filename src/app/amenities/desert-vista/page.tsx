@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Discover the largest recreation center in Sun City Summerlin, featuring a grand ballroom, tennis courts, and pickleball facilities.",
     url: "https://www.suncityvegas.com/amenities/desert-vista",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

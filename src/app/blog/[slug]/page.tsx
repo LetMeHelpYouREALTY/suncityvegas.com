@@ -198,7 +198,7 @@ export async function generateMetadata({
       title: `${post.title} | Sun City Summerlin | Dr. Jan Duffy`,
       description: post.excerpt,
       url: url,
-      siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+      siteName: "Sun City Summerlin 55+ Real Estate",
       locale: "en_US",
       type: "article",
       publishedTime: post.date,

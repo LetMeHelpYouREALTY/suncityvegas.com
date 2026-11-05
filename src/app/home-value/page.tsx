@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       "Get a free, instant home value estimate for your property in Sun City Summerlin and Las Vegas.",
     url: "https://www.suncityvegas.com/home-value",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

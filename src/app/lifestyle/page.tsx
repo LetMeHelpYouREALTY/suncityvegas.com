@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     description:
       "Vibrant community life with 80+ clubs, golf, tennis, and activities at Sun City Summerlin.",
     url: "https://www.suncityvegas.com/lifestyle",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

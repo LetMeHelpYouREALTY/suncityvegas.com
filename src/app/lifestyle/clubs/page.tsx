@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Discover 80+ clubs and organizations at Sun City Summerlin, from arts and crafts to sports and social groups.",
     url: "https://www.suncityvegas.com/lifestyle/clubs",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

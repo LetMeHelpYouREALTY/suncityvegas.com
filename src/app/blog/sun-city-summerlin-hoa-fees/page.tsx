@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to HOA fees at Sun City Summerlin (HOA for Sun City Del Webb). What's included, what costs extra.",
     url: "https://www.suncityvegas.com/blog/sun-city-summerlin-hoa-fees",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

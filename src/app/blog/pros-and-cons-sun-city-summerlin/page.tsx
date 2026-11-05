@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "An honest assessment of Sun City Summerlin from a 30-year Las Vegas real estate expert. Learn what residents love—and what to consider—before buying.",
     url: "https://www.suncityvegas.com/blog/pros-and-cons-sun-city-summerlin",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2026-01-27T00:00:00Z",

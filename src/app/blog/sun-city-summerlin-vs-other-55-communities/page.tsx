@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       "How Sun City Summerlin stacks up against Aliante, Siena, and other 55+ communities in Las Vegas. Expert comparison from Dr. Jan Duffy.",
     url: "https://www.suncityvegas.com/blog/sun-city-summerlin-vs-other-55-communities",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2026-01-27T00:00:00Z",

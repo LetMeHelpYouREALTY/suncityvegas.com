@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Discover the amenities at Sun Shadows Community Center, featuring an Olympic-sized pool and spa facilities.",
     url: "https://www.suncityvegas.com/amenities/sun-shadows",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

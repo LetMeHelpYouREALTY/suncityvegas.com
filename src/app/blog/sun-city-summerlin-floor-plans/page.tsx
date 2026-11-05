@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to Sun City Summerlin floor plans, from cozy 1,200 sq ft models to spacious 3,500+ sq ft homes.",
     url: "https://www.suncityvegas.com/blog/sun-city-summerlin-floor-plans",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Community news, insights, and tips about Sun City Summerlin 55+ community and active adult living.",
     url: "https://www.suncityvegas.com/blog",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

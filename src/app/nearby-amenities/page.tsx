@@ -32,7 +32,7 @@ export const metadata: Metadata = {
     title: `Nearby Amenities in ${siteConfig.community}, Las Vegas`,
     description: `Explore restaurants, healthcare, golf, grocery, and parks near ${siteConfig.community} with an interactive map and local FAQs.`,
     url: "https://www.suncityvegas.com/nearby-amenities",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

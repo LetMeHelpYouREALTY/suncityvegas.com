@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     description:
       "Browse current homes for sale in Sun City Summerlin, Las Vegas NV 89134. Del Webb Summerlin 55+ community. Listings updated daily.",
     url: "https://www.suncityvegas.com/homes-for-sale",
-    siteName: "Sun City Summerlin 55+ Real Estate | Homes by Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     description:
       "Three player-friendly, yet challenging courses designed by Hall-of-Famer Billy Casper and master course-planner Greg Nash.",
     url: "https://www.suncityvegas.com/amenities/golf",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     description:
       "Timing, pricing, and updates that actually pay off when selling in Sun City Summerlin. Real advice from a 30-year Las Vegas expert.",
     url: "https://www.suncityvegas.com/blog/selling-home-sun-city-summerlin",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2026-01-27T00:00:00Z",

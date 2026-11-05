@@ -80,7 +80,7 @@ export async function generateMetadata({
       title: `${flyer.title} | Free Download`,
       description: flyer.description,
       url: `https://www.suncityvegas.com/flyers/${slug}`,
-      siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+      siteName: "Sun City Summerlin 55+ Real Estate",
       locale: "en_US",
       type: "article",
       images: [

@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Complete guide to the best neighborhoods in Sun City Summerlin, including home styles, price ranges, and lifestyle.",
     url: "https://www.suncityvegas.com/blog/best-sun-city-summerlin-neighborhoods",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "article",
     publishedTime: "2025-01-26T00:00:00Z",

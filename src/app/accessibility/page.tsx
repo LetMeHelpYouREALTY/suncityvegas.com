@@ -29,7 +29,7 @@ export const metadata: Metadata = {
     description:
       "Our commitment to website accessibility and WCAG 2.1 AA compliance for Sun City Summerlin and Las Vegas 55+ real estate.",
     url: "https://www.suncityvegas.com/accessibility",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

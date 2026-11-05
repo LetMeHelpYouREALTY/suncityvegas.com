@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Discover the amenities at Pinnacle Community Center, a welcoming recreation facility for active adults.",
     url: "https://www.suncityvegas.com/amenities/pinnacle",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

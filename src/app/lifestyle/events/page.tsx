@@ -24,7 +24,7 @@ export const metadata: Metadata = {
     description:
       "Year-round events and activities at Sun City Summerlin, from holiday celebrations to concerts and socials.",
     url: "https://www.suncityvegas.com/lifestyle/events",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

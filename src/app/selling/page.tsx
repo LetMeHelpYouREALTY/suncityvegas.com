@@ -25,7 +25,7 @@ export const metadata: Metadata = {
     description:
       "Expert real estate services for selling your Sun City Summerlin home. Free valuation, professional marketing, and proven results.",
     url: "https://www.suncityvegas.com/selling",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

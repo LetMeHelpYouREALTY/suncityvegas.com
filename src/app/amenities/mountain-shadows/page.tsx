@@ -26,7 +26,7 @@ export const metadata: Metadata = {
     description:
       "Discover the amenities at Mountain Shadows Community Center, one of four world-class recreation centers in Sun City Summerlin.",
     url: "https://www.suncityvegas.com/amenities/mountain-shadows",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
     images: [

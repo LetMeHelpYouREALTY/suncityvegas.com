@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Terms of Service | Sun City Summerlin",
     description: "Terms and conditions for using the Sun City Summerlin website.",
     url: "https://www.suncityvegas.com/terms",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

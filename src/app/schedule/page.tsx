@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     description:
       'Book a private tour of Sun City Summerlin 55+ community in Las Vegas. Schedule online with Dr. Jan Duffy.',
     url: 'https://www.suncityvegas.com/schedule',
-    siteName: 'Sun City Summerlin Homes for Sale | Dr. Jan Duffy',
+    siteName: 'Sun City Summerlin 55+ Real Estate',
     locale: 'en_US',
     type: 'website',
   },

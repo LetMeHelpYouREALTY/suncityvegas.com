@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     description:
       "Market insights, moving guide, first-time buyer tips, and expert advice for Sun City Summerlin.",
     url: "https://www.suncityvegas.com/resources",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },

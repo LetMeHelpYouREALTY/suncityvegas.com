@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     title: "Sitemap | Sun City Summerlin",
     description: "Sitemap of Sun City Summerlin 55+ pages in Las Vegas—homes, amenities, lifestyle, and Dr. Jan Duffy contact.",
     url: "https://www.suncityvegas.com/sitemap-page",
-    siteName: "Sun City Summerlin Homes for Sale | Dr. Jan Duffy",
+    siteName: "Sun City Summerlin 55+ Real Estate",
     locale: "en_US",
     type: "website",
   },
